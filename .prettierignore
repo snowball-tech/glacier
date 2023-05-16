@@ -1,0 +1,15 @@
+.*
+!.*.js?(x)
+!.*.cjs
+!.*.mjs
+!.*.ts?(x)
+
+node_modules
+.pnp.*
+*.lock
+
+dist
+out
+build
+
+coverage
