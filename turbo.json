@@ -1,0 +1,53 @@
+{
+  "$schema": "https://turbo.build/schema.json",
+  "pipeline": {
+    "dev": {
+      "cache": false
+    },
+    "types:check": {
+      "outputs": []
+    },
+
+    "build": {
+      "dependsOn": ["^build", "lint"]
+    },
+    "@snowball/utils#build": {
+      "outputs": ["dist/**"],
+      "dependsOn": ["^build", "lint"]
+    },
+
+    "format": {},
+    "format:fix": {},
+    "//#format": {
+      "dependsOn": ["//#format:root"]
+    },
+    "//#format:fix": {
+      "dependsOn": ["//#format:root:fix"]
+    },
+    "//#format:root": {},
+    "//#format:root:fix": {},
+    "lint": {},
+    "lint:fix": {},
+    "//#lint": {
+      "dependsOn": ["//#lint:root"]
+    },
+    "//#lint:fix": {
+      "dependsOn": ["//#lint:root:fix"]
+    },
+    "//#lint:root": {},
+    "//#lint:root:fix": {}
+  },
+  "globalDependencies": [
+    ".env",
+    ".eslintignore",
+    ".eslintrc.js",
+    ".pnp.cjs",
+    ".pnp.loader.mjs",
+    ".prettierignore",
+    ".prettierrc.js",
+    ".yarnrc.yml",
+    "eslint.config.js",
+    "package.json",
+    "tsconfig.json"
+  ]
+}
