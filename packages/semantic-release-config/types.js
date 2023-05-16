@@ -1,0 +1,132 @@
+module.exports = {
+  bodyLineLength: 100,
+  maxSubjectLength: 72,
+  types: {
+    build: {
+      changelog: true,
+      description:
+        'Changes that affect the build system or external dependencies (example scopes: gulp, broccoli, npm)',
+      emoji: '🛠',
+      release: 'patch',
+      title: 'Builds',
+    },
+    chore: {
+      aliases: {
+        devDependencies: {
+          description: 'Update dev dependencies',
+          emoji: '⬆️',
+          scope: 'package',
+          title: 'Dev dependencies',
+        },
+      },
+      changelog: true,
+      description: "Other changes that don't modify source or test files",
+      emoji: '♻️',
+      release: false,
+      title: 'Chores',
+    },
+    ci: {
+      changelog: true,
+      description:
+        'Changes to our CI configuration files and scripts (example scopes: Travis, Circle, BrowserStack, SauceLabs)',
+      emoji: '⚙️',
+      release: false,
+      title: 'Continuous Integrations',
+    },
+    docs: {
+      changelog: true,
+      description: 'Documentation only changes',
+      emoji: '📚',
+      release: { release: 'patch', scope: 'readme' },
+      title: 'Documentation',
+    },
+    feat: {
+      aliases: {
+        initial: {
+          description: 'Initial commit',
+          emoji: '🎉',
+          title: 'Initial',
+        },
+      },
+      changelog: true,
+      description: 'A new feature',
+      emoji: '✨',
+      release: 'minor',
+      title: 'Features',
+    },
+    fix: {
+      aliases: {
+        dependencies: {
+          description: 'Update dependency',
+          emoji: '⬆️',
+          scope: 'package',
+          title: 'Dependencies',
+        },
+        metadata: {
+          description: 'Update metadata (package.json)',
+          emoji: '📦',
+          scope: 'package',
+          title: 'Metadata',
+        },
+      },
+      changelog: true,
+      description: 'A bug fix',
+      emoji: '🐛',
+      release: 'patch',
+      title: 'Bug Fixes',
+    },
+    perf: {
+      changelog: true,
+      description: 'A code change that improves performance',
+      emoji: '🚀',
+      release: 'patch',
+      title: 'Performance Improvements',
+    },
+    refactor: {
+      changelog: true,
+      description: 'A code change that neither fixes a bug nor adds a feature',
+      emoji: '📦',
+      release: 'patch',
+      title: 'Code Refactoring',
+    },
+    revert: {
+      changelog: true,
+      description: 'Reverts a previous commit',
+      emoji: '🗑',
+      release: 'patch',
+      title: 'Reverts',
+    },
+    style: {
+      changelog: false,
+      description:
+        'Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)',
+      emoji: '💎',
+      release: false,
+      title: 'Code-style',
+    },
+    test: {
+      changelog: true,
+      description: 'Adding missing tests or correcting existing tests',
+      emoji: '🚨',
+      release: false,
+      title: 'Tests',
+    },
+  },
+  typesOrder: [
+    'feat',
+    'fix',
+    'perf',
+    'build',
+    'refactor',
+    'docs',
+    'test',
+    'ci',
+    'chore',
+    'style',
+    'revert',
+    'initial',
+    'dependencies',
+    'devDependencies',
+    'metadata',
+  ],
+}
