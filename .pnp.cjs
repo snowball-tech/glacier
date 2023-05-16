@@ -3404,7 +3404,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/read-pkg-up", "npm:6.0.0"],\
             ["@types/semver", "npm:7.5.0"],\
             ["lodash", "npm:4.17.21"],\
-            ["read-pkg-up", "npm:7.0.1"],\
+            ["read-pkg-up", "npm:9.1.0"],\
             ["semver", "npm:7.5.0"],\
             ["typescript", "patch:typescript@npm%3A5.0.4#~builtin<compat/typescript>::version=5.0.4&hash=b5f058"]\
           ],\
