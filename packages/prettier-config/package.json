@@ -1,0 +1,38 @@
+{
+  "name": "@snowball-tech/prettier-config",
+  "version": "0.0.0-development",
+  "description": "Prettier config by Snowball",
+  "author": "Snowball Engineering Team <tech@snowball.xyz> (https://github.com/orgs/snowball-tech)",
+  "contributors": [
+    "Clément PRÉVOT <clement@snowball.xyz> (https://github.com/clementprevot)"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "snowball",
+    "prettier"
+  ],
+  "homepage": "https://github.com/snowball-tech/glacier/tree/main/packages/prettier-config",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/snowball-tech/glacier.git",
+    "directory": "packages/prettier-config"
+  },
+  "bugs": "https://github.com/snowball-tech/glacier/issues",
+  "packageManager": "yarn@3.5.1",
+  "engines": {
+    "yarn": ">= 3.5.1",
+    "node": ">= 18.16.0"
+  },
+  "config": {},
+  "main": ".prettierrc.js",
+  "files": [
+    ".prettierignore"
+  ],
+  "scripts": {
+    "format": "yarn run -T prettier --check .",
+    "format:fix": "yarn run -T prettier --write ."
+  },
+  "dependencies": {
+    "prettier": "^2.8.8"
+  }
+}
