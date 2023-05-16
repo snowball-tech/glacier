@@ -1,0 +1,17 @@
+.*
+!.*.js
+!.*.jsx
+!.*.cjs
+!.*.mjs
+!.*.ts
+!.*.tsx
+
+node_modules
+.pnp.*
+*.lock
+
+dist
+out
+build
+
+coverage
