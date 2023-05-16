@@ -1,0 +1,76 @@
+{
+  "name": "snowball",
+  "description": "Snowball's open-source monorepository managed by Yarn 3 and TurboRepo",
+  "version": "0.0.0-development",
+  "author": "Snowball Engineering Team <tech@snowball.xyz> (https://github.com/orgs/snowball-tech)",
+  "private": true,
+  "contributors": [
+    "Clément PRÉVOT <clement@snowball.xyz> (https://github.com/clementprevot)"
+  ],
+  "license": "UNLICENSED",
+  "keywords": [
+    "snowball",
+    "monorepo",
+    "yarn",
+    "yarn3",
+    "pnp",
+    "zeroinstall",
+    "turborepo",
+    "vercel",
+    "javascript",
+    "typescript",
+    "react",
+    "nextjs",
+    "eslint",
+    "eslint-config",
+    "prettier",
+    "jest",
+    "testing-library",
+    "lodash"
+  ],
+  "homepage": "https://snowball.xyz",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/snowball-tech/glacier.git"
+  },
+  "bugs": "https://github.com/snowball-tech/glacier/issues",
+  "packageManager": "yarn@3.5.1",
+  "engines": {
+    "yarn": ">= 3.5.1",
+    "node": ">= 18.16.0"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "config": {},
+  "scripts": {
+    "build": "turbo run build",
+    "format:root": "prettier --check \"./!(apps|packages)\"",
+    "format:root:fix": "prettier --write \"./!(apps|packages)\"",
+    "lint:root": "eslint --cache \"./!(apps|packages)\"",
+    "lint:root:fix": "eslint --cache --fix \"./!(apps|packages)\"",
+    "publish:all": "multi-semantic-release",
+    "setup": "yarn install && (yarn is-ci || yarn husky install) && yarn dlx @yarnpkg/sdks",
+    "update-ts-references": "workspaces-to-typescript-project-references --includesRoot"
+  },
+  "devDependencies": {
+    "@monorepo-utils/workspaces-to-typescript-project-references": "^2.9.0",
+    "@qiwi/multi-semantic-release": "^6.5.1",
+    "@snowball-tech/eslint-config": "workspace:^",
+    "@snowball-tech/prettier-config": "workspace:^",
+    "@snowball-tech/semantic-release-config": "workspace:^",
+    "@snowball-tech/utils": "workspace:^",
+    "@types/eslint": "^8.37.0",
+    "@types/is-ci": "^3.0.0",
+    "@types/prettier": "^2.7.2",
+    "eslint": "^8.40.0",
+    "husky": "^8.0.3",
+    "is-ci": "^3.0.1",
+    "lint-staged": "^13.2.2",
+    "prettier": "^2.8.8",
+    "semantic-release": "^21.0.2",
+    "semantic-release-npm-github-publish": "^1.5.4",
+    "turbo": "1.9.3",
+    "typescript": "^5.0.4"
+  }
+}
