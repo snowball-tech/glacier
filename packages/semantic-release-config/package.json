@@ -1,0 +1,61 @@
+{
+  "name": "@snowball-tech/semantic-release-config",
+  "version": "0.0.0-development",
+  "description": "Semantic-Release configuration by Snowball supporting Yarn 3 monorepos",
+  "author": "Snowball Engineering Team <tech@snowball.xyz> (https://github.com/orgs/snowball-tech)",
+  "contributors": [
+    "Clément PRÉVOT <clement@snowball.xyz> (https://github.com/clementprevot)"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "snowball",
+    "yarn",
+    "yarn3",
+    "monorepo",
+    "semantic-release",
+    "github",
+    "git",
+    "npm",
+    "changelog",
+    "conventional-commits"
+  ],
+  "homepage": "https://github.com/snowball-tech/glacier/tree/main/packages/semantic-release-config",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/snowball-tech/glacier.git",
+    "directory": "packages/eslint-config"
+  },
+  "bugs": "https://github.com/snowball-tech/glacier/issues",
+  "packageManager": "yarn@3.5.1",
+  "engines": {
+    "yarn": ">= 3.5.1",
+    "node": ">= 18.16.0"
+  },
+  "main": "release.config.js",
+  "files": [
+    "multi-release.config.js"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
+  "scripts": {
+    "format": "yarn run -T prettier --ignore-path ../../.prettierignore --check .",
+    "format:fix": "yarn run -T prettier --ignore-path ../../.prettierignore --write .",
+    "lint": "yarn run -T eslint --cache .",
+    "lint:fix": "yarn run -T eslint --cache --fix ."
+  },
+  "peerDependencies": {
+    "semantic-release": "^21.0.0"
+  },
+  "dependencies": {
+    "@favoloso/conventional-changelog-emoji": "^0.10.0",
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/commit-analyzer": "^9.0.2",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^8.0.7",
+    "@semantic-release/npm": "^9.0.2",
+    "@semantic-release/release-notes-generator": "^10.0.3",
+    "semantic-release": "^21.0.2"
+  }
+}
