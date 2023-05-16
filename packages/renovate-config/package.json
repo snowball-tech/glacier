@@ -1,0 +1,40 @@
+{
+  "name": "@snowball-tech/renovate-config",
+  "version": "0.0.0-development",
+  "description": "Renovate base configuration by Snowball",
+  "author": "Snowball Engineering Team <tech@snowball.xyz> (https://github.com/orgs/snowball-tech)",
+  "contributors": [
+    "Clément PRÉVOT <clement@snowball.xyz> (https://github.com/clementprevot)"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "snowball",
+    "renovate",
+    "dependencies"
+  ],
+  "homepage": "https://github.com/snowball-tech/glacier/tree/main/packages/renovate-config",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/snowball-tech/glacier.git",
+    "directory": "packages/eslint-config"
+  },
+  "bugs": "https://github.com/snowball-tech/glacier/issues",
+  "packageManager": "yarn@3.5.1",
+  "engines": {
+    "yarn": ">= 3.5.1",
+    "node": ">= 18.16.0"
+  },
+  "main": "default.json5",
+  "files": [],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "format": "yarn run -T prettier --ignore-path ../../.prettierignore --check .",
+    "format:fix": "yarn run -T prettier --ignore-path ../../.prettierignore --write .",
+    "validate:config": "renovate-config-validator default.json5"
+  },
+  "devDependencies": {
+    "renovate": "^35.88.0"
+  }
+}
