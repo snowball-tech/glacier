@@ -1,0 +1,77 @@
+{
+  "name": "snowball",
+  "description": "Snowball's open-source monorepository managed by Yarn 3 and TurboRepo",
+  "author": "Snowball Engineering Team <tech@snowball.xyz> (https://github.com/orgs/snowball-tech)",
+  "contributors": [
+    "Clément PRÉVOT <clement@snowball.xyz> (https://github.com/clementprevot)"
+  ],
+  "license": "UNLICENSED",
+  "keywords": [
+    "snowball",
+    "monorepo",
+    "yarn",
+    "yarn3",
+    "pnp",
+    "zeroinstall",
+    "turborepo",
+    "vercel",
+    "javascript",
+    "typescript",
+    "react",
+    "nextjs",
+    "eslint",
+    "eslint-config",
+    "prettier",
+    "jest",
+    "testing-library",
+    "lodash"
+  ],
+  "homepage": "https://snowball.xyz",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/snowball-tech/glacier.git"
+  },
+  "bugs": "https://github.com/snowball-tech/glacier/issues",
+  "packageManager": "yarn@3.5.1",
+  "engines": {
+    "yarn": ">= 3.5.1",
+    "node": ">= 18.16.0"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "config": {},
+  "scripts": {
+    "update-ts-references": "workspaces-to-typescript-project-references --includesRoot",
+    "format": "turbo run format:root --filter=//; turbo run format",
+    "format:fix": "turbo run format:root:fix --filter=//; turbo run format:fix",
+    "format:root": "prettier --check \"./!(apps|packages)\"",
+    "format:root:fix": "prettier --write \"./!(apps|packages)\"",
+    "lint": "turbo run lint:root --filter=//; turbo run lint",
+    "lint:fix": "turbo run lint:root:fix --filter=//; turbo run lint:fix",
+    "lint:root": "eslint --cache \"./!(apps|packages)\"",
+    "lint:root:fix": "eslint --cache --fix \"./!(apps|packages)\"",
+    "postinstall": "is-ci || husky install",
+    "prepack": "pinst --disable",
+    "postpack": "pinst --enable",
+    "setup": "yarn install && yarn dlx @yarnpkg/sdks && yarn prepare"
+  },
+  "devDependencies": {
+    "@monorepo-utils/workspaces-to-typescript-project-references": "^2.9.0",
+    "@snowball/eslint-config": "workspace:^",
+    "@snowball/prettier-config": "workspace:^",
+    "@snowball/utils": "workspace:^",
+    "@types/eslint": "^8",
+    "@types/is-ci": "^3",
+    "@types/prettier": "^2",
+    "eslint": "^8.40.0",
+    "husky": "^8.0.3",
+    "is-ci": "^3.0.1",
+    "lint-staged": "^13.2.2",
+    "pinst": "^3.0.0",
+    "prettier": "^2.8.8",
+    "semantic-release": "^21.0.2",
+    "turbo": "^1.9.6",
+    "typescript": "^5.0.4"
+  }
+}
