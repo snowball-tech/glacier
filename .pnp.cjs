@@ -3372,7 +3372,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/read-pkg-up", "npm:6.0.0"],\
             ["@types/semver", "npm:7.5.0"],\
             ["lodash", "npm:4.17.21"],\
-            ["read-pkg-up", "npm:7.0.1"],\
+            ["read-pkg-up", "npm:9.1.0"],\
             ["semver", "npm:7.5.1"]\
           ],\
           "linkType": "SOFT"\
