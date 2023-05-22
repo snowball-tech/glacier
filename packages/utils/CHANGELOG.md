@@ -1,3 +1,5 @@
+## @snowball-tech/utils [1.0.1](https://github.com/snowball-tech/glacier/compare/@snowball-tech/utils@1.0.0...@snowball-tech/utils@1.0.1) (2023-05-22)
+
 # @snowball-tech/utils 1.0.0 (2023-05-22)
 
 
