@@ -1,6 +1,6 @@
 {
   "name": "@snowball-tech/semantic-release-config",
-  "version": "0.0.0-development",
+  "version": "1.0.0",
   "description": "Semantic-Release configuration by Snowball supporting Yarn 3 monorepos",
   "author": "Snowball Engineering Team <tech@snowball.xyz> (https://github.com/orgs/snowball-tech)",
   "contributors": [
