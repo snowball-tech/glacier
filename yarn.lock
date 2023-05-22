@@ -2931,7 +2931,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@semantic-release/npm@npm:^10.0.2":
+"@semantic-release/npm@npm:^10.0.0, @semantic-release/npm@npm:^10.0.2":
   version: 10.0.3
   resolution: "@semantic-release/npm@npm:10.0.3"
   dependencies:
@@ -2954,7 +2954,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@semantic-release/npm@npm:^9.0.0, @semantic-release/npm@npm:^9.0.2":
+"@semantic-release/npm@npm:^9.0.0":
   version: 9.0.2
   resolution: "@semantic-release/npm@npm:9.0.2"
   dependencies:
@@ -2977,7 +2977,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@semantic-release/release-notes-generator@npm:^10.0.0, @semantic-release/release-notes-generator@npm:^10.0.3":
+"@semantic-release/release-notes-generator@npm:^10.0.0":
   version: 10.0.3
   resolution: "@semantic-release/release-notes-generator@npm:10.0.3"
   dependencies:
@@ -3099,10 +3099,11 @@ __metadata:
     "@semantic-release/commit-analyzer": ^9.0.2
     "@semantic-release/git": ^10.0.1
     "@semantic-release/github": ^8.0.7
-    "@semantic-release/npm": ^9.0.2
-    "@semantic-release/release-notes-generator": ^10.0.3
+    "@semantic-release/npm": ^10.0.0
+    "@semantic-release/release-notes-generator": ^11.0.0
     semantic-release: ^21.0.2
   peerDependencies:
+    "@favoloso/conventional-changelog-emoji": ^0.10.0
     semantic-release: ^21.0.0
   languageName: unknown
   linkType: soft
