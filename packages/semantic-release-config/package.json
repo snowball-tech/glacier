@@ -33,7 +33,9 @@
   },
   "main": "release.config.js",
   "files": [
-    "multi-release.config.js"
+    "multi-release.config.js",
+    "types.js",
+    "writer-opts.js"
   ],
   "publishConfig": {
     "access": "public",
