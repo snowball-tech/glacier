@@ -3032,7 +3032,7 @@ __metadata:
   resolution: "@snowball-tech/eslint-config@workspace:packages/eslint-config"
   dependencies:
     "@rushstack/eslint-patch": ^1.2.0
-    "@snowball-tech/utils": "workspace:^"
+    "@snowball-tech/utils": 1.0.1
     "@typescript-eslint/eslint-plugin": ~5.59.6
     "@typescript-eslint/parser": ~5.59.6
     eslint: ^8.40.0
@@ -3093,7 +3093,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@snowball-tech/utils@workspace:^, @snowball-tech/utils@workspace:packages/utils":
+"@snowball-tech/utils@1.0.1, @snowball-tech/utils@workspace:^, @snowball-tech/utils@workspace:packages/utils":
   version: 0.0.0-use.local
   resolution: "@snowball-tech/utils@workspace:packages/utils"
   dependencies:
