@@ -1,6 +1,7 @@
 /* eslint-disable no-param-reassign */
 
 const isEmpty = require('lodash/isEmpty')
+const isString = require('lodash/isString')
 
 const types = require('./types')
 
@@ -75,13 +76,13 @@ module.exports = {
       commit.scope = ''
     }
 
-    if (typeof commit.hash === 'string' && !isEmpty(commit.hash)) {
+    if (isString(commit.hash) && !isEmpty(commit.hash)) {
       commit.shortHash = commit.hash.slice(0, COMMIT_HASH_LENGTH)
     }
 
     const references = []
 
-    if (typeof commit.subject === 'string' && !isEmpty(commit.subject)) {
+    if (isString(commit.subject) && !isEmpty(commit.subject)) {
       let url = context.repository
         ? `${context.host}/${context.owner}/${context.repository}`
         : context.repoUrl
