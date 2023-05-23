@@ -5,7 +5,7 @@ const hasReact = hasDependency('react')
 module.exports = {
   overrides: [
     {
-      extends: ['plugin:testing-library/react'],
+      extends: hasReact ? ['plugin:testing-library/react'] : [],
 
       // 3) Now we enable eslint-plugin-testing-library rules or preset only for matching testing files!
       files: ['**/?(*.)+(spec|test)?(s).[jt]s?(x)'],
