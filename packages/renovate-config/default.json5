@@ -14,11 +14,19 @@
     // `config:base` sets a default limit of 2 pull requests per hour. But we
     // want all dependencies update pull requests to be raised at once.
     ':prHourlyLimitNone',
+    // https://docs.renovatebot.com/presets-default/#prconcurrentlimitnone
+    // Since `config:base` sets a default limit of concurrent open pull requests
+    // to 10, Renovate will not let more than 10 pull requests open. We don't
+    // want that.
+    ':prConcurrentLimitNone',
 
+    // Make it possible to use regexes in Dockerfiles or GitHub Actions
+    // workflows in order to hint Renovate on dependencies from arbitrary
+    // strings.
     // https://docs.renovatebot.com/presets-regexManagers/#regexmanagersdockerfileversions
-    // Make it possible to use regexes in Dockerfiles in order to hint Renovate
-    // on dependencies from arbitrary strings.
     'regexManagers:dockerfileVersions',
+    // https://docs.renovatebot.com/presets-regexManagers/#regexmanagersgithubactionsversions
+    'regexManagers:githubActionsVersions',
 
     // https://docs.renovatebot.com/presets-default/#semanticcommits
     // https://docs.renovatebot.com/semantic-commits/#manually-enabling-or-disabling-semantic-commits
@@ -27,27 +35,47 @@
     ':semanticCommits',
 
     // https://docs.renovatebot.com/presets-default/#labelarg0
-    // Add "dependencies" label to all pull requests created by Renovate.
-    ':label(dependencies)',
+    // Add "deps" label to all pull requests created by Renovate.
+    ':label(deps)',
 
+    // https://docs.renovatebot.com/presets-default/#automergepr
+    ':automergePr',
+    // https://docs.renovatebot.com/presets-default/#automergerequireallstatuschecks
+    ':automergeRequireAllStatusChecks',
     // https://docs.renovatebot.com/presets-default/#automergepatch
-    // Automatically merge patch dependencies updates to reduce the number of
-    // pull requests to manually handle.
     ':automergePatch',
-  ],
+    // https://docs.renovatebot.com/presets-default/#automergelinters
+    ':automergeLinters',
+    // https://docs.renovatebot.com/presets-default/#automergetypes
+    ':automergeTypes',
 
-  // https://docs.renovatebot.com/presets-default/#prConcurrentLimit
-  // Since `config:base` sets a default limit of concurrent open pull requests
-  // to 10, Renovate will not let more than 10 pull requests open. We don't
-  // want that.
-  prConcurrentLimit: 0,
+    // https://docs.renovatebot.com/presets-npm/#npmunpublishsafe
+    'npm:unpublishSafe',
+
+    // https://docs.renovatebot.com/presets-default/#maintainlockfilesmonthly
+    ':maintainLockFilesMonthly',
+
+    // https://docs.renovatebot.com/presets-default/#npm
+    ':npm',
+  ],
 
   // https://docs.renovatebot.com/configuration-options/#packagerules
   packageRules: [
     // Labels to add based on the type of dependencies.
     {
+      matchPackagePatterns: ['*'],
+      semanticCommitType: 'chore',
+    },
+    {
+      matchDepTypes: ['dependencies', 'require'],
+      semanticCommitType: 'deps',
+      semanticCommitScope: null,
+    },
+    {
       matchDepTypes: ['dev', 'devDependencies'],
-      labels: ['dev-dependencies'],
+      labels: ['dev-deps'],
+      semanticCommitType: 'dev-deps',
+      semanticCommitScope: null,
     },
     {
       matchLanguages: ['python'],
@@ -103,13 +131,6 @@
         '("|\')(?<depName>[\\w-]+)(?<currentValue>.+?)("|\'),?[[:blank:]]+#[[:blank:]]*renovate: python-pep440-dependency\\s',
       ],
       datasourceTemplate: 'pypi',
-    },
-    {
-      description: 'Update semantic-release version used by npx',
-      fileMatch: ['^\\.github/workflows/[^/]+\\.ya?ml$'],
-      matchStrings: ['\\srun: npx semantic-release@(?<currentValue>.*?)\\s'],
-      datasourceTemplate: 'npm',
-      depNameTemplate: 'semantic-release',
     },
   ],
 
