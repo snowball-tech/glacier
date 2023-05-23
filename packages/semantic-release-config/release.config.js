@@ -49,6 +49,12 @@ module.exports = {
       },
     ],
     '@semantic-release/changelog',
+    [
+      '@semantic-release/exec',
+      {
+        prepareCmd: 'yarn prettier --write CHANGELOG.md',
+      },
+    ],
     '@semantic-release/npm',
     [
       '@semantic-release/git',
