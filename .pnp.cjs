@@ -3442,10 +3442,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@rushstack/eslint-patch", [\
-        ["npm:1.2.0", {\
-          "packageLocation": "./.yarn/cache/@rushstack-eslint-patch-npm-1.2.0-917f402e4e-faa749faae.zip/node_modules/@rushstack/eslint-patch/",\
+        ["npm:1.3.0", {\
+          "packageLocation": "./.yarn/cache/@rushstack-eslint-patch-npm-1.3.0-72db924468-2860b4adee.zip/node_modules/@rushstack/eslint-patch/",\
           "packageDependencies": [\
-            ["@rushstack/eslint-patch", "npm:1.2.0"]\
+            ["@rushstack/eslint-patch", "npm:1.3.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -3894,7 +3894,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/__virtual__/@snowball-tech-eslint-config-virtual-c5f217c887/1/packages/eslint-config/",\
           "packageDependencies": [\
             ["@snowball-tech/eslint-config", "virtual:cd863a461fa7fc077a0de8352a1feae50340545bb4b0b451e67ffd0879b30216165d901ae900610094444ce46db50b1dc623ab5ed399bbdc7861a979d22a15a1#workspace:packages/eslint-config"],\
-            ["@rushstack/eslint-patch", "npm:1.2.0"],\
+            ["@rushstack/eslint-patch", "npm:1.3.0"],\
             ["@snowball-tech/utils", "workspace:packages/utils"],\
             ["@types/eslint", "npm:8.40.0"],\
             ["@typescript-eslint/eslint-plugin", "virtual:c5f217c88755dbbdaad59cf4dc69f02e5ad942b7be16aef2fec222e4238216ca152bf2ea1668d9a500e17acf49590d4a084cbb3935aa56eea923c6879775a9f1#npm:5.59.6"],\
@@ -3929,7 +3929,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./packages/eslint-config/",\
           "packageDependencies": [\
             ["@snowball-tech/eslint-config", "workspace:packages/eslint-config"],\
-            ["@rushstack/eslint-patch", "npm:1.2.0"],\
+            ["@rushstack/eslint-patch", "npm:1.3.0"],\
             ["@snowball-tech/utils", "workspace:packages/utils"],\
             ["@typescript-eslint/eslint-plugin", "virtual:41a79cfb29f9b15cb81a1ac56925bfea574d950fdb04cdca6becaedd4bbcdd807d00cc550580d205bd8d074d47fa690aae87955191ab6bf825306d3f5960cbe1#npm:5.59.6"],\
             ["@typescript-eslint/parser", "virtual:41a79cfb29f9b15cb81a1ac56925bfea574d950fdb04cdca6becaedd4bbcdd807d00cc550580d205bd8d074d47fa690aae87955191ab6bf825306d3f5960cbe1#npm:5.59.6"],\
