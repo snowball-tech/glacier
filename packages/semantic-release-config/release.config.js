@@ -52,7 +52,7 @@ module.exports = {
     [
       '@semantic-release/exec',
       {
-        prepareCmd: 'yarn prettier --write CHANGELOG.md',
+        prepareCmd: 'yarn run -T prettier --write CHANGELOG.md',
       },
     ],
     '@semantic-release/npm',
