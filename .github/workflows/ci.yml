@@ -65,6 +65,9 @@ jobs:
       - name: Installing dependencies
         run: yarn install --immutable --immutable-cache
 
+      - name: Starting TurboRepo local cache server
+        uses: dtinth/setup-github-actions-caching-for-turbo@v1
+
       - name: Building all packages
         run: yarn turbo run build
 
