@@ -38,7 +38,10 @@ Object.values(types).forEach((type) => {
 })
 
 function getTitle(type) {
-  const { emoji, title } = expandedTypes[type]
+  const { emoji, title } = expandedTypes[type] || {
+    emoji: '❓',
+    title: 'Unknown changes',
+  }
 
   return `${!isEmpty(emoji) ? `${emoji} ` : ''}${title}`
 }
@@ -65,7 +68,9 @@ module.exports = {
       })
     }
 
-    const { changelog = false } = expandedTypes[commit.type]
+    const { changelog = false } = expandedTypes[commit.type] || {
+      changelog: true,
+    }
     if (changelog || (commit.notes && commit.notes.length > 0)) {
       commit.groupType = getTitle(commit.type)
     } else {
