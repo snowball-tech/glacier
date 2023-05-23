@@ -1,3 +1,9 @@
+# @snowball-tech/renovate-config [1.1.0](https://github.com/snowball-tech/glacier/compare/@snowball-tech/renovate-config@1.0.2...@snowball-tech/renovate-config@1.1.0) (2023-05-23)
+
+### ✨ Features
+
+- **renovate:** update renovate configuration ([483a90f](https://github.com/snowball-tech/glacier/commit/483a90f1a206869a5b2bed13d9ccaed51274093a))
+
 ## @snowball-tech/renovate-config [1.0.2](https://github.com/snowball-tech/glacier/compare/@snowball-tech/renovate-config@1.0.1...@snowball-tech/renovate-config@1.0.2) (2023-05-23)
 
 ### 🎨 Code Style and Formatting
