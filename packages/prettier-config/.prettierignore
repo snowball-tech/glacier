@@ -6,12 +6,11 @@
 !.*.ts
 !.*.tsx
 
-node_modules
 .pnp.*
 *.lock
 
-dist
-out
-build
+**/dist
+**/out
+**/build
 
-coverage
+**/coverage
