@@ -54,7 +54,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["@monorepo-utils/workspaces-to-typescript-project-references", "npm:2.9.0"],\
-            ["@qiwi/multi-semantic-release", "https://github.com/snowball-tech/multi-semantic-release.git#commit=33f880c8b559aa93f97327e8b896b3c605ab01e1"],\
+            ["@qiwi/multi-semantic-release", "npm:6.6.0"],\
             ["@snowball-tech/eslint-config", "virtual:cd863a461fa7fc077a0de8352a1feae50340545bb4b0b451e67ffd0879b30216165d901ae900610094444ce46db50b1dc623ab5ed399bbdc7861a979d22a15a1#workspace:packages/eslint-config"],\
             ["@snowball-tech/prettier-config", "workspace:packages/prettier-config"],\
             ["@snowball-tech/semantic-release-config", "virtual:cd863a461fa7fc077a0de8352a1feae50340545bb4b0b451e67ffd0879b30216165d901ae900610094444ce46db50b1dc623ab5ed399bbdc7861a979d22a15a1#workspace:packages/semantic-release-config"],\
@@ -3238,10 +3238,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@qiwi/multi-semantic-release", [\
-        ["https://github.com/snowball-tech/multi-semantic-release.git#commit=33f880c8b559aa93f97327e8b896b3c605ab01e1", {\
-          "packageLocation": "./.yarn/cache/@qiwi-multi-semantic-release-https-9bde91e14d-bfef623d38.zip/node_modules/@qiwi/multi-semantic-release/",\
+        ["npm:6.6.0", {\
+          "packageLocation": "./.yarn/cache/@qiwi-multi-semantic-release-npm-6.6.0-011e1e2054-80ad254d4c.zip/node_modules/@qiwi/multi-semantic-release/",\
           "packageDependencies": [\
-            ["@qiwi/multi-semantic-release", "https://github.com/snowball-tech/multi-semantic-release.git#commit=33f880c8b559aa93f97327e8b896b3c605ab01e1"],\
+            ["@qiwi/multi-semantic-release", "npm:6.6.0"],\
             ["@manypkg/get-packages", "npm:1.1.3"],\
             ["@semrel-extra/topo", "npm:1.10.0"],\
             ["blork", "npm:9.3.0"],\
@@ -8821,7 +8821,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["glacier", "workspace:."],\
             ["@monorepo-utils/workspaces-to-typescript-project-references", "npm:2.9.0"],\
-            ["@qiwi/multi-semantic-release", "https://github.com/snowball-tech/multi-semantic-release.git#commit=33f880c8b559aa93f97327e8b896b3c605ab01e1"],\
+            ["@qiwi/multi-semantic-release", "npm:6.6.0"],\
             ["@snowball-tech/eslint-config", "virtual:cd863a461fa7fc077a0de8352a1feae50340545bb4b0b451e67ffd0879b30216165d901ae900610094444ce46db50b1dc623ab5ed399bbdc7861a979d22a15a1#workspace:packages/eslint-config"],\
             ["@snowball-tech/prettier-config", "workspace:packages/prettier-config"],\
             ["@snowball-tech/semantic-release-config", "virtual:cd863a461fa7fc077a0de8352a1feae50340545bb4b0b451e67ffd0879b30216165d901ae900610094444ce46db50b1dc623ab5ed399bbdc7861a979d22a15a1#workspace:packages/semantic-release-config"],\

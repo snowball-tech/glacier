@@ -59,7 +59,7 @@
   },
   "devDependencies": {
     "@monorepo-utils/workspaces-to-typescript-project-references": "^2.9.0",
-    "@qiwi/multi-semantic-release": "https://github.com/snowball-tech/multi-semantic-release",
+    "@qiwi/multi-semantic-release": "^6.6.0",
     "@snowball-tech/eslint-config": "workspace:^",
     "@snowball-tech/prettier-config": "workspace:^",
     "@snowball-tech/semantic-release-config": "workspace:^",
