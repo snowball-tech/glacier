@@ -35,6 +35,7 @@
   },
   "main": ".eslintrc.js",
   "files": [
+    "configs",
     "patch.js"
   ],
   "publishConfig": {
