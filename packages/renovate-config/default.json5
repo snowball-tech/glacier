@@ -97,6 +97,13 @@
       matchManagers: ['circleci'],
       addLabels: ['circleci'],
     },
+
+    // Do not group major version of semantic-release to avoid the immortal PR.
+    {
+      extends: 'monorepo:semantic-release',
+      groupName: 'semantic-release monorepo',
+      matchUpdateTypes: ['digest', 'patch', 'minor'],
+    },
   ],
 
   // https://docs.renovatebot.com/configuration-options/#regexmanagers
