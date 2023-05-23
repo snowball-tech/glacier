@@ -53,7 +53,7 @@
   },
   "dependencies": {
     "@rushstack/eslint-patch": "^1.2.0",
-    "@snowball-tech/utils": "1.0.1",
+    "@snowball-tech/utils": "workspace:^",
     "@typescript-eslint/eslint-plugin": "~5.59.6",
     "@typescript-eslint/parser": "~5.59.6",
     "eslint": "^8.40.0",
