@@ -1,3 +1,10 @@
+## @snowball-tech/eslint-config [1.0.2](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@1.0.1...@snowball-tech/eslint-config@1.0.2) (2023-05-23)
+
+
+### 🐛 Bug Fixes
+
+* **eslint-config:** export the config files ([eea0b85](https://github.com/snowball-tech/glacier/commit/eea0b85d8b8828699dcc3a94071401ff17d07735))
+
 ## @snowball-tech/eslint-config [1.0.1](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@1.0.0...@snowball-tech/eslint-config@1.0.1) (2023-05-22)
 
 
