@@ -53,3 +53,6 @@ next-env.d.ts
 # Let's keep the extensions.json file because it references all the recommended
 # extensions for this workspace. That way, newcomers will receive suggestions.
 !.vscode/extensions.json
+# Also keeps the settings file because it's critical for VSCode to properly work
+# in the monorepo.
+!.vscode/settings.json
