@@ -1,3 +1,9 @@
+## @snowball-tech/semantic-release-config [1.0.5](https://github.com/snowball-tech/glacier/compare/@snowball-tech/semantic-release-config@1.0.4...@snowball-tech/semantic-release-config@1.0.5) (2023-05-23)
+
+### 🐛 Bug Fixes
+
+- **changelog:** handle unknown commit types ([d263717](https://github.com/snowball-tech/glacier/commit/d263717149e4ed95003be404d82f99646c5b9265))
+
 ## @snowball-tech/semantic-release-config [1.0.4](https://github.com/snowball-tech/glacier/compare/@snowball-tech/semantic-release-config@1.0.3...@snowball-tech/semantic-release-config@1.0.4) (2023-05-23)
 
 ### 🐛 Bug Fixes
