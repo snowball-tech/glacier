@@ -1,3 +1,9 @@
+## @snowball-tech/renovate-config [1.1.1](https://github.com/snowball-tech/glacier/compare/@snowball-tech/renovate-config@1.1.0...@snowball-tech/renovate-config@1.1.1) (2023-05-23)
+
+### 🐛 Bug Fixes
+
+- **renovate:** do not group semantic release major updates ([8ebeee8](https://github.com/snowball-tech/glacier/commit/8ebeee8922ff7b410a255751c0494280ee85a097))
+
 # @snowball-tech/renovate-config [1.1.0](https://github.com/snowball-tech/glacier/compare/@snowball-tech/renovate-config@1.0.2...@snowball-tech/renovate-config@1.1.0) (2023-05-23)
 
 ### ✨ Features
