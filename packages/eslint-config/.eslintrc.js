@@ -9,7 +9,6 @@ module.exports = {
     require.resolve('./configs/import.js'),
     hasDependency('jest') && require.resolve('./configs/jest.js'),
     hasDependency('testing-library') &&
-      hasReact &&
       require.resolve('./configs/testing-library.js'),
     hasReact && require.resolve('./configs/react.js'),
     hasDependency('nextjs') && require.resolve('./configs/next.js'),
