@@ -98,11 +98,10 @@
       addLabels: ['circleci'],
     },
 
-    // Do not group major version of semantic-release to avoid the immortal PR.
+    // Do not group semantic-release monorepo updates to avoid the immortal PR.
     {
       extends: 'monorepo:semantic-release',
-      groupName: 'semantic-release monorepo',
-      matchUpdateTypes: ['digest', 'patch', 'minor'],
+      groupName: null,
     },
   ],
 
