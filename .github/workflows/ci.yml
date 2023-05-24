@@ -18,7 +18,7 @@ jobs:
         name: Checking if user is a trusted bot
         run: |
           echo "User is a trusted bot user."
-          echo "IS_BOT_USER=1 >> $GITHUB_ENV
+          echo "IS_BOT_USER=1" >> $GITHUB_ENV
 
       - if: env.IS_BOT_USER != 1
         uses: tspascoal/get-user-teams-membership@v2
@@ -32,7 +32,7 @@ jobs:
         name: No need to check the cache integrity
         run: |
           echo "User is a member of the Snowball engineering team or a trusted bot user."
-          echo "SKIP_INTEGRITY_CHECK=1 >> $GITHUB_ENV
+          echo "SKIP_INTEGRITY_CHECK=1" >> $GITHUB_ENV
 
       - if: env.SKIP_INTEGRITY_CHECK != 1
         uses: actions/checkout@v3
