@@ -11,18 +11,33 @@ on: [push, pull_request]
 jobs:
   security:
     name: Check Yarn Zero-install cache
-    if: github.event_name == 'pull_request'
+    if: github.event_name == 'pull_request' && github.actor != 'snowball-tech-bot'  && github.actor != 'renovate[bot]'
     runs-on: ubuntu-22.04
     steps:
-      - uses: actions/checkout@v3
+      - uses: tspascoal/get-user-teams-membership@v2
+        id: checkIsSnowballEngineeringTeamMember
+        with:
+          username: ${{ github.actor }}
+          team: engineering
+          GITHUB_TOKEN: ${{ secrets.MACHINE_GITHUB_TOKEN }}
 
-      - uses: actions/setup-node@v3
+      - if: ${{ steps.checkIsSnowballEngineeringTeamMember.outputs.isTeamMember == 'false' }}
+        uses: actions/checkout@v3
+
+      - if: ${{ steps.checkIsSnowballEngineeringTeamMember.outputs.isTeamMember == 'false' }}
+        uses: actions/setup-node@v3
         with:
           node-version: 18
           cache: yarn
 
-      - name: Checking cache
+      - if: ${{ steps.checkIsSnowballEngineeringTeamMember.outputs.isTeamMember == 'false' }}
+        name: Checking cache
         run: yarn install --check-cache --immutable --immutable-cache
+
+      - if: ${{ steps.checkIsSnowballEngineeringTeamMember.outputs.isTeamMember == 'true' }}
+        name: No need to check the cache
+        run: echo "User is a member of the Snowball engineering team."
+
 
   quality:
     name: Checking code quality
