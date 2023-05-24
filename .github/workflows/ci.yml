@@ -14,7 +14,7 @@ jobs:
     if: github.event_name == 'pull_request'
     runs-on: ubuntu-22.04
     steps:
-      - if: github.actor == 'snowball-tech-bot'  && github.actor == 'renovate[bot]'
+      - if: github.actor == 'snowball-tech-bot' || github.actor == 'renovate[bot]'
         name: User is a trusted bot
         run: |
           echo "IS_BOT_USER=1 >> $GITHUB_ENV
