@@ -9,7 +9,7 @@
   "typescript.enablePromptUseWorkspaceTsdk": true,
   "eslint.workingDirectories": [
     {
-      "pattern": "packages/*"
+      "pattern": "packages/**/*"
     },
     {
       "pattern": "*"
