@@ -10,8 +10,8 @@ on: [push, pull_request]
 
 jobs:
   security:
-    name: Check Yarn Zero-install cache
-    if: github.event_name == 'pull_request' && github.actor != 'snowball-tech-bot'  && github.actor != 'renovate[bot]'
+    name: Check Yarn Zero-install cache integrity
+    if: github.event_name == 'pull_request'
     runs-on: ubuntu-22.04
     steps:
       - uses: tspascoal/get-user-teams-membership@v2
@@ -21,22 +21,24 @@ jobs:
           team: engineering
           GITHUB_TOKEN: ${{ secrets.MACHINE_GITHUB_TOKEN }}
 
-      - if: ${{ steps.checkIsSnowballEngineeringTeamMember.outputs.isTeamMember == 'false' }}
+      - if: steps.checkIsSnowballEngineeringTeamMember.outputs.isTeamMember == 'true' || github.actor != 'snowball-tech-bot'  && github.actor != 'renovate[bot]'
+        name: No need to check the cache integrity
+        run: |
+          echo "User is a member of the Snowball engineering team or a trusted bot user."
+          echo "SKIP_INTEGRITY_CHECK=1 >> $GITHUB_ENV
+
+      - if: env.SKIP_INTEGRITY_CHECK != '1'
         uses: actions/checkout@v3
 
-      - if: ${{ steps.checkIsSnowballEngineeringTeamMember.outputs.isTeamMember == 'false' }}
+      - if: env.SKIP_INTEGRITY_CHECK != '1'
         uses: actions/setup-node@v3
         with:
           node-version: 18
           cache: yarn
 
-      - if: ${{ steps.checkIsSnowballEngineeringTeamMember.outputs.isTeamMember == 'false' }}
-        name: Checking cache
+      - if: env.SKIP_INTEGRITY_CHECK != '1'
+        name: Checking cache integrity
         run: yarn install --check-cache --immutable --immutable-cache
-
-      - if: ${{ steps.checkIsSnowballEngineeringTeamMember.outputs.isTeamMember == 'true' }}
-        name: No need to check the cache
-        run: echo "User is a member of the Snowball engineering team."
 
 
   quality:
@@ -94,5 +96,4 @@ jobs:
           GIT_AUTHOR_EMAIL: snowball-bot@snowball.xyz
           GIT_COMMITTER_NAME: '@snowball-tech-bot'
           GIT_COMMITTER_EMAIL: snowball-bot@snowball.xyz
-
         run: yarn publish:all
