@@ -1,3 +1,9 @@
+## @snowball-tech/eslint-config [1.0.4](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@1.0.3...@snowball-tech/eslint-config@1.0.4) (2023-05-24)
+
+### 🐛 Bug Fixes
+
+- **eslint:** fix the check of JS dot files ([c08a364](https://github.com/snowball-tech/glacier/commit/c08a3648d4c3a0d39d8c3c5bb25ed0bfae6a3a2c))
+
 ## @snowball-tech/eslint-config [1.0.3](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@1.0.2...@snowball-tech/eslint-config@1.0.3) (2023-05-23)
 
 ### ❓ Unknown changes
