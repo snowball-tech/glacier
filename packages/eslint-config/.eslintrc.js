@@ -25,10 +25,14 @@ module.exports = {
   ].filter(Boolean),
 
   ignorePatterns: [
-    '!.*.js?(x)',
+    '!.*.js',
+    '!.*.jsx',
     '!.*.cjs',
     '!.*.mjs',
-    '!.*.ts?(x)',
+    '!.*.ts',
+    '!.*.tsx',
+    '!.*.yml',
+    '!.*.yaml',
     '!.github',
     '.pnp.*',
     '*.lock',
