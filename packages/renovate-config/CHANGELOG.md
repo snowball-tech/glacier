@@ -1,3 +1,9 @@
+## @snowball-tech/renovate-config [1.1.2](https://github.com/snowball-tech/glacier/compare/@snowball-tech/renovate-config@1.1.1...@snowball-tech/renovate-config@1.1.2) (2023-05-24)
+
+### 🏗 Chores
+
+- **deps:** try to not group semantic release PRs ([e02436d](https://github.com/snowball-tech/glacier/commit/e02436d92f5017f25cdbc52e3d3a9ef866219fa9))
+
 ## @snowball-tech/renovate-config [1.1.1](https://github.com/snowball-tech/glacier/compare/@snowball-tech/renovate-config@1.1.0...@snowball-tech/renovate-config@1.1.1) (2023-05-23)
 
 ### 🐛 Bug Fixes
