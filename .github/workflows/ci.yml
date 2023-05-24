@@ -15,8 +15,9 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - if: github.actor == 'snowball-tech-bot' || github.actor == 'renovate[bot]'
-        name: User is a trusted bot
+        name: Checking if user is a trusted bot
         run: |
+          echo "User is a trusted bot user."
           echo "IS_BOT_USER=1 >> $GITHUB_ENV
 
       - if: env.IS_BOT_USER != 1
