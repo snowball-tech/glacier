@@ -14,29 +14,35 @@ jobs:
     if: github.event_name == 'pull_request'
     runs-on: ubuntu-22.04
     steps:
-      - uses: tspascoal/get-user-teams-membership@v2
+      - if: github.actor == 'snowball-tech-bot'  && github.actor == 'renovate[bot]'
+        name: User is a trusted bot
+        run: |
+          echo "IS_BOT_USER=1 >> $GITHUB_ENV
+
+      - if: env.IS_BOT_USER != 1
+        uses: tspascoal/get-user-teams-membership@v2
         id: checkIsSnowballEngineeringTeamMember
         with:
           username: ${{ github.actor }}
           team: engineering
           GITHUB_TOKEN: ${{ secrets.MACHINE_GITHUB_TOKEN }}
 
-      - if: steps.checkIsSnowballEngineeringTeamMember.outputs.isTeamMember == 'true' || github.actor != 'snowball-tech-bot'  && github.actor != 'renovate[bot]'
+      - if: env.IS_BOT_USER || steps.checkIsSnowballEngineeringTeamMember.outputs.isTeamMember == 'true'
         name: No need to check the cache integrity
         run: |
           echo "User is a member of the Snowball engineering team or a trusted bot user."
           echo "SKIP_INTEGRITY_CHECK=1 >> $GITHUB_ENV
 
-      - if: env.SKIP_INTEGRITY_CHECK != '1'
+      - if: env.SKIP_INTEGRITY_CHECK != 1
         uses: actions/checkout@v3
 
-      - if: env.SKIP_INTEGRITY_CHECK != '1'
+      - if: env.SKIP_INTEGRITY_CHECK != 1
         uses: actions/setup-node@v3
         with:
           node-version: 18
           cache: yarn
 
-      - if: env.SKIP_INTEGRITY_CHECK != '1'
+      - if: env.SKIP_INTEGRITY_CHECK != 1
         name: Checking cache integrity
         run: yarn install --check-cache --immutable --immutable-cache
 
