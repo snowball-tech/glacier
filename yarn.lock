@@ -2306,15 +2306,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@opentelemetry/instrumentation-bunyan@npm:0.31.2":
-  version: 0.31.2
-  resolution: "@opentelemetry/instrumentation-bunyan@npm:0.31.2"
+"@opentelemetry/instrumentation-bunyan@npm:0.31.3":
+  version: 0.31.3
+  resolution: "@opentelemetry/instrumentation-bunyan@npm:0.31.3"
   dependencies:
-    "@opentelemetry/instrumentation": ^0.38.0
+    "@opentelemetry/instrumentation": ^0.39.1
     "@types/bunyan": 1.8.7
   peerDependencies:
     "@opentelemetry/api": ^1.3.0
-  checksum: 6316a1d21e4b21ded1569d438daa6f366aff1447450327b24814e610d4561c4a5975a0bc6070af9b57692ec149645fadbb677a98cc685e200e1d445b3978dc01
+  checksum: eb90c1927cd23760f21baff0b4c43029e46b50543154f14e4418b4a8620143f4af17cffb20571e78e294906a0b27a4df62ff6fe77378b663f9e7e071b8de4f36
   languageName: node
   linkType: hard
 
@@ -2332,7 +2332,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@opentelemetry/instrumentation@npm:0.39.1":
+"@opentelemetry/instrumentation@npm:0.39.1, @opentelemetry/instrumentation@npm:^0.39.1":
   version: 0.39.1
   resolution: "@opentelemetry/instrumentation@npm:0.39.1"
   dependencies:
@@ -2342,19 +2342,6 @@ __metadata:
   peerDependencies:
     "@opentelemetry/api": ^1.3.0
   checksum: 74918f90d6f195fdbe24e8576095305239263341c996f84c3856972c7cae968a20edcd7f075bcd10847f8337dbb36288894a71913d9734b9622f8d1a5c5d495b
-  languageName: node
-  linkType: hard
-
-"@opentelemetry/instrumentation@npm:^0.38.0":
-  version: 0.38.0
-  resolution: "@opentelemetry/instrumentation@npm:0.38.0"
-  dependencies:
-    require-in-the-middle: ^6.0.0
-    semver: ^7.3.2
-    shimmer: ^1.2.1
-  peerDependencies:
-    "@opentelemetry/api": ^1.3.0
-  checksum: 34c240fe8e37761eda1c55f43c94b7cfd5958b66fe5c176c69a41ee61e49cf4f3e595ae6320eb2fe0e310cac632a51794150165523f9bc4a0c33913cf0ea573d
   languageName: node
   linkType: hard
 
@@ -2743,7 +2730,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rushstack/eslint-patch@npm:^1.2.0":
+"@rushstack/eslint-patch@npm:^1.3.0":
   version: 1.3.0
   resolution: "@rushstack/eslint-patch@npm:1.3.0"
   checksum: 2860b4adeebbab9a13bff68a2737ecf660fe199a3d2eca45b0359132ff92052467622ac4b22837958bc3ad611714d5f2b662db98ffdc5db34df604b4d502d347
@@ -2981,11 +2968,11 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@snowball-tech/eslint-config@workspace:packages/eslint-config"
   dependencies:
-    "@rushstack/eslint-patch": ^1.2.0
+    "@rushstack/eslint-patch": ^1.3.0
     "@snowball-tech/utils": 1.0.2
-    "@typescript-eslint/eslint-plugin": ~5.59.6
-    "@typescript-eslint/parser": ~5.59.6
-    eslint: ^8.40.0
+    "@typescript-eslint/eslint-plugin": ~5.59.7
+    "@typescript-eslint/parser": ~5.59.7
+    eslint: ^8.41.0
     eslint-config-airbnb-base: ^15.0.0
     eslint-config-prettier: ^8.8.0
     eslint-import-resolver-typescript: ^3.5.5
@@ -3021,7 +3008,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@snowball-tech/renovate-config@workspace:packages/renovate-config"
   dependencies:
-    renovate: ^35.88.0
+    renovate: ^35.99.0
   languageName: unknown
   linkType: soft
 
@@ -3049,7 +3036,7 @@ __metadata:
   resolution: "@snowball-tech/utils@workspace:packages/utils"
   dependencies:
     "@types/lodash": ^4.14.194
-    "@types/node": ^20.1.5
+    "@types/node": ^20.2.3
     "@types/read-pkg-up": ^6.0.0
     "@types/semver": ^7.5.0
     lodash: ^4.17.21
@@ -3224,7 +3211,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/eslint@npm:^8.37.0":
+"@types/eslint@npm:^8.40.0":
   version: 8.40.0
   resolution: "@types/eslint@npm:8.40.0"
   dependencies:
@@ -3317,7 +3304,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:^20.1.5":
+"@types/node@npm:*, @types/node@npm:^20.2.3":
   version: 20.2.3
   resolution: "@types/node@npm:20.2.3"
   checksum: 576065e8fc1fa45798c8f59a6bf809169582d04abc2e25fab1a048ffc734975b9992ae31be0d960cf705a21fb37112f7fcde11aa322beddf7491e73d5a5a988c
@@ -3421,7 +3408,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/eslint-plugin@npm:~5.59.6":
+"@typescript-eslint/eslint-plugin@npm:~5.59.7":
   version: 5.59.7
   resolution: "@typescript-eslint/eslint-plugin@npm:5.59.7"
   dependencies:
@@ -3445,7 +3432,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/parser@npm:~5.59.6":
+"@typescript-eslint/parser@npm:~5.59.7":
   version: 5.59.7
   resolution: "@typescript-eslint/parser@npm:5.59.7"
   dependencies:
@@ -4287,9 +4274,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cacache@npm:17.1.0":
-  version: 17.1.0
-  resolution: "cacache@npm:17.1.0"
+"cacache@npm:17.1.3, cacache@npm:^17.0.0, cacache@npm:^17.0.4, cacache@npm:^17.1.2":
+  version: 17.1.3
+  resolution: "cacache@npm:17.1.3"
   dependencies:
     "@npmcli/fs": ^3.1.0
     fs-minipass: ^3.0.0
@@ -4303,7 +4290,7 @@ __metadata:
     ssri: ^10.0.0
     tar: ^6.1.11
     unique-filename: ^3.0.0
-  checksum: ae1f072f84b9bf0a3a6cfb8516774386c22ea902b25ca6b5dec471d370a4947fdec40dee7de5edd6b97f66407a52d40afee9eaeac49700b24bb1e932359ba277
+  checksum: 385756781e1e21af089160d89d7462b7ed9883c978e848c7075b90b73cb823680e66092d61513050164588387d2ca87dd6d910e28d64bc13a9ac82cd8580c796
   languageName: node
   linkType: hard
 
@@ -4330,26 +4317,6 @@ __metadata:
     tar: ^6.1.11
     unique-filename: ^2.0.0
   checksum: d91409e6e57d7d9a3a25e5dcc589c84e75b178ae8ea7de05cbf6b783f77a5fae938f6e8fda6f5257ed70000be27a681e1e44829251bfffe4c10216002f8f14e6
-  languageName: node
-  linkType: hard
-
-"cacache@npm:^17.0.0, cacache@npm:^17.0.4, cacache@npm:^17.1.2":
-  version: 17.1.3
-  resolution: "cacache@npm:17.1.3"
-  dependencies:
-    "@npmcli/fs": ^3.1.0
-    fs-minipass: ^3.0.0
-    glob: ^10.2.2
-    lru-cache: ^7.7.1
-    minipass: ^5.0.0
-    minipass-collect: ^1.0.2
-    minipass-flush: ^1.0.5
-    minipass-pipeline: ^1.2.4
-    p-map: ^4.0.0
-    ssri: ^10.0.0
-    tar: ^6.1.11
-    unique-filename: ^3.0.0
-  checksum: 385756781e1e21af089160d89d7462b7ed9883c978e848c7075b90b73cb823680e66092d61513050164588387d2ca87dd6d910e28d64bc13a9ac82cd8580c796
   languageName: node
   linkType: hard
 
@@ -5950,7 +5917,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:^8.40.0":
+"eslint@npm:^8.41.0":
   version: 8.41.0
   resolution: "eslint@npm:8.41.0"
   dependencies:
@@ -6623,16 +6590,16 @@ __metadata:
     "@snowball-tech/prettier-config": "workspace:^"
     "@snowball-tech/semantic-release-config": "workspace:^"
     "@snowball-tech/utils": "workspace:^"
-    "@types/eslint": ^8.37.0
+    "@types/eslint": ^8.40.0
     "@types/is-ci": ^3.0.0
     "@types/prettier": ^2.7.2
-    eslint: ^8.40.0
+    eslint: ^8.41.0
     husky: ^8.0.3
     is-ci: ^3.0.1
     lint-staged: ^13.2.2
     prettier: ^2.8.8
     semantic-release: ^21.0.2
-    turbo: 1.9.8
+    turbo: 1.9.9
     typescript: ^5.0.4
   languageName: unknown
   linkType: soft
@@ -7227,10 +7194,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ini@npm:4.1.0":
-  version: 4.1.0
-  resolution: "ini@npm:4.1.0"
-  checksum: 12fc7c1f0a048e37398928f32513b494012b11fcec43fc3ef687445b29d959c548abef6d911686e507199c17c366c5bce7bedf02c3fc32912a71737b8291f6c5
+"ini@npm:4.1.1, ini@npm:^4.1.0":
+  version: 4.1.1
+  resolution: "ini@npm:4.1.1"
+  checksum: 0e5909554074fbc31824fa5415b0f604de4a665514c96a897a77bf77353a7ad4743927321270e9d0610a9d510ccd1f3cd77422f7cc80d8f4542dbce75476fb6d
   languageName: node
   linkType: hard
 
@@ -7245,13 +7212,6 @@ __metadata:
   version: 3.0.1
   resolution: "ini@npm:3.0.1"
   checksum: 947b582a822f06df3c22c75c90aec217d604ea11f7a20249530ee5c1cf8f508288439abe17b0e1d9b421bda5f4fae5e7aae0b18cb3ded5ac9d68f607df82f10f
-  languageName: node
-  linkType: hard
-
-"ini@npm:^4.1.0":
-  version: 4.1.1
-  resolution: "ini@npm:4.1.1"
-  checksum: 0e5909554074fbc31824fa5415b0f604de4a665514c96a897a77bf77353a7ad4743927321270e9d0610a9d510ccd1f3cd77422f7cc80d8f4542dbce75476fb6d
   languageName: node
   linkType: hard
 
@@ -11171,9 +11131,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:^35.88.0":
-  version: 35.98.4
-  resolution: "renovate@npm:35.98.4"
+"renovate@npm:^35.99.0":
+  version: 35.99.0
+  resolution: "renovate@npm:35.99.0"
   dependencies:
     "@aws-sdk/client-codecommit": 3.332.0
     "@aws-sdk/client-ec2": 3.332.0
@@ -11189,7 +11149,7 @@ __metadata:
     "@opentelemetry/context-async-hooks": 1.13.0
     "@opentelemetry/exporter-trace-otlp-http": 0.39.1
     "@opentelemetry/instrumentation": 0.39.1
-    "@opentelemetry/instrumentation-bunyan": 0.31.2
+    "@opentelemetry/instrumentation-bunyan": 0.31.3
     "@opentelemetry/instrumentation-http": 0.39.1
     "@opentelemetry/resources": 1.13.0
     "@opentelemetry/sdk-trace-base": 1.13.0
@@ -11210,7 +11170,7 @@ __metadata:
     aws4: 1.12.0
     azure-devops-node-api: 12.0.0
     bunyan: 1.8.15
-    cacache: 17.1.0
+    cacache: 17.1.3
     cacheable-lookup: 5.0.4
     chalk: 4.1.2
     changelog-filename-regex: 2.0.1
@@ -11241,7 +11201,7 @@ __metadata:
     handlebars: 4.7.7
     hasha: 5.2.2
     ignore: 5.2.4
-    ini: 4.1.0
+    ini: 4.1.1
     js-yaml: 4.1.0
     json-dup-key-validator: 1.0.3
     json-stringify-pretty-compact: 3.0.0
@@ -11288,7 +11248,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: ba7ad7d24ee58ac335c06364968bb7a603ae69d7ca74cf5525f71c281bffd2c17d953b43fe1a96d2cc82454a38e44e83b7f5c615caa039434be43cc7aba005b1
+  checksum: 455d44ef06dc2da6b07438e68b1e9554d48e013bdbc69028ab4d615387b8632f05bb03b31ad357f4182ac56661c4ba9158cf6e70ffc5b6d6590f8d3fc37b20d0
   languageName: node
   linkType: hard
 
@@ -11303,17 +11263,6 @@ __metadata:
   version: 2.1.1
   resolution: "require-directory@npm:2.1.1"
   checksum: fb47e70bf0001fdeabdc0429d431863e9475e7e43ea5f94ad86503d918423c1543361cc5166d713eaa7029dd7a3d34775af04764bebff99ef413111a5af18c80
-  languageName: node
-  linkType: hard
-
-"require-in-the-middle@npm:^6.0.0":
-  version: 6.0.0
-  resolution: "require-in-the-middle@npm:6.0.0"
-  dependencies:
-    debug: ^4.1.1
-    module-details-from-path: ^1.0.3
-    resolve: ^1.22.1
-  checksum: 985df7fabe099e21429a89ea07b56a7b0182db523e6c6e6e03694e241e064cf61c30ff2577fd2b143c2186a7faf9b51778e9fedde2ae4899d469e29048441669
   languageName: node
   linkType: hard
 
@@ -12591,58 +12540,58 @@ __metadata:
   languageName: node
   linkType: hard
 
-"turbo-darwin-64@npm:1.9.8":
-  version: 1.9.8
-  resolution: "turbo-darwin-64@npm:1.9.8"
+"turbo-darwin-64@npm:1.9.9":
+  version: 1.9.9
+  resolution: "turbo-darwin-64@npm:1.9.9"
   conditions: os=darwin & cpu=x64
   languageName: node
   linkType: hard
 
-"turbo-darwin-arm64@npm:1.9.8":
-  version: 1.9.8
-  resolution: "turbo-darwin-arm64@npm:1.9.8"
+"turbo-darwin-arm64@npm:1.9.9":
+  version: 1.9.9
+  resolution: "turbo-darwin-arm64@npm:1.9.9"
   conditions: os=darwin & cpu=arm64
   languageName: node
   linkType: hard
 
-"turbo-linux-64@npm:1.9.8":
-  version: 1.9.8
-  resolution: "turbo-linux-64@npm:1.9.8"
+"turbo-linux-64@npm:1.9.9":
+  version: 1.9.9
+  resolution: "turbo-linux-64@npm:1.9.9"
   conditions: os=linux & cpu=x64
   languageName: node
   linkType: hard
 
-"turbo-linux-arm64@npm:1.9.8":
-  version: 1.9.8
-  resolution: "turbo-linux-arm64@npm:1.9.8"
+"turbo-linux-arm64@npm:1.9.9":
+  version: 1.9.9
+  resolution: "turbo-linux-arm64@npm:1.9.9"
   conditions: os=linux & cpu=arm64
   languageName: node
   linkType: hard
 
-"turbo-windows-64@npm:1.9.8":
-  version: 1.9.8
-  resolution: "turbo-windows-64@npm:1.9.8"
+"turbo-windows-64@npm:1.9.9":
+  version: 1.9.9
+  resolution: "turbo-windows-64@npm:1.9.9"
   conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
 
-"turbo-windows-arm64@npm:1.9.8":
-  version: 1.9.8
-  resolution: "turbo-windows-arm64@npm:1.9.8"
+"turbo-windows-arm64@npm:1.9.9":
+  version: 1.9.9
+  resolution: "turbo-windows-arm64@npm:1.9.9"
   conditions: os=win32 & cpu=arm64
   languageName: node
   linkType: hard
 
-"turbo@npm:1.9.8":
-  version: 1.9.8
-  resolution: "turbo@npm:1.9.8"
+"turbo@npm:1.9.9":
+  version: 1.9.9
+  resolution: "turbo@npm:1.9.9"
   dependencies:
-    turbo-darwin-64: 1.9.8
-    turbo-darwin-arm64: 1.9.8
-    turbo-linux-64: 1.9.8
-    turbo-linux-arm64: 1.9.8
-    turbo-windows-64: 1.9.8
-    turbo-windows-arm64: 1.9.8
+    turbo-darwin-64: 1.9.9
+    turbo-darwin-arm64: 1.9.9
+    turbo-linux-64: 1.9.9
+    turbo-linux-arm64: 1.9.9
+    turbo-windows-64: 1.9.9
+    turbo-windows-arm64: 1.9.9
   dependenciesMeta:
     turbo-darwin-64:
       optional: true
@@ -12658,7 +12607,7 @@ __metadata:
       optional: true
   bin:
     turbo: bin/turbo
-  checksum: 3bf5f6093302c9a1b512c5662922bfba90bbf99b0b523777ce7c2282f587df74c0fdc115a1659adeef37fca0643f02b01869b2cacc01b94591587193cba6459e
+  checksum: 155c82b0e18edb08e5a985d1a78179b16a87960b3827c9de0a27cfc2f98500966eea5f2692bff8bb9f5ce7b0d06b75df4b02fdbde97054917def9110d8fba46b
   languageName: node
   linkType: hard
 
