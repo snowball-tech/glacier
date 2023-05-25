@@ -2,7 +2,7 @@
   "name": "@snowball-tech/semantic-release-config",
   "version": "1.0.5",
   "description": "Semantic-Release configuration by Snowball supporting Yarn 3 monorepos",
-  "author": "Snowball Engineering Team <tech@snowball.xyz> (https://github.com/orgs/snowball-tech)",
+  "author": "Snowball Engineering Team <engineering@snowball.xyz> (https://github.com/orgs/snowball-tech)",
   "contributors": [
     "Clément PRÉVOT <clement@snowball.xyz> (https://github.com/clementprevot)"
   ],

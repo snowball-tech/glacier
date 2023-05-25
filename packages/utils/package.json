@@ -2,7 +2,7 @@
   "name": "@snowball-tech/utils",
   "version": "1.0.3",
   "description": "Utils library for Snowball packages and apps",
-  "author": "Snowball Engineering Team <tech@snowball.xyz> (https://github.com/orgs/snowball-tech)",
+  "author": "Snowball Engineering Team <engineering@snowball.xyz> (https://github.com/orgs/snowball-tech)",
   "contributors": [
     "Clément PRÉVOT <clement@snowball.xyz> (https://github.com/clementprevot)"
   ],
