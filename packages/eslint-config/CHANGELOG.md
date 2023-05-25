@@ -1,3 +1,17 @@
+## @snowball-tech/eslint-config [1.0.6](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@1.0.5...@snowball-tech/eslint-config@1.0.6) (2023-05-25)
+
+### 🐛 Bug Fixes
+
+- **eslint-react:** remove the necessity to import React ([dd34a5f](https://github.com/snowball-tech/glacier/commit/dd34a5f22b9e3e340a98ad8f7eb09b4f63bbc979))
+
+### 📝 Documentation
+
+- update email address ([c8d004d](https://github.com/snowball-tech/glacier/commit/c8d004de6dfbdbd5a05ffe648906d6f5a2c157c0))
+
+### Dependencies
+
+- **@snowball-tech/utils:** upgraded to 1.0.4
+
 ## @snowball-tech/eslint-config [1.0.5](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@1.0.4...@snowball-tech/eslint-config@1.0.5) (2023-05-24)
 
 ### ⚙️ Dependencies
