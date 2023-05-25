@@ -1,3 +1,9 @@
+## @snowball-tech/utils [1.0.4](https://github.com/snowball-tech/glacier/compare/@snowball-tech/utils@1.0.3...@snowball-tech/utils@1.0.4) (2023-05-25)
+
+### 📝 Documentation
+
+- update email address ([c8d004d](https://github.com/snowball-tech/glacier/commit/c8d004de6dfbdbd5a05ffe648906d6f5a2c157c0))
+
 ## @snowball-tech/utils [1.0.3](https://github.com/snowball-tech/glacier/compare/@snowball-tech/utils@1.0.2...@snowball-tech/utils@1.0.3) (2023-05-24)
 
 ### ⚙️ Dependencies
