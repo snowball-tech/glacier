@@ -1,7 +1,7 @@
 {
   "name": "glacier",
   "description": "Snowball's open-source monorepository managed by Yarn 3 and TurboRepo",
-  "author": "Snowball Engineering Team <tech@snowball.xyz> (https://github.com/orgs/snowball-tech)",
+  "author": "Snowball Engineering Team <engineering@snowball.xyz> (https://github.com/orgs/snowball-tech)",
   "private": true,
   "contributors": [
     "Clément PRÉVOT <clement@snowball.xyz> (https://github.com/clementprevot)"
@@ -27,7 +27,7 @@
     "testing-library",
     "lodash"
   ],
-  "homepage": "https://snowball.xyz",
+  "homepage": "https://github.com/snowball-tech/glacier",
   "repository": {
     "type": "git",
     "url": "https://github.com/snowball-tech/glacier.git"
