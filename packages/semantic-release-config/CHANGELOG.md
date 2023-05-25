@@ -1,3 +1,9 @@
+## @snowball-tech/semantic-release-config [1.0.6](https://github.com/snowball-tech/glacier/compare/@snowball-tech/semantic-release-config@1.0.5...@snowball-tech/semantic-release-config@1.0.6) (2023-05-25)
+
+### 📝 Documentation
+
+- update email address ([c8d004d](https://github.com/snowball-tech/glacier/commit/c8d004de6dfbdbd5a05ffe648906d6f5a2c157c0))
+
 ## @snowball-tech/semantic-release-config [1.0.5](https://github.com/snowball-tech/glacier/compare/@snowball-tech/semantic-release-config@1.0.4...@snowball-tech/semantic-release-config@1.0.5) (2023-05-23)
 
 ### 🐛 Bug Fixes
