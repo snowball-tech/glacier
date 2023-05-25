@@ -13,6 +13,10 @@ module.exports = {
 
   rules: {
     'class-methods-use-this': 'off',
+
+    // With React > v17, we don't need to import React in every file anymore.
+    'react/jsx-uses-react': 'off',
+    'react/react-in-jsx-scope': 'off',
   },
 
   settings: {
