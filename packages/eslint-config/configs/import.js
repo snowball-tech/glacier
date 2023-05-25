@@ -53,4 +53,24 @@ module.exports = {
       },
     ],
   },
+
+  settings: hasTypescript
+    ? {
+        'import/parsers': {
+          '@typescript-eslint/parser': ['.ts', '.tsx'],
+        },
+        'import/resolver': {
+          typescript: {
+            alwaysTryTypes: true,
+
+            project: [
+              'apps/*/tsconfig.json',
+              'apps/**/*/tsconfig.json',
+              'packages/*/tsconfig.json',
+              'packages/**/*/tsconfig.json',
+            ],
+          },
+        },
+      }
+    : {},
 }
