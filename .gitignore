@@ -36,9 +36,9 @@ next-env.d.ts
 **/out
 **/dist
 
-# dotenv files
-**/.env
+# Secret files
 **/.env*.local
+*.pem
 
 # Vercel
 **/.vercel
