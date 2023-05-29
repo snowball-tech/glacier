@@ -3869,7 +3869,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@semantic-release/github", "virtual:97efea6e6ed679d1b12b286efdf34775793cf3fe0408c2b96c7601039dadfb9d5f6ecc6e60a79c0b5d97872c67aabf027b7d6fd8e25b4de748eccc6c0bfa17ee#npm:8.0.7"],\
             ["@semantic-release/npm", "virtual:82f0e34bd449f525b076c25ddb0a2f613f3724d8f8ffcedfaac5f10b4ce9050b5c5841ecb78c0ac4fe80153ad3ec85d5d2fe19fbdeb18b8712368691eb60e2d4#npm:9.0.2"],\
             ["@semantic-release/release-notes-generator", "virtual:82f0e34bd449f525b076c25ddb0a2f613f3724d8f8ffcedfaac5f10b4ce9050b5c5841ecb78c0ac4fe80153ad3ec85d5d2fe19fbdeb18b8712368691eb60e2d4#npm:10.0.3"],\
-            ["@types/lodash", "npm:4.14.194"],\
+            ["@types/lodash", "npm:4.14.195"],\
             ["@types/semantic-release", null],\
             ["lodash", "npm:4.17.21"],\
             ["semantic-release", "npm:21.0.2"]\
@@ -3891,7 +3891,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@semantic-release/github", "virtual:97efea6e6ed679d1b12b286efdf34775793cf3fe0408c2b96c7601039dadfb9d5f6ecc6e60a79c0b5d97872c67aabf027b7d6fd8e25b4de748eccc6c0bfa17ee#npm:8.0.7"],\
             ["@semantic-release/npm", "virtual:82f0e34bd449f525b076c25ddb0a2f613f3724d8f8ffcedfaac5f10b4ce9050b5c5841ecb78c0ac4fe80153ad3ec85d5d2fe19fbdeb18b8712368691eb60e2d4#npm:9.0.2"],\
             ["@semantic-release/release-notes-generator", "virtual:82f0e34bd449f525b076c25ddb0a2f613f3724d8f8ffcedfaac5f10b4ce9050b5c5841ecb78c0ac4fe80153ad3ec85d5d2fe19fbdeb18b8712368691eb60e2d4#npm:10.0.3"],\
-            ["@types/lodash", "npm:4.14.194"],\
+            ["@types/lodash", "npm:4.14.195"],\
             ["lodash", "npm:4.17.21"],\
             ["semantic-release", "npm:21.0.2"]\
           ],\
@@ -3903,7 +3903,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./packages/utils/",\
           "packageDependencies": [\
             ["@snowball-tech/utils", "workspace:packages/utils"],\
-            ["@types/lodash", "npm:4.14.194"],\
+            ["@types/lodash", "npm:4.14.195"],\
             ["@types/node", "npm:20.2.3"],\
             ["@types/read-pkg-up", "npm:6.0.0"],\
             ["@types/semver", "npm:7.5.0"],\
@@ -4174,10 +4174,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@types/lodash", [\
-        ["npm:4.14.194", {\
-          "packageLocation": "./.yarn/cache/@types-lodash-npm-4.14.194-f099c0742e-113f34831c.zip/node_modules/@types/lodash/",\
+        ["npm:4.14.195", {\
+          "packageLocation": "./.yarn/cache/@types-lodash-npm-4.14.195-a2a8254638-39b75ca635.zip/node_modules/@types/lodash/",\
           "packageDependencies": [\
-            ["@types/lodash", "npm:4.14.194"]\
+            ["@types/lodash", "npm:4.14.195"]\
           ],\
           "linkType": "HARD"\
         }]\
