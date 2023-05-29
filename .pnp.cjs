@@ -54,7 +54,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["@monorepo-utils/workspaces-to-typescript-project-references", "npm:2.9.0"],\
-            ["@qiwi/multi-semantic-release", "npm:6.6.0"],\
+            ["@qiwi/multi-semantic-release", "npm:6.7.0"],\
             ["@snowball-tech/eslint-config", "virtual:cd863a461fa7fc077a0de8352a1feae50340545bb4b0b451e67ffd0879b30216165d901ae900610094444ce46db50b1dc623ab5ed399bbdc7861a979d22a15a1#workspace:packages/eslint-config"],\
             ["@snowball-tech/prettier-config", "workspace:packages/prettier-config"],\
             ["@snowball-tech/semantic-release-config", "virtual:cd863a461fa7fc077a0de8352a1feae50340545bb4b0b451e67ffd0879b30216165d901ae900610094444ce46db50b1dc623ab5ed399bbdc7861a979d22a15a1#workspace:packages/semantic-release-config"],\
@@ -1666,15 +1666,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
-      ["@changesets/types", [\
-        ["npm:4.1.0", {\
-          "packageLocation": "./.yarn/cache/@changesets-types-npm-4.1.0-c7ed225741-72c1f58044.zip/node_modules/@changesets/types/",\
-          "packageDependencies": [\
-            ["@changesets/types", "npm:4.1.0"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
       ["@cheap-glitch/mi-cron", [\
         ["npm:1.0.1", {\
           "packageLocation": "./.yarn/cache/@cheap-glitch-mi-cron-npm-1.0.1-1b13b90973-34522cf6ff.zip/node_modules/@cheap-glitch/mi-cron/",\
@@ -1889,34 +1880,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@kwsites-promise-deferred-npm-1.1.1-82db04bcea-07455477a0.zip/node_modules/@kwsites/promise-deferred/",\
           "packageDependencies": [\
             ["@kwsites/promise-deferred", "npm:1.1.1"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
-      ["@manypkg/find-root", [\
-        ["npm:1.1.0", {\
-          "packageLocation": "./.yarn/cache/@manypkg-find-root-npm-1.1.0-a195882dab-f0fd881a5a.zip/node_modules/@manypkg/find-root/",\
-          "packageDependencies": [\
-            ["@manypkg/find-root", "npm:1.1.0"],\
-            ["@babel/runtime", "npm:7.21.5"],\
-            ["@types/node", "npm:12.20.55"],\
-            ["find-up", "npm:4.1.0"],\
-            ["fs-extra", "npm:8.1.0"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
-      ["@manypkg/get-packages", [\
-        ["npm:1.1.3", {\
-          "packageLocation": "./.yarn/cache/@manypkg-get-packages-npm-1.1.3-55c0cc9daa-f5a756e5a6.zip/node_modules/@manypkg/get-packages/",\
-          "packageDependencies": [\
-            ["@manypkg/get-packages", "npm:1.1.3"],\
-            ["@babel/runtime", "npm:7.21.5"],\
-            ["@changesets/types", "npm:4.1.0"],\
-            ["@manypkg/find-root", "npm:1.1.0"],\
-            ["fs-extra", "npm:8.1.0"],\
-            ["globby", "npm:11.1.0"],\
-            ["read-yaml-file", "npm:1.1.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -3119,21 +3082,19 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@qiwi/multi-semantic-release", [\
-        ["npm:6.6.0", {\
-          "packageLocation": "./.yarn/cache/@qiwi-multi-semantic-release-npm-6.6.0-011e1e2054-80ad254d4c.zip/node_modules/@qiwi/multi-semantic-release/",\
+        ["npm:6.7.0", {\
+          "packageLocation": "./.yarn/cache/@qiwi-multi-semantic-release-npm-6.7.0-2bd41c148d-6e8f1309eb.zip/node_modules/@qiwi/multi-semantic-release/",\
           "packageDependencies": [\
-            ["@qiwi/multi-semantic-release", "npm:6.6.0"],\
-            ["@manypkg/get-packages", "npm:1.1.3"],\
-            ["@semrel-extra/topo", "npm:1.10.0"],\
+            ["@qiwi/multi-semantic-release", "npm:6.7.0"],\
+            ["@semrel-extra/topo", "npm:1.13.0"],\
             ["blork", "npm:9.3.0"],\
-            ["cosmiconfig", "npm:7.1.0"],\
+            ["cosmiconfig", "npm:8.1.3"],\
             ["debug", "virtual:93ff9e54e7e85ba03f8777529e2e31fd687b3208f0bfd29f9526626fccebedcf25fd704ae938492bcd5692d38a16927bd020804d445cde5885dc772e9e1e1ff9#npm:4.3.4"],\
             ["detect-indent", "npm:7.0.1"],\
             ["detect-newline", "npm:4.0.0"],\
             ["execa", "npm:6.1.0"],\
             ["get-stream", "npm:6.0.1"],\
             ["git-log-parser", "npm:1.2.0"],\
-            ["globby", "npm:13.1.1"],\
             ["lodash-es", "npm:4.17.21"],\
             ["meow", "npm:10.1.5"],\
             ["promise-events", "npm:0.2.4"],\
@@ -3741,11 +3702,12 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@semrel-extra/topo", [\
-        ["npm:1.10.0", {\
-          "packageLocation": "./.yarn/cache/@semrel-extra-topo-npm-1.10.0-81acb05da6-b208d7fac4.zip/node_modules/@semrel-extra/topo/",\
+        ["npm:1.13.0", {\
+          "packageLocation": "./.yarn/cache/@semrel-extra-topo-npm-1.13.0-a19a174b1f-403f763de7.zip/node_modules/@semrel-extra/topo/",\
           "packageDependencies": [\
-            ["@semrel-extra/topo", "npm:1.10.0"],\
+            ["@semrel-extra/topo", "npm:1.13.0"],\
             ["fast-glob", "npm:3.2.12"],\
+            ["js-yaml", "npm:4.1.0"],\
             ["toposource", "npm:1.1.4"],\
             ["tslib", "npm:2.5.2"]\
           ],\
@@ -4220,13 +4182,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@types/node", [\
-        ["npm:12.20.55", {\
-          "packageLocation": "./.yarn/cache/@types-node-npm-12.20.55-88487587a4-e4f86785f4.zip/node_modules/@types/node/",\
-          "packageDependencies": [\
-            ["@types/node", "npm:12.20.55"]\
-          ],\
-          "linkType": "HARD"\
-        }],\
         ["npm:13.13.52", {\
           "packageLocation": "./.yarn/cache/@types-node-npm-13.13.52-95159539bb-8f1afff497.zip/node_modules/@types/node/",\
           "packageDependencies": [\
@@ -8364,16 +8319,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["universalify", "npm:2.0.0"]\
           ],\
           "linkType": "HARD"\
-        }],\
-        ["npm:8.1.0", {\
-          "packageLocation": "./.yarn/cache/fs-extra-npm-8.1.0-197473387f-bf44f0e6ce.zip/node_modules/fs-extra/",\
-          "packageDependencies": [\
-            ["fs-extra", "npm:8.1.0"],\
-            ["graceful-fs", "npm:4.2.11"],\
-            ["jsonfile", "npm:4.0.0"],\
-            ["universalify", "npm:0.1.2"]\
-          ],\
-          "linkType": "HARD"\
         }]\
       ]],\
       ["fs-minipass", [\
@@ -8599,7 +8544,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["glacier", "workspace:."],\
             ["@monorepo-utils/workspaces-to-typescript-project-references", "npm:2.9.0"],\
-            ["@qiwi/multi-semantic-release", "npm:6.6.0"],\
+            ["@qiwi/multi-semantic-release", "npm:6.7.0"],\
             ["@snowball-tech/eslint-config", "virtual:cd863a461fa7fc077a0de8352a1feae50340545bb4b0b451e67ffd0879b30216165d901ae900610094444ce46db50b1dc623ab5ed399bbdc7861a979d22a15a1#workspace:packages/eslint-config"],\
             ["@snowball-tech/prettier-config", "workspace:packages/prettier-config"],\
             ["@snowball-tech/semantic-release-config", "virtual:cd863a461fa7fc077a0de8352a1feae50340545bb4b0b451e67ffd0879b30216165d901ae900610094444ce46db50b1dc623ab5ed399bbdc7861a979d22a15a1#workspace:packages/semantic-release-config"],\
@@ -8746,18 +8691,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["ignore", "npm:5.2.4"],\
             ["merge2", "npm:1.4.1"],\
             ["slash", "npm:3.0.0"]\
-          ],\
-          "linkType": "HARD"\
-        }],\
-        ["npm:13.1.1", {\
-          "packageLocation": "./.yarn/cache/globby-npm-13.1.1-a7bbb4e577-e6c43409c6.zip/node_modules/globby/",\
-          "packageDependencies": [\
-            ["globby", "npm:13.1.1"],\
-            ["dir-glob", "npm:3.0.1"],\
-            ["fast-glob", "npm:3.2.12"],\
-            ["ignore", "npm:5.2.4"],\
-            ["merge2", "npm:1.4.1"],\
-            ["slash", "npm:4.0.0"]\
           ],\
           "linkType": "HARD"\
         }],\
@@ -10080,14 +10013,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["jsonfile", [\
-        ["npm:4.0.0", {\
-          "packageLocation": "./.yarn/cache/jsonfile-npm-4.0.0-10ce3aea15-6447d6224f.zip/node_modules/jsonfile/",\
-          "packageDependencies": [\
-            ["jsonfile", "npm:4.0.0"],\
-            ["graceful-fs", "npm:4.2.11"]\
-          ],\
-          "linkType": "HARD"\
-        }],\
         ["npm:6.1.0", {\
           "packageLocation": "./.yarn/cache/jsonfile-npm-6.1.0-20a4796cee-7af3b8e1ac.zip/node_modules/jsonfile/",\
           "packageDependencies": [\
@@ -12791,13 +12716,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["pify", "npm:3.0.0"]\
           ],\
           "linkType": "HARD"\
-        }],\
-        ["npm:4.0.1", {\
-          "packageLocation": "./.yarn/cache/pify-npm-4.0.1-062756097b-9c4e34278c.zip/node_modules/pify/",\
-          "packageDependencies": [\
-            ["pify", "npm:4.0.1"]\
-          ],\
-          "linkType": "HARD"\
         }]\
       ]],\
       ["pkg-conf", [\
@@ -13314,17 +13232,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["read-yaml-file", [\
-        ["npm:1.1.0", {\
-          "packageLocation": "./.yarn/cache/read-yaml-file-npm-1.1.0-52eaf1c9d4-41ee5f0755.zip/node_modules/read-yaml-file/",\
-          "packageDependencies": [\
-            ["read-yaml-file", "npm:1.1.0"],\
-            ["graceful-fs", "npm:4.2.11"],\
-            ["js-yaml", "npm:3.14.1"],\
-            ["pify", "npm:4.0.1"],\
-            ["strip-bom", "npm:3.0.0"]\
-          ],\
-          "linkType": "HARD"\
-        }],\
         ["npm:2.1.0", {\
           "packageLocation": "./.yarn/cache/read-yaml-file-npm-2.1.0-249dfb79bc-52765eb183.zip/node_modules/read-yaml-file/",\
           "packageDependencies": [\
@@ -15394,13 +15301,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["universalify", [\
-        ["npm:0.1.2", {\
-          "packageLocation": "./.yarn/cache/universalify-npm-0.1.2-9b22d31d2d-40cdc60f6e.zip/node_modules/universalify/",\
-          "packageDependencies": [\
-            ["universalify", "npm:0.1.2"]\
-          ],\
-          "linkType": "HARD"\
-        }],\
         ["npm:2.0.0", {\
           "packageLocation": "./.yarn/cache/universalify-npm-2.0.0-03b8b418a8-2406a4edf4.zip/node_modules/universalify/",\
           "packageDependencies": [\
