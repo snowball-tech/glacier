@@ -1,3 +1,9 @@
+## @snowball-tech/utils [1.0.5](https://github.com/snowball-tech/glacier/compare/@snowball-tech/utils@1.0.4...@snowball-tech/utils@1.0.5) (2023-05-31)
+
+### ⚙️ Dependencies
+
+- update dependencies ([9789eed](https://github.com/snowball-tech/glacier/commit/9789eed306a4d32a600318127f1812a64f60701d))
+
 ## @snowball-tech/utils [1.0.4](https://github.com/snowball-tech/glacier/compare/@snowball-tech/utils@1.0.3...@snowball-tech/utils@1.0.4) (2023-05-25)
 
 ### 📝 Documentation
