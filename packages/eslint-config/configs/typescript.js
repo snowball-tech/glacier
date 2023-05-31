@@ -1,9 +1,24 @@
 module.exports = {
   overrides: [
     {
-      extends: ['plugin:@typescript-eslint/recommended'],
+      extends: [
+        'plugin:@typescript-eslint/recommended',
+        'plugin:@typescript-eslint/recommended-requiring-type-checking',
+      ],
 
       files: ['**/*.ts', '**/*.tsx'],
+
+      parser: '@typescript-eslint/parser',
+
+      parserOptions: {
+        project: [
+          './tsconfig.json',
+          './packages/*/tsconfig.json',
+          './apps/*/tsconfig.json',
+        ],
+      },
+
+      plugins: ['@typescript-eslint'],
 
       rules: {
         'class-methods-use-this': 'off',
