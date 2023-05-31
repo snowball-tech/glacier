@@ -1,3 +1,9 @@
+# @snowball-tech/eslint-config [1.1.0](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@1.0.8...@snowball-tech/eslint-config@1.1.0) (2023-05-31)
+
+### ✨ Features
+
+- **eslint:** improve linter configuration for Next and React ([4640995](https://github.com/snowball-tech/glacier/commit/46409956bbd69e4e74e8f2197a277b1cae226b64))
+
 ## @snowball-tech/eslint-config [1.0.8](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@1.0.7...@snowball-tech/eslint-config@1.0.8) (2023-05-31)
 
 ### 🐛 Bug Fixes
