@@ -1,5 +1,8 @@
 module.exports = {
-  extends: ['plugin:@next/next/core-web-vitals'],
+  extends: [
+    'plugin:@next/next/recommended',
+    'plugin:@next/next/core-web-vitals',
+  ],
 
   overrides: [
     {
