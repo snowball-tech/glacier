@@ -1,3 +1,7 @@
+const { hasDependency } = require('@snowball-tech/utils')
+
+const hasReact = hasDependency('react')
+
 module.exports = {
   overrides: [
     {
@@ -39,6 +43,12 @@ module.exports = {
         // Those rule are warning in the recommended config, but we want it to
         // be errors.
         '@typescript-eslint/no-explicit-any': 'error',
+        '@typescript-eslint/no-misused-promises': [
+          'error',
+          {
+            checksVoidReturn: !hasReact,
+          },
+        ],
         '@typescript-eslint/no-non-null-assertion': 'error',
         '@typescript-eslint/no-unused-vars': 'error',
 
