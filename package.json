@@ -54,7 +54,7 @@
     "lint:root": "eslint --cache \"./!(apps|packages)\"",
     "lint:root:fix": "eslint --cache --fix \"./!(apps|packages)\"",
     "publish:all": "multi-semantic-release",
-    "setup": "yarn install && (yarn is-ci || yarn husky install) && yarn dlx @yarnpkg/sdks",
+    "setup": "yarn install && (yarn is-ci || yarn husky install)",
     "update-ts-references": "workspaces-to-typescript-project-references --includesRoot"
   },
   "devDependencies": {
