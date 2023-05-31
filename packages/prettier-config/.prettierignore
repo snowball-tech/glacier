@@ -6,7 +6,6 @@
 !.*.ts
 !.*.tsx
 
-.pnp.*
 *.lock
 
 **/dist
