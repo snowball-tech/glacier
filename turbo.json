@@ -2,17 +2,16 @@
   "$schema": "https://turbo.build/schema.json",
   "pipeline": {
     "dev": {
-      "cache": false
+      "cache": false,
+      "persistent": true
     },
     "types:check": {
       "outputs": []
     },
-
     "build": {
       "outputs": ["dist/**"],
       "dependsOn": ["^build"]
     },
-
     "format": {},
     "format:fix": {},
     "//#format": {
@@ -23,7 +22,6 @@
     },
     "//#format:root": {},
     "//#format:root:fix": {},
-
     "lint": {
       "dependsOn": ["@snowball-tech/utils#build"]
     },
