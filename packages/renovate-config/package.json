@@ -36,6 +36,6 @@
     "validate:config": "renovate-config-validator default.json5"
   },
   "devDependencies": {
-    "renovate": "^35.99.0"
+    "renovate": "^35.105.2"
   }
 }
