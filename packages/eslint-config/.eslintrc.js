@@ -11,7 +11,7 @@ module.exports = {
     hasDependency('testing-library') &&
       require.resolve('./configs/testing-library.js'),
     hasReact && require.resolve('./configs/react.js'),
-    hasDependency('nextjs') && require.resolve('./configs/next.js'),
+    hasDependency('next') && require.resolve('./configs/next.js'),
     hasDependency('typescript') && require.resolve('./configs/typescript.js'),
     hasDependency('lodash') && require.resolve('./configs/lodash.js'),
     require.resolve('./configs/json.js'),
