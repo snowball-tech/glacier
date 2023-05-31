@@ -45,8 +45,6 @@
     ".env",
     ".eslintignore",
     ".eslintrc.js",
-    ".pnp.cjs",
-    ".pnp.loader.mjs",
     ".prettierignore",
     ".prettierrc.js",
     ".yarnrc.yml",
