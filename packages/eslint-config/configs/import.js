@@ -24,6 +24,12 @@ module.exports = {
     // workspaces.
     'import/no-extraneous-dependencies': 'off',
     'import/no-named-default': 'off',
+
+    // We cannot use the TypeScript resolver in Yarn PnP repositories.
+    // So we are not able to resolve custom `paths` defined in tsconfig.json.
+    // So we disable this rule for such cases.
+    'import/no-unresolved': ['error', { ignore: ['^@/'] }],
+
     'import/order': [
       'error',
       {
@@ -39,7 +45,6 @@ module.exports = {
         'newlines-between': 'always',
       },
     ],
-
     'sort-imports': [
       'error',
       {
@@ -53,4 +58,26 @@ module.exports = {
       },
     ],
   },
+
+  settings: hasTypescript
+    ? {
+        'import/parsers': {
+          '@typescript-eslint/parser': ['.ts', '.tsx'],
+        },
+        // We cannot use the TypeScript resolver in Yarn PnP repositories.
+        // So must disable the specific resolver.
+        // 'import/resolver': {
+        //   typescript: {
+        //     alwaysTryTypes: true,
+
+        //     project: [
+        //       'apps/*/tsconfig.json',
+        //       'apps/**/*/tsconfig.json',
+        //       'packages/*/tsconfig.json',
+        //       'packages/**/*/tsconfig.json',
+        //     ],
+        //   },
+        // },
+      }
+    : {},
 }
