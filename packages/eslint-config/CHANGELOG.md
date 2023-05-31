@@ -1,3 +1,9 @@
+## @snowball-tech/eslint-config [1.0.8](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@1.0.7...@snowball-tech/eslint-config@1.0.8) (2023-05-31)
+
+### 🐛 Bug Fixes
+
+- **eslint:** fix linter for nextjs projects ([d3b6579](https://github.com/snowball-tech/glacier/commit/d3b6579b46d759f57fbcb3fdd4c885be6d0bb057))
+
 ## @snowball-tech/eslint-config [1.0.7](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@1.0.6...@snowball-tech/eslint-config@1.0.7) (2023-05-31)
 
 ### 🐛 Bug Fixes
