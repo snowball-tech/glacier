@@ -11,6 +11,8 @@ module.exports = {
     },
   },
 
+  plugins: ['react', 'jsx-a11y'],
+
   rules: {
     'class-methods-use-this': 'off',
 

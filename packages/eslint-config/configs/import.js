@@ -8,6 +8,8 @@ module.exports = {
     hasTypescript && 'plugin:import/typescript',
   ].filter(Boolean),
 
+  plugins: ['import'],
+
   rules: {
     'import/extensions': [
       hasTypescript ? 'off' : 'error',
