@@ -1,3 +1,9 @@
+## @snowball-tech/prettier-config [1.0.4](https://github.com/snowball-tech/glacier/compare/@snowball-tech/prettier-config@1.0.3...@snowball-tech/prettier-config@1.0.4) (2023-05-31)
+
+### 🏗 Chores
+
+- really remove any reference to PnP ([a7d707a](https://github.com/snowball-tech/glacier/commit/a7d707a521396d16116dbc8f14b1df7f6c59426d))
+
 ## @snowball-tech/prettier-config [1.0.3](https://github.com/snowball-tech/glacier/compare/@snowball-tech/prettier-config@1.0.2...@snowball-tech/prettier-config@1.0.3) (2023-05-25)
 
 ### 📝 Documentation
