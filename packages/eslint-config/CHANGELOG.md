@@ -1,3 +1,9 @@
+## @snowball-tech/eslint-config [1.1.1](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@1.1.0...@snowball-tech/eslint-config@1.1.1) (2023-05-31)
+
+### 🐛 Bug Fixes
+
+- **eslint:** fix rule for misused promises ([6a8d7ab](https://github.com/snowball-tech/glacier/commit/6a8d7ab51b925caeb143ddecf6271215271eb123))
+
 # @snowball-tech/eslint-config [1.1.0](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@1.0.8...@snowball-tech/eslint-config@1.1.0) (2023-05-31)
 
 ### ✨ Features
