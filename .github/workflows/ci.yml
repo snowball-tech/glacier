@@ -10,7 +10,7 @@ on: [push, pull_request]
 
 jobs:
   security:
-    name: Check Yarn Zero-install cache integrity
+    name: Check Yarn cache integrity
     if: github.event_name == 'pull_request'
     runs-on: ubuntu-22.04
     steps:
