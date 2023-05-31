@@ -1,3 +1,19 @@
+## @snowball-tech/eslint-config [1.0.7](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@1.0.6...@snowball-tech/eslint-config@1.0.7) (2023-05-31)
+
+### 🐛 Bug Fixes
+
+- **eslint:** fix config for NextJS app router with TS ([ab13db5](https://github.com/snowball-tech/glacier/commit/ab13db5414d3ab378fcb46586c55299f21fc93f1))
+- **eslint:** fix config for TypeScript project ([9b19dfa](https://github.com/snowball-tech/glacier/commit/9b19dfada11a8e949c431e7910591707afa8f20d))
+
+### ⚙️ Dependencies
+
+- revert back to node_module linker ([3a32632](https://github.com/snowball-tech/glacier/commit/3a32632620ffbefc773271df9b88cab10173834c))
+- update dependencies ([9789eed](https://github.com/snowball-tech/glacier/commit/9789eed306a4d32a600318127f1812a64f60701d))
+
+### Dependencies
+
+- **@snowball-tech/utils:** upgraded to 1.0.5
+
 ## @snowball-tech/eslint-config [1.0.6](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@1.0.5...@snowball-tech/eslint-config@1.0.6) (2023-05-25)
 
 ### 🐛 Bug Fixes
