@@ -1,6 +1,6 @@
 {
   "name": "@snowball-tech/eslint-config",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "ESLint ruleset by Snowball supporting React & Next.JS, Typescript, Prettier and more, based on Airbnb config",
   "author": "Snowball Engineering Team <engineering@snowball.xyz> (https://github.com/orgs/snowball-tech)",
   "contributors": [
