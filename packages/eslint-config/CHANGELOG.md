@@ -1,3 +1,9 @@
+## @snowball-tech/eslint-config [1.1.2](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@1.1.1...@snowball-tech/eslint-config@1.1.2) (2023-06-02)
+
+### 🐛 Bug Fixes
+
+- **eslint:** allow floating promise in IIFE call ([fbfc0a8](https://github.com/snowball-tech/glacier/commit/fbfc0a842677356c80c1d930086e8d0d0f31fb3f))
+
 ## @snowball-tech/eslint-config [1.1.1](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@1.1.0...@snowball-tech/eslint-config@1.1.1) (2023-05-31)
 
 ### 🐛 Bug Fixes
