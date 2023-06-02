@@ -43,6 +43,12 @@ module.exports = {
         // Those rule are warning in the recommended config, but we want it to
         // be errors.
         '@typescript-eslint/no-explicit-any': 'error',
+        '@typescript-eslint/no-floating-promises': [
+          'error',
+          {
+            ignoreIIFE: true,
+          },
+        ],
         '@typescript-eslint/no-misused-promises': [
           'error',
           {
