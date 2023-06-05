@@ -28,7 +28,7 @@
     "directory": "packages/eslint-config"
   },
   "bugs": "https://github.com/snowball-tech/glacier/issues",
-  "packageManager": "yarn@3.5.1",
+  "packageManager": "yarn@3.6.0",
   "engines": {
     "yarn": ">= 3.5.1",
     "node": ">= 18.16.0"
