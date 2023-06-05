@@ -1,3 +1,9 @@
+## @snowball-tech/utils [1.0.7](https://github.com/snowball-tech/glacier/compare/@snowball-tech/utils@1.0.6...@snowball-tech/utils@1.0.7) (2023-06-05)
+
+### ⚙️ Dependencies
+
+- lock file maintenance ([27d889a](https://github.com/snowball-tech/glacier/commit/27d889ada75696c17153a25f11a9d4a08f36e45b))
+
 ## @snowball-tech/utils [1.0.6](https://github.com/snowball-tech/glacier/compare/@snowball-tech/utils@1.0.5...@snowball-tech/utils@1.0.6) (2023-06-05)
 
 ### 🏗 Chores
