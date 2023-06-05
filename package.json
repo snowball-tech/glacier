@@ -64,14 +64,14 @@
     "@snowball-tech/utils": "workspace:^",
     "@types/eslint": "^8.40.0",
     "@types/is-ci": "^3.0.0",
-    "@types/prettier": "^2.7.2",
-    "eslint": "^8.41.0",
+    "@types/prettier": "^2.7.3",
+    "eslint": "^8.42.0",
     "husky": "^8.0.3",
     "is-ci": "^3.0.1",
     "lint-staged": "^13.2.2",
     "prettier": "^2.8.8",
-    "semantic-release": "^21.0.2",
-    "turbo": "1.10.0",
-    "typescript": "^5.0.4"
+    "semantic-release": "^21.0.3",
+    "turbo": "1.10.1",
+    "typescript": "^5.1.3"
   }
 }
