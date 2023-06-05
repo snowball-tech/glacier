@@ -1,3 +1,9 @@
+## @snowball-tech/prettier-config [1.1.2](https://github.com/snowball-tech/glacier/compare/@snowball-tech/prettier-config@1.1.1...@snowball-tech/prettier-config@1.1.2) (2023-06-05)
+
+### ⚙️ Dependencies
+
+- **prettier:** remove useless deps ([de13227](https://github.com/snowball-tech/glacier/commit/de132272c5a5a2cb4c61d185f893e667f4f0a0a9))
+
 ## @snowball-tech/prettier-config [1.1.1](https://github.com/snowball-tech/glacier/compare/@snowball-tech/prettier-config@1.1.0...@snowball-tech/prettier-config@1.1.1) (2023-06-05)
 
 ### 🏗 Chores
