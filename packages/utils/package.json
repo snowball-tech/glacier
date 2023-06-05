@@ -46,7 +46,6 @@
   "devDependencies": {
     "@types/lodash": "^4.14.195",
     "@types/node": "^20.2.5",
-    "@types/read-pkg-up": "^6.0.0",
     "@types/semver": "^7.5.0"
   }
 }
