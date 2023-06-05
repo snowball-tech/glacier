@@ -1,3 +1,9 @@
+## @snowball-tech/prettier-config [1.1.1](https://github.com/snowball-tech/glacier/compare/@snowball-tech/prettier-config@1.1.0...@snowball-tech/prettier-config@1.1.1) (2023-06-05)
+
+### 🏗 Chores
+
+- **deps:** update yarn to v3.6.0 ([2031068](https://github.com/snowball-tech/glacier/commit/203106812415c3af654debf88df2e7c026a00b4d))
+
 # @snowball-tech/prettier-config [1.1.0](https://github.com/snowball-tech/glacier/compare/@snowball-tech/prettier-config@1.0.4...@snowball-tech/prettier-config@1.1.0) (2023-06-05)
 
 ### ✨ Features
