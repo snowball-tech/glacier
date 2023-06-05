@@ -10,7 +10,7 @@ module.exports = {
         'plugin:@typescript-eslint/recommended-requiring-type-checking',
       ],
 
-      files: ['**/*.ts', '**/*.tsx'],
+      files: ['**/*.ts', '**/*.tsx', '**/*.d.ts'],
 
       overrides: [
         {
