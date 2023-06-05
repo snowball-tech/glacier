@@ -1,3 +1,19 @@
+## @snowball-tech/eslint-config [1.2.2](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@1.2.1...@snowball-tech/eslint-config@1.2.2) (2023-06-05)
+
+### 🏗 Chores
+
+- **deps:** update yarn to v3.6.0 ([2031068](https://github.com/snowball-tech/glacier/commit/203106812415c3af654debf88df2e7c026a00b4d))
+- **deps:** update yarn to v3.6.0 ([#72](https://github.com/snowball-tech/glacier/issues/72)) ([41eb443](https://github.com/snowball-tech/glacier/commit/41eb443d796e4d63c8752f8f380d4ae4f3ddee5a))
+
+### ⚙️ Dependencies
+
+- lock file maintenance ([27d889a](https://github.com/snowball-tech/glacier/commit/27d889ada75696c17153a25f11a9d4a08f36e45b))
+- update dependency eslint-plugin-jest-dom to v5 ([050bdbf](https://github.com/snowball-tech/glacier/commit/050bdbff318da35fb33158d493fa73c8419abcec))
+
+### Dependencies
+
+- **@snowball-tech/utils:** upgraded to 1.0.7
+
 ## @snowball-tech/eslint-config [1.2.1](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@1.2.0...@snowball-tech/eslint-config@1.2.1) (2023-06-05)
 
 ### ⚙️ Dependencies
