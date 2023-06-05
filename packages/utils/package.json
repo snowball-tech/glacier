@@ -1,6 +1,6 @@
 {
   "name": "@snowball-tech/utils",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Utils library for Snowball packages and apps",
   "author": "Snowball Engineering Team <engineering@snowball.xyz> (https://github.com/orgs/snowball-tech)",
   "contributors": [
