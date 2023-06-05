@@ -1,3 +1,9 @@
+# @snowball-tech/eslint-config [1.2.0](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@1.1.2...@snowball-tech/eslint-config@1.2.0) (2023-06-05)
+
+### ✨ Features
+
+- **prettier:** add some useful plugins ([9dace7e](https://github.com/snowball-tech/glacier/commit/9dace7e229fc797023c20f430efd47679d8c0066))
+
 ## @snowball-tech/eslint-config [1.1.2](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@1.1.1...@snowball-tech/eslint-config@1.1.2) (2023-06-02)
 
 ### 🐛 Bug Fixes
