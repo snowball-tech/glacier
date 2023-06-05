@@ -3039,7 +3039,7 @@ __metadata:
   resolution: "@snowball-tech/eslint-config@workspace:packages/eslint-config"
   dependencies:
     "@rushstack/eslint-patch": ^1.3.0
-    "@snowball-tech/utils": 1.0.5
+    "@snowball-tech/utils": 1.0.7
     "@testing-library/dom": ^9.3.0
     "@typescript-eslint/eslint-plugin": ~5.59.8
     "@typescript-eslint/parser": ~5.59.8
@@ -3104,18 +3104,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@snowball-tech/utils@npm:1.0.5":
-  version: 1.0.5
-  resolution: "@snowball-tech/utils@npm:1.0.5"
-  dependencies:
-    lodash: ^4.17.21
-    read-pkg-up: ^7.0.1
-    semver: ^7.5.1
-  checksum: c902b1621585e453c4b4c839462714dd0d57de9e1c11e1b52e3ad69d753458751f0e4f3e28899c2d1a2cf0762b9833222c2933d5b97a802303124a5aa8725da5
-  languageName: node
-  linkType: hard
-
-"@snowball-tech/utils@workspace:^, @snowball-tech/utils@workspace:packages/utils":
+"@snowball-tech/utils@1.0.7, @snowball-tech/utils@workspace:^, @snowball-tech/utils@workspace:packages/utils":
   version: 0.0.0-use.local
   resolution: "@snowball-tech/utils@workspace:packages/utils"
   dependencies:
