@@ -1,3 +1,9 @@
+## @snowball-tech/semantic-release-config [1.0.8](https://github.com/snowball-tech/glacier/compare/@snowball-tech/semantic-release-config@1.0.7...@snowball-tech/semantic-release-config@1.0.8) (2023-06-05)
+
+### ⚙️ Dependencies
+
+- update dependencies ([a65e35f](https://github.com/snowball-tech/glacier/commit/a65e35fbbd847bc716b84f361acb8ee159a05731))
+
 ## @snowball-tech/semantic-release-config [1.0.7](https://github.com/snowball-tech/glacier/compare/@snowball-tech/semantic-release-config@1.0.6...@snowball-tech/semantic-release-config@1.0.7) (2023-05-31)
 
 ### ⚙️ Dependencies
