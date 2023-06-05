@@ -1,3 +1,9 @@
+## @snowball-tech/utils [1.0.6](https://github.com/snowball-tech/glacier/compare/@snowball-tech/utils@1.0.5...@snowball-tech/utils@1.0.6) (2023-06-05)
+
+### 🏗 Chores
+
+- **deps:** update yarn to v3.6.0 ([2031068](https://github.com/snowball-tech/glacier/commit/203106812415c3af654debf88df2e7c026a00b4d))
+
 ## @snowball-tech/utils [1.0.5](https://github.com/snowball-tech/glacier/compare/@snowball-tech/utils@1.0.4...@snowball-tech/utils@1.0.5) (2023-05-31)
 
 ### ⚙️ Dependencies
