@@ -1,7 +1,7 @@
 {
   "name": "@snowball-tech/semantic-release-config",
   "version": "1.0.9",
-  "description": "Semantic-Release configuration by Snowball supporting Yarn 3 monorepos",
+  "description": "Semantic-Release configuration by Snowball supporting Yarn 3 mono-repositories",
   "author": "Snowball Engineering Team <engineering@snowball.xyz> (https://github.com/orgs/snowball-tech)",
   "contributors": [
     "Clément PRÉVOT <clement@snowball.xyz> (https://github.com/clementprevot)"
@@ -11,7 +11,7 @@
     "snowball",
     "yarn",
     "yarn3",
-    "monorepo",
+    "mono-repo",
     "semantic-release",
     "github",
     "git",
@@ -28,8 +28,8 @@
   "bugs": "https://github.com/snowball-tech/glacier/issues",
   "packageManager": "yarn@3.6.0",
   "engines": {
-    "yarn": ">= 3.5.1",
-    "node": ">= 18.16.0"
+    "yarn": "^3.0.0",
+    "node": "^18.0.0"
   },
   "main": "release.config.js",
   "files": [

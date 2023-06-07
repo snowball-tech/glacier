@@ -21,8 +21,8 @@
   "bugs": "https://github.com/snowball-tech/glacier/issues",
   "packageManager": "yarn@3.6.0",
   "engines": {
-    "yarn": ">= 3.5.1",
-    "node": ">= 18.16.0"
+    "yarn": "^3.0.0",
+    "node": "^18.0.0"
   },
   "main": "default.json5",
   "files": [],
@@ -36,6 +36,6 @@
     "validate:config": "renovate-config-validator default.json5"
   },
   "devDependencies": {
-    "renovate": "^35.110.1"
+    "renovate": "^35.113.2"
   }
 }

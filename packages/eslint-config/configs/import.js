@@ -22,7 +22,7 @@ module.exports = {
       },
     ],
     'import/newline-after-import': ['error', { count: 1 }],
-    // no-extraneous-dependencies doesn't work well with monorepos and yarn
+    // no-extraneous-dependencies doesn't work well with monorepos and Yarn
     // workspaces.
     'import/no-extraneous-dependencies': 'off',
     'import/no-named-default': 'off',
