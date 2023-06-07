@@ -54,5 +54,5 @@ next-env.d.ts
 # extensions for this workspace. That way, newcomers will receive suggestions.
 !.vscode/extensions.json
 # Also keeps the settings file because it's critical for VSCode to properly work
-# in the monorepo.
+# in the mono-repository.
 !.vscode/settings.json

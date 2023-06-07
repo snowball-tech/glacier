@@ -5,7 +5,7 @@ module.exports = {
     node: true,
   },
 
-  extends: ['eslint:recommended', 'airbnb-base'],
+  extends: ['eslint:recommended', 'plugin:promise/recommended', 'airbnb-base'],
   parserOptions: {
     ecmaFeatures: {
       impliedStrict: true,
@@ -14,7 +14,7 @@ module.exports = {
     sourceType: 'module',
   },
 
-  plugins: ['sort-keys'],
+  plugins: ['promise', 'sort-keys'],
 
   root: true,
 
