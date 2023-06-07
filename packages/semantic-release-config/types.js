@@ -31,7 +31,17 @@ module.exports = {
     release: 'patch',
     title: 'Bug Fixes',
   },
-  perf: {
+  style: {
+    aliases: ['ui', 'ux'],
+    changelog: true,
+    description:
+      'Changes that only affect the visual identity of the product (fonts, color, spacing, ...)',
+    emoji: '💄',
+    release: 'minor',
+    title: 'UI/UX',
+  },
+  performance: {
+    aliases: ['perf'],
     changelog: true,
     description: 'A code change that improves performance',
     emoji: '⚡️',
@@ -39,14 +49,15 @@ module.exports = {
     title: 'Performance Improvements',
   },
   docs: {
+    aliases: ['doc'],
     changelog: true,
     description: 'Documentation only changes',
     emoji: '📝',
     release: false,
     title: 'Documentation',
   },
-  chore: {
-    aliases: ['chores', 'misc', 'other'],
+  chores: {
+    aliases: ['chore', 'misc', 'other'],
     changelog: true,
     description: "Other changes that don't significantly modify the code",
     emoji: '🏗',
@@ -60,19 +71,19 @@ module.exports = {
     release: 'patch',
     title: 'Code Refactoring',
   },
-  test: {
-    aliases: ['tests'],
+  tests: {
+    aliases: ['test'],
     changelog: true,
     description: 'Adding missing tests or correcting existing tests',
     emoji: '🚦',
     release: false,
     title: 'Tests',
   },
-  style: {
-    aliases: ['format', 'lint'],
+  format: {
+    aliases: ['lint'],
     changelog: true,
     description:
-      'Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)',
+      'Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, ...)',
     emoji: '🎨',
     release: false,
     title: 'Code Style and Formatting',
@@ -89,18 +100,19 @@ module.exports = {
     changelog: true,
     description: 'Changes to our CI configuration files and scripts',
     emoji: '⚙️',
-    release: false,
+    release: 'patch',
     title: 'Continuous Integrations',
   },
   deps: {
     aliases: ['dev-deps'],
     changelog: true,
     description: 'Update to our dependencies',
-    emoji: '⚙️',
+    emoji: '📦',
     release: 'patch',
     title: 'Dependencies',
   },
   metadata: {
+    aliases: ['meta'],
     changelog: true,
     description: 'Update to metadata of the project (e.g. package.json)',
     emoji: '🗃️',
@@ -123,7 +135,7 @@ module.exports = {
     title: 'Release',
   },
   wip: {
-    changelog: true,
+    changelog: false,
     description: 'Code that is being worked on',
     emoji: '🚧',
     release: false,
