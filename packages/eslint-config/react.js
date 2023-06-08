@@ -3,13 +3,6 @@ module.exports = {
     'plugin:react/recommended',
     'plugin:react-hooks/recommended',
     'plugin:jsx-a11y/recommended',
-    'airbnb',
-    'airbnb/hooks',
-
-    // `airbnb' extends `airbnb-base`, so here we are
-    // making sure that our own base overrides would still carry over when
-    // extending the Airbnb React configuration.
-    require.resolve('./base'),
   ],
 
   parserOptions: {

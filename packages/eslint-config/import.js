@@ -6,12 +6,16 @@ module.exports = {
   rules: {
     'import/extensions': [
       'error',
-      'never',
+      'ignorePackages',
       {
         css: 'always',
+        js: 'never',
         json: 'always',
+        jsx: 'never',
         sass: 'always',
         svg: 'always',
+        ts: 'never',
+        tsx: 'never',
       },
     ],
     'import/newline-after-import': ['error', { count: 1 }],

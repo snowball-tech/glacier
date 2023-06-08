@@ -55,6 +55,10 @@ This configuration supports:
   [`eslint-plugin-markdown`](https://github.com/eslint/eslint-plugin-markdown)
 - [YAML](https://yaml.org/) using
   [`eslint-plugin-yaml`](https://github.com/ota-meshi/eslint-plugin-yml)
+- Imports check and ordering using
+  [`eslint-plugin-import`](https://github.com/import-js/eslint-plugin-import)
+- [TypeScript](https://www.typescriptlang.org/) using
+  [TypeScript ESLint](https://github.com/typescript-eslint/typescript-eslint)
 - [React](https://react.dev/) based on the
   [Airbnb's JavaScript Style Guide](https://github.com/airbnb/javascript) and
   using the
@@ -63,10 +67,6 @@ This configuration supports:
   [React Hooks](https://github.com/facebook/react/tree/main/packages/eslint-plugin-react-hooks)
   and
   [JSX Accessibility](https://github.com/jsx-eslint/eslint-plugin-jsx-a11y)
-- Imports check and ordering using
-  [`eslint-plugin-import`](https://github.com/import-js/eslint-plugin-import)
-- [TypeScript](https://www.typescriptlang.org/) using
-  [TypeScript ESLint](https://github.com/typescript-eslint/typescript-eslint)
 - [Next.JS](https://nextjs.org/) using
   [`eslint-plugin-next`](https://github.com/vercel/next.js/tree/canary/packages/eslint-plugin-next)
   and
@@ -198,9 +198,9 @@ pick whichever you want in the list below:
     "@snowball-tech/eslint-config/markdown",
     "@snowball-tech/eslint-config/yml",
     "@snowball-tech/eslint-config/secrets",
-    "@snowball-tech/eslint-config/react",
     "@snowball-tech/eslint-config/import",
     "@snowball-tech/eslint-config/typescript",
+    "@snowball-tech/eslint-config/react",
     "@snowball-tech/eslint-config/next",
     "@snowball-tech/eslint-config/tailwind",
     "@snowball-tech/eslint-config/jest",
