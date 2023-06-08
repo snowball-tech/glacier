@@ -1,3 +1,13 @@
+## @snowball-tech/eslint-config [2.0.1](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@2.0.0...@snowball-tech/eslint-config@2.0.1) (2023-06-08)
+
+### 🐛 Bug Fixes
+
+- **eslint:** allow void in front of promises ([cc8d3f6](https://github.com/snowball-tech/glacier/commit/cc8d3f6a9282405fb2d8ffa867f52683a50f41d9))
+
+### 📦 Dependencies
+
+- update dependencies ([d44d540](https://github.com/snowball-tech/glacier/commit/d44d540b1da753d4488040debcc492ed42b70d5c))
+
 # @snowball-tech/eslint-config [2.0.0](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@1.3.0...@snowball-tech/eslint-config@2.0.0) (2023-06-08)
 
 ### 💥 Breaking changes
