@@ -1,7 +1,7 @@
 /* eslint-disable no-param-reassign */
 
-const isEmpty = require('lodash/isEmpty')
-const isString = require('lodash/isString')
+const isEmpty = require('lodash/fp/isEmpty')
+const isString = require('lodash/fp/isString')
 
 const types = require('./types')
 
