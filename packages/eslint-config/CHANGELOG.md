@@ -1,3 +1,9 @@
+## @snowball-tech/eslint-config [2.0.2](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@2.0.1...@snowball-tech/eslint-config@2.0.2) (2023-06-08)
+
+### 📝 Documentation
+
+- **eslint:** fix the scope of the package ([2cb92a4](https://github.com/snowball-tech/glacier/commit/2cb92a4ce394c646c15d3e717f2ee690201d8866))
+
 ## @snowball-tech/eslint-config [2.0.1](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@2.0.0...@snowball-tech/eslint-config@2.0.1) (2023-06-08)
 
 ### 🐛 Bug Fixes
