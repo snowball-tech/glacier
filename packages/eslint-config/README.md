@@ -93,13 +93,13 @@ Checkout all the `js` files to learn more about the configurations.
 Using Yarn:
 
 ```bash
-yarn add --dev @snowball/eslint-config
+yarn add --dev @snowball-tech/eslint-config
 ```
 
 Or using NPM:
 
 ```bash
-npm install --save-dev @snowball/eslint-config
+npm install --save-dev @snowball-tech/eslint-config
 ```
 
 ## Usage
@@ -140,7 +140,7 @@ configuration using JavaScript configuration file `.eslintrc.js`:
 require('@snowball-tech/eslint-config/patch')
 
 module.exports = {
-  extends: ['@snowball/eslint-config'],
+  extends: ['@snowball-tech/eslint-config'],
 }
 ```
 
@@ -172,7 +172,7 @@ You also have the possibility to use the full configuration, including:
 require('@snowball-tech/eslint-config/patch')
 
 module.exports = {
-  extends: ['@snowball/eslint-config/full'],
+  extends: ['@snowball-tech/eslint-config/full'],
 }
 ```
 
@@ -192,21 +192,21 @@ pick whichever you want in the list below:
 ```json
 {
   "extends": [
-    "@snowball/eslint-config/base",
-    "@snowball/eslint-config/sql",
-    "@snowball/eslint-config/json",
-    "@snowball/eslint-config/markdown",
-    "@snowball/eslint-config/yml",
-    "@snowball/eslint-config/secrets",
-    "@snowball/eslint-config/import",
-    "@snowball/eslint-config/typescript",
-    "@snowball/eslint-config/react",
-    "@snowball/eslint-config/next",
-    "@snowball/eslint-config/tailwind",
-    "@snowball/eslint-config/jest",
-    "@snowball/eslint-config/testing-library",
-    "@snowball/eslint-config/lodash",
-    "@snowball/eslint-config/prettier"
+    "@snowball-tech/eslint-config/base",
+    "@snowball-tech/eslint-config/sql",
+    "@snowball-tech/eslint-config/json",
+    "@snowball-tech/eslint-config/markdown",
+    "@snowball-tech/eslint-config/yml",
+    "@snowball-tech/eslint-config/secrets",
+    "@snowball-tech/eslint-config/import",
+    "@snowball-tech/eslint-config/typescript",
+    "@snowball-tech/eslint-config/react",
+    "@snowball-tech/eslint-config/next",
+    "@snowball-tech/eslint-config/tailwind",
+    "@snowball-tech/eslint-config/jest",
+    "@snowball-tech/eslint-config/testing-library",
+    "@snowball-tech/eslint-config/lodash",
+    "@snowball-tech/eslint-config/prettier"
   ]
 }
 ```
