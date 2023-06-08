@@ -1,3 +1,9 @@
+## @snowball-tech/eslint-config [2.0.3](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@2.0.2...@snowball-tech/eslint-config@2.0.3) (2023-06-08)
+
+### 🐛 Bug Fixes
+
+- **eslint:** fix the order of the rules declaration ([8d0d0e7](https://github.com/snowball-tech/glacier/commit/8d0d0e762888bfbea257024e78e720484be4362e))
+
 ## @snowball-tech/eslint-config [2.0.2](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@2.0.1...@snowball-tech/eslint-config@2.0.2) (2023-06-08)
 
 ### 📝 Documentation
