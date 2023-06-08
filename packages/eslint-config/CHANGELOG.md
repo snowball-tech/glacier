@@ -1,3 +1,14 @@
+# @snowball-tech/eslint-config [1.3.0](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@1.2.3...@snowball-tech/eslint-config@1.3.0) (2023-06-08)
+
+### ✨ Features
+
+- **eslint:** make the configuration composable instead of automatic ([118bb0f](https://github.com/snowball-tech/glacier/commit/118bb0f02dc02b462de44d17d7eeaa70106bd05b))
+
+### Breaking changes
+
+- **eslint:** It does not detect the dependencies anymore but rely
+  on declarative composition instead
+
 ## @snowball-tech/eslint-config [1.2.3](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@1.2.2...@snowball-tech/eslint-config@1.2.3) (2023-06-07)
 
 ### 📝 Documentation
