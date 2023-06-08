@@ -11,7 +11,7 @@
     "incremental": true,
     "jsx": "react-jsx",
     "module": "CommonJS",
-    "moduleResolution": "nodenext",
+    "moduleResolution": "node",
     "noEmit": false,
     "noErrorTruncation": true,
     "noImplicitOverride": true,
@@ -29,12 +29,13 @@
     "target": "ES6",
     "useDefineForClassFields": true
   },
-  "files": [],
   "include": [],
-  "exclude": [],
-  "references": [
-    {
-      "path": "packages/utils"
-    }
-  ]
+  "exclude": [
+    "**/.yarn/plugins/**/*",
+    "**/.yarn/releases/**/*",
+    "**/build",
+    "**/dist",
+    "**/out"
+  ],
+  "references": []
 }

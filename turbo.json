@@ -22,24 +22,16 @@
     },
     "//#format:root": {},
     "//#format:root:fix": {},
-    "lint": {
-      "dependsOn": ["@snowball-tech/utils#build"]
-    },
-    "lint:fix": {
-      "dependsOn": ["@snowball-tech/utils#build"]
-    },
+    "lint": {},
+    "lint:fix": {},
     "//#lint": {
       "dependsOn": ["//#lint:root"]
     },
     "//#lint:fix": {
       "dependsOn": ["//#lint:root:fix"]
     },
-    "//#lint:root": {
-      "dependsOn": ["@snowball-tech/utils#build"]
-    },
-    "//#lint:root:fix": {
-      "dependsOn": ["@snowball-tech/utils#build"]
-    }
+    "//#lint:root": {},
+    "//#lint:root:fix": {}
   },
   "globalDependencies": [
     ".env",
@@ -47,7 +39,6 @@
     ".eslintrc.js",
     ".prettierignore",
     ".prettierrc.js",
-    ".yarnrc.yml",
     "package.json",
     "tsconfig.json"
   ]

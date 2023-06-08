@@ -4,13 +4,6 @@ module.exports = {
     'plugin:@next/next/core-web-vitals',
   ],
 
-  overrides: [
-    {
-      files: ['**/route.ts'],
-      rules: { 'import/prefer-default-export': 'off' },
-    },
-  ],
-
   rules: {
     'import/no-anonymous-default-export': 'warn',
 

@@ -1,13 +1,11 @@
-const { hasDependency } = require('@snowball-tech/utils')
-
-const hasReact = hasDependency('react')
-
 module.exports = {
   overrides: [
     {
       extends: [
+        'plugin:@typescript-eslint/eslint-recommended',
         'plugin:@typescript-eslint/recommended',
         'plugin:@typescript-eslint/recommended-requiring-type-checking',
+        'plugin:import/typescript',
       ],
 
       files: ['**/*.ts', '**/*.tsx', '**/*.d.ts'],
@@ -34,10 +32,22 @@ module.exports = {
       rules: {
         'class-methods-use-this': 'off',
 
+        // Overriding import/extensions configuration to allow TypeScript files.
+        // https://github.com/airbnb/javascript/blob/6d05dd8/packages/eslint-config-airbnb-base/rules/imports.js#L139-L143
+        'import/extensions': [
+          'error',
+          'ignorePackages',
+          {
+            js: 'never',
+            jsx: 'never',
+            ts: 'never',
+            tsx: 'never',
+          },
+        ],
+
         // TypeScript is able to guess the type of most of our functions,
         // methods or getters. Let's not make it more verbose than it would need
         // to be.
-        // See https://imperatorz.slack.com/archives/G8C7PK073/p1591967476132200
         // eslint-disable-next-line sort-keys/sort-keys-fix
         '@typescript-eslint/explicit-module-boundary-types': 'off',
         // Those rule are warning in the recommended config, but we want it to
@@ -52,7 +62,7 @@ module.exports = {
         '@typescript-eslint/no-misused-promises': [
           'error',
           {
-            checksVoidReturn: !hasReact,
+            checksVoidReturn: false,
           },
         ],
         '@typescript-eslint/no-non-null-assertion': 'error',
@@ -71,6 +81,12 @@ module.exports = {
         'no-use-before-define': 'off',
         // eslint-disable-next-line sort-keys/sort-keys-fix
         '@typescript-eslint/no-use-before-define': 'error',
+
+        // Overriding the base ESLint rule with the TypeScript rule (it throws
+        // otherwise).
+        'no-useless-constructor': 'off',
+        // eslint-disable-next-line sort-keys/sort-keys-fix
+        '@typescript-eslint/no-useless-constructor': 'error',
       },
 
       settings: {
@@ -89,6 +105,9 @@ module.exports = {
           },
           [require.resolve('eslint-import-resolver-typescript')]: {
             alwaysTryTypes: true,
+            typescript: {
+              project: ['./packages/*/tsconfig.json'],
+            },
           },
         },
       },

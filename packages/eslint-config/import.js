@@ -1,18 +1,11 @@
-const { hasDependency } = require('@snowball-tech/utils')
-
-const hasTypescript = hasDependency('typescript')
-
 module.exports = {
-  extends: [
-    'plugin:import/recommended',
-    hasTypescript && 'plugin:import/typescript',
-  ].filter(Boolean),
+  extends: ['plugin:import/recommended'],
 
   plugins: ['import'],
 
   rules: {
     'import/extensions': [
-      hasTypescript ? 'off' : 'error',
+      'error',
       'never',
       {
         css: 'always',
@@ -42,6 +35,8 @@ module.exports = {
         'newlines-between': 'always',
       },
     ],
+    'import/prefer-default-export': 'off',
+
     'sort-imports': [
       'error',
       {
@@ -55,17 +50,4 @@ module.exports = {
       },
     ],
   },
-
-  settings: hasTypescript
-    ? {
-        'import/parsers': {
-          '@typescript-eslint/parser': ['.ts', '.tsx'],
-        },
-        'import/resolver': {
-          typescript: {
-            project: ['./packages/*/tsconfig.json'],
-          },
-        },
-      }
-    : {},
 }
