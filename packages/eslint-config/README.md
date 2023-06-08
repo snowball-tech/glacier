@@ -20,6 +20,13 @@
 
 ---
 
+![eslint-config](https://img.shields.io/npm/v/@snowball-tech/eslint-config)
+![eslint-config-dependants](https://img.shields.io/librariesio/dependents/npm/@snowball-tech/eslint-config)
+![eslint-config-downloads](https://img.shields.io/npm/dt/@snowball-tech/eslint-config)
+![eslint-config-score](https://img.shields.io/npms-io/final-score/@snowball-tech/eslint-config)
+
+---
+
 This package provides a rich, composable and opinionated
 [ESLint](https://eslint.org/) configuration based on Snowball engineering
 standards.
