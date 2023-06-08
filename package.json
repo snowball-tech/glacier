@@ -6,7 +6,7 @@
   "contributors": [
     "Clément PRÉVOT <clement@snowball.xyz> (https://github.com/clementprevot)"
   ],
-  "license": "UNLICENSED",
+  "license": "MIT",
   "keywords": [
     "snowball",
     "mono-repo",
@@ -62,7 +62,6 @@
     "@snowball-tech/eslint-config": "workspace:^",
     "@snowball-tech/prettier-config": "workspace:^",
     "@snowball-tech/semantic-release-config": "workspace:^",
-    "@snowball-tech/utils": "workspace:^",
     "@types/eslint": "^8.40.0",
     "@types/is-ci": "^3.0.0",
     "@types/node": "^20.2.5",

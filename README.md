@@ -1,11 +1,11 @@
 # Snowball Glacier
 
-| [`eslint-config`](./packages/eslint-config)                                                                 | [`prettier-config`](./packages/prettier-config)                                                                 | [`renovate-config`](./packages/renovate-config)                                                                 | [`semantic-release-config`](./packages/semantic-release-config)                                                                 | [`utils`](./packages/utils)                                                                 |
-| ----------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
-| ![eslint-config](https://img.shields.io/npm/v/@snowball-tech/eslint-config)                                 | ![prettier-config](https://img.shields.io/npm/v/@snowball-tech/prettier-config)                                 | ![renovate-config](https://img.shields.io/npm/v/@snowball-tech/renovate-config)                                 | ![semantic-release-config](https://img.shields.io/npm/v/@snowball-tech/semantic-release-config)                                 | ![utils](https://img.shields.io/npm/v/@snowball-tech/utils)                                 |
-| ![eslint-config-dependants](https://img.shields.io/librariesio/dependents/npm/@snowball-tech/eslint-config) | ![prettier-config-dependants](https://img.shields.io/librariesio/dependents/npm/@snowball-tech/prettier-config) | ![renovate-config-dependants](https://img.shields.io/librariesio/dependents/npm/@snowball-tech/renovate-config) | ![semantic-release-config-dependants](https://img.shields.io/librariesio/dependents/npm/@snowball-tech/semantic-release-config) | ![utils-dependants](https://img.shields.io/librariesio/dependents/npm/@snowball-tech/utils) |
-| ![eslint-config-downloads](https://img.shields.io/npm/dt/@snowball-tech/eslint-config)                      | ![prettier-config-downloads](https://img.shields.io/npm/dt/@snowball-tech/prettier-config)                      | ![renovate-config-downloads](https://img.shields.io/npm/dt/@snowball-tech/renovate-config)                      | ![semantic-release-config-downloads](https://img.shields.io/npm/dt/@snowball-tech/semantic-release-config)                      | ![utils-downloads](https://img.shields.io/npm/dt/@snowball-tech/utils)                      |
-| ![eslint-config-score](https://img.shields.io/npms-io/final-score/@snowball-tech/eslint-config)             | ![prettier-config-score](https://img.shields.io/npms-io/final-score/@snowball-tech/prettier-config)             | ![renovate-config-score](https://img.shields.io/npms-io/final-score/@snowball-tech/renovate-config)             | ![semantic-release-config-score](https://img.shields.io/npms-io/final-score/@snowball-tech/semantic-release-config)             | ![utils-score](https://img.shields.io/npms-io/final-score/@snowball-tech/utils)             |
+| [`eslint-config`](./packages/eslint-config)                                                                 | [`prettier-config`](./packages/prettier-config)                                                                 | [`renovate-config`](./packages/renovate-config)                                                                 | [`semantic-release-config`](./packages/semantic-release-config)                                                                 |
+| ----------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
+| ![eslint-config](https://img.shields.io/npm/v/@snowball-tech/eslint-config)                                 | ![prettier-config](https://img.shields.io/npm/v/@snowball-tech/prettier-config)                                 | ![renovate-config](https://img.shields.io/npm/v/@snowball-tech/renovate-config)                                 | ![semantic-release-config](https://img.shields.io/npm/v/@snowball-tech/semantic-release-config)                                 |
+| ![eslint-config-dependants](https://img.shields.io/librariesio/dependents/npm/@snowball-tech/eslint-config) | ![prettier-config-dependants](https://img.shields.io/librariesio/dependents/npm/@snowball-tech/prettier-config) | ![renovate-config-dependants](https://img.shields.io/librariesio/dependents/npm/@snowball-tech/renovate-config) | ![semantic-release-config-dependants](https://img.shields.io/librariesio/dependents/npm/@snowball-tech/semantic-release-config) |
+| ![eslint-config-downloads](https://img.shields.io/npm/dt/@snowball-tech/eslint-config)                      | ![prettier-config-downloads](https://img.shields.io/npm/dt/@snowball-tech/prettier-config)                      | ![renovate-config-downloads](https://img.shields.io/npm/dt/@snowball-tech/renovate-config)                      | ![semantic-release-config-downloads](https://img.shields.io/npm/dt/@snowball-tech/semantic-release-config)                      |
+| ![eslint-config-score](https://img.shields.io/npms-io/final-score/@snowball-tech/eslint-config)             | ![prettier-config-score](https://img.shields.io/npms-io/final-score/@snowball-tech/prettier-config)             | ![renovate-config-score](https://img.shields.io/npms-io/final-score/@snowball-tech/renovate-config)             | ![semantic-release-config-score](https://img.shields.io/npms-io/final-score/@snowball-tech/semantic-release-config)             |
 
 | CI on `main` branch                                                                                       |
 | --------------------------------------------------------------------------------------------------------- |
@@ -235,43 +235,8 @@ repository and used in other packages and/or apps.
 
 There are currently **5** packages available in Glacier:
 
-- **[eslint-config](./packages/eslint-config)**: a smart ESLint configuration
-  that enables plugins, configurations and rules according to the dependencies
-  you have.  
-  It's based on the
-  [Airbnb's ESLint base configuration](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb)
-  and adds supports for:
-
-  - [promise](https://github.com/eslint-community/eslint-plugin-promise) to
-    properly use Promise;
-  - [imports](https://github.com/import-js/eslint-plugin-import) to check and
-    sorts imports;
-  - [Lodash](https://github.com/wix-incubator/eslint-plugin-lodash) to
-    properly use Lodash when and where needed;
-  - [Jest](https://github.com/jest-community/eslint-plugin-jest) and
-    [Testing Library](https://github.com/eslint-community/eslint-plugin-promise)
-    to lint Jest and Testing Library tests;
-  - [ReactJS](https://github.com/prettier/eslint-config-prettier),
-    [React Hooks](https://github.com/facebook/react/tree/main/packages/eslint-plugin-react-hooks)
-    [JSX Accessibility](https://github.com/jsx-eslint/eslint-plugin-jsx-a11y)
-    to lint ReactJS applications;
-  - [NextJS](https://github.com/vercel/next.js/tree/canary/packages/eslint-plugin-next)
-    to properly lint NextJS applications;
-  - [MarkDown](https://github.com/eslint/eslint-plugin-markdown) to lint
-    MarkDown files;
-  - [JSON](https://github.com/jest-community/eslint-plugin-jest) to lint JSON
-    and JSON5 files;
-  - [YAML](https://github.com/ota-meshi/eslint-plugin-yml) to lint YML and
-    YAML files;
-  - [Prettier](https://github.com/prettier/eslint-config-prettier) to make
-    ESLint and Prettier behave properly.
-
-  This configuration also adds object keys alphabetical sorting and many other
-  opinionated choices. Check the
-  [`base.js` file](./packages/eslint-config/configs/base.js) and all other
-  configuration files in the
-  [`eslint-config/configs` directory](./packages/eslint-config/configs/) for
-  more information;
+- **[eslint-config](./packages/eslint-config)**: a composable ESLint
+  configuration to enable config, plugin and rules according to your needs;
 
 - **[prettier-config](./packages/prettier-config)**: the base Prettier
   configuration and ignored files. This configuration disables semicolon,
@@ -289,10 +254,6 @@ There are currently **5** packages available in Glacier:
   [Semantic Release](https://github.com/semantic-release/semantic-release) that
   allows to publish multiple packages.  
   It also provide the commit rules for generating changelog and create releases.
-
-- **[utils](./packages/utils)**: an utility package that contains many
-  utilities, helpers and functions that are used in other packages and/or
-  applications.
 
 ### TypeScript
 
