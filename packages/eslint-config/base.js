@@ -62,6 +62,7 @@ module.exports = {
         props: true,
       },
     ],
+    'no-void': ['error', { allowAsStatement: true }],
     'prefer-destructuring': [
       'error',
       {
