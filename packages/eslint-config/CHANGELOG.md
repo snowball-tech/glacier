@@ -1,3 +1,9 @@
+## @snowball-tech/eslint-config [2.0.5](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@2.0.4...@snowball-tech/eslint-config@2.0.5) (2023-06-08)
+
+### 🐛 Bug Fixes
+
+- **eslint:** fix ordering of imports ([198ab50](https://github.com/snowball-tech/glacier/commit/198ab50b90a5c83de39662b073d7b5e37de55b04))
+
 ## @snowball-tech/eslint-config [2.0.4](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@2.0.3...@snowball-tech/eslint-config@2.0.4) (2023-06-08)
 
 ### 🐛 Bug Fixes
