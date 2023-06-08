@@ -160,8 +160,8 @@ You also have the possibility to use the full configuration, including:
 - [Y(A)ML](./yml.js)
 - [secrets](./secrets.js)
 - [import](./import.js)
-- [TypeScript](./typescript.js)
 - [React, hooks and JSX accessibility](./react.js)
+- [TypeScript](./typescript.js)
 - [Next.JS](./next.js)
 - [TailwindCSS](./tailwind.js)
 - [Jest](./jest.js) and [Testing Library](./testing-library.js)
@@ -199,8 +199,8 @@ pick whichever you want in the list below:
     "@snowball-tech/eslint-config/yml",
     "@snowball-tech/eslint-config/secrets",
     "@snowball-tech/eslint-config/import",
-    "@snowball-tech/eslint-config/typescript",
     "@snowball-tech/eslint-config/react",
+    "@snowball-tech/eslint-config/typescript",
     "@snowball-tech/eslint-config/next",
     "@snowball-tech/eslint-config/tailwind",
     "@snowball-tech/eslint-config/jest",
