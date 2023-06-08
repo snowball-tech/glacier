@@ -1,3 +1,9 @@
+## @snowball-tech/semantic-release-config [1.1.1](https://github.com/snowball-tech/glacier/compare/@snowball-tech/semantic-release-config@1.1.0...@snowball-tech/semantic-release-config@1.1.1) (2023-06-08)
+
+### 🎨 Code Style and Formatting
+
+- **semantic-release-config:** fix a linter error ([89c9323](https://github.com/snowball-tech/glacier/commit/89c932302c3376e8c9454d6dee34d2fc3c08a993))
+
 # @snowball-tech/semantic-release-config [1.1.0](https://github.com/snowball-tech/glacier/compare/@snowball-tech/semantic-release-config@1.0.9...@snowball-tech/semantic-release-config@1.1.0) (2023-06-07)
 
 ### ✨ Features
