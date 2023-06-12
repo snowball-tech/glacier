@@ -1,3 +1,9 @@
+## @snowball-tech/eslint-config [2.1.2](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@2.1.1...@snowball-tech/eslint-config@2.1.2) (2023-06-12)
+
+### 🐛 Bug Fixes
+
+- **eslint:** fix the config of import sorting in perfectionnist ([ac62a66](https://github.com/snowball-tech/glacier/commit/ac62a6605fae2ac5338bf56e98d57c2e7c6e4820))
+
 ## @snowball-tech/eslint-config [2.1.1](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@2.1.0...@snowball-tech/eslint-config@2.1.1) (2023-06-12)
 
 # @snowball-tech/eslint-config [2.1.1](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@2.0.5...@snowball-tech/eslint-config@2.1.0) (2023-06-12)
