@@ -4,6 +4,20 @@
 
 - **eslint:** add perfectionist plugin ([07c60dc](https://github.com/snowball-tech/glacier/commit/07c60dc8497e70b40f18e84b73f6dad0042ecd18))
 
+### 🐛 Bug Fixes
+
+- **eslint:** add missing config file in exports ([e175130](https://github.com/snowball-tech/glacier/commit/e1751301416175cb26ba6598599617c0115997fa))
+
+### 📦 Dependencies
+
+- update dependencies ([81558f4](https://github.com/snowball-tech/glacier/commit/81558f406530cbeb6f0729e3cb61e08bc092eb8d))
+
+# @snowball-tech/eslint-config [2.1.0](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@2.0.5...@snowball-tech/eslint-config@2.1.0) (2023-06-12)
+
+### ✨ Features
+
+- **eslint:** add perfectionist plugin ([07c60dc](https://github.com/snowball-tech/glacier/commit/07c60dc8497e70b40f18e84b73f6dad0042ecd18))
+
 ### 📦 Dependencies
 
 - update dependencies ([81558f4](https://github.com/snowball-tech/glacier/commit/81558f406530cbeb6f0729e3cb61e08bc092eb8d))
