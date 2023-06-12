@@ -3178,6 +3178,7 @@ __metadata:
     eslint-plugin-lodash-fp: ^2.2.0-a1
     eslint-plugin-markdown: ^3.0.0
     eslint-plugin-no-secrets: ^0.8.9
+    eslint-plugin-perfectionist: ^1.1.2
     eslint-plugin-prettier: ^4.2.1
     eslint-plugin-promise: ~6.1.1
     eslint-plugin-react: ^7.32.2
@@ -3684,7 +3685,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/types@npm:5.59.9":
+"@typescript-eslint/types@npm:5.59.9, @typescript-eslint/types@npm:^5.59.9":
   version: 5.59.9
   resolution: "@typescript-eslint/types@npm:5.59.9"
   checksum: 283f8fee1ee590eeccc2e0fcd3526c856c4b1e2841af2cdcd09eeac842a42cfb32f6bc8b40385380f3dbc3ee29da30f1819115eedf9e16f69ff5a160aeddd8fa
@@ -3727,7 +3728,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/utils@npm:5.59.9":
+"@typescript-eslint/utils@npm:5.59.9, @typescript-eslint/utils@npm:^5.59.9":
   version: 5.59.9
   resolution: "@typescript-eslint/utils@npm:5.59.9"
   dependencies:
@@ -6321,6 +6322,22 @@ __metadata:
   languageName: node
   linkType: hard
 
+"eslint-plugin-perfectionist@npm:^1.1.2":
+  version: 1.1.2
+  resolution: "eslint-plugin-perfectionist@npm:1.1.2"
+  dependencies:
+    "@typescript-eslint/types": ^5.59.9
+    "@typescript-eslint/utils": ^5.59.9
+    is-core-module: ^2.12.1
+    json5: ^2.2.3
+    minimatch: ^9.0.1
+    natural-compare-lite: ^1.4.0
+  peerDependencies:
+    eslint: ">=8.0.0"
+  checksum: 3deec10e96a6ce7a63d1a6bea107640951e14b5416986b61975d7af8c44d6def0e9d516f4646b03a041e1f9004b18b3215898bbe72972499ec68823ab066fcfd
+  languageName: node
+  linkType: hard
+
 "eslint-plugin-prettier@npm:^4.2.1":
   version: 4.2.1
   resolution: "eslint-plugin-prettier@npm:4.2.1"
@@ -8045,7 +8062,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"is-core-module@npm:^2.11.0, is-core-module@npm:^2.12.0, is-core-module@npm:^2.5.0, is-core-module@npm:^2.8.1, is-core-module@npm:^2.9.0":
+"is-core-module@npm:^2.11.0, is-core-module@npm:^2.12.0, is-core-module@npm:^2.12.1, is-core-module@npm:^2.5.0, is-core-module@npm:^2.8.1, is-core-module@npm:^2.9.0":
   version: 2.12.1
   resolution: "is-core-module@npm:2.12.1"
   dependencies:
@@ -8581,7 +8598,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"json5@npm:2.2.3, json5@npm:^2.2.1":
+"json5@npm:2.2.3, json5@npm:^2.2.1, json5@npm:^2.2.3":
   version: 2.2.3
   resolution: "json5@npm:2.2.3"
   bin:

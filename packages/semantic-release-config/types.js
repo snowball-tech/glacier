@@ -1,4 +1,4 @@
-/* eslint-disable sort-keys/sort-keys-fix */
+/* eslint-disable sort-keys, sort-keys/sort-keys-fix, perfectionist/sort-objects */
 
 module.exports = {
   breaking: {
