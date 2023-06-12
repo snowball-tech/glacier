@@ -1,3 +1,9 @@
+## @snowball-tech/eslint-config [2.1.3](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@2.1.2...@snowball-tech/eslint-config@2.1.3) (2023-06-12)
+
+### 🐛 Bug Fixes
+
+- **eslint:** fix ordering of JSX props with perfectionist ([d0d604c](https://github.com/snowball-tech/glacier/commit/d0d604c65a956d81b27a1f603e9756eca3704f79))
+
 ## @snowball-tech/eslint-config [2.1.2](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@2.1.1...@snowball-tech/eslint-config@2.1.2) (2023-06-12)
 
 ### 🐛 Bug Fixes
