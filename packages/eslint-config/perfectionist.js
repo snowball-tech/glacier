@@ -13,6 +13,29 @@ module.exports = {
     // perfectionist ones.
     'import/order': 'off',
     'import/sort-imports': 'off',
+    'perfectionist/sort-imports': [
+      'error',
+      {
+        groups: [
+          ['builtin-type', 'builtin'],
+          ['type', 'external'],
+          ['internal-type', 'internal'],
+          [
+            'parent-type',
+            'parent',
+            'sibling-type',
+            'sibling',
+            'index-type',
+            'index',
+          ],
+          ['side-effect', 'object', 'styles'],
+          'unknown',
+        ],
+        'internal-pattern': ['~/**', '@/**'],
+        'newlines-between': 'always',
+        type: 'natural',
+      },
+    ],
 
     // Disable the JSX sorting rules from the React plugin to use the
     // perfectionist one.
