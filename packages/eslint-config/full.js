@@ -16,6 +16,7 @@ module.exports = {
     './jest',
     './testing-library',
     './lodash',
+    './perfectionist',
     './prettier',
   ].map((fileName) => require.resolve(fileName)),
 }

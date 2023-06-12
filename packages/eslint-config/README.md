@@ -81,6 +81,9 @@ This configuration supports:
   [`eslint-plugin-lodash`](https://github.com/wix-incubator/eslint-plugin-lodash)
   and
   [`eslint-plugin-lodash-fp`](https://github.com/jfmengels/eslint-plugin-lodash-fp)
+- Code sorting using the
+  [`eslint-plugin-perfectionist`](https://github.com/azat-io/eslint-plugin-perfectionist)
+  _([learn more](https://eslint-plugin-perfectionist.azat.io))_
 - [Prettier](https://prettier.io/) using
   [`eslint-plugin-prettier`](https://github.com/prettier/eslint-plugin-prettier)
   and
@@ -166,6 +169,7 @@ You also have the possibility to use the full configuration, including:
 - [TailwindCSS](./tailwind.js)
 - [Jest](./jest.js) and [Testing Library](./testing-library.js)
 - [Lodash](./lodash.js)
+- [Perfectionist](./perfectionist.js)
 - [Prettier](./prettier.js)
 
 ```js
@@ -206,6 +210,7 @@ pick whichever you want in the list below:
     "@snowball-tech/eslint-config/jest",
     "@snowball-tech/eslint-config/testing-library",
     "@snowball-tech/eslint-config/lodash",
+    "@snowball-tech/eslint-config/perfectionist",
     "@snowball-tech/eslint-config/prettier"
   ]
 }
