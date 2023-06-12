@@ -37,6 +37,15 @@ module.exports = {
       },
     ],
 
+    'perfectionist/sort-jsx-props': [
+      'error',
+      {
+        'always-on-top': ['id', 'key', 'ref'],
+        callback: 'last',
+        type: 'natural',
+      },
+    ],
+
     // Disable the JSX sorting rules from the React plugin to use the
     // perfectionist one.
     'react/jsx-sort-props': 'off',
