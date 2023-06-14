@@ -1,3 +1,13 @@
+# @snowball-tech/eslint-config [2.2.0](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@2.1.3...@snowball-tech/eslint-config@2.2.0) (2023-06-14)
+
+### ✨ Features
+
+- **design-tokens:** add the design tokens package ([a34231e](https://github.com/snowball-tech/glacier/commit/a34231efaf40f3f7cf4f56d5a0df7966073b101c))
+
+### 📦 Dependencies
+
+- update dependencies ([4933b57](https://github.com/snowball-tech/glacier/commit/4933b5716468fc85448657867ae731d41a0169ce))
+
 ## @snowball-tech/eslint-config [2.1.3](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@2.1.2...@snowball-tech/eslint-config@2.1.3) (2023-06-12)
 
 ### 🐛 Bug Fixes
