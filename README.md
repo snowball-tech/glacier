@@ -52,7 +52,7 @@ git clone git@github.com:snowball-tech/glacier.git
 > gh repo clone snowball-tech/glacier
 > ```
 
-When clone, go into the repository directory:
+When cloned, go into the repository directory:
 
 ```bash
 cd glacier
