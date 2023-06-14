@@ -39,6 +39,17 @@ module.exports = {
   },
 
   font: {
+    family: {
+      normal: {
+        value:
+          '{asset.font.PolySans.normal.value}, Segoe UI, Tahoma, Sans-Serif',
+      },
+      wide: {
+        value:
+          '{asset.font.PolySansWide.normal.value}, Arial Black, Sans-Serif',
+      },
+    },
+
     weight: {
       bold: { value: 800 },
       median: { value: 600 },
@@ -51,7 +62,7 @@ module.exports = {
       comment: 'Use for marketing *(only)* number one punchlines',
 
       fontFamily: {
-        value: 'PolySans, sans-serif',
+        value: '{font.family.normal.value}',
       },
       fontSize: {
         group: 'size',
@@ -75,7 +86,7 @@ module.exports = {
       comment: 'Use for marketing *(only)* secondary punchlines',
 
       fontFamily: {
-        value: 'PolySans, serif',
+        value: '{font.family.normal.value}',
       },
       fontSize: {
         group: 'size',
@@ -99,7 +110,7 @@ module.exports = {
       comment: 'Use for marketing *(only)* highlights',
 
       fontFamily: {
-        value: 'PolySansWide, serif',
+        value: '{font.family.wide.value}',
       },
       fontSize: {
         group: 'size',
@@ -123,7 +134,7 @@ module.exports = {
       comment: 'Use for marketing and/or product H1',
 
       fontFamily: {
-        value: 'PolySans, serif',
+        value: '{font.family.normal.value}',
       },
       fontSize: {
         group: 'size',
@@ -147,7 +158,7 @@ module.exports = {
       comment: 'Use for marketing and/or product H2',
 
       fontFamily: {
-        value: 'PolySans, serif',
+        value: '{font.family.normal.value}',
       },
       fontSize: {
         group: 'size',
@@ -171,7 +182,7 @@ module.exports = {
       comment: 'Use for marketing and/or product H3',
 
       fontFamily: {
-        value: 'PolySans, serif',
+        value: '{font.family.normal.value}',
       },
       fontSize: {
         group: 'size',
@@ -218,7 +229,7 @@ module.exports = {
       comment: 'Use for marketing and/or product H4',
 
       fontFamily: {
-        value: 'PolySans, serif',
+        value: '{font.family.normal.value}',
       },
       fontSize: {
         group: 'size',
@@ -266,7 +277,7 @@ module.exports = {
       comment: 'Use for marketing and/or product regular body text',
 
       fontFamily: {
-        value: 'PolySans, sans-serif',
+        value: '{font.family.normal.value}',
       },
       fontSize: {
         group: 'size',
@@ -356,7 +367,7 @@ module.exports = {
       comment: 'Use for marketing and/or product regular low body text',
 
       fontFamily: {
-        value: 'PolySans, sans-serif',
+        value: '{font.family.normal.value}',
       },
       fontSize: {
         group: 'size',
@@ -449,7 +460,7 @@ module.exports = {
 
       // eslint-disable-next-line sort-keys, sort-keys/sort-keys-fix, perfectionist/sort-objects
       fontFamily: {
-        value: 'PolySans, sans-serif',
+        value: '{font.family.normal.value}',
       },
       fontSize: {
         group: 'size',
