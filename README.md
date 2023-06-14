@@ -1,11 +1,24 @@
 # Snowball Glacier
 
-| [`eslint-config`](./packages/eslint-config)                                                                 | [`prettier-config`](./packages/prettier-config)                                                                 | [`renovate-config`](./packages/renovate-config)                                                                 | [`semantic-release-config`](./packages/semantic-release-config)                                                                 |
-| ----------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
-| ![eslint-config](https://img.shields.io/npm/v/@snowball-tech/eslint-config)                                 | ![prettier-config](https://img.shields.io/npm/v/@snowball-tech/prettier-config)                                 | ![renovate-config](https://img.shields.io/npm/v/@snowball-tech/renovate-config)                                 | ![semantic-release-config](https://img.shields.io/npm/v/@snowball-tech/semantic-release-config)                                 |
-| ![eslint-config-dependants](https://img.shields.io/librariesio/dependents/npm/@snowball-tech/eslint-config) | ![prettier-config-dependants](https://img.shields.io/librariesio/dependents/npm/@snowball-tech/prettier-config) | ![renovate-config-dependants](https://img.shields.io/librariesio/dependents/npm/@snowball-tech/renovate-config) | ![semantic-release-config-dependants](https://img.shields.io/librariesio/dependents/npm/@snowball-tech/semantic-release-config) |
-| ![eslint-config-downloads](https://img.shields.io/npm/dt/@snowball-tech/eslint-config)                      | ![prettier-config-downloads](https://img.shields.io/npm/dt/@snowball-tech/prettier-config)                      | ![renovate-config-downloads](https://img.shields.io/npm/dt/@snowball-tech/renovate-config)                      | ![semantic-release-config-downloads](https://img.shields.io/npm/dt/@snowball-tech/semantic-release-config)                      |
-| ![eslint-config-score](https://img.shields.io/npms-io/final-score/@snowball-tech/eslint-config)             | ![prettier-config-score](https://img.shields.io/npms-io/final-score/@snowball-tech/prettier-config)             | ![renovate-config-score](https://img.shields.io/npms-io/final-score/@snowball-tech/renovate-config)             | ![semantic-release-config-score](https://img.shields.io/npms-io/final-score/@snowball-tech/semantic-release-config)             |
+#### Utils
+
+| [`eslint-config`](./packages/eslint-config)                                                                                               | [`prettier-config`](./packages/prettier-config)                                                                                                 | [`renovate-config`](./packages/renovate-config)                                                                                                 | [`semantic-release-config`](./packages/semantic-release-config)                                                                                                         |
+| ----------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [![eslint-config](https://img.shields.io/npm/v/@snowball-tech/eslint-config)](https://www.npmjs.com/package/@snowball-tech/eslint-config) | [![prettier-config](https://img.shields.io/npm/v/@snowball-tech/prettier-config)](https://www.npmjs.com/package/@snowball-tech/prettier-config) | [![renovate-config](https://img.shields.io/npm/v/@snowball-tech/renovate-config)](https://www.npmjs.com/package/@snowball-tech/renovate-config) | [![semantic-release-config](https://img.shields.io/npm/v/@snowball-tech/semantic-release-config)](https://www.npmjs.com/package/@snowball-tech/semantic-release-config) |
+| ![eslint-config-dependants](https://img.shields.io/librariesio/dependents/npm/@snowball-tech/eslint-config)                               | ![prettier-config-dependants](https://img.shields.io/librariesio/dependents/npm/@snowball-tech/prettier-config)                                 | ![renovate-config-dependants](https://img.shields.io/librariesio/dependents/npm/@snowball-tech/renovate-config)                                 | ![semantic-release-config-dependants](https://img.shields.io/librariesio/dependents/npm/@snowball-tech/semantic-release-config)                                         |
+| ![eslint-config-downloads](https://img.shields.io/npm/dt/@snowball-tech/eslint-config)                                                    | ![prettier-config-downloads](https://img.shields.io/npm/dt/@snowball-tech/prettier-config)                                                      | ![renovate-config-downloads](https://img.shields.io/npm/dt/@snowball-tech/renovate-config)                                                      | ![semantic-release-config-downloads](https://img.shields.io/npm/dt/@snowball-tech/semantic-release-config)                                                              |
+| ![eslint-config-score](https://img.shields.io/npms-io/final-score/@snowball-tech/eslint-config)                                           | ![prettier-config-score](https://img.shields.io/npms-io/final-score/@snowball-tech/prettier-config)                                             | ![renovate-config-score](https://img.shields.io/npms-io/final-score/@snowball-tech/renovate-config)                                             | ![semantic-release-config-score](https://img.shields.io/npms-io/final-score/@snowball-tech/semantic-release-config)                                                     |
+
+#### Design System
+
+| [`design-tokens`](./packages/design-tokens)                                                                                               | [`fractal`](./packages/fractal)                                                                                         |
+| ----------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| [![design-tokens](https://img.shields.io/npm/v/@snowball-tech/design-tokens)](https://www.npmjs.com/package/@snowball-tech/design-tokens) | [![fractal](https://img.shields.io/npm/v/@snowball-tech/fractal)](https://www.npmjs.com/package/@snowball-tech/fractal) |
+| ![design-tokens-dependants](https://img.shields.io/librariesio/dependents/npm/@snowball-tech/design-tokens)                               | ![fractal-dependants](https://img.shields.io/librariesio/dependents/npm/@snowball-tech/fractal)                         |
+| ![design-tokens-downloads](https://img.shields.io/npm/dt/@snowball-tech/design-tokens)                                                    | ![fractal-downloads](https://img.shields.io/npm/dt/@snowball-tech/fractal)                                              |
+| ![design-tokens-score](https://img.shields.io/npms-io/final-score/@snowball-tech/design-tokens)                                           | ![fractal-score](https://img.shields.io/npms-io/final-score/@snowball-tech/fractal)                                     |
+
+#### CI
 
 | CI on `main` branch                                                                                       |
 | --------------------------------------------------------------------------------------------------------- |
@@ -254,6 +267,14 @@ There are currently **5** packages available in Glacier:
   [Semantic Release](https://github.com/semantic-release/semantic-release) that
   allows to publish multiple packages.  
   It also provide the commit rules for generating changelog and create releases.
+
+You will also find everything related to the Design System, particularly:
+
+- **[design-tokens](./packages/design-tokens)**: the list of design tokens
+  defining the Design System and to be used in all the apps _(web, mobile, ...)_
+  and packages throughout the organization;
+- **[fractal](./packages/fractal)**: the React Design System itself, made of
+  components, styles, icons, ....
 
 ### TypeScript
 
