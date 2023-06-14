@@ -224,3 +224,11 @@ pick whichever you want in the list below:
 
 Of course, you can also extend any other configuration coming from any other
 config or plugin and add you own rules and overrides to your configuration.
+
+## Help and feedback
+
+If you have any questions or feedback, feel free to reach out to us using this
+repository [issues](https://github.com/snowball-tech/glacier/issues) or [discussions](https://github.com/snowball-tech/glacier/discussions).
+
+You can also use the internal #fractal-design-system Slack channel if you are
+a member of the Snowball tech team.
