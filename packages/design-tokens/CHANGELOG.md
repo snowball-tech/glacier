@@ -7,3 +7,7 @@
 ### 📦 Dependencies
 
 - update dependencies ([307db8f](https://github.com/snowball-tech/glacier/commit/307db8fdd4019e5d74e539cdd311f3f75d51b1eb))
+
+# @snowball-tech/design-tokens 1.0.1 (2023-06-14)
+
+Bump version
