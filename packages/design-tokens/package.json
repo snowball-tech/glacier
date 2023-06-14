@@ -42,7 +42,9 @@
     "format": "yarn run -T prettier --ignore-path ../../.prettierignore --check .",
     "format:fix": "yarn run -T prettier --ignore-path ../../.prettierignore --write .",
     "lint": "yarn run -T eslint --cache .",
-    "lint:fix": "yarn run -T eslint --cache --fix ."
+    "lint:fix": "yarn run -T eslint --cache --fix .",
+    "setup": "yarn && yarn run update:fonts",
+    "update:fonts": "./scripts/update-fonts.sh"
   },
   "devDependencies": {
     "@types/deasync": "^0.1.2",
