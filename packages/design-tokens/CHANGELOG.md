@@ -1,3 +1,14 @@
+# @snowball-tech/design-tokens [1.2.0](https://github.com/snowball-tech/glacier/compare/@snowball-tech/design-tokens@1.1.0...@snowball-tech/design-tokens@1.2.0) (2023-06-14)
+
+### ✨ Features
+
+- **design-tokens:** add an initialization scripts for the font ([5614635](https://github.com/snowball-tech/glacier/commit/5614635442d9e7310949385f642291e3325ae54e))
+- **design-tokens:** add websafe fallback fonts ([e4a907f](https://github.com/snowball-tech/glacier/commit/e4a907ffbe4df9a311596f08387502a3be5b9c4b))
+
+### 🏗 Chores
+
+- ignore all non open source fonts ([068c882](https://github.com/snowball-tech/glacier/commit/068c882c69fa522154848c65da2506ee5ef8eeff))
+
 # @snowball-tech/design-tokens [1.1.0](https://github.com/snowball-tech/glacier/compare/@snowball-tech/design-tokens@1.0.0...@snowball-tech/design-tokens@1.1.0) (2023-06-14)
 
 ### ✨ Features
