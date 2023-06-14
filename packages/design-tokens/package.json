@@ -37,6 +37,7 @@
   "scripts": {
     "prebuild": "yarn run clean",
     "build": "yarn run prebuild && node ./src/build.js",
+    "build:local": "yarn run prebuild && yarn run update:fonts && node ./src/build.js",
     "clean": "rm -Rf dist",
     "dev": "nodemon -x \"yarn build\"",
     "format": "yarn run -T prettier --ignore-path ../../.prettierignore --check .",
