@@ -5,6 +5,8 @@ const noop = require('lodash/fp/noop')
 const isEmpty = require('lodash/fp/isEmpty')
 const prettier = require('prettier')
 const StyleDictionary = require('style-dictionary')
+const ttf2eot = require('ttf2eot')
+const ttf2woff = require('ttf2woff')
 const ttf2woff2 = require('ttf2woff2')
 
 const { synchronise } = require('./utils')
@@ -17,7 +19,7 @@ StyleDictionary.registerAction({
       fs.readdirSync(config.buildPath).forEach((filename) => {
         const filepath = path.join(config.buildPath, filename)
 
-        if (!fs.lstatSync(filepath).isFile()) {
+        if (!fs.existsSync(filepath) || !fs.lstatSync(filepath).isFile()) {
           return
         }
 
@@ -53,18 +55,37 @@ StyleDictionary.registerAction({
         for (const { value } of Object.values(fonts)) {
           const filename = `${value}.ttf`
           const ttfFilePath = path.join(fontsPath, filename)
-          if (!fs.lstatSync(ttfFilePath).isFile()) {
+          if (
+            !fs.existsSync(ttfFilePath) ||
+            !fs.lstatSync(ttfFilePath).isFile()
+          ) {
             return
           }
 
+          const newTtfFilePath = path.join(outPath, filename)
           const ttfContent = fs.readFileSync(ttfFilePath)
+          fs.writeFileSync(newTtfFilePath, ttfContent)
+
+          const woffFilePath = path.join(
+            outPath,
+            filename.replace(/ttf$/, 'woff'),
+          )
+          const woffContent = ttf2woff(ttfContent)
+          fs.writeFileSync(woffFilePath, woffContent)
 
           const woff2FilePath = path.join(
             outPath,
             filename.replace(/ttf$/, 'woff2'),
           )
-          // eslint-disable-next-line no-await-in-loop
-          fs.writeFileSync(woff2FilePath, ttf2woff2(ttfContent))
+          const woff2Content = ttf2woff2(ttfContent)
+          fs.writeFileSync(woff2FilePath, woff2Content)
+
+          const eotFilePath = path.join(
+            outPath,
+            filename.replace(/ttf$/, 'eot'),
+          )
+          const eotContent = ttf2eot(ttfContent)
+          fs.writeFileSync(eotFilePath, eotContent)
         }
       }
     }),

@@ -14,7 +14,7 @@ StyleDictionary.registerFormat({
       woff2: 'woff2',
     }
 
-    const extension = 'woff2'
+    const extensions = ['ttf', 'eot', 'woff', 'woff2']
 
     return dictionary.allTokens
       .reduce((fontList, prop) => {
@@ -32,7 +32,12 @@ StyleDictionary.registerFormat({
               `\n\tfont-family: "${family}";`,
               `\n\tfont-style: ${style};`,
               `\n\tfont-weight: ${weight};`,
-              `\n\tsrc: url("${fontPathPrefix}${path}.${extension}") format("${formatsMap[extension]}");`,
+              `\n\tsrc: ${extensions
+                .map(
+                  (extension) =>
+                    `url("${fontPathPrefix}${path}.${extension}") format("${formatsMap[extension]}")`,
+                )
+                .join(',\n\t\t')};`,
               `\n\tfont-display: ${display};`,
               '\n}\n',
             ].join(''),
