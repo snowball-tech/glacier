@@ -1,3 +1,9 @@
+# @snowball-tech/design-tokens [1.1.0](https://github.com/snowball-tech/glacier/compare/@snowball-tech/design-tokens@1.0.0...@snowball-tech/design-tokens@1.1.0) (2023-06-14)
+
+### ✨ Features
+
+- **design-tokens:** support more font format ([50ac7d2](https://github.com/snowball-tech/glacier/commit/50ac7d2b5a080e719a90e4529e5f967f50d7dd02))
+
 # @snowball-tech/design-tokens 1.0.0 (2023-06-14)
 
 ### ✨ Features
