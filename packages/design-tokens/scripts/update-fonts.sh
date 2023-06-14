@@ -24,10 +24,10 @@ if [ $? -gt 0 ]; then
   warning "Unable to clone the Freezer repository."
   warning "Please make sure you have the appropriate GitHub token or SSH key and permissions to access the Freezer repository in the 'snowball-tech' organization."
 
-  exit 1
+  exit 0
 fi
 
-cd "$TMP_DIR" > /dev/null 2>&1 || exit 2
+cd "$TMP_DIR" > /dev/null 2>&1 || exit 0
 
 sparseCheckout=$(git sparse-checkout set --no-cone "packages/fonts" 2>&1)
 if [ $? -gt 0 ]; then
@@ -36,7 +36,7 @@ if [ $? -gt 0 ]; then
 
   warning "Something wrong happened during the spare-checkout of the Freezer repository."
 
-  exit 3
+  exit 0
 fi
 
 checkout=$(git checkout 2>&1)
@@ -46,7 +46,7 @@ if [ $? -gt 0 ]; then
 
   warning "Something wrong happened during the checkout of the fonts from the Freezer repository."
 
-  exit 4
+  exit 0
 fi
 
 cd - > /dev/null 2>&1 || exit 5
@@ -60,7 +60,7 @@ if [ $? -gt 0 ]; then
   echo ""
   warning "$createDir"
 
-  exit 6
+  exit 0
 fi
 
 copy=$(cp -r "$TMP_DIR/packages/fonts" "$DESTINATION" 2>&1)
@@ -70,7 +70,7 @@ if [ $? -gt 0 ]; then
 
   warning "Something wrong happened during the copy of the fonts from the Freezer repository to '$DESTINATION'."
 
-  exit 7
+  exit 0
 fi
 
 bold_success "DONE"
