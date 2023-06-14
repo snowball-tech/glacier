@@ -1,3 +1,13 @@
+## @snowball-tech/design-tokens [1.2.1](https://github.com/snowball-tech/glacier/compare/@snowball-tech/design-tokens@1.2.0...@snowball-tech/design-tokens@1.2.1) (2023-06-14)
+
+### 🐛 Bug Fixes
+
+- **design-tokens:** fail the install script gracefuly ([f6a14a0](https://github.com/snowball-tech/glacier/commit/f6a14a0aedd7419062e19f3131e7ff51a12dc3b5))
+
+### 👷 Build
+
+- **design-tokens:** try to load the fonts when building in local ([cd3be88](https://github.com/snowball-tech/glacier/commit/cd3be88515e43d8693068adf66e588963d4c18e5))
+
 # @snowball-tech/design-tokens [1.2.0](https://github.com/snowball-tech/glacier/compare/@snowball-tech/design-tokens@1.1.0...@snowball-tech/design-tokens@1.2.0) (2023-06-14)
 
 ### ✨ Features
