@@ -45,7 +45,7 @@
     "lint:fix": "yarn run -T eslint --cache --fix ."
   },
   "devDependencies": {
-    "@types/deasync": "^0",
+    "@types/deasync": "^0.1.2",
     "@types/lodash": "^4.14.195",
     "deasync": "^0.1.28",
     "lodash": "^4.17.21",
