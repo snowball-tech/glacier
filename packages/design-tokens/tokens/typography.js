@@ -4,37 +4,21 @@ module.exports = {
   asset: {
     font: {
       PolySans: {
-        italic: {
-          display: {
-            value: 'swap',
-          },
-          value: 'PolySans-Italic',
-          weights: [400, 600, 800],
+        display: {
+          value: 'swap',
         },
-        normal: {
-          display: {
-            value: 'swap',
-          },
-          value: 'PolySans',
-          weights: [400, 600, 800],
-        },
+        styles: ['normal', 'italic'],
+        value: 'PolySans',
+        weights: ['400', '600', '800'],
       },
 
       PolySansWide: {
-        italic: {
-          display: {
-            value: 'swap',
-          },
-          value: 'PolySansWide-Italic',
-          weights: [400, 600, 800],
+        display: {
+          value: 'swap',
         },
-        normal: {
-          display: {
-            value: 'swap',
-          },
-          value: 'PolySansWide',
-          weights: [400, 600, 800],
-        },
+        styles: ['normal', 'italic'],
+        value: 'PolySansWide',
+        weights: ['400', '600', '800'],
       },
     },
   },
@@ -42,12 +26,10 @@ module.exports = {
   font: {
     family: {
       normal: {
-        value:
-          '{asset.font.PolySans.normal.value}, Segoe UI, Tahoma, Sans-Serif',
+        value: '{asset.font.PolySans.value}, Segoe UI, Tahoma, Sans-Serif',
       },
       wide: {
-        value:
-          '{asset.font.PolySansWide.normal.value}, Arial Black, Sans-Serif',
+        value: '{asset.font.PolySansWide.value}, Arial Black, Sans-Serif',
       },
     },
 

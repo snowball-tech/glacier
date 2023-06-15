@@ -14,33 +14,41 @@ StyleDictionary.registerFormat({
       woff2: 'woff2',
     }
 
-    const extensions = ['eot', 'woff', 'woff2']
+    const extensions = ['woff', 'woff2']
 
     return dictionary.allTokens
       .reduce((fontList, prop) => {
         const {
-          attributes: { item: family, subitem: style },
+          attributes: { item: family },
           display: { value: display },
-          value: path,
+          styles,
+          value: fontName,
           weights,
         } = prop
 
         const fontCss = weights
           .map((weight) =>
-            [
-              '@font-face {',
-              `\n\tfont-family: "${family}";`,
-              `\n\tfont-style: ${style};`,
-              `\n\tfont-weight: ${weight};`,
-              `\n\tsrc: ${extensions
-                .map(
-                  (extension) =>
-                    `url("${fontPathPrefix}${path}.${extension}") format("${formatsMap[extension]}")`,
-                )
-                .join(',\n\t\t')};`,
-              `\n\tfont-display: ${display};`,
-              '\n}\n',
-            ].join(''),
+            styles
+              .map((style) =>
+                [
+                  '@font-face {',
+                  `\n\tfont-family: "${family}";`,
+                  `\n\tfont-style: ${style};`,
+                  `\n\tfont-weight: ${weight};`,
+                  `\n\tsrc:`,
+                  `\n\t\t${extensions
+                    .map(
+                      (extension) =>
+                        `url("${fontPathPrefix}${fontName}-${weight}${
+                          style === 'italic' ? '-Italic' : ''
+                        }.${extension}") format("${formatsMap[extension]}")`,
+                    )
+                    .join(',\n\t\t')};`,
+                  `\n\tfont-display: ${display};`,
+                  '\n}\n',
+                ].join(''),
+              )
+              .join('\n'),
           )
           .join('\n')
 
