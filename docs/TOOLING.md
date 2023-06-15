@@ -45,9 +45,9 @@ your packages the following scripts:
 - `lint:fix`: to automatically fix some linting errors/warnings of the
   package/application: `yarn run -T eslint --cache --fix .`
 - `format`: to check the formatting of the package/application:
-  `yarn run -T prettier --ignore-path <path to root>/.prettierignore --check .`
+  `yarn run -T prettier --ignore-path <path to root>/.prettierignore --cache --check .`
 - `format:fix`: to automatically fix the format of the package/application
-  `yarn run -T prettier --ignore-path <path to root>/.prettierignore --write .`
+  `yarn run -T prettier --ignore-path <path to root>/.prettierignore --cache --write .`
 - `types:check`: _**(when using TypeScript)**_ to check the TypeScript
   compilation the package/application: `tsc --noEmit`
 
@@ -149,16 +149,12 @@ That's why the preferred way of using Lodash is by importing functions through
 their dedicated export file, e.g.:
 
 ```js
-import isEmpty from 'lodash/isEmpty'
-```
-
-Also note that if you are using TypeScript and want to enjoying typeguards in
-some functions (like `isEmpty` or `isString`) you should consider importing it
-from the `fp` submodule instead, e.g.:
-
-```js
 import isEmpty from 'lodash/fp/isEmpty'
 ```
+
+> Note that if you are using TypeScript and want to enjoying typeguards in some
+> functions (like `isEmpty` or `isString`) you should consider importing it from
+> the `fp` submodule like above.:
 
 </details>
 </details>
@@ -248,9 +244,11 @@ first time in VSCode, your IDE will offer you to install the one you don't have.
    `Editor: Code Actions on Save` in your workspace settings:
 
 ```json
-"editor.codeActionsOnSave": {
-   "source.fixAll.eslint": true
-},
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
+}
 ```
 
 ### Settings
