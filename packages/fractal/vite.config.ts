@@ -3,7 +3,7 @@ import path from 'node:path'
 import react from '@vitejs/plugin-react-swc'
 import { defineConfig } from 'vite'
 import dts from 'vite-plugin-dts'
-import tsconfigPaths from 'vite-tsconfig-paths'
+import { tsconfigPaths } from 'vite-plugin-lib'
 
 // See https://vitejs.dev/config/
 export default defineConfig({
@@ -29,7 +29,9 @@ export default defineConfig({
     react(),
     tsconfigPaths(),
     dts({
-      insertTypesEntry: true,
+      copyDtsFiles: true,
+      outputDir: 'dist/types',
+      staticImport: true,
     }),
   ],
 })
