@@ -1,3 +1,9 @@
+## @snowball-tech/eslint-config [2.2.2](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@2.2.1...@snowball-tech/eslint-config@2.2.2) (2023-06-15)
+
+### 🐛 Bug Fixes
+
+- **eslint-config:** update the config to lint VSCode files ([a838800](https://github.com/snowball-tech/glacier/commit/a8388000784b0dc3100b3c82557b0d25e1f5c9e4))
+
 ## @snowball-tech/eslint-config [2.2.1](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@2.2.0...@snowball-tech/eslint-config@2.2.1) (2023-06-15)
 
 ### 🐛 Bug Fixes
