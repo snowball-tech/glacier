@@ -59,7 +59,7 @@
     "preview": "vite preview",
     "types:check": "tsc --noEmit",
     "preupdate:fonts": "rm -Rf assets/fonts/*",
-    "update:fonts": "yarn run preupdate:fonts && cp ../../node_modules/@snowball-tech/design-tokens/dist/web/css/fonts/* ./assets/fonts/"
+    "update:fonts": "yarn run preupdate:fonts && cp ../../node_modules/@snowball-tech/design-tokens/dist/web/css/fonts/* ./assets/fonts/ 2>&1 || true"
   },
   "devDependencies": {
     "@snowball-tech/eslint-config": "workspace:^",
