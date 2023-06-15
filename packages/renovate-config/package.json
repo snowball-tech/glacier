@@ -31,8 +31,8 @@
     "registry": "https://registry.npmjs.org"
   },
   "scripts": {
-    "format": "yarn run -T prettier --ignore-path ../../.prettierignore --check .",
-    "format:fix": "yarn run -T prettier --ignore-path ../../.prettierignore --write .",
+    "format": "yarn run -T prettier --ignore-path ../../.prettierignore --cache --check .",
+    "format:fix": "yarn run -T prettier --ignore-path ../../.prettierignore --cache --write .",
     "validate:config": "renovate-config-validator default.json5"
   },
   "devDependencies": {
