@@ -1,3 +1,18 @@
+## @snowball-tech/eslint-config [2.2.1](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@2.2.0...@snowball-tech/eslint-config@2.2.1) (2023-06-15)
+
+### 🐛 Bug Fixes
+
+- **eslint-config:** fix the ignored files ([966d796](https://github.com/snowball-tech/glacier/commit/966d796d6b0d77bb9e831e047d02a8af3142bede))
+- **eslint:** disable some rules in JS fenced code in Markdown ([76c9016](https://github.com/snowball-tech/glacier/commit/76c901674cf9a869f58d546f60f1cc12c48ece78))
+
+### 📝 Documentation
+
+- **eslint-config:** update the documentation ([582379e](https://github.com/snowball-tech/glacier/commit/582379ebd10fb373c242b0e5fb425fe72361fa98))
+
+### 📦 Dependencies
+
+- **eslint-config:** add missing (peers) dependencies ([0327566](https://github.com/snowball-tech/glacier/commit/0327566b30bdf80268f44acafd1c84560bef11b7))
+
 # @snowball-tech/eslint-config [2.2.0](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@2.1.3...@snowball-tech/eslint-config@2.2.0) (2023-06-14)
 
 ### ✨ Features
