@@ -225,10 +225,99 @@ pick whichever you want in the list below:
 Of course, you can also extend any other configuration coming from any other
 config or plugin and add you own rules and overrides to your configuration.
 
+## Development
+
+If you want to contribute, update or edit this ESLint configuration:
+
+- First, install the needed dependencies:
+
+```bash
+yarn
+```
+
+Or (if you use NPM):
+
+```bash
+npm install
+```
+
+- Make the modifications you want
+- Test your updates
+
+> All your modification should be immediately picked up by the linter in your
+> IDE or using the CLI scripts, so you can check that everything works as
+> expected.
+
+- Commit and push your changes and open a Pull Request.
+- When your changes are approved and merged in the `main` branch, a new release
+  will be automatically created and published to NPM.
+
+### Useful Commands
+
+> It's recommended to use [Turbo]() to run the following command to leverage
+> advanced caching and packages dependencies management.  
+> But you can also directly use `yarn` to run the following commands.
+
+- `turbo format:fix` to format the code according to our formatting guidelines
+  (using _Prettier_);
+- `turbo lint:fix`: to check that the code matches our coding guidelines and
+  automatically fix what can be fixed _(using ESLint)_;
+- `turbo test`: run all the unit tests;
+- `turbo test:dev`: run the tests for modified components and re-trigger runs
+  everytime something is modified;
+- `turbo build`: compiles and bundle the design system;
+- `turbo build:local`: compiles and bundle the design tokens in local
+  _(with PolySans fonts)_;
+
+### TypeScript
+
+See [the dedicated `CONVENTIONS.md`](../../docs/CONVENTIONS.md) and
+[`TOOLING.md`](../../docs/TOOLING.md) documentations.
+
+### Linting & Formatting
+
+See [the dedicated `CONVENTIONS.md`](../../docs/CONVENTIONS.md) and
+[`TOOLING.md`](../../docs/TOOLING.md) documentations.
+
+### Dependencies
+
+> Always remember to add dependency if you **really** need it to avoid
+> cluttering the packages and degrading the performance both in the developers
+> and users side.
+
+**It is your duty** as a member of the Snowball's engineering team to help
+mainting the dependencies up to date. This means that you are expected and
+should help reviewing, testing and merging dependencies updates PRs on a regular
+basis.
+
+> The best way to do so is to regularly check the
+> [Renovate dashboard](https://github.com/snowball-tech/glacier/issues/10) and
+> [the list of Pull Requests](https://github.com/snowball-tech/glacier/pulls?q=is%3Apr+is%3Aopen+sort%3Aupdated-desc+label%3Adev-deps%2Cdeps),
+> for example every morning at the beginning of your day.
+
+Also, see the [dedicated `TOOLING.md` documentation](../../docs/TOOLING.md) for more
+information.
+
+### Environment variables
+
+See [the dedicated `TOOLING.md` documentation](../../docs/TOOLING.md).
+
+## Tooling
+
+See [the dedicated `TOOLING.md` documentation](../../docs/TOOLING.md).
+
+## Contributing
+
+See [the dedicated `CONTRIBUTING.md` documentation](../../CONTRIBUTING.md).
+
+### Conventions
+
+See [the dedicated `CONVENTIONS.md` documentation](../../docs/CONVENTIONS.md).
+
 ## Help and feedback
 
 If you have any questions or feedback, feel free to reach out to us using this
 repository [issues](https://github.com/snowball-tech/glacier/issues) or [discussions](https://github.com/snowball-tech/glacier/discussions).
 
-You can also use the internal #fractal-design-system Slack channel if you are
-a member of the Snowball tech team.
+You can also use the internal #engineering Slack channel if you are a member of
+the Snowball tech team.
