@@ -1,3 +1,9 @@
+## @snowball-tech/design-tokens [1.3.2](https://github.com/snowball-tech/glacier/compare/@snowball-tech/design-tokens@1.3.1...@snowball-tech/design-tokens@1.3.2) (2023-06-15)
+
+### 🏗 Chores
+
+- **design-tokens:** update the format task ([e2799e6](https://github.com/snowball-tech/glacier/commit/e2799e6bff35ad1f82ff32f600dc6e416c232484))
+
 ## @snowball-tech/design-tokens [1.3.1](https://github.com/snowball-tech/glacier/compare/@snowball-tech/design-tokens@1.3.0...@snowball-tech/design-tokens@1.3.1) (2023-06-15)
 
 ### 🐛 Bug Fixes
