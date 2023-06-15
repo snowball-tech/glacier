@@ -1,24 +1,12 @@
-const { makeSdTailwindConfig } = require('sd-tailwindcss-transformer')
-
 const BASE_OPTIONS = {
   basePxFontSize: 16,
   outputReferences: true,
 }
 
-const tailwindConfig = makeSdTailwindConfig({
-  buildPath: 'dist/web/tailwind/',
-  isVariables: true,
-  tailwind: {
-    content: ['./src/**/*.{js,ts,jsx,tsx,mdx}'],
-    plugins: ['typography', 'forms', 'container-queries'],
-  },
-  type: 'all',
-})
-
 module.exports = {
-  format: {
-    ...tailwindConfig.format,
-  },
+  source: ['tokens/**/*.json', 'tokens/**/*.json5', 'tokens/**/*.js'],
+
+  // eslint-disable-next-line sort-keys, sort-keys/sort-keys-fix, perfectionist/sort-objects
   platforms: {
     css: {
       ...BASE_OPTIONS,
@@ -44,7 +32,7 @@ module.exports = {
       transforms: [
         'attribute/cti',
         'name/cti/kebab',
-        'size/breakpoint/px',
+        'size/breakpoint-border-radius/px',
         'size/other/pxToRem',
         'time/seconds',
         'content/icon',
@@ -72,17 +60,11 @@ module.exports = {
       transforms: [
         'attribute/cti',
         'name/cti/pascal',
-        'size/breakpoint/px',
+        'size/breakpoint-border-radius/px',
         'size/other/pxToRem',
         // Use HSL instead of HEX to automatically support Alpha channel.
         'color/hsl',
       ],
     },
-    tailwind: {
-      ...BASE_OPTIONS,
-      ...tailwindConfig.platforms.tailwind,
-      actions: ['format'],
-    },
   },
-  source: ['tokens/**/*.json', 'tokens/**/*.json5', 'tokens/**/*.js'],
 }

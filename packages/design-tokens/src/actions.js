@@ -62,9 +62,7 @@ StyleDictionary.registerAction({
             return
           }
 
-          const newTtfFilePath = path.join(outPath, filename)
           const ttfContent = fs.readFileSync(ttfFilePath)
-          fs.writeFileSync(newTtfFilePath, ttfContent)
 
           const woffFilePath = path.join(
             outPath,

@@ -10,65 +10,54 @@ module.exports = {
       },
 
       // eslint-disable-next-line sort-keys, sort-keys/sort-keys-fix, perfectionist/sort-objects
-      half: {
+      quarter: {
         value: 2,
       },
 
       // eslint-disable-next-line sort-keys, sort-keys/sort-keys-fix, perfectionist/sort-objects
-      1: {
+      half: {
         value: 4,
       },
 
-      2: {
+      // eslint-disable-next-line sort-keys, sort-keys/sort-keys-fix, perfectionist/sort-objects
+      1: {
         value: 8,
       },
 
-      3: {
-        value: 12,
-      },
-
-      4: {
+      2: {
         value: 16,
       },
 
-      5: {
-        value: 20,
-      },
-
-      6: {
+      3: {
         value: 24,
       },
 
-      7: {
+      4: {
         value: 32,
       },
 
-      8: {
+      5: {
         value: 40,
       },
 
-      9: {
-        value: 48,
-      },
-
-      10: {
+      6: {
         value: 56,
       },
 
-      11: {
+      7: {
         value: 64,
       },
 
-      12: {
-        value: 72,
-      },
-
-      13: {
+      8: {
         value: 80,
       },
 
-      14: {
-        value: 96,
+      9: {
+        value: 120,
+      },
+
+      10: {
+        value: 160,
       },
     },
   },

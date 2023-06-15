@@ -1,10 +1,13 @@
 #!/usr/bin/env bash
 
+# shellcheck disable=SC2181
+
+destination="${1:-"../assets"}"
+
 # shellcheck disable=SC1090
 source "$(dirname "$0")/./colors.sh"
 
 TMP_DIR="$(dirname "$0")/tmp/freezer"
-DESTINATION="$(dirname "$0")/../assets"
 
 rm -Rf "$TMP_DIR" > /dev/null 2>&1
 
@@ -51,11 +54,11 @@ fi
 
 cd - > /dev/null 2>&1 || exit 5
 
-createDir=$(mkdir -p "$DESTINATION" 2>&1)
+createDir=$(mkdir -p "$destination" 2>&1)
 if [ $? -gt 0 ]; then
   bold_error "FAILED"
 
-  error "Something wrong happened during the creation of the fonts assets directory '$DESTINATION'."
+  error "Something wrong happened during the creation of the fonts assets directory '$destination'."
 
   echo ""
   warning "$createDir"
@@ -63,12 +66,12 @@ if [ $? -gt 0 ]; then
   exit 0
 fi
 
-copy=$(cp -r "$TMP_DIR/packages/fonts" "$DESTINATION" 2>&1)
+copy=$(cp -r "$TMP_DIR/packages/fonts" "$destination" 2>&1)
 if [ $? -gt 0 ]; then
   bold_error "FAILED"
   error "$copy"
 
-  warning "Something wrong happened during the copy of the fonts from the Freezer repository to '$DESTINATION'."
+  warning "Something wrong happened during the copy of the fonts from the Freezer repository to '$destination'."
 
   exit 0
 fi
@@ -91,5 +94,5 @@ echo ""
 info "assets/fonts"
 
 echo -n "$BLUE"
-ls "$DESTINATION/fonts"
+ls "$destination/fonts"
 echo -n "$NORMAL"

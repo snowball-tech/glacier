@@ -25,12 +25,11 @@ Fractal documentation is also based on these design tokens.
 
 The original source of truth for these tokens is the
 [Figma project](https://www.figma.com/file/u70V0ocCmDeYMAAPf9Xfqa/❄%EF%B8%8F-Fractal-Design-System)
-and all design tokens are regularly manually updated to stay synchronised with
+and all design tokens are regularly manually updated to stay synchronized with
 it.
 
-This package produces CSS, ES9 (with TypeScript typings) and
-[TailwindCSS](https://tailwindcss.com/) compatible files to be used in React
-web application.
+This package produces CSS and ES6 (with TypeScript typings) compatible files to
+be used in React web application.
 
 ## Installation
 
@@ -63,6 +62,12 @@ If you want to contribute, update or edit the design tokens:
 yarn
 ```
 
+Or (if you use NPM):
+
+```bash
+npm install
+```
+
 - Make the modifications you want in the JS files inside of the
   [`tokens`](./tokens) directory.
 - Build
@@ -92,6 +97,23 @@ yarn build
 - Commit and push your changes and open a Pull Request.
 - When your changes are approved and merged in the `main` branch, a new release
   will be automatically created and published to NPM.
+
+### Useful Commands
+
+> It's recommended to use [Turbo]() to run the following command to leverage
+> advanced caching and packages dependencies management.  
+> But you can also directly use `yarn` to run the following commands.
+
+- `turbo format:fix` to format the code according to our formatting guidelines
+  (using _Prettier_);
+- `turbo lint:fix`: to check that the code matches our coding guidelines and
+  automatically fix what can be fixed _(using ESLint)_;
+- `turbo test`: run all the unit tests;
+- `turbo test:dev`: run the tests for modified components and re-trigger runs
+  everytime something is modified;
+- `turbo build`: compiles and bundle the design system;
+- `turbo build:local`: compiles and bundle the design tokens in local
+  _(with PolySans fonts)_;
 
 ### Style Dictionary
 
@@ -202,25 +224,6 @@ We can output a standard CSS files with variables:
 --color-background-body: var(--color-base-light-yellow-50);
 ```
 
-And/or the following TailwindCSS configuration file:
-
-```js
-module.exports = {
-  theme: {
-    colors: {
-      background: {
-        body: 'var(--color-background-body)',
-      },
-      base: {
-        'light-yellow': {
-          50: 'var(--color-base-light-yellow-50)',
-        },
-      },
-    },
-  },
-}
-```
-
 ### Structure
 
 #### CTI (Category-Type-Item)
@@ -239,6 +242,51 @@ with individual items which can have multiple states, and so on.
 Some files are not part of a category folders and are instead directly at the
 root of the [`tokens`](./tokens) folder because they follow their own particular
 structure.
+
+### TypeScript
+
+See [the dedicated `CONVENTIONS.md`](../../docs/CONVENTIONS.md) and
+[`TOOLING.md`](../../docs/TOOLING.md) documentations.
+
+### Linting & Formatting
+
+See [the dedicated `CONVENTIONS.md`](../../docs/CONVENTIONS.md) and
+[`TOOLING.md`](../../docs/TOOLING.md) documentations.
+
+### Dependencies
+
+> Always remember to add dependency if you **really** need it to avoid
+> cluttering the packages and degrading the performance both in the developers
+> and users side.
+
+**It is your duty** as a member of the Snowball's engineering team to help
+mainting the dependencies up to date. This means that you are expected and
+should help reviewing, testing and merging dependencies updates PRs on a regular
+basis.
+
+> The best way to do so is to regularly check the
+> [Renovate dashboard](https://github.com/snowball-tech/glacier/issues/10) and
+> [the list of Pull Requests](https://github.com/snowball-tech/glacier/pulls?q=is%3Apr+is%3Aopen+sort%3Aupdated-desc+label%3Adev-deps%2Cdeps),
+> for example every morning at the beginning of your day.
+
+Also, see the [dedicated `TOOLING.md` documentation](../../docs/TOOLING.md) for more
+information.
+
+### Environment variables
+
+See [the dedicated `TOOLING.md` documentation](../../docs/TOOLING.md).
+
+## Tooling
+
+See [the dedicated `TOOLING.md` documentation](../../docs/TOOLING.md).
+
+## Contributing
+
+See [the dedicated `CONTRIBUTING.md` documentation](../../CONTRIBUTING.md).
+
+### Conventions
+
+See [the dedicated `CONVENTIONS.md` documentation](../../docs/CONVENTIONS.md).
 
 ## Help and feedback
 

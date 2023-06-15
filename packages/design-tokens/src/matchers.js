@@ -8,21 +8,25 @@ function isSize(token) {
   return token.attributes.category === 'size' || token.original.group === 'size'
 }
 
-function isBreakpointSize(token) {
+function isBreakpointOrBorderOrRadiusSize(token) {
   return (
-    !isIgnored(token) && isSize(token) && token.attributes.type === 'breakpoint'
+    !isIgnored(token) &&
+    isSize(token) &&
+    ['border', 'breakpoint', 'radius'].includes(token.attributes.type)
   )
 }
 
-function isNotBreakpointSize(token) {
+function isNotBreakpointNorBorderNorRadiusSize(token) {
   return (
-    !isIgnored(token) && isSize(token) && token.attributes.type !== 'breakpoint'
+    !isIgnored(token) &&
+    isSize(token) &&
+    !['border', 'breakpoint', 'radius'].includes(token.attributes.type)
   )
 }
 
 module.exports = {
-  isBreakpointSize,
+  isBreakpointOrBorderOrRadiusSize,
   isIgnored,
-  isNotBreakpointSize,
+  isNotBreakpointNorBorderNorRadiusSize,
   isSize,
 }

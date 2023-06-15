@@ -45,7 +45,7 @@
     "lint": "yarn run -T eslint --cache .",
     "lint:fix": "yarn run -T eslint --cache --fix .",
     "setup": "yarn && yarn run update:fonts",
-    "update:fonts": "./scripts/update-fonts.sh"
+    "update:fonts": "../../scripts/update-fonts.sh ./assets"
   },
   "devDependencies": {
     "@types/deasync": "^0.1.2",
@@ -54,7 +54,6 @@
     "lodash": "^4.17.21",
     "nodemon": "^2.0.22",
     "ora": "5.4.1",
-    "sd-tailwindcss-transformer": "^1.3.1",
     "style-dictionary": "^3.8.0",
     "ttf2eot": "^3.1.0",
     "ttf2woff": "^3.0.0",
