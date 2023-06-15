@@ -1,6 +1,16 @@
 module.exports = {
   extends: ['plugin:import/recommended'],
 
+  overrides: [
+    {
+      files: ['*.md/*.js', '*.mdx/*.js'],
+
+      rules: {
+        'import/no-unresolved': 'off',
+      },
+    },
+  ],
+
   plugins: ['import'],
 
   rules: {
