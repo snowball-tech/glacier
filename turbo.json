@@ -37,6 +37,10 @@
     "//#format:root:fix": {},
     "lint": {},
     "lint:fix": {},
+    "lint:scripts": {},
+    "lint:scripts:fix": {},
+    "lint:styles": {},
+    "lint:styles:fix": {},
     "//#lint": {
       "dependsOn": ["//#lint:root"]
     },

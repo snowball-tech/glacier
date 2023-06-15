@@ -8,16 +8,13 @@ const DEFAULT_VARIANT = Variants.Body1
 const StyledTypography = styled.div<TypographyProps>`
   font-family: ${({ variant = DEFAULT_VARIANT }) =>
     `var(--typography-${variant}-font-family)`};
-
   font-size: ${({ variant = DEFAULT_VARIANT }) =>
     `var(--typography-${variant}-font-size)`};
-
   font-weight: ${({ variant = DEFAULT_VARIANT }) =>
     `var(--typography-${variant}-font-weight)`};
 
   line-height: ${({ variant = DEFAULT_VARIANT }) =>
     `var(--typography-${variant}-line-height)`};
-
   letter-spacing: ${({ variant = DEFAULT_VARIANT }) =>
     `var(--typography-${variant}-letter-spacing)`};
 
