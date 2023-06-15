@@ -5,7 +5,6 @@ const noop = require('lodash/fp/noop')
 const isEmpty = require('lodash/fp/isEmpty')
 const prettier = require('prettier')
 const StyleDictionary = require('style-dictionary')
-const ttf2eot = require('ttf2eot')
 const ttf2woff = require('ttf2woff')
 const ttf2woff2 = require('ttf2woff2')
 
@@ -50,40 +49,40 @@ StyleDictionary.registerAction({
       fs.mkdirSync(outPath, { recursive: true })
 
       // eslint-disable-next-line no-restricted-syntax
-      for (const fonts of Object.values(dictionary.tokens.asset.font)) {
+      for (const { styles, value: fontName, weights } of Object.values(
+        dictionary.tokens.asset.font,
+      )) {
         // eslint-disable-next-line no-restricted-syntax
-        for (const { value } of Object.values(fonts)) {
-          const filename = `${value}.ttf`
-          const ttfFilePath = path.join(fontsPath, filename)
-          if (
-            !fs.existsSync(ttfFilePath) ||
-            !fs.lstatSync(ttfFilePath).isFile()
-          ) {
-            return
+        for (const weight of weights) {
+          // eslint-disable-next-line no-restricted-syntax
+          for (const style of styles) {
+            const filename = `${fontName}-${weight}${
+              style === 'italic' ? '-Italic' : ''
+            }.ttf`
+            const ttfFilePath = path.join(fontsPath, filename)
+            if (
+              !fs.existsSync(ttfFilePath) ||
+              !fs.lstatSync(ttfFilePath).isFile()
+            ) {
+              return
+            }
+
+            const ttfContent = fs.readFileSync(ttfFilePath)
+
+            const woffFilePath = path.join(
+              outPath,
+              filename.replace(/ttf$/, 'woff'),
+            )
+            const woffContent = ttf2woff(ttfContent)
+            fs.writeFileSync(woffFilePath, woffContent)
+
+            const woff2FilePath = path.join(
+              outPath,
+              filename.replace(/ttf$/, 'woff2'),
+            )
+            const woff2Content = ttf2woff2(ttfContent)
+            fs.writeFileSync(woff2FilePath, woff2Content)
           }
-
-          const ttfContent = fs.readFileSync(ttfFilePath)
-
-          const woffFilePath = path.join(
-            outPath,
-            filename.replace(/ttf$/, 'woff'),
-          )
-          const woffContent = ttf2woff(ttfContent)
-          fs.writeFileSync(woffFilePath, woffContent)
-
-          const woff2FilePath = path.join(
-            outPath,
-            filename.replace(/ttf$/, 'woff2'),
-          )
-          const woff2Content = ttf2woff2(ttfContent)
-          fs.writeFileSync(woff2FilePath, woff2Content)
-
-          const eotFilePath = path.join(
-            outPath,
-            filename.replace(/ttf$/, 'eot'),
-          )
-          const eotContent = ttf2eot(ttfContent)
-          fs.writeFileSync(eotFilePath, eotContent)
         }
       }
     }),

@@ -5,7 +5,7 @@
 destination="${1:-"../assets"}"
 
 # shellcheck disable=SC1090
-source "$(dirname "$0")/./colors.sh"
+source "$(dirname "$0")/../../../scripts/colors.sh"
 
 TMP_DIR="$(dirname "$0")/tmp/freezer"
 
