@@ -321,6 +321,14 @@ See [the dedicated `CONTRIBUTING.md` documentation](./CONTRIBUTING.md).
 
 See [the dedicated `CONVENTIONS.md` documentation](./docs/CONVENTIONS.md).
 
-## FAQ & Troubleshooting
+## Help and feedback
 
-See [the dedicated `TROUBLESHOOTING.md` documentation](./docs/TROUBLESHOOTING.md).
+If you have any questions or feedback, feel free to reach out to us using this
+repository [issues](https://github.com/snowball-tech/glacier/issues) or [discussions](https://github.com/snowball-tech/glacier/discussions).
+
+You can also use the internal #engineering Slack channel if you are a member of
+the Snowball tech team.
+
+You can also check
+[the dedicated `TROUBLESHOOTING.md` documentation](./docs/TROUBLESHOOTING.md)
+for frequently asked question and troubleshooting.
