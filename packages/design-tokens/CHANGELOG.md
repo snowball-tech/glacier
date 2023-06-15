@@ -1,3 +1,9 @@
+## @snowball-tech/design-tokens [1.3.1](https://github.com/snowball-tech/glacier/compare/@snowball-tech/design-tokens@1.3.0...@snowball-tech/design-tokens@1.3.1) (2023-06-15)
+
+### 🐛 Bug Fixes
+
+- **design-tokens:** fix the output path of the fonts ([6c83eb6](https://github.com/snowball-tech/glacier/commit/6c83eb6904b5780518648a88f4704112f612db8c))
+
 # @snowball-tech/design-tokens [1.3.0](https://github.com/snowball-tech/glacier/compare/@snowball-tech/design-tokens@1.2.1...@snowball-tech/design-tokens@1.3.0) (2023-06-15)
 
 ### ✨ Features
