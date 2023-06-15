@@ -1,17 +1,20 @@
 const StyleDictionary = require('style-dictionary')
 
-const { isBreakpointSize, isNotBreakpointSize } = require('./matchers')
+const {
+  isBreakpointOrBorderOrRadiusSize,
+  isNotBreakpointNorBorderNorRadiusSize,
+} = require('./matchers')
 
 StyleDictionary.registerTransform({
-  matcher: isNotBreakpointSize,
+  matcher: isNotBreakpointNorBorderNorRadiusSize,
   name: 'size/other/pxToRem',
   transformer: StyleDictionary.transform['size/pxToRem'].transformer,
   type: 'value',
 })
 
 StyleDictionary.registerTransform({
-  matcher: isBreakpointSize,
-  name: 'size/breakpoint/px',
+  matcher: isBreakpointOrBorderOrRadiusSize,
+  name: 'size/breakpoint-border-radius/px',
   transformer: StyleDictionary.transform['size/px'].transformer,
   type: 'value',
 })

@@ -1,4 +1,5 @@
 /* eslint-disable no-secrets/no-secrets */
+
 module.exports = {
   asset: {
     font: {

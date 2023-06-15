@@ -2,7 +2,7 @@ const StyleDictionary = require('style-dictionary')
 
 StyleDictionary.registerFormat({
   formatter: ({ dictionary, options }) => {
-    const fontPathPrefix = options.fontPathPrefix || './fonts/'
+    const fontPathPrefix = options.fontPathPrefix || '/fonts/'
 
     // https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/src
     const formatsMap = {
@@ -14,7 +14,7 @@ StyleDictionary.registerFormat({
       woff2: 'woff2',
     }
 
-    const extensions = ['ttf', 'eot', 'woff', 'woff2']
+    const extensions = ['eot', 'woff', 'woff2']
 
     return dictionary.allTokens
       .reduce((fontList, prop) => {
