@@ -14,9 +14,19 @@ module.exports = {
   ],
 
   parserOptions: {
-    project: ['./packages/*/tsconfig.json'],
+    project: ['./tsconfig.eslint.json', './packages/*/tsconfig.json'],
     tsconfigRootDir: __dirname,
   },
 
   root: true,
+
+  settings: {
+    'import/resolver': {
+      [require.resolve('eslint-import-resolver-typescript')]: {
+        typescript: {
+          project: ['./tsconfig.eslint.json', './packages/*/tsconfig.json'],
+        },
+      },
+    },
+  },
 }
