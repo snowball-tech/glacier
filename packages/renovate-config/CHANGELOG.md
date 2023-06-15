@@ -1,3 +1,9 @@
+## @snowball-tech/renovate-config [1.1.12](https://github.com/snowball-tech/glacier/compare/@snowball-tech/renovate-config@1.1.11...@snowball-tech/renovate-config@1.1.12) (2023-06-15)
+
+### 🏗 Chores
+
+- add cache to the format task ([b2e1cd0](https://github.com/snowball-tech/glacier/commit/b2e1cd07a2affdea152076b41b4fd484a30be3f6))
+
 ## @snowball-tech/renovate-config [1.1.11](https://github.com/snowball-tech/glacier/compare/@snowball-tech/renovate-config@1.1.10...@snowball-tech/renovate-config@1.1.11) (2023-06-14)
 
 ### 📦 Dependencies
