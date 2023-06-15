@@ -60,8 +60,8 @@
   },
   "scripts": {
     "find-rules": "eslint-find-rules",
-    "format": "yarn run -T prettier --ignore-path ../../.prettierignore --check .",
-    "format:fix": "yarn run -T prettier --ignore-path ../../.prettierignore --write .",
+    "format": "yarn run -T prettier --ignore-path ../../.prettierignore --cache --check .",
+    "format:fix": "yarn run -T prettier --ignore-path ../../.prettierignore --cache --write .",
     "lint": "yarn run -T eslint --cache .",
     "lint:fix": "yarn run -T eslint --cache --fix ."
   },
