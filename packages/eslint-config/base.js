@@ -21,6 +21,7 @@ module.exports = {
     '!.*.yml',
     '!.github',
     '!.storybook',
+    '!.vscode',
     '.pnp.*',
     '*.lock',
     '*.tsbuildinfo',
