@@ -1,13 +1,22 @@
 .*
-!.*.js
-!.*.jsx
 !.*.cjs
+!.*.js
+!.*.json
+!.*.json5
+!.*.jsx
+!.*.md
+!.*.mdx
 !.*.mjs
 !.*.ts
 !.*.tsx
+!.*.yaml
+!.*.yml
+!.github
+!.storybook
 
 .pnp.*
 *.lock
+*.tsbuildinfo
 
 **/dist
 **/out
