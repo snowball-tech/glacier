@@ -1,3 +1,14 @@
+# @snowball-tech/design-tokens [1.3.0](https://github.com/snowball-tech/glacier/compare/@snowball-tech/design-tokens@1.2.1...@snowball-tech/design-tokens@1.3.0) (2023-06-15)
+
+### ✨ Features
+
+- **design-tokens:** update design tokens ([eb1832c](https://github.com/snowball-tech/glacier/commit/eb1832c61a7128b9d3d70ec3a751152e006e55f7))
+- **design-tokens:** update the build process and the fonts ([3bcc728](https://github.com/snowball-tech/glacier/commit/3bcc728a37998ce8d7fcae18e36b1fada4fd75f0))
+
+### 🏗 Chores
+
+- **desing-tokens:** keep the assets folder ([2830ca6](https://github.com/snowball-tech/glacier/commit/2830ca6bcffa237fbd98f735cbadc7135f844751))
+
 ## @snowball-tech/design-tokens [1.2.1](https://github.com/snowball-tech/glacier/compare/@snowball-tech/design-tokens@1.2.0...@snowball-tech/design-tokens@1.2.1) (2023-06-14)
 
 ### 🐛 Bug Fixes
