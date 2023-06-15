@@ -47,8 +47,8 @@
   },
   "scripts": {
     "build": "turbo run build",
-    "format:root": "prettier --check \"./!(apps|packages)\"",
-    "format:root:fix": "prettier --write \"./!(apps|packages)\"",
+    "format:root": "prettier --cache --check \"./!(apps|packages)\"",
+    "format:root:fix": "prettier --cache --write \"./!(apps|packages)\"",
     "lint:root": "eslint --cache \"./!(apps|packages)\"",
     "lint:root:fix": "eslint --cache --fix \"./!(apps|packages)\"",
     "publish:all": "multi-semantic-release",
