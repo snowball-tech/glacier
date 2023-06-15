@@ -1,3 +1,9 @@
+## @snowball-tech/prettier-config [1.1.5](https://github.com/snowball-tech/glacier/compare/@snowball-tech/prettier-config@1.1.4...@snowball-tech/prettier-config@1.1.5) (2023-06-15)
+
+### 🐛 Bug Fixes
+
+- **prettier-config:** update the ignored file to format vscode files ([6e93e03](https://github.com/snowball-tech/glacier/commit/6e93e039b3c625f8b68a78667dec4571608a8c04))
+
 ## @snowball-tech/prettier-config [1.1.4](https://github.com/snowball-tech/glacier/compare/@snowball-tech/prettier-config@1.1.3...@snowball-tech/prettier-config@1.1.4) (2023-06-15)
 
 ### 🐛 Bug Fixes
