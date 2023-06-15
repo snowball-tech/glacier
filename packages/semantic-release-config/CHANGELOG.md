@@ -1,3 +1,9 @@
+## @snowball-tech/semantic-release-config [1.2.1](https://github.com/snowball-tech/glacier/compare/@snowball-tech/semantic-release-config@1.2.0...@snowball-tech/semantic-release-config@1.2.1) (2023-06-15)
+
+### 🏗 Chores
+
+- add cache to the format task ([b2e1cd0](https://github.com/snowball-tech/glacier/commit/b2e1cd07a2affdea152076b41b4fd484a30be3f6))
+
 # @snowball-tech/semantic-release-config [1.2.0](https://github.com/snowball-tech/glacier/compare/@snowball-tech/semantic-release-config@1.1.1...@snowball-tech/semantic-release-config@1.2.0) (2023-06-12)
 
 ### ✨ Features
