@@ -13,6 +13,7 @@
 !.*.yml
 !.github
 !.storybook
+!.vscode
 
 .pnp.*
 *.lock
@@ -23,3 +24,5 @@
 **/build
 
 **/coverage
+
+**/storybook-static

@@ -32,8 +32,8 @@
     "registry": "https://registry.npmjs.org"
   },
   "scripts": {
-    "format": "yarn run -T prettier --check .",
-    "format:fix": "yarn run -T prettier --write ."
+    "format": "yarn run -T prettier --cache --check .",
+    "format:fix": "yarn run -T prettier --cache --write ."
   },
   "dependencies": {
     "prettier": "^2.8.8",
