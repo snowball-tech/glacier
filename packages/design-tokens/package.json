@@ -46,7 +46,8 @@
     "lint": "yarn run -T eslint --cache .",
     "lint:fix": "yarn run -T eslint --cache --fix .",
     "setup": "yarn && yarn run update:fonts",
-    "update:fonts": "./scripts/update-fonts.sh ./assets"
+    "preupdate:fonts": "rm -Rf assets/fonts 2>&1 || true",
+    "update:fonts": "yarn run preupdate:fonts && ../../scripts/update-fonts.sh ./assets"
   },
   "devDependencies": {
     "@types/lodash": "^4.14.195",
