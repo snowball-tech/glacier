@@ -73,15 +73,25 @@ StyleDictionary.registerAction({
               outPath,
               filename.replace(/ttf$/, 'woff'),
             )
-            const woffContent = ttf2woff(ttfContent)
-            fs.writeFileSync(woffFilePath, woffContent)
+            if (
+              !fs.existsSync(woffFilePath) ||
+              !fs.lstatSync(woffFilePath).isFile()
+            ) {
+              const woffContent = ttf2woff(ttfContent)
+              fs.writeFileSync(woffFilePath, woffContent)
+            }
 
             const woff2FilePath = path.join(
               outPath,
               filename.replace(/ttf$/, 'woff2'),
             )
-            const woff2Content = ttf2woff2(ttfContent)
-            fs.writeFileSync(woff2FilePath, woff2Content)
+            if (
+              !fs.existsSync(woff2FilePath) ||
+              !fs.lstatSync(woff2FilePath).isFile()
+            ) {
+              const woff2Content = ttf2woff2(ttfContent)
+              fs.writeFileSync(woff2FilePath, woff2Content)
+            }
           }
         }
       }
