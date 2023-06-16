@@ -46,13 +46,15 @@ This configuration supports:
   [`eslint-plugin-promise`](https://github.com/eslint-community/eslint-plugin-promise)
 - Protect from potential secrets leak using
   [`eslint-plugin-no-secrets`](https://github.com/nickdeis/eslint-plugin-no-secrets)
-- SQL using [`eslint-plugin-sql`](https://github.com/gajus/eslint-plugin-sql)
-- [JSON](https://www.json.org/), JSONC and [JSON5](https://json5.org/) using
+- HTML using [`eslint-plugin-html`](https://github.com/BenoitZugmeyer/eslint-plugin-html)
+- [JSON](https://www.json.org/), JSONC _(JSON with comments)_ and
+  [JSON5](https://json5.org/) using
   [`eslint-plugin-jsonc`](https://github.com/ota-meshi/eslint-plugin-jsonc)
   and
   [`eslint-plugin-json5`](https://github.com/bayesimpact/eslint-plugin-json5)
 - [Markdown](https://www.markdownguide.org/) _(JS/TS in Markdown)_ using
   [`eslint-plugin-markdown`](https://github.com/eslint/eslint-plugin-markdown)
+- SQL using [`eslint-plugin-sql`](https://github.com/gajus/eslint-plugin-sql)
 - [YAML](https://yaml.org/) using
   [`eslint-plugin-yaml`](https://github.com/ota-meshi/eslint-plugin-yml)
 - Imports check and ordering using
@@ -128,6 +130,7 @@ require('@snowball-tech/eslint-config/patch')
 The package offers a [default](./index.js) ESLint configuration containing:
 
 - [base rules](./base.js) _(including promise & unicorn)_
+- [HTML](./html.js)
 - [JSON/JSONC/JSON5](./json.js)
 - [Markdown](./mardown.js)
 - [Y(A)ML](./yml.js)
@@ -157,9 +160,10 @@ Ignored files are defined in the `ignorePatterns` config of the
 You also have the possibility to use the full configuration, including:
 
 - [base rules](./base.js) _(including promise & unicorn)_
-- [SQL](./sql.js)
+- [HTML](./html.js)
 - [JSON/JSONC/JSON5](./json.js)
 - [Markdown](./mardown.js)
+- [SQL](./sql.js)
 - [Y(A)ML](./yml.js)
 - [secrets](./secrets.js)
 - [React, hooks and JSX accessibility](./react.js)
@@ -197,9 +201,10 @@ pick whichever you want in the list below:
 {
   "extends": [
     "@snowball-tech/eslint-config/base",
-    "@snowball-tech/eslint-config/sql",
+    "@snowball-tech/eslint-config/html",
     "@snowball-tech/eslint-config/json",
     "@snowball-tech/eslint-config/markdown",
+    "@snowball-tech/eslint-config/sql",
     "@snowball-tech/eslint-config/yml",
     "@snowball-tech/eslint-config/secrets",
     "@snowball-tech/eslint-config/import",

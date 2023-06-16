@@ -3,9 +3,10 @@ module.exports = {
   // last.
   extends: [
     './base',
-    './sql',
+    './html',
     './json',
     './markdown',
+    './sql',
     './yml',
     './secrets',
     './import',
