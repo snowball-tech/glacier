@@ -16,10 +16,11 @@ for using the design tokens and the design system in products
 _(web applications, mobile applications, marketing content, documentations, ...)._
 
 The code of this design system is written in
-[TypeScript](https://www.typescriptlang.or/g) and is targeted to be used in
+[TypeScript](https://www.typescriptlang.org/) and is targeted to be used in
 [React](https://reactjs.org/) applications.  
 [styled-components](https://styled-components.com/) is used to style all the
-components exposed here.  
+components exposed here.
+
 Our documentation site is based on [Storybook](https://storybook.js.org/).
 
 ## Installation

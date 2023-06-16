@@ -10,7 +10,6 @@ const config: StorybookConfig = {
     '@storybook/addon-links',
     '@storybook/addon-interactions',
     '@storybook/addon-a11y',
-    '@storybook/addon-storysource',
     // Add this one back when it support Storybook v7 as it could be nice to
     // have.
     // 'storybook-addon-designs',
@@ -21,6 +20,7 @@ const config: StorybookConfig = {
   },
   docs: {
     autodocs: 'tag',
+    defaultName: 'Documentation',
   },
   framework: {
     name: '@storybook/react-vite',
