@@ -22,6 +22,13 @@ const StyledTypography = styled.div<TypographyProps>`
     `var(--typography-${variant}-text-decoration)`};
 `
 
+/**
+ * `Typography` component is the corner stone of Fractal. It defines and boxes
+ * allowed text styles throughout your UI.
+ *
+ * Using this component ensure you to have a consistent and accessible
+ * experience.
+ */
 export default function Typography({
   children,
   element,

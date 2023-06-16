@@ -16,7 +16,7 @@
     "rootDir": "./",
     "target": "ESNext"
   },
-  "include": ["src"],
+  "include": ["src", ".storybook/**/*.ts", ".storybook/**/*.tsx"],
   "files": ["global.d.ts"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
