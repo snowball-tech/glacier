@@ -8,10 +8,15 @@
 # it and we can just gracefuly fail (they won't be able to use the proper fonts
 # but will have access to the fallback fonts anyway).
 
-destination="${1:-"../assets"}"
-
 # shellcheck disable=SC1090
-source "$(dirname "$0")/../../../scripts/colors.sh"
+source "$(dirname "$0")/colors.sh"
+
+destination="$1"
+
+if [ -z "$destination" ]; then
+  echo "Usage: $0 <destination>"
+  exit 0
+fi
 
 TMP_DIR="$(dirname "$0")/tmp/freezer"
 

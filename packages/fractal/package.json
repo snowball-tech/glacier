@@ -64,8 +64,8 @@
     "lint:styles:fix": "stylelint --cache --fix './**/*.{html,css,jsx,tsx,mdx}'",
     "prepack": "json -f package.json -I -e \"delete this.devDependencies; delete this.dependencies\"",
     "types:check": "tsc --noEmit",
-    "preupdate:fonts": "rm -Rf assets/fonts/*",
-    "update:fonts": "yarn run preupdate:fonts && ./scripts/update-fonts.sh ./assets/"
+    "preupdate:fonts": "rm -Rf assets/fonts 2>&1 || true",
+    "update:fonts": "yarn run preupdate:fonts && ../../scripts/update-fonts.sh ./assets/"
   },
   "devDependencies": {
     "@snowball-tech/eslint-config": "2.2.1",
