@@ -18,5 +18,3 @@ Host github.com
 """ >> ~/.ssh/config
 
 echo "$FREEZER_DEPLOY_KEY" | base64 --decode --wrap=0 > "$HOME/.ssh/id_freezer"
-
-ssh-keyscan -H github.com >> "$HOME/.ssh/known_hosts"
