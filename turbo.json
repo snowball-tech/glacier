@@ -21,13 +21,11 @@
       "inputs": ["src/**", "tokens/**", "config.js"],
       "dependsOn": ["^build"]
     },
-    "@snowball-tech/fractal#update:fonts": {
-      "outputs": ["assets/fonts/**"],
-      "inputs": ["../design-tokens/dist/**", "scripts/vercel.sh"],
-      "dependsOn": ["^build"]
-    },
     "@snowball-tech/fractal#build:storybook": {
       "dependsOn": ["^build"]
+    },
+    "update:fonts": {
+      "outputs": ["assets/fonts"]
     },
     "format": {},
     "format:fix": {},
