@@ -7,7 +7,10 @@
 # shellcheck disable=SC1090
 source "$(dirname "$0")/../../../scripts/colors.sh"
 
+info "Creating SSH directory..."
 mkdir -p "$HOME"/.ssh
+
+info "Creating SSH config file..."
 touch "$HOME"/.ssh/config
 chmod 600 "$HOME"/.ssh/config
 
@@ -17,4 +20,7 @@ Host github.com
   IdentifyFile=$HOME/.ssh/id_freezer
 """ >> ~/.ssh/config
 
+cat ~/.ssh/config
+
+info "Adding SSH key..."
 echo "$FREEZER_DEPLOY_KEY" | base64 --decode --wrap=0 > "$HOME/.ssh/id_freezer"
