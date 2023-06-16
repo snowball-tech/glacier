@@ -21,7 +21,6 @@
       "inputs": ["src/**", "tokens/**", "config.js"],
       "dependsOn": ["^build"]
     },
-    "@snowball-tech/fractal#build:storybook": {},
     "update:fonts": {
       "outputs": ["assets/fonts"]
     },
