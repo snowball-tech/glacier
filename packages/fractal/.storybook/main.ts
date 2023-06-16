@@ -30,7 +30,11 @@ const config: StorybookConfig = {
     { from: '../assets', to: '/assets' },
     { from: '../public', to: '/public' },
   ],
-  stories: ['../src/**/*.mdx', '../src/**/*.stories.@(js|jsx|ts|tsx)'],
+  stories: [
+    '../docs/**/*.mdx',
+    '../src/**/*.mdx',
+    '../src/**/*.stories.@(js|jsx|ts|tsx)',
+  ],
 }
 
 export default config
