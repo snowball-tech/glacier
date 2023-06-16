@@ -45,12 +45,12 @@
   },
   "scripts": {
     "prebuild": "yarn run clean && turbo run update:fonts",
-    "prebuild:fast": "yarn run clean",
     "build": "yarn run prebuild && tsc && vite build",
+    "prebuild:fast": "yarn run clean",
     "build:fast": "yarn run prebuild:fast && tsc && vite build",
     "prebuild:storybook": "turbo run update:fonts",
-    "prebuild:storybook:vercel": "yarn update:fonts",
     "build:storybook": "yarn run prebuild:storybook && storybook build",
+    "prebuild:storybook:vercel": "yarn workspace @snowball-tech/design-tokens build && yarn update:fonts",
     "build:storybook:vercel": "yarn run prebuild:storybook:vercel && storybook build",
     "predev": "turbo run update:fonts",
     "dev": "yarn run predev && storybook dev -p 6006",
@@ -67,7 +67,7 @@
     "prepack": "json -f package.json -I -e \"delete this.devDependencies; delete this.dependencies\"",
     "types:check": "tsc --noEmit",
     "preupdate:fonts": "rm -Rf assets/fonts/*",
-    "update:fonts": "yarn run preupdate:fonts && cp ../../node_modules/@snowball-tech/design-tokens/dist/web/css/fonts/* ./assets/fonts/ 2>&1 || true"
+    "update:fonts": "yarn run preupdate:fonts && ./scripts/update-fonts.sh ./assets/fonts/ 2>&1 || true"
   },
   "devDependencies": {
     "@snowball-tech/eslint-config": "2.2.1",
