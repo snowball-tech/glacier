@@ -10,7 +10,6 @@ module.exports = {
   platforms: {
     css: {
       ...BASE_OPTIONS,
-      actions: ['format', 'fonts'],
       buildPath: 'dist/web/css/',
       files: [
         {
@@ -43,7 +42,6 @@ module.exports = {
     },
     react: {
       ...BASE_OPTIONS,
-      actions: ['format'],
       buildPath: 'dist/web/react/',
       files: [
         {
