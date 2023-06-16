@@ -1,3 +1,10 @@
+## @snowball-tech/design-tokens [1.5.2](https://github.com/snowball-tech/glacier/compare/@snowball-tech/design-tokens@1.5.1...@snowball-tech/design-tokens@1.5.2) (2023-06-16)
+
+### 👷 Build
+
+- factorize the update font scripts and optimize build ([0541c67](https://github.com/snowball-tech/glacier/commit/0541c67d5d18c7dc056dc2af2103362040c3b85a))
+- **fractal:** optimize the builds ([d329b7c](https://github.com/snowball-tech/glacier/commit/d329b7cbbfcf0e0b04145dd2e4b48749a8984ead))
+
 ## @snowball-tech/design-tokens [1.5.1](https://github.com/snowball-tech/glacier/compare/@snowball-tech/design-tokens@1.5.0...@snowball-tech/design-tokens@1.5.1) (2023-06-16)
 
 ### 👷 Build
