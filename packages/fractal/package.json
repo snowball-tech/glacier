@@ -50,9 +50,7 @@
     "build:fast": "yarn run prebuild:fast && tsc && vite build",
     "prebuild:storybook": "turbo run update:fonts",
     "build:storybook": "yarn run prebuild:storybook && storybook build",
-    "prebuild:storybook:vercel": "yarn workspace @snowball-tech/design-tokens build && yarn update:fonts",
-    "build:storybook:vercel": "yarn run prebuild:storybook:vercel && storybook build",
-    "predev": "turbo run update:fonts",
+    "predev": "turbo run @snowball-tech/design-tokens#build && turbo run update:fonts",
     "dev": "yarn run predev && storybook dev -p 6006",
     "clean": "rm -Rf dist",
     "format": "yarn run -T prettier --ignore-path ../../.prettierignore --cache --check .",
@@ -67,7 +65,7 @@
     "prepack": "json -f package.json -I -e \"delete this.devDependencies; delete this.dependencies\"",
     "types:check": "tsc --noEmit",
     "preupdate:fonts": "rm -Rf assets/fonts/*",
-    "update:fonts": "yarn run preupdate:fonts && ./scripts/update-fonts.sh ./assets/fonts/ 2>&1 || true"
+    "update:fonts": "yarn run preupdate:fonts && ./scripts/update-fonts.sh ./assets/"
   },
   "devDependencies": {
     "@snowball-tech/eslint-config": "2.2.1",
