@@ -1,3 +1,9 @@
+# @snowball-tech/eslint-config [2.3.0](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@2.2.4...@snowball-tech/eslint-config@2.3.0) (2023-06-16)
+
+### ✨ Features
+
+- **eslint-config:** add support for HTML files ([7656adc](https://github.com/snowball-tech/glacier/commit/7656adc4566da07b4d616d25584581849388dec8))
+
 ## @snowball-tech/eslint-config [2.2.4](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@2.2.3...@snowball-tech/eslint-config@2.2.4) (2023-06-16)
 
 ### 📦 Dependencies
