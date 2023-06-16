@@ -7,21 +7,28 @@
 # shellcheck disable=SC1090
 source "$(dirname "$0")/../../../scripts/colors.sh"
 
-info "Creating SSH directory..."
+echo -n "$(info "Creating SSH directory... ")"
 mkdir -p "$HOME"/.ssh
+bold_success "DONE"
 
-info "Creating SSH config file..."
+echo -n "$(info "Creating SSH config file... ")"
 touch "$HOME"/.ssh/config
 chmod 600 "$HOME"/.ssh/config
+bold_success "DONE"
 
-echo """
-Host github.com
+echo "Host github.com
   Hostname github.com
-  IdentifyFile=$HOME/.ssh/id_freezer
-""" >> "$HOME"/.ssh/config
+  IdentifyFile=$HOME/.ssh/id_freezer" >> "$HOME"/.ssh/config
 
+echo "${REVERSE}"
 cat "$HOME"/.ssh/config
+echo "${NORMAL}"
 
-info "Adding SSH key..."
+echo -n "$(info "Adding SSH key... ")"
 echo "$FREEZER_DEPLOY_KEY" | base64 --decode --wrap=0 > "$HOME/.ssh/id_freezer"
-cat "$HOME/.ssh/id_freezer"
+bold_success "DONE"
+
+echo -n "$(info "Cleaning up known hosts... ")"
+ssh-keygen -R "github.com"
+ssh-keyscan -H github.com >> "$HOME/.ssh/known_hosts"
+bold_success "DONE"
