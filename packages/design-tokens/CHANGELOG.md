@@ -1,3 +1,13 @@
+# @snowball-tech/design-tokens [1.4.0](https://github.com/snowball-tech/glacier/compare/@snowball-tech/design-tokens@1.3.2...@snowball-tech/design-tokens@1.4.0) (2023-06-16)
+
+### 🎨 Code Style and Formatting
+
+- **design-tokens:** reformat the update fonts script ([e26eeec](https://github.com/snowball-tech/glacier/commit/e26eeec29d75a89fd8c89ff87119306b3072b671))
+
+### ✨ Features
+
+- **design-tokens:** only convert fonts if not already available ([76d7644](https://github.com/snowball-tech/glacier/commit/76d764424ba1a0e926a0b4db122120ee0e5f0601))
+
 ## @snowball-tech/design-tokens [1.3.2](https://github.com/snowball-tech/glacier/compare/@snowball-tech/design-tokens@1.3.1...@snowball-tech/design-tokens@1.3.2) (2023-06-15)
 
 ### 🏗 Chores
