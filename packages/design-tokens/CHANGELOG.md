@@ -1,3 +1,9 @@
+# @snowball-tech/design-tokens [1.5.0](https://github.com/snowball-tech/glacier/compare/@snowball-tech/design-tokens@1.4.0...@snowball-tech/design-tokens@1.5.0) (2023-06-16)
+
+### ✨ Features
+
+- **design-tokens:** simplify code ([23c305a](https://github.com/snowball-tech/glacier/commit/23c305a400b5564899b38400c1182babb8ceb01f))
+
 # @snowball-tech/design-tokens [1.4.0](https://github.com/snowball-tech/glacier/compare/@snowball-tech/design-tokens@1.3.2...@snowball-tech/design-tokens@1.4.0) (2023-06-16)
 
 ### 🎨 Code Style and Formatting
