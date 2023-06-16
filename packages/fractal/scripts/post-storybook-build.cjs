@@ -9,7 +9,7 @@ const path = require('path')
 try {
   console.log('Rewriting Storybook document title...')
 
-  const filePath = 'storybook-static/index.html'
+  const filePath = '../storybook-static/index.html'
   const document = fs.readFileSync(path.resolve(__dirname, filePath), 'utf8')
 
   const output = document.replace(
