@@ -12,6 +12,10 @@
       "outputs": ["dist/**"],
       "dependsOn": ["^build"]
     },
+    "build:storybook": {
+      "outputs": ["dist/**", "storybook-static/**"],
+      "dependsOn": ["^build"]
+    },
     "@snowball-tech/design-tokens#build": {
       "outputs": ["assets/fonts", "dist/**"],
       "inputs": ["src/**", "tokens/**", "config.js"],
