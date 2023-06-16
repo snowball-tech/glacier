@@ -36,8 +36,8 @@
   },
   "scripts": {
     "prebuild": "yarn run clean && yarn run update:fonts",
-    "prebuild:fast": "yarn run clean",
     "build": "yarn run prebuild && node ./src/build.js",
+    "prebuild:fast": "yarn run clean",
     "build:fast": "yarn run prebuild:fast && node ./src/build.js",
     "clean": "rm -Rf dist",
     "dev": "nodemon -x \"yarn build\"",
