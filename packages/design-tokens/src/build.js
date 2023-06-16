@@ -1,7 +1,6 @@
 const ora = require('ora')
 const StyleDictionary = require('style-dictionary')
 
-require('./actions')
 require('./formats')
 require('./transforms')
 

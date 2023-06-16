@@ -49,14 +49,10 @@
     "update:fonts": "./scripts/update-fonts.sh ./assets"
   },
   "devDependencies": {
-    "@types/deasync": "^0.1.2",
     "@types/lodash": "^4.14.195",
-    "deasync": "^0.1.28",
     "lodash": "^4.17.21",
     "nodemon": "^2.0.22",
     "ora": "5.4.1",
-    "style-dictionary": "^3.8.0",
-    "ttf2woff": "^3.0.0",
-    "ttf2woff2": "^5.0.0"
+    "style-dictionary": "^3.8.0"
   }
 }
