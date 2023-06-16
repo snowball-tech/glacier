@@ -16,6 +16,9 @@
     "editor.wordWrapColumn": 80,
     "files.trimTrailingWhitespace": false
   },
+  "[mdx]": {
+    "files.trimTrailingWhitespace": false
+  },
   "[shellscript]": {
     "editor.defaultFormatter": "foxundermoon.shell-format"
   },
