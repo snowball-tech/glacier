@@ -36,12 +36,14 @@
   "eslint.packageManager": "yarn",
   "eslint.useESLintClass": true,
   "eslint.validate": [
+    "css",
+    "html",
     "javascript",
     "javascriptreact",
     "json",
     "jsonc",
-    "json5",
     "markdown",
+    "sql",
     "typescript",
     "typescriptreact",
     "yaml"
@@ -69,6 +71,7 @@
     "MD029": false,
     "MD033": false
   },
+  "prettier.prettierPath": "./node_modules/prettier",
   "scss.validate": false,
   "search.exclude": {
     "**/.yarn": true,
