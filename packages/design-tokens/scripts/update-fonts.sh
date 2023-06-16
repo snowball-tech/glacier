@@ -2,6 +2,12 @@
 
 # shellcheck disable=SC2181
 
+# Try to sparse checkout the private repository (Freezer) that contains the
+# original PolySans fonts.
+# If the sparse checkout fails, it means that the user does not have access to
+# it and we can just gracefuly fail (they won't be able to use the proper fonts
+# but will have access to the fallback fonts anyway).
+
 destination="${1:-"../assets"}"
 
 # shellcheck disable=SC1090
@@ -12,12 +18,6 @@ TMP_DIR="$(dirname "$0")/tmp/freezer"
 rm -Rf "$TMP_DIR" > /dev/null 2>&1
 
 echo -n "$(bold_info "Trying to update the PolySans fonts... ")"
-
-# Try to sparse checkout the private repository (Freezer) that contains the
-# original PolySans fonts.
-# If the sparse checkout fails, it means that the user does not have access to
-# it and we can just gracefuly fail (they won't be able to use the proper fonts
-# but will have access to the fallback fonts anyway).
 
 clone=$(git clone -n --depth=1 --filter=tree:0 "git@github.com:snowball-tech/freezer.git" "$TMP_DIR" 2>&1)
 if [ $? -gt 0 ]; then
