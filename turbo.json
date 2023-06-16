@@ -13,7 +13,6 @@
       "outputs": ["dist/**"]
     },
     "build:storybook": {
-      "dependsOn": ["^build"],
       "outputs": ["dist/**", "storybook-static/**"]
     },
     "@snowball-tech/design-tokens#build": {
