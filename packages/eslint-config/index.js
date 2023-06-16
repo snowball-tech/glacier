@@ -3,6 +3,7 @@ module.exports = {
   // last.
   extends: [
     './base',
+    './html',
     './json',
     './markdown',
     './yml',
