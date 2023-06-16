@@ -23,7 +23,7 @@
     },
     "@snowball-tech/fractal#update:fonts": {
       "outputs": ["assets/fonts/**"],
-      "inputs": ["../design-tokens/dist/**"],
+      "inputs": ["../design-tokens/dist/**", "scripts/vercel.sh"],
       "dependsOn": ["^build"]
     },
     "@snowball-tech/fractal#build:storybook": {
