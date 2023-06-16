@@ -1,3 +1,9 @@
+## @snowball-tech/design-tokens [1.5.1](https://github.com/snowball-tech/glacier/compare/@snowball-tech/design-tokens@1.5.0...@snowball-tech/design-tokens@1.5.1) (2023-06-16)
+
+### 👷 Build
+
+- **fractal:** directly download fonts from Freezer ([3565c04](https://github.com/snowball-tech/glacier/commit/3565c043fc97660b850b1ae589da4211be3b320a))
+
 # @snowball-tech/design-tokens [1.5.0](https://github.com/snowball-tech/glacier/compare/@snowball-tech/design-tokens@1.4.0...@snowball-tech/design-tokens@1.5.0) (2023-06-16)
 
 ### ✨ Features
