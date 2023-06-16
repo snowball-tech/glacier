@@ -9,7 +9,7 @@ source "$(dirname "$0")/../../../scripts/colors.sh"
 
 mkdir -p "$HOME"/.ssh
 touch "$HOME"/.ssh/config
-chjmod 600 "$HOME"/.ssh/config
+chmod 600 "$HOME"/.ssh/config
 
 echo """
 Host github.com
