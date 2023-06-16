@@ -1,3 +1,9 @@
+## @snowball-tech/renovate-config [1.1.14](https://github.com/snowball-tech/glacier/compare/@snowball-tech/renovate-config@1.1.13...@snowball-tech/renovate-config@1.1.14) (2023-06-16)
+
+### 📦 Dependencies
+
+- update deps and fix lockfile ([d0060b9](https://github.com/snowball-tech/glacier/commit/d0060b96fe78c232a4978fe4fd0a4f985f211252))
+
 ## @snowball-tech/renovate-config [1.1.13](https://github.com/snowball-tech/glacier/compare/@snowball-tech/renovate-config@1.1.12...@snowball-tech/renovate-config@1.1.13) (2023-06-15)
 
 ### 📦 Dependencies
