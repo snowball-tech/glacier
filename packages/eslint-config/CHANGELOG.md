@@ -1,3 +1,9 @@
+## @snowball-tech/eslint-config [2.2.4](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@2.2.3...@snowball-tech/eslint-config@2.2.4) (2023-06-16)
+
+### 📦 Dependencies
+
+- update deps and fix lockfile ([d0060b9](https://github.com/snowball-tech/glacier/commit/d0060b96fe78c232a4978fe4fd0a4f985f211252))
+
 ## @snowball-tech/eslint-config [2.2.3](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@2.2.2...@snowball-tech/eslint-config@2.2.3) (2023-06-15)
 
 ### 📦 Dependencies
