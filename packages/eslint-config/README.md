@@ -270,9 +270,6 @@ npm install
 - `turbo test`: run all the unit tests;
 - `turbo test:dev`: run the tests for modified components and re-trigger runs
   everytime something is modified;
-- `turbo build`: compiles and bundle the design system;
-- `turbo build:local`: compiles and bundle the design tokens in local
-  _(with PolySans fonts)_;
 
 ### TypeScript
 
