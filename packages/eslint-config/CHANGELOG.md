@@ -1,3 +1,9 @@
+# @snowball-tech/eslint-config [3.1.0](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@3.0.0...@snowball-tech/eslint-config@3.1.0) (2023-06-19)
+
+### ✨ Features
+
+- **eslint:** ignore CSS/SASS/SCSS files ([a383bd4](https://github.com/snowball-tech/glacier/commit/a383bd446a3c7a71ca428efd76b288623d9c88c0))
+
 # @snowball-tech/eslint-config [3.0.0](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@2.3.2...@snowball-tech/eslint-config@3.0.0) (2023-06-19)
 
 ### 💥 Breaking changes
