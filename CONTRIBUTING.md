@@ -132,7 +132,7 @@ in order to keep the Git history more concise.
 ### Context
 
 Working on legacy is a part of our job. It will never end and we always have
-ongoing migrations. CSS, JS, HTML, Design System components, .... Everything
+ongoing migrations. CSS, JS, HTML, design system components, .... Everything
 can be considered at some point "deprecated", "legacy" or "to be migrated". If
 we leave it that way, there are high chances that these pieces of code end up as
 what we like to call "tech debt".
