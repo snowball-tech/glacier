@@ -68,7 +68,7 @@
   "markdownlint.config": {
     "default": true,
     "MD001": false,
-    "MD013": true,
+    "MD013": false,
     "MD025": false,
     "MD028": false,
     "MD029": false,
@@ -81,8 +81,7 @@
     "**/build": true,
     "**/dist": true,
     "**/node_modules": true,
-    "**/out": true,
-    "**/storybook-static": true
+    "**/out": true
   },
   "stylelint.validate": [
     "javascriptreact",
