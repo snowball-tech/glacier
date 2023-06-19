@@ -1,3 +1,9 @@
+## @snowball-tech/eslint-config [2.3.1](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@2.3.0...@snowball-tech/eslint-config@2.3.1) (2023-06-19)
+
+### 🐛 Bug Fixes
+
+- **eslint-config:** ignore storybook ([b3043da](https://github.com/snowball-tech/glacier/commit/b3043dac4eb1d180b94c4c2d29b4c47aa53a05b4))
+
 # @snowball-tech/eslint-config [2.3.0](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@2.2.4...@snowball-tech/eslint-config@2.3.0) (2023-06-16)
 
 ### ✨ Features
