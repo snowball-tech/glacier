@@ -58,6 +58,8 @@ next-env.d.ts
 # Also keeps the settings file because it's critical for VSCode to properly work
 # in the mono-repository.
 !.vscode/settings.json
-
-.pythagora
+# Files from the VSCode "SQLTools" extensions.
 **/*.session.sql
+
+# Pythagora project (https://pythagora.ai/).
+.pythagora
