@@ -7,7 +7,6 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="50" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="50" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" width="50" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" width="50" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg" width="50" />
   <img src="https://testing-library.com/img/octopus-128x128.png" width="50" />
   <img src="https://lodash.com/assets/img/lodash.svg" width="50" />
@@ -73,8 +72,6 @@ This configuration supports:
   [`eslint-plugin-next`](https://github.com/vercel/next.js/tree/canary/packages/eslint-plugin-next)
   and
   [`eslint-config-next`](https://github.com/vercel/next.js/tree/canary/packages/eslint-config-next)
-- [TailwindCSS](https://tailwindcss.com/) using
-  [`eslint-plugin-tailwindcss`](https://github.com/francoismassart/eslint-plugin-tailwindcss)
 - Testing with [Jest](https://jestjs.io/) using
   [`eslint-plugin-jest`](https://github.com/jest-community/eslint-plugin-jest)
   and adding [Testing Library](https://testing-library.com/) support using
@@ -170,7 +167,6 @@ You also have the possibility to use the full configuration, including:
 - [import](./import.js)
 - [TypeScript](./typescript.js)
 - [Next.JS](./next.js)
-- [TailwindCSS](./tailwind.js)
 - [Jest](./jest.js) and [Testing Library](./testing-library.js)
 - [Lodash](./lodash.js)
 - [Perfectionist](./perfectionist.js)
@@ -211,7 +207,6 @@ pick whichever you want in the list below:
     "@snowball-tech/eslint-config/typescript",
     "@snowball-tech/eslint-config/react",
     "@snowball-tech/eslint-config/next",
-    "@snowball-tech/eslint-config/tailwind",
     "@snowball-tech/eslint-config/jest",
     "@snowball-tech/eslint-config/testing-library",
     "@snowball-tech/eslint-config/lodash",

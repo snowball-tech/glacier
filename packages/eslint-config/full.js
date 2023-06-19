@@ -13,7 +13,6 @@ module.exports = {
     './typescript',
     './react',
     './next',
-    './tailwind',
     './jest',
     './testing-library',
     './lodash',
