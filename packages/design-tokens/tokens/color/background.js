@@ -1,5 +1,0 @@
-module.exports = {
-  color: {
-    background: {},
-  },
-}
