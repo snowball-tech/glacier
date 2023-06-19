@@ -1,3 +1,13 @@
+# @snowball-tech/eslint-config [3.0.0](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@2.3.2...@snowball-tech/eslint-config@3.0.0) (2023-06-19)
+
+### 💥 Breaking changes
+
+- **eslint-config:** remove tailwind from the config ([2e8b818](https://github.com/snowball-tech/glacier/commit/2e8b818ea530d35cf8814638a329b2658b083f8f))
+
+### Breaking changes
+
+- **eslint-config:** Tailwind configuration is no longer available
+
 ## @snowball-tech/eslint-config [2.3.2](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@2.3.1...@snowball-tech/eslint-config@2.3.2) (2023-06-19)
 
 ### 📦 Dependencies
