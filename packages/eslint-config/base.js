@@ -7,6 +7,9 @@ module.exports = {
 
   extends: ['eslint:recommended', 'plugin:promise/recommended', 'airbnb-base'],
   ignorePatterns: [
+    '*.css',
+    '*.scss',
+    '*.sass',
     '!.*.cjs',
     '!.*.js',
     '!.*.json',
