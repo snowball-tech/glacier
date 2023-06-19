@@ -28,8 +28,9 @@ module.exports = {
     '**/dist',
     '**/build',
     '**/out',
-    '**/coverage',
     '**/storybook-static',
+    '**/coverage',
+    '**/node_modules',
     'LICENSE',
   ],
 

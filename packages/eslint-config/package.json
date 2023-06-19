@@ -50,7 +50,6 @@
     "react.js",
     "secrets.js",
     "sql.js",
-    "tailwind.js",
     "testing-library.js",
     "typescript.js",
     "yml.js"
@@ -97,15 +96,13 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-sort-keys": "^2.3.5",
     "eslint-plugin-sql": "^2.3.2",
-    "eslint-plugin-tailwindcss": "^3.12.1",
     "eslint-plugin-testing-library": "^5.11.0",
     "eslint-plugin-unicorn": "^47.0.0",
-    "eslint-plugin-yml": "^1.8.0"
+    "eslint-plugin-yml": "^1.8.0",
+    "prettier": "^2.8.8"
   },
   "devDependencies": {
     "@types/prettier": "^2.7.3",
-    "eslint-find-rules": "^4.1.0",
-    "prettier": "^2.8.8",
-    "tailwindcss": "^3.3.2"
+    "eslint-find-rules": "^4.1.0"
   }
 }
