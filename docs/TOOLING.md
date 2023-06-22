@@ -153,8 +153,8 @@ import isEmpty from 'lodash/fp/isEmpty'
 ```
 
 > Note that if you are using TypeScript and want to enjoying typeguards in some
-> functions (like `isEmpty` or `isString`) you should consider importing it from
-> the `fp` submodule like above.:
+> Lodash functions (like `isEmpty` or `isString`) you should consider importing
+> it from the `fp` submodule as demonstrated above.
 
 </details>
 </details>

@@ -1,0 +1,11 @@
+ESLint Config:
+  - package/eslint-config/**
+
+Prettier Config:
+  - package/prettier-config/**
+
+Renovate Config:
+  - package/renovate-config/**
+
+Semantic Release Config:
+  - package/semantic-release-config/**
