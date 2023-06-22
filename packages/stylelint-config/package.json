@@ -1,0 +1,51 @@
+{
+  "name": "@snowball-tech/stylelint-config",
+  "version": "3.1.0",
+  "description": "Stylelint ruleset by Snowball supporting JSX, CSS in JS and more.",
+  "author": "Snowball Engineering Team <engineering@snowball.xyz> (https://github.com/orgs/snowball-tech)",
+  "contributors": [
+    "Clément PRÉVOT <clement@snowball.xyz> (https://github.com/clementprevot)"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "snowball",
+    "stylelint",
+    "stylelint-config",
+    "javascript",
+    "typescript",
+    "jsx",
+    "css-in-js"
+  ],
+  "homepage": "https://github.com/snowball-tech/glacier/tree/main/packages/stylelint-config",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/snowball-tech/glacier.git",
+    "directory": "packages/stylelint-config"
+  },
+  "bugs": "https://github.com/snowball-tech/glacier/issues",
+  "packageManager": "yarn@3.6.0",
+  "engines": {
+    "yarn": "^3.0.0",
+    "node": "^18.0.0"
+  },
+  "main": "stylelint.config.js",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
+  "scripts": {
+    "format": "yarn run -T prettier --ignore-path ../../.prettierignore --cache --check .",
+    "format:fix": "yarn run -T prettier --ignore-path ../../.prettierignore --cache --write .",
+    "lint": "yarn run -T eslint --cache .",
+    "lint:fix": "yarn run -T eslint --cache --fix ."
+  },
+  "peerDependencies": {
+    "stylelint": "^15.0.0"
+  },
+  "dependencies": {
+    "postcss-html": "^1.5.0",
+    "stylelint": "^15.8.0",
+    "stylelint-config-html": "^1.1.0",
+    "stylelint-config-standard": "^33.0.0"
+  }
+}
