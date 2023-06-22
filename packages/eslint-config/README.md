@@ -95,14 +95,17 @@ Checkout all the `js` files to learn more about the configurations.
 Using Yarn:
 
 ```bash
-yarn add --dev @snowball-tech/eslint-config
+yarn add --dev @snowball-tech/eslint-config eslint
 ```
 
 Or using NPM:
 
 ```bash
-npm install --save-dev @snowball-tech/eslint-config
+npm install --save-dev @snowball-tech/eslint-config eslint
 ```
+
+> Note that depending on the configuration you use, you might need to install
+> additionals dependency like `prettier` or `typescript`
 
 ## Usage
 
@@ -254,8 +257,8 @@ npm install
 
 ### Useful Commands
 
-> It's recommended to use [Turbo]() to run the following command to leverage
-> advanced caching and packages dependencies management.  
+> It's recommended to use [Turbo](https://turbo.build/repo) to run the following
+> command to leverage advanced caching and packages dependencies management.  
 > But you can also directly use `yarn` to run the following commands.
 
 - `turbo format:fix` to format the code according to our formatting guidelines
@@ -265,11 +268,6 @@ npm install
 - `turbo test`: run all the unit tests;
 - `turbo test:dev`: run the tests for modified components and re-trigger runs
   everytime something is modified;
-
-### TypeScript
-
-See [the dedicated `CONVENTIONS.md`](../../docs/CONVENTIONS.md) and
-[`TOOLING.md`](../../docs/TOOLING.md) documentations.
 
 ### Linting & Formatting
 
@@ -295,10 +293,6 @@ basis.
 Also, see the [dedicated `TOOLING.md` documentation](../../docs/TOOLING.md) for more
 information.
 
-### Environment variables
-
-See [the dedicated `TOOLING.md` documentation](../../docs/TOOLING.md).
-
 ## Tooling
 
 See [the dedicated `TOOLING.md` documentation](../../docs/TOOLING.md).
@@ -314,7 +308,8 @@ See [the dedicated `CONVENTIONS.md` documentation](../../docs/CONVENTIONS.md).
 ## Help and feedback
 
 If you have any questions or feedback, feel free to reach out to us using this
-repository [issues](https://github.com/snowball-tech/glacier/issues) or [discussions](https://github.com/snowball-tech/glacier/discussions).
+repository [issues](https://github.com/snowball-tech/glacier/issues) or
+[discussions](https://github.com/snowball-tech/glacier/discussions).
 
 You can also use the internal #engineering Slack channel if you are a member of
 the Snowball tech team.
