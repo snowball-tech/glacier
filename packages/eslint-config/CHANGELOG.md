@@ -1,3 +1,9 @@
+## @snowball-tech/eslint-config [3.1.2](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@3.1.1...@snowball-tech/eslint-config@3.1.2) (2023-06-22)
+
+### 📝 Documentation
+
+- **eslint-config:** fix some typos ([d270b3d](https://github.com/snowball-tech/glacier/commit/d270b3daef7f76395e0a41681ee37552063c46a5))
+
 ## @snowball-tech/eslint-config [3.1.1](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@3.1.0...@snowball-tech/eslint-config@3.1.1) (2023-06-22)
 
 ### 🏗 Chores
