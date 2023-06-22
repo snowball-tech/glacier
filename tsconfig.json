@@ -37,5 +37,6 @@
     "**/dist",
     "**/out"
   ],
+  "files": [],
   "references": []
 }

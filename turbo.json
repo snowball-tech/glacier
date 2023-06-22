@@ -5,9 +5,7 @@
       "cache": false,
       "persistent": true
     },
-    "types:check": {
-      "outputs": []
-    },
+    "types:check": {},
     "build": {
       "dependsOn": ["^build"],
       "outputs": ["dist/**"]
@@ -43,6 +41,7 @@
     ".eslintrc.js",
     ".prettierignore",
     ".prettierrc.js",
+    ".yarnrc.yml",
     "package.json",
     "tsconfig.json"
   ]
