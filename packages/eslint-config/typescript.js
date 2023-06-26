@@ -8,7 +8,7 @@ module.exports = {
         'plugin:import/typescript',
       ],
 
-      files: ['**/*.ts', '**/*.tsx', '**/*.d.ts'],
+      files: ['**/*.ts', '**/*.tsx'],
 
       overrides: [
         {
@@ -23,8 +23,9 @@ module.exports = {
       parser: '@typescript-eslint/parser',
 
       parserOptions: {
+        project: true,
         sourceType: 'module',
-        warnOnUnsupportedTypeScriptVersion: true,
+        warnOnUnsupportedTypeScriptVersion: false,
       },
 
       plugins: ['@typescript-eslint'],
@@ -91,23 +92,29 @@ module.exports = {
 
       settings: {
         'import/parsers': {
-          [require.resolve('@typescript-eslint/parser')]: [
-            '.ts',
-            '.mts',
-            '.cts',
-            '.tsx',
-            '.d.ts',
-          ],
+          '@typescript-eslint/parser': ['.ts', '.mts', '.cts', '.tsx'],
         },
         'import/resolver': {
-          [require.resolve('eslint-import-resolver-node')]: {
-            extensions: ['.js', '.jsx', '.ts', '.tsx'],
+          node: {
+            extensions: [
+              '.js',
+              '.jsx',
+              '.cjs',
+              '.mjs',
+              '.ts',
+              '.tsx',
+              '.cts',
+              '.mts',
+            ],
           },
-          [require.resolve('eslint-import-resolver-typescript')]: {
+          typescript: {
             alwaysTryTypes: true,
-            typescript: {
-              project: ['./packages/*/tsconfig.json'],
-            },
+            project: [
+              'apps/*/tsconfig.json',
+              'apps/*/tsconfig.*.json',
+              'packages/*/tsconfig.json',
+              'packages/*/tsconfig.*.json',
+            ],
           },
         },
       },
