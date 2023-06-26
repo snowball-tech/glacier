@@ -1,3 +1,9 @@
+## @snowball-tech/eslint-config [3.1.3](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@3.1.2...@snowball-tech/eslint-config@3.1.3) (2023-06-26)
+
+### 🐛 Bug Fixes
+
+- **eslint-config:** fix the typescript configuration ([107902f](https://github.com/snowball-tech/glacier/commit/107902f0510be3895c9054288b32fdc61c1edd97))
+
 ## @snowball-tech/eslint-config [3.1.2](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@3.1.1...@snowball-tech/eslint-config@3.1.2) (2023-06-22)
 
 ### 📝 Documentation
