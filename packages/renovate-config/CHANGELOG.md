@@ -1,3 +1,9 @@
+## @snowball-tech/renovate-config [1.1.17](https://github.com/snowball-tech/glacier/compare/@snowball-tech/renovate-config@1.1.16...@snowball-tech/renovate-config@1.1.17) (2023-06-27)
+
+### 📦 Dependencies
+
+- update dependencies ([7fcff84](https://github.com/snowball-tech/glacier/commit/7fcff84a521934a982dc4dd99be9b9438ae84bc6))
+
 ## @snowball-tech/renovate-config [1.1.16](https://github.com/snowball-tech/glacier/compare/@snowball-tech/renovate-config@1.1.15...@snowball-tech/renovate-config@1.1.16) (2023-06-22)
 
 ### 🏗 Chores
