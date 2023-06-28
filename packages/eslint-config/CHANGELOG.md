@@ -1,3 +1,9 @@
+# @snowball-tech/eslint-config [3.2.0](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@3.1.5...@snowball-tech/eslint-config@3.2.0) (2023-06-28)
+
+### ✨ Features
+
+- **eslint-config:** add MDX support ([0844e61](https://github.com/snowball-tech/glacier/commit/0844e6105c775867161139e187d89ebbbdcc7c51))
+
 ## @snowball-tech/eslint-config [3.1.5](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@3.1.4...@snowball-tech/eslint-config@3.1.5) (2023-06-28)
 
 ### 🐛 Bug Fixes
