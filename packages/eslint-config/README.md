@@ -8,6 +8,7 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="50" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" width="50" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg" width="50" />
+  <img src="https://avatars.githubusercontent.com/u/37453691?s=280&v=4" width="50" />
   <img src="https://testing-library.com/img/octopus-128x128.png" width="50" />
   <img src="https://lodash.com/assets/img/lodash.svg" width="50" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="50" />
@@ -72,6 +73,8 @@ This configuration supports:
   [`eslint-plugin-next`](https://github.com/vercel/next.js/tree/canary/packages/eslint-plugin-next)
   and
   [`eslint-config-next`](https://github.com/vercel/next.js/tree/canary/packages/eslint-config-next)
+- [MDX files](https://mdxjs.com/) using
+  [`eslint-plugin-mdx`](https://github.com/mdx-js/eslint-mdx)
 - Testing with [Jest](https://jestjs.io/) using
   [`eslint-plugin-jest`](https://github.com/jest-community/eslint-plugin-jest)
   and adding [Testing Library](https://testing-library.com/) support using
@@ -170,6 +173,7 @@ You also have the possibility to use the full configuration, including:
 - [import](./import.js)
 - [TypeScript](./typescript.js)
 - [Next.JS](./next.js)
+- [MDX](./mdx.js)
 - [Jest](./jest.js) and [Testing Library](./testing-library.js)
 - [Lodash](./lodash.js)
 - [Perfectionist](./perfectionist.js)
@@ -210,6 +214,7 @@ pick whichever you want in the list below:
     "@snowball-tech/eslint-config/typescript",
     "@snowball-tech/eslint-config/react",
     "@snowball-tech/eslint-config/next",
+    "@snowball-tech/eslint-config/mdx",
     "@snowball-tech/eslint-config/jest",
     "@snowball-tech/eslint-config/testing-library",
     "@snowball-tech/eslint-config/lodash",
