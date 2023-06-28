@@ -25,6 +25,7 @@ module.exports = {
       parserOptions: {
         project: true,
         sourceType: 'module',
+        tsconfigRootDir: undefined,
         warnOnUnsupportedTypeScriptVersion: false,
       },
 
@@ -39,8 +40,12 @@ module.exports = {
           'error',
           'ignorePackages',
           {
+            cjs: 'never',
+            cts: 'never',
             js: 'never',
             jsx: 'never',
+            mjs: 'never',
+            mts: 'never',
             ts: 'never',
             tsx: 'never',
           },
@@ -97,14 +102,14 @@ module.exports = {
         'import/resolver': {
           node: {
             extensions: [
+              '.cjs',
+              '.cts',
               '.js',
               '.jsx',
-              '.cjs',
               '.mjs',
+              '.mts',
               '.ts',
               '.tsx',
-              '.cts',
-              '.mts',
             ],
           },
           typescript: {
