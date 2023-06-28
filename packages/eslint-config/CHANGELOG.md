@@ -1,3 +1,9 @@
+# @snowball-tech/eslint-config [4.0.0](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@3.2.0...@snowball-tech/eslint-config@4.0.0) (2023-06-28)
+
+### 💥 Breaking changes
+
+- **eslint-config:** rename mdx to storybook ([9b0dacb](https://github.com/snowball-tech/glacier/commit/9b0dacb6acf475070272c6a95db64eaf0a547e29))
+
 # @snowball-tech/eslint-config [3.2.0](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@3.1.5...@snowball-tech/eslint-config@3.2.0) (2023-06-28)
 
 ### ✨ Features
