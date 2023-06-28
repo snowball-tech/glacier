@@ -6,10 +6,6 @@ module.exports = {
       files: ['*.mdx'],
 
       rules: {
-        'no-undef': 'off',
-        'no-unused-expressions': 'off',
-        'no-unused-vars': 'off',
-
         'react/jsx-filename-extension': [
           'error',
           { extensions: ['.jsx', '.tsx', '.mdx'] },
