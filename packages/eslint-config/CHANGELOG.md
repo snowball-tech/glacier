@@ -1,3 +1,9 @@
+## @snowball-tech/eslint-config [4.0.1](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@4.0.0...@snowball-tech/eslint-config@4.0.1) (2023-06-28)
+
+### 🐛 Bug Fixes
+
+- **eslint-config:** fix mdx configuration ([72415a0](https://github.com/snowball-tech/glacier/commit/72415a0d64a70f6949e954f1b1edcb242f172ae6))
+
 # @snowball-tech/eslint-config [4.0.0](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@3.2.0...@snowball-tech/eslint-config@4.0.0) (2023-06-28)
 
 ### 💥 Breaking changes
