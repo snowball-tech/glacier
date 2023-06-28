@@ -3728,6 +3728,7 @@ __metadata:
     eslint-plugin-react-hooks: ^4.6.0
     eslint-plugin-sort-keys: ^2.3.5
     eslint-plugin-sql: ^2.3.2
+    eslint-plugin-storybook: ^0.6.12
     eslint-plugin-testing-library: ^5.11.0
     eslint-plugin-unicorn: ^47.0.0
     eslint-plugin-yml: ^1.8.0
@@ -3786,6 +3787,15 @@ __metadata:
     stylelint: ^15.0.0
   languageName: unknown
   linkType: soft
+
+"@storybook/csf@npm:^0.0.1":
+  version: 0.0.1
+  resolution: "@storybook/csf@npm:0.0.1"
+  dependencies:
+    lodash: ^4.17.15
+  checksum: fb57fa028b08a51edf44e1a2bf4be40a4607f5c6ccb58aae8924f476a42b9bbd61a0ad521cfc82196f23e6a912caae0a615e70a755e6800b284c91c509fd2de6
+  languageName: node
+  linkType: hard
 
 "@szmarczak/http-timer@npm:^4.0.5":
   version: 4.0.6
@@ -4489,7 +4499,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/utils@npm:5.60.1":
+"@typescript-eslint/utils@npm:5.60.1, @typescript-eslint/utils@npm:^5.45.0":
   version: 5.60.1
   resolution: "@typescript-eslint/utils@npm:5.60.1"
   dependencies:
@@ -7651,6 +7661,20 @@ __metadata:
   peerDependencies:
     eslint: ">=8.1.0"
   checksum: 2a1aa044f8fbfe55ea110122c7259db86a65700122a2b9cffcd78ebc4225b5adaf916e32e714610480a54e8710d66fb0750342e436530e6221f636b6628d77ea
+  languageName: node
+  linkType: hard
+
+"eslint-plugin-storybook@npm:^0.6.12":
+  version: 0.6.12
+  resolution: "eslint-plugin-storybook@npm:0.6.12"
+  dependencies:
+    "@storybook/csf": ^0.0.1
+    "@typescript-eslint/utils": ^5.45.0
+    requireindex: ^1.1.0
+    ts-dedent: ^2.2.0
+  peerDependencies:
+    eslint: ">=6"
+  checksum: 8e0e160c71216019c291a5a03b797b5359076067d16ea03b3dec63594093d45398f028d15c47eb89f2ddb6e8db18cc7e376b02d921dacc4fb31bbc8da46363c8
   languageName: node
   linkType: hard
 
@@ -14485,7 +14509,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"requireindex@npm:^1.2.0":
+"requireindex@npm:^1.1.0, requireindex@npm:^1.2.0":
   version: 1.2.0
   resolution: "requireindex@npm:1.2.0"
   checksum: 50d8b10a1ff1fdf6aea7a1870bc7bd238b0fb1917d8d7ca17fd03afc38a65dcd7a8a4eddd031f89128b5f0065833d5c92c4fef67f2c04e8624057fe626c9cf94
@@ -15984,6 +16008,13 @@ __metadata:
   dependencies:
     try-catch: ^3.0.0
   checksum: 262a9409c8a3d2b1672bb679b00ef6d4cc63fe0ef330ea4492c60d10459f4a138671669bc16e110ae59e01fa95802500ca1a332a1e6b423777a950805e425f7a
+  languageName: node
+  linkType: hard
+
+"ts-dedent@npm:^2.2.0":
+  version: 2.2.0
+  resolution: "ts-dedent@npm:2.2.0"
+  checksum: 93ed8f7878b6d5ed3c08d99b740010eede6bccfe64bce61c5a4da06a2c17d6ddbb80a8c49c2d15251de7594a4f93ffa21dd10e7be75ef66a4dc9951b4a94e2af
   languageName: node
   linkType: hard
 
