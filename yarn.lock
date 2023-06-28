@@ -3734,7 +3734,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@snowball-tech/renovate-config@workspace:packages/renovate-config"
   dependencies:
-    renovate: ^35.143.1
+    renovate: ^35.144.0
   languageName: unknown
   linkType: soft
 
@@ -5117,13 +5117,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"azure-devops-node-api@npm:12.0.0":
-  version: 12.0.0
-  resolution: "azure-devops-node-api@npm:12.0.0"
+"azure-devops-node-api@npm:12.1.0":
+  version: 12.1.0
+  resolution: "azure-devops-node-api@npm:12.1.0"
   dependencies:
     tunnel: 0.0.6
     typed-rest-client: ^1.8.4
-  checksum: a6e142c61f71ace9cd3fd814607d47d68b443065e50735b596c4d5057de16345f1eb40f4e2b5bcae2b60497483cf54fc7d9c4136a3568c01345cc34165e9b8ef
+  checksum: aa3c3f3eff89485a44ea31843749c5abf5ddfb0d2f059a3f5623d75d5eddbab5b839a5458c158e7941b9c8a2adfde2ecfea128ed076f730c309c869e8a318a78
   languageName: node
   linkType: hard
 
@@ -8312,13 +8312,13 @@ __metadata:
     eslint: ^8.43.0
     husky: ^8.0.3
     is-ci: ^3.0.1
-    lint-staged: ^13.2.2
+    lint-staged: ^13.2.3
     prettier: ^2.8.8
-    pythagora: ^0.0.69
+    pythagora: ^0.0.71
     semantic-release: ^21.0.5
     ts-node: ^10.9.1
     turbo: 1.10.6
-    typescript: ^5.1.3
+    typescript: ^5.1.5
   languageName: unknown
   linkType: soft
 
@@ -10599,9 +10599,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lint-staged@npm:^13.2.2":
-  version: 13.2.2
-  resolution: "lint-staged@npm:13.2.2"
+"lint-staged@npm:^13.2.3":
+  version: 13.2.3
+  resolution: "lint-staged@npm:13.2.3"
   dependencies:
     chalk: 5.2.0
     cli-truncate: ^3.1.0
@@ -10618,7 +10618,7 @@ __metadata:
     yaml: ^2.2.2
   bin:
     lint-staged: bin/lint-staged.js
-  checksum: f34f6e2e85e827364658ab8717bf8b35239473c2d4959d746b053a4cf158ac657348444c755820a8ef3eac2d4753a37c52e9db3e201ee20b085f26d2f2fbc9ed
+  checksum: ff51a1e33072f488b28b938ed47323816a1ff278ef6d0e5cbe1704b292773a6c8ce945b504eae3a9b5702917a979523a741f17023e16077bd5fa35be687cc067
   languageName: node
   linkType: hard
 
@@ -13064,9 +13064,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pythagora@npm:^0.0.69":
-  version: 0.0.69
-  resolution: "pythagora@npm:0.0.69"
+"pythagora@npm:^0.0.71":
+  version: 0.0.71
+  resolution: "pythagora@npm:0.0.71"
   dependencies:
     "@babel/generator": ^7.22.3
     "@babel/parser": ^7.22.3
@@ -13083,7 +13083,7 @@ __metadata:
     uuid: ^9.0.0
   bin:
     pythagora: src/bin/run.js
-  checksum: e413f4a2f942b39a6ad69984a5dfa3a639fa9dd0bba9b2087ffe770e7479c166398831e7a9b3038d2ab52b71c29370414b7ac7d5988fe34adcd4bc487fc2396f
+  checksum: 08faff1df720e7a2edc6ab4de8a67d791f0d82dd3183cc9d0ddf0434c8f85d38bb66aa06299ae1113b774fcf8d378dcaa98b950e7a7cb06004dcb62c9c5ce9a2
   languageName: node
   linkType: hard
 
@@ -13497,9 +13497,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:^35.143.1":
-  version: 35.143.1
-  resolution: "renovate@npm:35.143.1"
+"renovate@npm:^35.144.0":
+  version: 35.144.0
+  resolution: "renovate@npm:35.144.0"
   dependencies:
     "@aws-sdk/client-codecommit": 3.348.0
     "@aws-sdk/client-ec2": 3.348.0
@@ -13533,7 +13533,7 @@ __metadata:
     aggregate-error: 3.1.0
     auth-header: 1.0.0
     aws4: 1.12.0
-    azure-devops-node-api: 12.0.0
+    azure-devops-node-api: 12.1.0
     bunyan: 1.8.15
     cacache: 17.1.3
     cacheable-lookup: 5.0.4
@@ -13613,7 +13613,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: f5ec7d593df4ea0fe24d6be70c1ea16d05dbb6a2817e640f3593278fa0b7553f3603ffbe36c205af735e9690e33ef340e38b0f62ff48051df01cf2c8349d237b
+  checksum: 4cf985bad7c9b3d575ce87350d896ca4b49d8219c4ea0706ed4d5bd9b3cff7396a202f104aeac6f6559e22e69e32adc97ff8a0340bedaee5f1a4e178eb97924a
   languageName: node
   linkType: hard
 
@@ -15420,23 +15420,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:^5.1.3":
-  version: 5.1.3
-  resolution: "typescript@npm:5.1.3"
+"typescript@npm:^5.1.5":
+  version: 5.1.5
+  resolution: "typescript@npm:5.1.5"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: d9d51862d98efa46534f2800a1071a613751b1585dc78884807d0c179bcd93d6e9d4012a508e276742f5f33c480adefc52ffcafaf9e0e00ab641a14cde9a31c7
+  checksum: 0eef8699e05ae767096924dbed633c340b4d36e953bb8ed87fb12e9dd9dcea5055ceac7182c614a556dbd346a8a82df799d330e1e286ae66e17c84e1710f6a6f
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@^5.1.3#~builtin<compat/typescript>":
-  version: 5.1.3
-  resolution: "typescript@patch:typescript@npm%3A5.1.3#~builtin<compat/typescript>::version=5.1.3&hash=5da071"
+"typescript@patch:typescript@^5.1.5#~builtin<compat/typescript>":
+  version: 5.1.5
+  resolution: "typescript@patch:typescript@npm%3A5.1.5#~builtin<compat/typescript>::version=5.1.5&hash=5da071"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 6f0a9dca6bf4ce9dcaf4e282aade55ef4c56ecb5fb98d0a4a5c0113398815aea66d871b5611e83353e5953a19ed9ef103cf5a76ac0f276d550d1e7cd5344f61e
+  checksum: 12ff5d14888805f24479e54bc8a3f83647107a6345f6c29dffcd429fb345be55f584a37e262cca58a0105203e41d4cb4e31b1b9096c9abeca0e2ace8eb00935e
   languageName: node
   linkType: hard
 
