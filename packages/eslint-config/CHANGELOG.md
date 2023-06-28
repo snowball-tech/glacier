@@ -1,3 +1,9 @@
+## @snowball-tech/eslint-config [3.1.5](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@3.1.4...@snowball-tech/eslint-config@3.1.5) (2023-06-28)
+
+### 🐛 Bug Fixes
+
+- **eslint-config:** add more allowed extensions ([350730a](https://github.com/snowball-tech/glacier/commit/350730aec3ca5b5b3c1d8e07ee89c98af2ac1ae6))
+
 ## @snowball-tech/eslint-config [3.1.4](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@3.1.3...@snowball-tech/eslint-config@3.1.4) (2023-06-27)
 
 ### 🐛 Bug Fixes
