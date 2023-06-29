@@ -28,7 +28,12 @@
     "yarn": "^3.0.0",
     "node": "^18.0.0"
   },
-  "main": "stylelint.config.js",
+  "main": "index.js",
+  "files": [
+    "base.js",
+    "full.js",
+    "styled.js"
+  ],
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"
@@ -43,7 +48,9 @@
     "stylelint": "^15.0.0"
   },
   "dependencies": {
+    "postcss": "^8.4.24",
     "postcss-html": "^1.5.0",
+    "postcss-styled-syntax": "^0.4.0",
     "stylelint": "^15.9.0",
     "stylelint-config-html": "^1.1.0",
     "stylelint-config-standard": "^33.0.0"

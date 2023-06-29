@@ -3779,7 +3779,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@snowball-tech/stylelint-config@workspace:packages/stylelint-config"
   dependencies:
+    postcss: ^8.4.24
     postcss-html: ^1.5.0
+    postcss-styled-syntax: ^0.4.0
     stylelint: ^15.9.0
     stylelint-config-html: ^1.1.0
     stylelint-config-standard: ^33.0.0
@@ -4481,7 +4483,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/typescript-estree@npm:5.60.1":
+"@typescript-eslint/typescript-estree@npm:5.60.1, @typescript-eslint/typescript-estree@npm:^5.47.0":
   version: 5.60.1
   resolution: "@typescript-eslint/typescript-estree@npm:5.60.1"
   dependencies:
@@ -7879,6 +7881,13 @@ __metadata:
     "@types/estree-jsx": ^1.0.0
     "@types/unist": ^2.0.0
   checksum: 6feea4fdc43b0ba0f79faf1d57cf32373007e146d4810c7c09c13f5a9c1b8600c1ac57a8d949967cedd2a9a91dddd246e19b59bacfc01e417168b4ebf220f691
+  languageName: node
+  linkType: hard
+
+"estree-walker@npm:^2.0.2":
+  version: 2.0.2
+  resolution: "estree-walker@npm:2.0.2"
+  checksum: 6151e6f9828abe2259e57f5fd3761335bb0d2ebd76dc1a01048ccee22fabcfef3c0859300f6d83ff0d1927849368775ec5a6d265dde2f6de5a1be1721cd94efc
   languageName: node
   linkType: hard
 
@@ -13610,6 +13619,18 @@ __metadata:
     cssesc: ^3.0.0
     util-deprecate: ^1.0.2
   checksum: f89163338a1ce3b8ece8e9055cd5a3165e79a15e1c408e18de5ad8f87796b61ec2d48a2902d179ae0c4b5de10fccd3a325a4e660596549b040bc5ad1b465f096
+  languageName: node
+  linkType: hard
+
+"postcss-styled-syntax@npm:^0.4.0":
+  version: 0.4.0
+  resolution: "postcss-styled-syntax@npm:0.4.0"
+  dependencies:
+    "@typescript-eslint/typescript-estree": ^5.47.0
+    estree-walker: ^2.0.2
+  peerDependencies:
+    postcss: ^8.4.21
+  checksum: f72ebb30c232b85bc2717582a5ec48114182f4c0d5cb4987256c8eaf896ecdd7519c295d59e6a5f2747da763b523c4cb26a102e8a0ff6d88ac1a4948a26327f9
   languageName: node
   linkType: hard
 
