@@ -23,8 +23,8 @@
 
 ---
 
-This package provides an opinionated [Stylelint](https://stylelint.io/)
-configuration based on Snowball engineering standards.
+This package provides a composable and opinionated
+[Stylelint](https://stylelint.io/) configuration based on Snowball engineering standards.
 
 This configuration supports:
 
@@ -45,6 +45,8 @@ It uses [PostCSS](https://postcss.org/) _(and in particular the
 and
 [`stylelint-config-html`](https://github.com/ota-meshi/stylelint-config-html).
 
+Checkout all the `js` files to learn more about the configurations.
+
 ## Installation
 
 Using Yarn:
@@ -59,7 +61,15 @@ Or using NPM:
 npm install --save-dev @snowball-tech/stylelint-config stylelint
 ```
 
+> Note that depending on the configuration you use, you might need to install
+> additionals dependency like `postcss` or `postcss-styled-syntax`
+
 ## Usage
+
+### Default configuration
+
+The package offers a [default](./index.js) Stylelint configuration containing
+only the [base rules](./base.js).
 
 To use this default configuration, simply extend it in you own Stylelint
 configuration using JavaScript configuration file `stylelint.config.js`:
@@ -73,7 +83,51 @@ module.exports = {
 #### Ignored files
 
 Ignored files are defined in the `ignoreFiles` config of the
-[default configuration](./stylelint.config.js).
+[`base` configuration](./base.js).
+
+### Complete configuration
+
+You also have the possibility to use the full configuration, including:
+
+- [base rules](./base.js) _(including promise & unicorn)_
+- [CSS-in-JS](./styled.js)
+
+```js
+module.exports = {
+  extends: ['@snowball-tech/stylelint-config/full'],
+}
+```
+
+### Make your own configuration
+
+Finally, you can also compose you own configuration using each set of
+configuration exposed by the config.
+
+To do so, simply extend the configuration you want to use in your own Stylelint
+and pick whichever you want in the list below:
+
+> It's recommended to **always** include the `base` configuration in the first
+> position.
+>
+> Note that the `base` configuration also contains the default `ignoreFiles`.
+
+```json
+{
+  "extends": [
+    "@snowball-tech/eslint-config/base",
+    "@snowball-tech/eslint-config/styled"
+  ]
+}
+```
+
+> ⚠️ **Important notes**: when composing your own configuration, try to keep the
+> configurations files in the order above to ensure the proper behavior of the
+> linter.
+
+Of course, you can also extend any other configuration coming from any other
+config or plugin and add you own rules and overrides to your configuration.
+
+## Development
 
 If you want to contribute, update or edit this Stylelint configuration:
 
