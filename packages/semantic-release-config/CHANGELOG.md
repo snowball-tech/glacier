@@ -1,3 +1,9 @@
+# @snowball-tech/semantic-release-config [2.0.0](https://github.com/snowball-tech/glacier/compare/@snowball-tech/semantic-release-config@1.2.2...@snowball-tech/semantic-release-config@2.0.0) (2023-06-30)
+
+### 💥 Breaking changes
+
+- **eslint-config:** disable type checking lint by default ([811c808](https://github.com/snowball-tech/glacier/commit/811c808306f3287f06f021a92c9884f10b4c4039))
+
 ## @snowball-tech/semantic-release-config [1.2.2](https://github.com/snowball-tech/glacier/compare/@snowball-tech/semantic-release-config@1.2.1...@snowball-tech/semantic-release-config@1.2.2) (2023-06-27)
 
 ### 📦 Dependencies
