@@ -4,7 +4,6 @@ module.exports = {
       extends: [
         'plugin:@typescript-eslint/eslint-recommended',
         'plugin:@typescript-eslint/recommended',
-        'plugin:@typescript-eslint/recommended-requiring-type-checking',
         'plugin:import/typescript',
       ],
 
@@ -20,12 +19,10 @@ module.exports = {
           },
         },
       ],
-      parser: '@typescript-eslint/parser',
 
+      parser: '@typescript-eslint/parser',
       parserOptions: {
-        project: true,
         sourceType: 'module',
-        tsconfigRootDir: undefined,
         warnOnUnsupportedTypeScriptVersion: false,
       },
 
