@@ -11,6 +11,7 @@ module.exports = {
     './secrets',
     './import',
     './typescript',
+    './typescript-with-type-checking',
     './react',
     './next',
     './jest',

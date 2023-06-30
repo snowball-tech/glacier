@@ -62,6 +62,7 @@ This configuration supports:
   [`eslint-plugin-import`](https://github.com/import-js/eslint-plugin-import)
 - [TypeScript](https://www.typescriptlang.org/) using
   [TypeScript ESLint](https://github.com/typescript-eslint/typescript-eslint)
+  _(with or without type checking linting)_
 - [React](https://react.dev/) based on the
   [Airbnb's JavaScript Style Guide](https://github.com/airbnb/javascript) and
   using the
@@ -175,6 +176,7 @@ You also have the possibility to use the full configuration, including:
 - [React, hooks and JSX accessibility](./react.js)
 - [import](./import.js)
 - [TypeScript](./typescript.js)
+- [Type checking linting](./typescript-with-type-checking.js)
 - [Next.JS](./next.js)
 - [Jest](./jest.js) and [Testing Library](./testing-library.js)
 - [Lodash](./lodash.js)
@@ -215,6 +217,7 @@ pick whichever you want in the list below:
     "@snowball-tech/eslint-config/secrets",
     "@snowball-tech/eslint-config/import",
     "@snowball-tech/eslint-config/typescript",
+    "@snowball-tech/eslint-config/typescript-with-type-checking",
     "@snowball-tech/eslint-config/react",
     "@snowball-tech/eslint-config/next",
     "@snowball-tech/eslint-config/jest",
@@ -230,8 +233,49 @@ pick whichever you want in the list below:
 > ⚠️ **Important notes**: when composing your own configuration, try to keep the
 > configurations files in the order above to ensure the proper behavior of the
 > linter.
->
-> Also note that **Prettier must always be the last**!
+
+> **Prettier must always be the last**!
+
+> **`typescript-with-type-checking` must always be after `typescript`**!
+
+Note that enabling type checking linting might have a serious impact on your
+linter performances.
+Also note that when enabling type checking linting, you will have to add
+additional configuration to your own linter configuration:
+
+```js
+module.exports = {
+  // [...] skipped for brevity.
+
+  parserOptions: {
+    // You can also use `__dirname`.
+    tsconfigRootDir: './',
+  },
+
+  // [...] skipped for brevity.
+}
+```
+
+Also, to improve performances, you can specify the `tsconfig.json` file name(s)
+you want to use instead of relying on `project: true`. For example:
+
+```js
+module.exports = {
+  // [...] skipped for brevity.
+
+  parserOptions: {
+    project: ['apps/**/tsconfig.json', 'packages/**/tsconfig*.json'],
+    // You can also use `__dirname`.
+    tsconfigRootDir: './',
+  },
+
+  // [...] skipped for brevity.
+}
+```
+
+> See <https://typescript-eslint.io/linting/typed-linting/#how-is-performance>
+> and more generally see <https://typescript-eslint.io/linting/typed-linting/>
+> for more information
 
 Of course, you can also extend any other configuration coming from any other
 config or plugin and add you own rules and overrides to your configuration.

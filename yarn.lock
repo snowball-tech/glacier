@@ -3752,7 +3752,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@snowball-tech/renovate-config@workspace:packages/renovate-config"
   dependencies:
-    renovate: ^35.144.0
+    renovate: ^35.147.0
   languageName: unknown
   linkType: soft
 
@@ -3769,7 +3769,7 @@ __metadata:
     "@semantic-release/release-notes-generator": ^11.0.3
     "@types/lodash": ^4.14.195
     lodash: ^4.17.21
-    semantic-release: ^21.0.5
+    semantic-release: ^21.0.6
   peerDependencies:
     semantic-release: ^21.0.0
   languageName: unknown
@@ -8569,10 +8569,10 @@ __metadata:
     lint-staged: ^13.2.3
     prettier: ^2.8.8
     pythagora: ^0.0.71
-    semantic-release: ^21.0.5
+    semantic-release: ^21.0.6
     ts-node: ^10.9.1
     turbo: 1.10.6
-    typescript: ^5.1.5
+    typescript: ^5.1.6
   languageName: unknown
   linkType: soft
 
@@ -8594,18 +8594,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"glob@npm:10.2.7":
-  version: 10.2.7
-  resolution: "glob@npm:10.2.7"
+"glob@npm:10.3.1":
+  version: 10.3.1
+  resolution: "glob@npm:10.3.1"
   dependencies:
     foreground-child: ^3.1.0
     jackspeak: ^2.0.3
     minimatch: ^9.0.1
     minipass: ^5.0.0 || ^6.0.2
-    path-scurry: ^1.7.0
+    path-scurry: ^1.10.0
   bin:
     glob: dist/cjs/src/bin.js
-  checksum: 555205a74607d6f8d9874ba888924b305b5ea1abfaa2e9ccb11ac713d040aac7edbf7d8702a2f4a1cd81b2d7666412170ce7ef061d33cddde189dae8c1a1a054
+  checksum: 19c8c2805658b1002fecf0722cd609a33153d756a0d5260676bd0e9c5e6ef889ec9cce6d3dac0411aa90bce8de3d14f25b6f5589a3292582cccbfeddd0e98cc4
   languageName: node
   linkType: hard
 
@@ -11203,6 +11203,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"lru-cache@npm:^9.1.1 || ^10.0.0":
+  version: 10.0.0
+  resolution: "lru-cache@npm:10.0.0"
+  checksum: 18f101675fe283bc09cda0ef1e3cc83781aeb8373b439f086f758d1d91b28730950db785999cd060d3c825a8571c03073e8c14512b6655af2188d623031baf50
+  languageName: node
+  linkType: hard
+
 "luxon@npm:3.3.0, luxon@npm:^3.3.0":
   version: 3.3.0
   resolution: "luxon@npm:3.3.0"
@@ -13471,6 +13478,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"path-scurry@npm:^1.10.0":
+  version: 1.10.0
+  resolution: "path-scurry@npm:1.10.0"
+  dependencies:
+    lru-cache: ^9.1.1 || ^10.0.0
+    minipass: ^5.0.0 || ^6.0.2
+  checksum: 3b66a4a6ab66e45755b577c966ecf0da92d3e068b3c992d8f69aa2cc908ef4eda9358253e9b4f86cad43d3ad810ec445be164105975f5cb3fdab68459c59dc6e
+  languageName: node
+  linkType: hard
+
 "path-scurry@npm:^1.7.0":
   version: 1.9.2
   resolution: "path-scurry@npm:1.9.2"
@@ -14364,9 +14381,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:^35.144.0":
-  version: 35.144.0
-  resolution: "renovate@npm:35.144.0"
+"renovate@npm:^35.147.0":
+  version: 35.147.0
+  resolution: "renovate@npm:35.147.0"
   dependencies:
     "@aws-sdk/client-codecommit": 3.348.0
     "@aws-sdk/client-ec2": 3.348.0
@@ -14424,7 +14441,7 @@ __metadata:
     fs-extra: 11.1.1
     git-url-parse: 13.1.0
     github-url-from-git: 1.5.0
-    glob: 10.2.7
+    glob: 10.3.1
     global-agent: 3.0.0
     good-enough-parser: 1.1.23
     got: 11.8.6
@@ -14480,7 +14497,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 4cf985bad7c9b3d575ce87350d896ca4b49d8219c4ea0706ed4d5bd9b3cff7396a202f104aeac6f6559e22e69e32adc97ff8a0340bedaee5f1a4e178eb97924a
+  checksum: 0ede26c72e429eca651d8778bb7c438b087c62f5da3ada04b3fb065aeb8178325381014706a738ae254ea4b1912b3a086cb47a89c1e8435723f6b0734ec9699e
   languageName: node
   linkType: hard
 
@@ -14842,6 +14859,44 @@ __metadata:
   bin:
     semantic-release: bin/semantic-release.js
   checksum: 9b45d24392c24a7f147e4560d36a0f70447b719b0e7371c400834b9a1a98f4b6a3e23420480505f03b0b690c2eaaea2db53c870435a28f8946721ad96f63d3e1
+  languageName: node
+  linkType: hard
+
+"semantic-release@npm:^21.0.6":
+  version: 21.0.6
+  resolution: "semantic-release@npm:21.0.6"
+  dependencies:
+    "@semantic-release/commit-analyzer": ^10.0.0
+    "@semantic-release/error": ^4.0.0
+    "@semantic-release/github": ^9.0.0
+    "@semantic-release/npm": ^10.0.2
+    "@semantic-release/release-notes-generator": ^11.0.0
+    aggregate-error: ^4.0.1
+    cosmiconfig: ^8.0.0
+    debug: ^4.0.0
+    env-ci: ^9.0.0
+    execa: ^7.0.0
+    figures: ^5.0.0
+    find-versions: ^5.1.0
+    get-stream: ^6.0.0
+    git-log-parser: ^1.2.0
+    hook-std: ^3.0.0
+    hosted-git-info: ^6.0.0
+    lodash-es: ^4.17.21
+    marked: ^5.0.0
+    marked-terminal: ^5.1.1
+    micromatch: ^4.0.2
+    p-each-series: ^3.0.0
+    p-reduce: ^3.0.0
+    read-pkg-up: ^9.1.0
+    resolve-from: ^5.0.0
+    semver: ^7.3.2
+    semver-diff: ^4.0.0
+    signale: ^1.2.1
+    yargs: ^17.5.1
+  bin:
+    semantic-release: bin/semantic-release.js
+  checksum: 9f2429ca64aef109fa4de6cdef8fbfdabdc72cf369818b1a698305d3643b64288395b7292432979c7591b2927281e3761e6537799e69cc64aa3421b7ecc0b842
   languageName: node
   linkType: hard
 
@@ -16344,23 +16399,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:^5.1.5":
-  version: 5.1.5
-  resolution: "typescript@npm:5.1.5"
+"typescript@npm:^5.1.6":
+  version: 5.1.6
+  resolution: "typescript@npm:5.1.6"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 0eef8699e05ae767096924dbed633c340b4d36e953bb8ed87fb12e9dd9dcea5055ceac7182c614a556dbd346a8a82df799d330e1e286ae66e17c84e1710f6a6f
+  checksum: b2f2c35096035fe1f5facd1e38922ccb8558996331405eb00a5111cc948b2e733163cc22fab5db46992aba7dd520fff637f2c1df4996ff0e134e77d3249a7350
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@^5.1.5#~builtin<compat/typescript>":
-  version: 5.1.5
-  resolution: "typescript@patch:typescript@npm%3A5.1.5#~builtin<compat/typescript>::version=5.1.5&hash=5da071"
+"typescript@patch:typescript@^5.1.6#~builtin<compat/typescript>":
+  version: 5.1.6
+  resolution: "typescript@patch:typescript@npm%3A5.1.6#~builtin<compat/typescript>::version=5.1.6&hash=5da071"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 12ff5d14888805f24479e54bc8a3f83647107a6345f6c29dffcd429fb345be55f584a37e262cca58a0105203e41d4cb4e31b1b9096c9abeca0e2ace8eb00935e
+  checksum: f53bfe97f7c8b2b6d23cf572750d4e7d1e0c5fff1c36d859d0ec84556a827b8785077bc27676bf7e71fae538e517c3ecc0f37e7f593be913d884805d931bc8be
   languageName: node
   linkType: hard
 
