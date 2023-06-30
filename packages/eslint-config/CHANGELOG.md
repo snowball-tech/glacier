@@ -1,3 +1,9 @@
+# @snowball-tech/eslint-config [5.0.0](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@4.0.1...@snowball-tech/eslint-config@5.0.0) (2023-06-30)
+
+### 💥 Breaking changes
+
+- **eslint-config:** disable type checking lint by default ([811c808](https://github.com/snowball-tech/glacier/commit/811c808306f3287f06f021a92c9884f10b4c4039))
+
 ## @snowball-tech/eslint-config [4.0.1](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@4.0.0...@snowball-tech/eslint-config@4.0.1) (2023-06-28)
 
 ### 🐛 Bug Fixes
