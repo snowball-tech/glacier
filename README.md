@@ -9,7 +9,7 @@
 | ![eslint-config-score](https://img.shields.io/npms-io/final-score/@snowball-tech/eslint-config) | ![stylelint-config-score](https://img.shields.io/npms-io/final-score/@snowball-tech/stylelint-config) | ![prettier-config-score](https://img.shields.io/npms-io/final-score/@snowball-tech/prettier-config) | ![renovate-config-score](https://img.shields.io/npms-io/final-score/@snowball-tech/renovate-config) | ![semantic-release-config-score](https://img.shields.io/npms-io/final-score/@snowball-tech/semantic-release-config) |
 
 | Quality on `main` branch | Security on `main` branch | Release on `main` branch |
-| - | - |
+| - | - | - |
 | ![Quality](https://github.com/snowball-tech/glacier/actions/workflows/quality.yml/badge.svg?branch=main&event=push) | ![Security](https://github.com/snowball-tech/glacier/actions/workflows/security.yml/badge.svg?branch=main&event=push) | ![Release](https://github.com/snowball-tech/glacier/actions/workflows/release.yml/badge.svg?branch=main&event=push) |
 <!-- prettier-ignore-end -->
 
