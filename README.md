@@ -8,9 +8,9 @@
 | ![eslint-config-downloads](https://img.shields.io/npm/dt/@snowball-tech/eslint-config) | ![stylelint-config-downloads](https://img.shields.io/npm/dt/@snowball-tech/stylelint-config) | ![prettier-config-downloads](https://img.shields.io/npm/dt/@snowball-tech/prettier-config) | ![renovate-config-downloads](https://img.shields.io/npm/dt/@snowball-tech/renovate-config) | ![semantic-release-config-downloads](https://img.shields.io/npm/dt/@snowball-tech/semantic-release-config) |
 | ![eslint-config-score](https://img.shields.io/npms-io/final-score/@snowball-tech/eslint-config) | ![stylelint-config-score](https://img.shields.io/npms-io/final-score/@snowball-tech/stylelint-config) | ![prettier-config-score](https://img.shields.io/npms-io/final-score/@snowball-tech/prettier-config) | ![renovate-config-score](https://img.shields.io/npms-io/final-score/@snowball-tech/renovate-config) | ![semantic-release-config-score](https://img.shields.io/npms-io/final-score/@snowball-tech/semantic-release-config) |
 
-| CI on `main` branch |
-| - |
-| ![CI](https://github.com/snowball-tech/glacier/actions/workflows/ci.yml/badge.svg?branch=main&event=push) |
+| Quality on `main` branch | Security on `main` branch | Release on `main` branch |
+| - | - |
+| ![Quality](https://github.com/snowball-tech/glacier/actions/workflows/quality.yml/badge.svg?branch=main&event=push) | ![Security](https://github.com/snowball-tech/glacier/actions/workflows/security.yml/badge.svg?branch=main&event=push) | ![Release](https://github.com/snowball-tech/glacier/actions/workflows/release.yml/badge.svg?branch=main&event=push) |
 <!-- prettier-ignore-end -->
 
 The open-source mono-repository for packages developed, maintained and used by
