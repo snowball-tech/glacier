@@ -1,3 +1,9 @@
+# @snowball-tech/prettier-config [1.3.0](https://github.com/snowball-tech/glacier/compare/@snowball-tech/prettier-config@1.2.0...@snowball-tech/prettier-config@1.3.0) (2023-07-03)
+
+### ✨ Features
+
+- ignore styled-system directories (for PandaCSS) ([822a553](https://github.com/snowball-tech/glacier/commit/822a553fa2b11e32315524ec348015db00a3200e))
+
 # @snowball-tech/prettier-config [1.2.0](https://github.com/snowball-tech/glacier/compare/@snowball-tech/prettier-config@1.1.5...@snowball-tech/prettier-config@1.2.0) (2023-06-19)
 
 ### ✨ Features
