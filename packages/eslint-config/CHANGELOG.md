@@ -1,3 +1,9 @@
+# @snowball-tech/eslint-config [5.1.0](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@5.0.1...@snowball-tech/eslint-config@5.1.0) (2023-07-03)
+
+### ✨ Features
+
+- ignore styled-system directories (for PandaCSS) ([822a553](https://github.com/snowball-tech/glacier/commit/822a553fa2b11e32315524ec348015db00a3200e))
+
 ## @snowball-tech/eslint-config [5.0.1](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@5.0.0...@snowball-tech/eslint-config@5.0.1) (2023-07-01)
 
 ### 📦 Dependencies
