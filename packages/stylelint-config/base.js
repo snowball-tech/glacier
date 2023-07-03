@@ -30,6 +30,7 @@ module.exports = {
     '../../../**/build/**/*',
     '../../../**/out/**/*',
     '../../../**/storybook-static/**/*',
+    '../../../**/styled-system/**/*',
     '../../../**/coverage/**/*',
     '../../../**/node_modules/**/*',
     '../../../**/LICENSE',
