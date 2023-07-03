@@ -3759,7 +3759,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@snowball-tech/renovate-config@workspace:packages/renovate-config"
   dependencies:
-    renovate: ^35.152.0
+    renovate: ^35.158.0
   languageName: unknown
   linkType: soft
 
@@ -14406,9 +14406,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:^35.152.0":
-  version: 35.152.0
-  resolution: "renovate@npm:35.152.0"
+"renovate@npm:^35.158.0":
+  version: 35.158.0
+  resolution: "renovate@npm:35.158.0"
   dependencies:
     "@aws-sdk/client-codecommit": 3.348.0
     "@aws-sdk/client-ec2": 3.348.0
@@ -14522,7 +14522,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 401ca246bcdd67d69d4bb3023b4ff0a5909633694ab284f210ff525d0a7ca6f077c99596f443d5aca893f7b776b73bc4137d50dbb2fd26845a25c3ec17835576
+  checksum: b119d8db2082d903e8ec94698887f6e208643ff047690a5acf5d2f471324cca24d419f5d499fe83d9d9b4314f50d7241ec735df9abfbdd079162ae8349878bcb
   languageName: node
   linkType: hard
 
