@@ -1,3 +1,9 @@
+## @snowball-tech/semantic-release-config [2.0.3](https://github.com/snowball-tech/glacier/compare/@snowball-tech/semantic-release-config@2.0.2...@snowball-tech/semantic-release-config@2.0.3) (2023-07-05)
+
+### 🏗 Chores
+
+- **deps:** update yarn to v3.6.1 ([#86](https://github.com/snowball-tech/glacier/issues/86)) ([5dfe26f](https://github.com/snowball-tech/glacier/commit/5dfe26fe825fec1201eb043333069a84fb0e848c))
+
 ## @snowball-tech/semantic-release-config [2.0.2](https://github.com/snowball-tech/glacier/compare/@snowball-tech/semantic-release-config@2.0.1...@snowball-tech/semantic-release-config@2.0.2) (2023-07-05)
 
 ### 📦 Dependencies
