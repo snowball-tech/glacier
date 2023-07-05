@@ -3739,7 +3739,7 @@ __metadata:
     eslint-plugin-testing-library: ^5.11.0
     eslint-plugin-unicorn: ^47.0.0
     eslint-plugin-yml: ^1.8.0
-    prettier: ^2.8.8
+    prettier: ^3.0.0
   peerDependencies:
     eslint: ^8.0.0
   languageName: unknown
@@ -3749,7 +3749,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@snowball-tech/prettier-config@workspace:packages/prettier-config"
   dependencies:
-    prettier: ^2.8.8
+    prettier: ^3.0.0
     prettier-plugin-organize-attributes: ^0.0.5
     prettier-plugin-sh: ^0.12.8
   languageName: unknown
@@ -3759,7 +3759,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@snowball-tech/renovate-config@workspace:packages/renovate-config"
   dependencies:
-    renovate: ^36.1.0
+    renovate: ^36.1.3
   languageName: unknown
   linkType: soft
 
@@ -7037,17 +7037,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"editorconfig@npm:1.0.3":
-  version: 1.0.3
-  resolution: "editorconfig@npm:1.0.3"
+"editorconfig@npm:2.0.0":
+  version: 2.0.0
+  resolution: "editorconfig@npm:2.0.0"
   dependencies:
     "@one-ini/wasm": 0.1.1
     commander: ^11.0.0
-    minimatch: 9.0.1
+    minimatch: 9.0.2
     semver: ^7.5.3
   bin:
     editorconfig: bin/editorconfig
-  checksum: 40ff29a92c628a1f00b44af538aac7e845fce7986606992d46138387a5299506e6cfc2ba0aed7b58b37865b00991217b19e8bf664174b890b2b8c13731fcae45
+  checksum: d5b3eca96dfa3115cef79e9814108b217a52f66263b056cc676a482742dfc85b8aca78811a770ecba1b8b118f74fded54c1c2d2061b023677abc0d758ca22a9a
   languageName: node
   linkType: hard
 
@@ -7100,17 +7100,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"emojibase-regex@npm:6.0.1":
-  version: 6.0.1
-  resolution: "emojibase-regex@npm:6.0.1"
-  checksum: 8435e8c780355d742021d546bc5ed7c80d8701f4d37d809794e6f9946b36fb0194eb9406b27fedf50dda76ff25ab239c55f9b9382806670253af705194b4aeb9
+"emojibase-regex@npm:15.0.0":
+  version: 15.0.0
+  resolution: "emojibase-regex@npm:15.0.0"
+  checksum: f3759319a8a47c84eacc38ddf5c3e2aa4ea870321e73ea2e8ab2cc2492fd32a027b5748bd0d57ddb1dd1cae9bb276fced405b5ceec5efa5cff336235e6091245
   languageName: node
   linkType: hard
 
-"emojibase@npm:6.1.0":
-  version: 6.1.0
-  resolution: "emojibase@npm:6.1.0"
-  checksum: a0f975a04451dc30ddbe7dddbfab68a71d209a4003c986ca7dc0171df6cf85605b678483006ee08cc6bb48bccb414de9e1bedab8afc50755d9183794fd2b1b22
+"emojibase@npm:15.0.0":
+  version: 15.0.0
+  resolution: "emojibase@npm:15.0.0"
+  checksum: 6cd0aee781a6e558802bb06bb389b14188496f163fe06e4f697fb6f0ec7f6b8c5abe309e787f41db0084678f9239cf56c2122057a8ba290da82bdc793e3b9c28
   languageName: node
   linkType: hard
 
@@ -8668,7 +8668,7 @@ __metadata:
     husky: ^8.0.3
     is-ci: ^3.0.1
     lint-staged: ^13.2.3
-    prettier: ^2.8.8
+    prettier: ^3.0.0
     pythagora: ^0.0.74
     semantic-release: ^21.0.7
     ts-node: ^10.9.1
@@ -12197,15 +12197,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"minimatch@npm:9.0.1, minimatch@npm:^9.0.0, minimatch@npm:^9.0.1":
-  version: 9.0.1
-  resolution: "minimatch@npm:9.0.1"
-  dependencies:
-    brace-expansion: ^2.0.1
-  checksum: 97f5f5284bb57dc65b9415dec7f17a0f6531a33572193991c60ff18450dcfad5c2dad24ffeaf60b5261dccd63aae58cc3306e2209d57e7f88c51295a532d8ec3
-  languageName: node
-  linkType: hard
-
 "minimatch@npm:9.0.2":
   version: 9.0.2
   resolution: "minimatch@npm:9.0.2"
@@ -12221,6 +12212,15 @@ __metadata:
   dependencies:
     brace-expansion: ^2.0.1
   checksum: 7564208ef81d7065a370f788d337cd80a689e981042cb9a1d0e6580b6c6a8c9279eba80010516e258835a988363f99f54a6f711a315089b8b42694f5da9d0d77
+  languageName: node
+  linkType: hard
+
+"minimatch@npm:^9.0.0, minimatch@npm:^9.0.1":
+  version: 9.0.1
+  resolution: "minimatch@npm:9.0.1"
+  dependencies:
+    brace-expansion: ^2.0.1
+  checksum: 97f5f5284bb57dc65b9415dec7f17a0f6531a33572193991c60ff18450dcfad5c2dad24ffeaf60b5261dccd63aae58cc3306e2209d57e7f88c51295a532d8ec3
   languageName: node
   linkType: hard
 
@@ -13801,12 +13801,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:2.8.8, prettier@npm:^2.8.8":
+"prettier@npm:2.8.8":
   version: 2.8.8
   resolution: "prettier@npm:2.8.8"
   bin:
     prettier: bin-prettier.js
   checksum: b49e409431bf129dd89238d64299ba80717b57ff5a6d1c1a8b1a28b590d998a34e083fa13573bc732bb8d2305becb4c9a4407f8486c81fa7d55100eb08263cf8
+  languageName: node
+  linkType: hard
+
+"prettier@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "prettier@npm:3.0.0"
+  bin:
+    prettier: bin/prettier.cjs
+  checksum: 6a832876a1552dc58330d2467874e5a0b46b9ccbfc5d3531eb69d15684743e7f83dc9fbd202db6270446deba9c82b79d24383d09924c462b457136a759425e33
   languageName: node
   linkType: hard
 
@@ -14486,9 +14495,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:^36.1.0":
-  version: 36.1.0
-  resolution: "renovate@npm:36.1.0"
+"renovate@npm:^36.1.3":
+  version: 36.1.3
+  resolution: "renovate@npm:36.1.3"
   dependencies:
     "@aws-sdk/client-codecommit": 3.348.0
     "@aws-sdk/client-ec2": 3.348.0
@@ -14535,11 +14544,11 @@ __metadata:
     delay: 5.0.0
     dequal: 2.0.3
     detect-indent: 6.1.0
-    editorconfig: 1.0.3
+    editorconfig: 2.0.0
     email-addresses: 5.0.0
     emoji-regex: 10.2.1
-    emojibase: 6.1.0
-    emojibase-regex: 6.0.1
+    emojibase: 15.0.0
+    emojibase-regex: 15.0.0
     extract-zip: 2.0.1
     find-packages: 10.0.4
     find-up: 5.0.0
@@ -14602,7 +14611,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 168275a4e408114cb47a4b8a0c2239a80a0730751c6c8e48a33161b833d8bbe9253eaa81c2d3c5732a8f146f4ed68a073ea93cbaa4cd58fbbde02223cf154047
+  checksum: aa6ab39453378ae0e13d2b4e3e47405895812fd48156543d62f6e47e0aac20d580828ca725466203a1c084f0ce725abc0fa49839b9b1ece1129f74730b84f63b
   languageName: node
   linkType: hard
 

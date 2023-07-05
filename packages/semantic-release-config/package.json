@@ -42,8 +42,8 @@
     "registry": "https://registry.npmjs.org"
   },
   "scripts": {
-    "format": "yarn run -T prettier --ignore-path ../../.prettierignore --cache --check .",
-    "format:fix": "yarn run -T prettier --ignore-path ../../.prettierignore --cache --write .",
+    "format": "yarn run -T prettier --cache --check .",
+    "format:fix": "yarn run -T prettier --cache --write .",
     "lint": "yarn run -T eslint --cache .",
     "lint:fix": "yarn run -T eslint --cache --fix ."
   },
