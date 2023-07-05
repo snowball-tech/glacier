@@ -1,3 +1,9 @@
+## @snowball-tech/prettier-config [1.3.2](https://github.com/snowball-tech/glacier/compare/@snowball-tech/prettier-config@1.3.1...@snowball-tech/prettier-config@1.3.2) (2023-07-05)
+
+### 🐛 Bug Fixes
+
+- **prettier-config:** update prettier ignored files ([afce34c](https://github.com/snowball-tech/glacier/commit/afce34caca0a3f7d8c21a8fb22e6c4593f89d818))
+
 ## @snowball-tech/prettier-config [1.3.1](https://github.com/snowball-tech/glacier/compare/@snowball-tech/prettier-config@1.3.0...@snowball-tech/prettier-config@1.3.1) (2023-07-05)
 
 ### 📦 Dependencies
