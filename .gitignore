@@ -42,9 +42,6 @@ next-env.d.ts
 **/.env*.local
 *.pem
 
-# Vercel
-**/.vercel
-
 # IDE
 **/.idea
 **/*.ntvs*
@@ -64,5 +61,18 @@ next-env.d.ts
 # Pythagora project (https://pythagora.ai/).
 .pythagora
 
+# Storybook.
+**/storybook-static*
+
+# Vercel.
+**/.vercel
+
+# Supabase.
+**/supabase/.branches
+**/supabase/.temp
+
 # Misc.
 *.bak
+
+# PandaCSS.
+styled-system*

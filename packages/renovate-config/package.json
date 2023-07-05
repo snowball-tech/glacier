@@ -31,11 +31,11 @@
     "registry": "https://registry.npmjs.org"
   },
   "scripts": {
-    "format": "yarn run -T prettier --ignore-path ../../.prettierignore --cache --check .",
-    "format:fix": "yarn run -T prettier --ignore-path ../../.prettierignore --cache --write .",
+    "format": "yarn run -T prettier --cache --check .",
+    "format:fix": "yarn run -T prettier --cache --write .",
     "validate:config": "renovate-config-validator default.json5"
   },
   "devDependencies": {
-    "renovate": "^36.1.0"
+    "renovate": "^36.1.3"
   }
 }

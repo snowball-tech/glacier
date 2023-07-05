@@ -36,7 +36,7 @@
     "format:fix": "yarn run -T prettier --cache --write ."
   },
   "dependencies": {
-    "prettier": "^2.8.8",
+    "prettier": "^3.0.0",
     "prettier-plugin-organize-attributes": "^0.0.5",
     "prettier-plugin-sh": "^0.12.8"
   }
