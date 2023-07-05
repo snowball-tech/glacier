@@ -1,3 +1,9 @@
+## @snowball-tech/stylelint-config [2.1.1](https://github.com/snowball-tech/glacier/compare/@snowball-tech/stylelint-config@2.1.0...@snowball-tech/stylelint-config@2.1.1) (2023-07-05)
+
+### 📦 Dependencies
+
+- update dependencies ([9a65eba](https://github.com/snowball-tech/glacier/commit/9a65ebaf7afadfb16795062e9b778ea03463f856))
+
 # @snowball-tech/stylelint-config [2.1.0](https://github.com/snowball-tech/glacier/compare/@snowball-tech/stylelint-config@2.0.1...@snowball-tech/stylelint-config@2.1.0) (2023-07-03)
 
 ### ✨ Features
