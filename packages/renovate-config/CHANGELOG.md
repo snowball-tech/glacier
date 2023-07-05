@@ -1,3 +1,9 @@
+## @snowball-tech/renovate-config [2.0.5](https://github.com/snowball-tech/glacier/compare/@snowball-tech/renovate-config@2.0.4...@snowball-tech/renovate-config@2.0.5) (2023-07-05)
+
+### 🏗 Chores
+
+- **deps:** update yarn to v3.6.1 ([#86](https://github.com/snowball-tech/glacier/issues/86)) ([5dfe26f](https://github.com/snowball-tech/glacier/commit/5dfe26fe825fec1201eb043333069a84fb0e848c))
+
 ## @snowball-tech/renovate-config [2.0.4](https://github.com/snowball-tech/glacier/compare/@snowball-tech/renovate-config@2.0.3...@snowball-tech/renovate-config@2.0.4) (2023-07-05)
 
 ### 📦 Dependencies
