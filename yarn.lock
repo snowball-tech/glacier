@@ -2375,11 +2375,11 @@ __metadata:
   linkType: hard
 
 "@next/eslint-plugin-next@npm:^13.4.8":
-  version: 13.4.8
-  resolution: "@next/eslint-plugin-next@npm:13.4.8"
+  version: 13.4.9
+  resolution: "@next/eslint-plugin-next@npm:13.4.9"
   dependencies:
     glob: 7.1.7
-  checksum: e489df937a893270446845f9a0b361dbbf105f4e651ddcb03454a19d5ee3bb64b56b885e9e81258f450e53df47497b5cdc2ae6bfc09819738299fe70af51bbc8
+  checksum: d57f1246fac54173c47a065404ba7237cfd6618648db4effbcdb30b5578b99edb3a2593df13ca617aa63c40e5e1336551089c506b2168a69a6cf8d5d7d045c0b
   languageName: node
   linkType: hard
 
