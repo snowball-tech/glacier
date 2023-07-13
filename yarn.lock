@@ -8267,7 +8267,7 @@ __metadata:
     is-ci: ^3.0.1
     lint-staged: ^13.2.3
     prettier: ^3.0.0
-    pythagora: ^0.0.74
+    pythagora: ^0.0.76
     semantic-release: ^21.0.7
     ts-node: ^10.9.1
     turbo: 1.10.7
@@ -13507,9 +13507,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pythagora@npm:^0.0.74":
-  version: 0.0.74
-  resolution: "pythagora@npm:0.0.74"
+"pythagora@npm:^0.0.76":
+  version: 0.0.76
+  resolution: "pythagora@npm:0.0.76"
   dependencies:
     "@babel/generator": ^7.22.3
     "@babel/parser": ^7.22.3
@@ -13526,7 +13526,7 @@ __metadata:
     uuid: ^9.0.0
   bin:
     pythagora: src/bin/run.js
-  checksum: b19af6f970463dbc529127539453a85589e410a6a323b26cad6b539403bbc95d4b06db759c623c97a41f04cffec650ef02ad3369f971d28cfd3d9f347debfae5
+  checksum: bed2c2895c23a6db687f4987eb5323b4efe9cf388b7fe7dbed282853f1d90c000490c170fff9eb8742fa5eacab5ee9ccef5d136d1d3c2af84cc60b019d04f83e
   languageName: node
   linkType: hard
 
