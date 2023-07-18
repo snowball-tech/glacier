@@ -38,6 +38,6 @@
   "dependencies": {
     "prettier": "^3.0.0",
     "prettier-plugin-organize-attributes": "^0.0.5",
-    "prettier-plugin-sh": "^0.12.8"
+    "prettier-plugin-sh": "^0.13.1"
   }
 }
