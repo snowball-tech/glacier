@@ -3850,7 +3850,7 @@ __metadata:
   resolution: "@snowball-tech/prettier-config@workspace:packages/prettier-config"
   dependencies:
     prettier: ^3.0.0
-    prettier-plugin-organize-attributes: ^0.0.5
+    prettier-plugin-organize-attributes: ^1.0.0
     prettier-plugin-sh: ^0.13.1
   languageName: unknown
   linkType: soft
@@ -13713,12 +13713,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier-plugin-organize-attributes@npm:^0.0.5":
-  version: 0.0.5
-  resolution: "prettier-plugin-organize-attributes@npm:0.0.5"
+"prettier-plugin-organize-attributes@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "prettier-plugin-organize-attributes@npm:1.0.0"
   peerDependencies:
-    prettier: ^2.0.0
-  checksum: 276c2dbac6d65fb16429585dac5f101a153be781d4368ee5c3a58bd47acdc0a374c1be121b61964f67226ae624a8e5d253afc65488e063457a0cf929d5e8f286
+    prettier: ^3.0.0
+  checksum: 3da8864b085f4ae6e7aa5d2dd01bb4f9bd4ead71c4214bbe6eae796044f579c451a148bc8e5dde18451e36ef2fd1527d8564850f01c410a78838feaf1fe2f713
   languageName: node
   linkType: hard
 
