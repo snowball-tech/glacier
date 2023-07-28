@@ -7641,8 +7641,8 @@ __metadata:
   linkType: hard
 
 "eslint-plugin-perfectionist@npm:^1.5.0":
-  version: 1.5.0
-  resolution: "eslint-plugin-perfectionist@npm:1.5.0"
+  version: 1.5.1
+  resolution: "eslint-plugin-perfectionist@npm:1.5.1"
   dependencies:
     "@typescript-eslint/types": ^5.62.0
     "@typescript-eslint/utils": ^5.62.0
@@ -7652,7 +7652,7 @@ __metadata:
     natural-compare-lite: ^1.4.0
   peerDependencies:
     eslint: ">=8.0.0"
-  checksum: ae615fdf39e2f5c140f64b8c92310f8c4fc639db695812f43e95fda2a7af0fc78f5507b81f1ff1875b8f16581cbf9638e44bfb6c9d1119c02ad602838cbbe436
+  checksum: 4b2785af9009c1e900d8680c44e155c37036d8abb4e76a5482ac4039390b02293139c4653f0551c006f74d7de39ee4d76f19ccb48488caffa812ce0c5a2e979a
   languageName: node
   linkType: hard
 
