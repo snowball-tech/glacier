@@ -1,3 +1,9 @@
+# @snowball-tech/eslint-config [5.2.0](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@5.1.5...@snowball-tech/eslint-config@5.2.0) (2023-08-14)
+
+### ✨ Features
+
+- **linter:** allow some console methods ([c5c7d31](https://github.com/snowball-tech/glacier/commit/c5c7d3192494c6aecb0039d8a9e87cbce86cf6d2))
+
 ## @snowball-tech/eslint-config [5.1.5](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@5.1.4...@snowball-tech/eslint-config@5.1.5) (2023-08-14)
 
 ### 📦 Dependencies
