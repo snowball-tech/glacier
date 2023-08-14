@@ -62,7 +62,26 @@ module.exports = {
     'class-methods-use-this': 'error',
     'line-comment-position': 'error',
     'newline-before-return': 'error',
-    'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
+    'no-console':
+      process.env.NODE_ENV === 'production'
+        ? [
+            'error',
+            {
+              allow: [
+                'clear',
+                'error',
+                'group',
+                'groupCollapsed',
+                'groupEnd',
+                'info',
+                'time',
+                'timeEnd',
+                'trace',
+                'warn',
+              ],
+            },
+          ]
+        : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     'no-empty': ['error', { allowEmptyCatch: true }],
     'no-param-reassign': [
