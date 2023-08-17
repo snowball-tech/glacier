@@ -2998,18 +2998,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@renovatebot/osv-offline@npm:1.3.1":
-  version: 1.3.1
-  resolution: "@renovatebot/osv-offline@npm:1.3.1"
+"@renovatebot/osv-offline@npm:1.3.2":
+  version: 1.3.2
+  resolution: "@renovatebot/osv-offline@npm:1.3.2"
   dependencies:
     "@octokit/rest": ^19.0.13
     "@renovatebot/osv-offline-db": 1.4.0
     adm-zip: ~0.5.10
     fs-extra: ^11.1.1
     got: ^11.8.6
-    luxon: ^3.3.0
+    luxon: ^3.4.0
     node-fetch: ^2.6.12
-  checksum: 0c69e055eaf8304d737ccbd5a9f0888be111d710b0ffd2a04aff4e19636e31b597b382680fd08edeac53e76e25f61c929cd11ec17008daf1a537b208b641fc9f
+  checksum: d9192ccaca57d7fb39b41b3da8ab0a9baa57fccbb827ba9efb78f0ecbe5c13160c0f5328e316a4f56d7ac75813aca1865c4f5273a7152cdb2a2474a923d70a54
   languageName: node
   linkType: hard
 
@@ -11411,7 +11411,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"luxon@npm:3.3.0, luxon@npm:^3.2.1, luxon@npm:^3.3.0":
+"luxon@npm:3.4.0, luxon@npm:^3.4.0":
+  version: 3.4.0
+  resolution: "luxon@npm:3.4.0"
+  checksum: ca9b6d0e0a8d156574b7e84014ac8e4b60d116d6d7a0fb65ef48eeb8e4415dad6350b76c5ee34f795cadf8b3f9a5fe7a6885733f561e554c50dffb0b704a840b
+  languageName: node
+  linkType: hard
+
+"luxon@npm:^3.2.1":
   version: 3.3.0
   resolution: "luxon@npm:3.3.0"
   checksum: 50cf17a0dc155c3dcacbeae8c0b7e80db425e0ba97b9cbdf12a7fc142d841ff1ab1560919f033af46240ed44e2f70c49f76e3422524c7fc8bb8d81ca47c66187
@@ -14581,8 +14588,8 @@ __metadata:
   linkType: hard
 
 "renovate@npm:^36.43.1":
-  version: 36.43.1
-  resolution: "renovate@npm:36.43.1"
+  version: 36.49.0
+  resolution: "renovate@npm:36.49.0"
   dependencies:
     "@aws-sdk/client-codecommit": 3.363.0
     "@aws-sdk/client-ec2": 3.363.0
@@ -14603,7 +14610,7 @@ __metadata:
     "@opentelemetry/sdk-trace-node": 1.15.2
     "@opentelemetry/semantic-conventions": 1.15.2
     "@qnighy/marshal": 0.1.3
-    "@renovatebot/osv-offline": 1.3.1
+    "@renovatebot/osv-offline": 1.3.2
     "@renovatebot/pep440": 3.0.3
     "@renovatebot/ruby-semver": 3.0.10
     "@sindresorhus/is": 4.6.0
@@ -14654,7 +14661,7 @@ __metadata:
     json5: 2.2.3
     jsonata: 2.0.3
     klona: 2.0.6
-    luxon: 3.3.0
+    luxon: 3.4.0
     markdown-it: 13.0.1
     markdown-table: 2.0.0
     minimatch: 9.0.3
@@ -14696,7 +14703,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: f28d5cbe92dea1e66cbaa8dba9086fe16a28bec9df6fd0989e46079aec1df45e5e2ee414608110c63814687634e9ae5e3ac4bb9ca9f4617f83c93d45deee8d0d
+  checksum: da9de7f62b65df4d0b520d22e51d4e7679c891740f6db352db0343900ab4e9ddb62977043ae30224172f594a0ec8b711d405e0639e651501913f133c2457baff
   languageName: node
   linkType: hard
 
