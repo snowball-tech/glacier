@@ -84,6 +84,14 @@ module.exports = {
         : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     'no-empty': ['error', { allowEmptyCatch: true }],
+    'no-irregular-whitespace': [
+      'error',
+      {
+        skipJSXText: true,
+        skipStrings: true,
+        skipTemplates: true,
+      },
+    ],
     'no-param-reassign': [
       'error',
       {
