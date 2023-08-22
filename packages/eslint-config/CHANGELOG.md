@@ -1,3 +1,9 @@
+## @snowball-tech/eslint-config [5.2.2](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@5.2.1...@snowball-tech/eslint-config@5.2.2) (2023-08-22)
+
+### 🐛 Bug Fixes
+
+- **eslint:** allow unbreakable space in strings and JSX ([bf73987](https://github.com/snowball-tech/glacier/commit/bf739877b9bdc13daac9b4a4d8004c33a52039d8))
+
 ## @snowball-tech/eslint-config [5.2.1](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@5.2.0...@snowball-tech/eslint-config@5.2.1) (2023-08-22)
 
 ### 📦 Dependencies
