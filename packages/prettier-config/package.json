@@ -18,7 +18,7 @@
     "directory": "packages/prettier-config"
   },
   "bugs": "https://github.com/snowball-tech/glacier/issues",
-  "packageManager": "yarn@3.6.1",
+  "packageManager": "yarn@3.6.2",
   "engines": {
     "yarn": "^3.0.0",
     "node": "^18.0.0"
