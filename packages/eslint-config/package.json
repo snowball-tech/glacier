@@ -28,7 +28,7 @@
     "directory": "packages/eslint-config"
   },
   "bugs": "https://github.com/snowball-tech/glacier/issues",
-  "packageManager": "yarn@3.6.1",
+  "packageManager": "yarn@3.6.3",
   "engines": {
     "yarn": "^3.0.0",
     "node": "^18.0.0"
@@ -99,7 +99,7 @@
     "eslint-plugin-sort-keys": "^2.3.5",
     "eslint-plugin-sql": "^2.4.4",
     "eslint-plugin-storybook": "^0.6.13",
-    "eslint-plugin-testing-library": "^6.0.0",
+    "eslint-plugin-testing-library": "^6.0.1",
     "eslint-plugin-unicorn": "^48.0.1",
     "eslint-plugin-yml": "^1.8.0",
     "prettier": "^3.0.2"
