@@ -32,8 +32,9 @@ module.exports = {
     // no-extraneous-dependencies doesn't work well with monorepos and Yarn
     // workspaces.
     'import/no-extraneous-dependencies': 'off',
-    'import/no-named-default': 'off',
+    'import/no-named-as-default': 'off',
 
+    'import/no-named-default': 'off',
     'import/order': [
       'error',
       {

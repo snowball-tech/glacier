@@ -16,6 +16,8 @@ module.exports = {
   rules: {
     'class-methods-use-this': 'off',
 
+    'jsx-a11y/no-autofocus': 'off',
+
     'react/jsx-filename-extension': ['error', { extensions: ['.jsx', '.tsx'] }],
 
     // With React > v17, we don't need to import React in every file anymore.
