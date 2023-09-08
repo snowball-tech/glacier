@@ -44,7 +44,7 @@ module.exports = {
           callback: 'on*',
           system: 'id|key|ref',
         },
-        groups: ['system', 'shorthand', 'multiline', 'callback'],
+        groups: ['system', 'shorthand', 'multiline', 'unknown', 'callback'],
         type: 'natural',
       },
     ],
