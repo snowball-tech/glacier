@@ -1,3 +1,9 @@
+## @snowball-tech/eslint-config [5.2.6](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@5.2.5...@snowball-tech/eslint-config@5.2.6) (2023-09-08)
+
+### 🐛 Bug Fixes
+
+- **eslint:** fix config for param reassign and perfectionnist jsx sort ([55504b7](https://github.com/snowball-tech/glacier/commit/55504b714cd71ee1603a4e49e6659e2a0abfa211))
+
 ## @snowball-tech/eslint-config [5.2.5](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@5.2.4...@snowball-tech/eslint-config@5.2.5) (2023-09-08)
 
 ### 🐛 Bug Fixes
