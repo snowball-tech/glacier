@@ -40,8 +40,19 @@ module.exports = {
     'perfectionist/sort-jsx-props': [
       'error',
       {
-        'always-on-top': ['id', 'key', 'ref'],
-        callback: 'last',
+        'custom-groups': {
+          callback: 'on*',
+          system: 'id|key|ref',
+        },
+        groups: ['system', 'shorthand', 'multiline', 'callback'],
+        type: 'natural',
+      },
+    ],
+
+    'perfectionist/sort-union-types': [
+      'error',
+      {
+        'nullable-last': true,
         type: 'natural',
       },
     ],
