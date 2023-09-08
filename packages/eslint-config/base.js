@@ -82,6 +82,7 @@ module.exports = {
             },
           ]
         : 'off',
+    'no-continue': 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     'no-empty': ['error', { allowEmptyCatch: true }],
     'no-irregular-whitespace': [
@@ -95,7 +96,8 @@ module.exports = {
     'no-param-reassign': [
       'error',
       {
-        ignorePropertyModificationsFor: [],
+        // Allow setting the current value of a MutableRefObject.
+        ignorePropertyModificationsFor: ['current'],
         props: true,
       },
     ],
