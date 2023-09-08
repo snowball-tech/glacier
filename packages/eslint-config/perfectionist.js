@@ -42,9 +42,9 @@ module.exports = {
       {
         'custom-groups': {
           callback: 'on*',
-          system: 'id|key|ref',
+          system: ['children', 'id', 'key', 'ref'],
         },
-        groups: ['system', 'shorthand', 'multiline', 'unknown', 'callback'],
+        groups: ['system', ['shorthand', 'multiline', 'unknown'], 'callback'],
         type: 'natural',
       },
     ],
