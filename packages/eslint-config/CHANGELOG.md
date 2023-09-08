@@ -1,3 +1,9 @@
+## @snowball-tech/eslint-config [5.2.8](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@5.2.7...@snowball-tech/eslint-config@5.2.8) (2023-09-08)
+
+### 🐛 Bug Fixes
+
+- **eslint:** fix the config for no param reassign ([ae2b652](https://github.com/snowball-tech/glacier/commit/ae2b6529837ca02c1e3dd936a29ba2d2bda36979))
+
 ## @snowball-tech/eslint-config [5.2.7](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@5.2.6...@snowball-tech/eslint-config@5.2.7) (2023-09-08)
 
 ### 🐛 Bug Fixes
