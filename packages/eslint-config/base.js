@@ -97,7 +97,7 @@ module.exports = {
       'error',
       {
         // Allow setting the current value of a MutableRefObject.
-        ignorePropertyModificationsFor: ['current'],
+        ignorePropertyModificationsFor: ['Ref$'],
         props: true,
       },
     ],
