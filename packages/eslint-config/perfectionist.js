@@ -49,6 +49,14 @@ module.exports = {
       },
     ],
 
+    'perfectionist/sort-objects': [
+      'error',
+      {
+        'partition-by-comment': true,
+        type: 'natural',
+      },
+    ],
+
     'perfectionist/sort-union-types': [
       'error',
       {
