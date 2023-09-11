@@ -1,3 +1,9 @@
+## @snowball-tech/eslint-config [5.2.9](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@5.2.8...@snowball-tech/eslint-config@5.2.9) (2023-09-11)
+
+### 🐛 Bug Fixes
+
+- **eslint:** allow to partition object sort ([19eb702](https://github.com/snowball-tech/glacier/commit/19eb702c7d8acac9c2b677e21a66873366fc306d))
+
 ## @snowball-tech/eslint-config [5.2.8](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@5.2.7...@snowball-tech/eslint-config@5.2.8) (2023-09-08)
 
 ### 🐛 Bug Fixes
