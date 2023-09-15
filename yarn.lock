@@ -7844,8 +7844,8 @@ __metadata:
   linkType: hard
 
 "eslint-plugin-perfectionist@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "eslint-plugin-perfectionist@npm:2.0.0"
+  version: 2.1.0
+  resolution: "eslint-plugin-perfectionist@npm:2.1.0"
   dependencies:
     "@typescript-eslint/utils": ^6.6.0
     minimatch: ^9.0.3
@@ -7865,7 +7865,7 @@ __metadata:
       optional: true
     vue-eslint-parser:
       optional: true
-  checksum: 8f559b440614f04d5de5dfe3a4949299e717900cfecdf98e965adea132099bdbbab3a10e85217e2bd958e578d7d185ed2edf7427be691da0575b8e8cada1a3ac
+  checksum: ddbdbf9b52fb00b394a1e28d247d08e7ded9e0a81f26c33a97905752c546dce7e3c1404bc8041b47cf439b1b67e1f07212c937e50136b1d4bb49573ec9e5e4ff
   languageName: node
   linkType: hard
 
