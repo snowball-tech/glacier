@@ -1,3 +1,9 @@
+## @snowball-tech/eslint-config [5.2.10](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@5.2.9...@snowball-tech/eslint-config@5.2.10) (2023-09-18)
+
+### 📦 Dependencies
+
+- upgrade dependencies and minimum node version ([6a4e092](https://github.com/snowball-tech/glacier/commit/6a4e092c6d013004373569d816bd26baa64b666d))
+
 ## @snowball-tech/eslint-config [5.2.9](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@5.2.8...@snowball-tech/eslint-config@5.2.9) (2023-09-11)
 
 ### 🐛 Bug Fixes
