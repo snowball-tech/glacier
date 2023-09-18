@@ -22,7 +22,7 @@
   "packageManager": "yarn@3.6.3",
   "engines": {
     "yarn": "^3.0.0",
-    "node": "^18.0.0"
+    "node": "^20.0.0"
   },
   "main": "default.json5",
   "files": [],
@@ -36,6 +36,6 @@
     "validate:config": "renovate-config-validator default.json5"
   },
   "devDependencies": {
-    "renovate": "^36.88.1"
+    "renovate": "^36.96.5"
   }
 }
