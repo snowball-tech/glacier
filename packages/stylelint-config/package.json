@@ -1,6 +1,6 @@
 {
   "name": "@snowball-tech/stylelint-config",
-  "version": "2.1.8",
+  "version": "2.1.9",
   "description": "Stylelint ruleset by Snowball supporting JSX, CSS in JS and more.",
   "author": "Snowball Engineering Team <engineering@snowball.xyz> (https://github.com/orgs/snowball-tech)",
   "contributors": [
