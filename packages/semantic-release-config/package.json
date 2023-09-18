@@ -29,7 +29,7 @@
   "packageManager": "yarn@3.6.3",
   "engines": {
     "yarn": "^3.0.0",
-    "node": "^18.0.0"
+    "node": "^20.0.0"
   },
   "main": "release.config.js",
   "files": [
@@ -55,11 +55,11 @@
     "@semantic-release/commit-analyzer": "^10.0.4",
     "@semantic-release/exec": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
-    "@semantic-release/github": "^9.0.4",
-    "@semantic-release/npm": "^10.0.5",
+    "@semantic-release/github": "^9.0.6",
+    "@semantic-release/npm": "^11.0.0",
     "@semantic-release/release-notes-generator": "^11.0.7",
     "lodash": "^4.17.21",
-    "semantic-release": "^21.1.1"
+    "semantic-release": "^22.0.0"
   },
   "devDependencies": {
     "@types/lodash": "^4.14.198"
