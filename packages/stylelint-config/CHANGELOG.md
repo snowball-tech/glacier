@@ -1,3 +1,10 @@
+## @snowball-tech/stylelint-config [2.1.11](https://github.com/snowball-tech/glacier/compare/@snowball-tech/stylelint-config@2.1.10...@snowball-tech/stylelint-config@2.1.11) (2023-09-22)
+
+### 👷 Build
+
+- fix build and rollback to node 18 ([f87afa8](https://github.com/snowball-tech/glacier/commit/f87afa8482dfdd011f7b5fe15c9793e37d55c332))
+- get rid of turborepo ([87572a1](https://github.com/snowball-tech/glacier/commit/87572a171bbaf7c3a84f56cb94a68bf62608d9d1))
+
 ## @snowball-tech/stylelint-config [2.1.10](https://github.com/snowball-tech/glacier/compare/@snowball-tech/stylelint-config@2.1.9...@snowball-tech/stylelint-config@2.1.10) (2023-09-22)
 
 ### 📦 Dependencies
