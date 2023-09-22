@@ -31,7 +31,7 @@
   "packageManager": "yarn@3.6.3",
   "engines": {
     "yarn": "^3.0.0",
-    "node": "^20.0.0"
+    "node": "^18.0.0"
   },
   "workspaces": [
     "packages/*"
@@ -56,7 +56,6 @@
     "publish:all:local": "CI=true yarn publish:all",
     "setup": "yarn install && yarn setup:husky",
     "setup:husky": "is-ci || yarn husky install",
-    "types:check": "yarn workspaces foreach -p run types:check",
     "update:references": "workspaces-to-typescript-project-references --includesRoot"
   },
   "devDependencies": {
