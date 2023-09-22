@@ -5,7 +5,8 @@ module.exports = {
     'no-secrets/no-secrets': [
       'error',
       {
-        additionalDelimiters: ['/'],
+        additionalDelimiters: ['/', '_', '.', '-'],
+        tolerance: 4.5,
       },
     ],
   },
