@@ -1,6 +1,6 @@
 {
   "name": "glacier",
-  "description": "Snowball's open-source mono-repository managed by Yarn 3 and TurboRepo",
+  "description": "Snowball's open-source mono-repository managed by Yarn 3",
   "author": "Snowball Engineering Team <engineering@snowball.xyz> (https://github.com/orgs/snowball-tech)",
   "private": true,
   "contributors": [
@@ -12,7 +12,6 @@
     "mono-repository",
     "yarn",
     "yarn3",
-    "turborepo",
     "javascript",
     "typescript",
     "eslint",
@@ -44,14 +43,20 @@
     "extends": "@snowball-tech/semantic-release-config"
   },
   "scripts": {
-    "build": "turbo run build",
+    "build": "NODE_ENV=production yarn workspaces foreach -t run build",
+    "format": "yarn run -T format:root && yarn workspaces foreach -p run format",
+    "format:fix": "yarn run -T format:root:fix && yarn workspaces foreach -p run format:fix",
     "format:root": "prettier --cache --check \"./!(apps|packages)\"",
     "format:root:fix": "prettier --cache --write \"./!(apps|packages)\"",
+    "lint": "yarn run -T lint:root && yarn workspaces foreach -p run lint",
+    "lint:fix": "yarn run -T lint:root:fix && yarn workspaces foreach -p run lint:fix",
     "lint:root": "eslint --cache \"./!(apps|packages)\"",
     "lint:root:fix": "eslint --cache --fix \"./!(apps|packages)\"",
     "publish:all": "multi-semantic-release",
+    "publish:all:local": "CI=true yarn publish:all",
     "setup": "yarn install && yarn setup:husky",
     "setup:husky": "is-ci || yarn husky install",
+    "types:check": "yarn workspaces foreach -p run types:check",
     "update:references": "workspaces-to-typescript-project-references --includesRoot"
   },
   "devDependencies": {
@@ -72,7 +77,6 @@
     "prettier": "^3.0.3",
     "semantic-release": "^22.0.1",
     "ts-node": "^10.9.1",
-    "turbo": "1.10.14",
     "typescript": "^5.2.2"
   }
 }
