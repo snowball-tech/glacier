@@ -3337,7 +3337,7 @@ __metadata:
     lodash: ^4.17.21
     semantic-release: ^22.0.1
   peerDependencies:
-    semantic-release: ^21.0.0
+    semantic-release: ^21.0.0 || ^22.0.0
   languageName: unknown
   linkType: soft
 
