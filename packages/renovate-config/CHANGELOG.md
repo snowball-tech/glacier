@@ -1,3 +1,9 @@
+## @snowball-tech/renovate-config [2.0.14](https://github.com/snowball-tech/glacier/compare/@snowball-tech/renovate-config@2.0.13...@snowball-tech/renovate-config@2.0.14) (2023-09-22)
+
+### 👷 Build
+
+- fix build and rollback to node 18 ([f87afa8](https://github.com/snowball-tech/glacier/commit/f87afa8482dfdd011f7b5fe15c9793e37d55c332))
+
 ## @snowball-tech/renovate-config [2.0.13](https://github.com/snowball-tech/glacier/compare/@snowball-tech/renovate-config@2.0.12...@snowball-tech/renovate-config@2.0.13) (2023-09-22)
 
 ### 📦 Dependencies
