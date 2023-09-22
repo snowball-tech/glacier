@@ -1,3 +1,9 @@
+## @snowball-tech/semantic-release-config [2.0.12](https://github.com/snowball-tech/glacier/compare/@snowball-tech/semantic-release-config@2.0.11...@snowball-tech/semantic-release-config@2.0.12) (2023-09-22)
+
+### 👷 Build
+
+- fix build and rollback to node 18 ([f87afa8](https://github.com/snowball-tech/glacier/commit/f87afa8482dfdd011f7b5fe15c9793e37d55c332))
+
 ## @snowball-tech/semantic-release-config [2.0.11](https://github.com/snowball-tech/glacier/compare/@snowball-tech/semantic-release-config@2.0.10...@snowball-tech/semantic-release-config@2.0.11) (2023-09-22)
 
 ### 📦 Dependencies
