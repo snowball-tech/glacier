@@ -1,3 +1,14 @@
+## @snowball-tech/eslint-config [5.2.12](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@5.2.11...@snowball-tech/eslint-config@5.2.12) (2023-09-22)
+
+### 🐛 Bug Fixes
+
+- **linter:** reduce the number of false positive of secret detection ([97e9e66](https://github.com/snowball-tech/glacier/commit/97e9e66f7d928e06693b45050e12787aa02b8138))
+
+### 👷 Build
+
+- fix build and rollback to node 18 ([f87afa8](https://github.com/snowball-tech/glacier/commit/f87afa8482dfdd011f7b5fe15c9793e37d55c332))
+- get rid of turborepo ([87572a1](https://github.com/snowball-tech/glacier/commit/87572a171bbaf7c3a84f56cb94a68bf62608d9d1))
+
 ## @snowball-tech/eslint-config [5.2.11](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@5.2.10...@snowball-tech/eslint-config@5.2.11) (2023-09-22)
 
 ### 📦 Dependencies
