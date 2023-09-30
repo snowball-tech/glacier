@@ -6794,8 +6794,8 @@ __metadata:
   linkType: hard
 
 "eslint-plugin-sql@npm:^2.4.4":
-  version: 2.4.4
-  resolution: "eslint-plugin-sql@npm:2.4.4"
+  version: 2.5.0
+  resolution: "eslint-plugin-sql@npm:2.5.0"
   dependencies:
     astring: ^1.8.3
     debug: ^4.3.4
@@ -6804,7 +6804,7 @@ __metadata:
     sql-parse: ^0.1.5
   peerDependencies:
     eslint: ">=8.1.0"
-  checksum: 5bbe12a54204c5717769a36f293189ea01305f2163f2d76489dbf54821c8f4700dd34498f6eb681bb1ad0bf1c5a946361bca6d716fa5f7686b85f436ac01d2c2
+  checksum: 3cc0c9659be7f045ed4a4f0c0f8d967728e273a1b9968233b5af9fae46e6ed3bd16ef74d4ee1cab67146d8d38a56ccc12c31860da47ba1b29e7ae18be1587ac8
   languageName: node
   linkType: hard
 
