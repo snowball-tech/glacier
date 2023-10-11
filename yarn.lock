@@ -6395,6 +6395,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"eslint-compat-utils@npm:^0.1.2":
+  version: 0.1.2
+  resolution: "eslint-compat-utils@npm:0.1.2"
+  peerDependencies:
+    eslint: ">=6.0.0"
+  checksum: 2315d9db81efb7f58808053bf32a1d5970b38e01cd8244f4f1b5aa05d883255c5c93fc184e9c29a0e7e2dcf16ff16330977302474d3fa870e41c5bed9c66f76b
+  languageName: node
+  linkType: hard
+
 "eslint-config-airbnb-base@npm:^15.0.0":
   version: 15.0.0
   resolution: "eslint-config-airbnb-base@npm:15.0.0"
@@ -6593,15 +6602,16 @@ __metadata:
   linkType: hard
 
 "eslint-plugin-jsonc@npm:^2.9.0":
-  version: 2.9.0
-  resolution: "eslint-plugin-jsonc@npm:2.9.0"
+  version: 2.10.0
+  resolution: "eslint-plugin-jsonc@npm:2.10.0"
   dependencies:
     "@eslint-community/eslint-utils": ^4.2.0
+    eslint-compat-utils: ^0.1.2
     jsonc-eslint-parser: ^2.0.4
     natural-compare: ^1.4.0
   peerDependencies:
     eslint: ">=6.0.0"
-  checksum: fb40f9f82a161679e467d591bc429161583eff69cd6d94b426cc84eaa7e0824927ec4fbfffbc466ccae3bf6d5a6888c4127d25095461aea90a210d3752a2bbfd
+  checksum: be2e7fb6456183002182266f1aad15020abcd95abaab9a4a252b299b7907603f2e1f7188784f15c6307b0923254cfb674e7a93199e502bb0f6bab3c3fa4e88e0
   languageName: node
   linkType: hard
 
