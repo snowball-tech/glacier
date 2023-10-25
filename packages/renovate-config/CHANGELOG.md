@@ -1,3 +1,13 @@
+## @snowball-tech/renovate-config [2.0.15](https://github.com/snowball-tech/glacier/compare/@snowball-tech/renovate-config@2.0.14...@snowball-tech/renovate-config@2.0.15) (2023-10-25)
+
+### 🏗 Chores
+
+- do not use colon as script separator ([1101138](https://github.com/snowball-tech/glacier/commit/110113850adce59084b7a8bbf8434daff53208a6))
+
+### 📦 Dependencies
+
+- upgrade Yarn to v4 and upgrade dependencies ([ba11785](https://github.com/snowball-tech/glacier/commit/ba11785cd4c4310191aa252556e7404e568bb334))
+
 ## @snowball-tech/renovate-config [2.0.14](https://github.com/snowball-tech/glacier/compare/@snowball-tech/renovate-config@2.0.13...@snowball-tech/renovate-config@2.0.14) (2023-09-22)
 
 ### 👷 Build
