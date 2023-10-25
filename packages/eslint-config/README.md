@@ -309,12 +309,12 @@ npm install
 
 ### Useful Commands
 
-- `yarn run format:fix` to format the code according to our formatting guidelines
+- `yarn run format-fix` to format the code according to our formatting guidelines
   (using _Prettier_);
-- `yarn run lint:fix`: to check that the code matches our coding guidelines and
+- `yarn run lint-fix`: to check that the code matches our coding guidelines and
   automatically fix what can be fixed _(using ESLint)_;
 - `yarn run test`: run all the unit tests;
-- `yarn run test:dev`: run the tests for modified components and re-trigger runs
+- `yarn run test-dev`: run the tests for modified components and re-trigger runs
   everytime something is modified;
 
 ### Linting & Formatting

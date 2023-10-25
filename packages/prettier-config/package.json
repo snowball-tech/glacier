@@ -33,7 +33,7 @@
   },
   "scripts": {
     "format": "yarn run -T prettier --cache --check .",
-    "format:fix": "yarn run -T prettier --cache --write ."
+    "format-fix": "yarn run -T prettier --cache --write ."
   },
   "dependencies": {
     "prettier": "^3.0.3",

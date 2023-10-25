@@ -3,9 +3,6 @@
 name: Security
 
 on:
-  push:
-    branches:
-      - main
   pull_request:
     branches:
       - main
@@ -13,6 +10,9 @@ on:
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
+
+env:
+  YARN_ENABLE_HARDENED_MODE: true
 
 jobs:
   security:
