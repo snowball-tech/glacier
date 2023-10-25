@@ -11,6 +11,9 @@ on:
     branches:
       - main
 
+env:
+  NODE_ENV: production
+
 jobs:
   release:
     name: Releasing updated packages
@@ -25,7 +28,7 @@ jobs:
           node-version: 18.x
           cache: yarn
 
-      - name: Setting up dependencies workspaces
+      - name: Setting up dependencies & workspaces
         run: yarn install --immutable --immutable-cache && yarn run -T setup
 
       - name: Building all packages
@@ -47,7 +50,7 @@ jobs:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           wait-interval: 10
 
-      - name: Publishing updated public packages to NPM, Git and GitHub
+      - name: Publishing updated public packages to NPM, Git & GitHub
         env:
           GH_TOKEN: ${{ secrets.MACHINE_GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.MACHINE_NPM_TOKEN }}
