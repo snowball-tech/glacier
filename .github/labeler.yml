@@ -9,3 +9,6 @@ Renovate Config:
 
 Semantic Release Config:
   - package/semantic-release-config/**
+
+Stylelint Config:
+  - package/stylelint-config/**

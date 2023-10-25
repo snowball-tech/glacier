@@ -32,8 +32,8 @@
   },
   "scripts": {
     "format": "yarn run -T prettier --cache --check .",
-    "format:fix": "yarn run -T prettier --cache --write .",
-    "validate:config": "renovate-config-validator default.json5"
+    "format-fix": "yarn run -T prettier --cache --write .",
+    "validate-config": "renovate-config-validator default.json5"
   },
   "devDependencies": {
     "renovate": "^37.32.1"

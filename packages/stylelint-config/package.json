@@ -40,9 +40,9 @@
   },
   "scripts": {
     "format": "yarn run -T prettier --cache --check .",
-    "format:fix": "yarn run -T prettier --cache --write .",
+    "format-fix": "yarn run -T prettier --cache --write .",
     "lint": "yarn run -T eslint --cache .",
-    "lint:fix": "yarn run -T eslint --cache --fix ."
+    "lint-fix": "yarn run -T eslint --cache --fix ."
   },
   "peerDependencies": {
     "stylelint": "^15.0.0"

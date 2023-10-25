@@ -4,10 +4,6 @@
 name: Quality
 
 on:
-  push:
-    branches:
-      - main
-
   pull_request:
     branches:
       - main
@@ -28,14 +24,14 @@ jobs:
           node-version: 18.x
           cache: yarn
 
-      - name: Installing dependencies
-        run: yarn install --immutable --immutable-cache
-
-      - name: Setting up each workspace
-        run: yarn workspaces foreach -p run setup
+      - name: Setting up dependencies workspaces
+        run: yarn run -T setup
 
       - name: Checking linter
         run: yarn run -T lint
 
       - name: Checking format
         run: yarn run -T format
+
+      - name: Checking typings
+        run: yarn run -T types-check
