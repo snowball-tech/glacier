@@ -54,7 +54,7 @@
     "lint-root-fix": "eslint --cache --fix \"./!(apps|packages)\"",
     "publish-all": "multi-semantic-release",
     "publish-all-local": "CI=true yarn publish-all",
-    "presetup": "is-ci && yarn install --immutable --immutable-cache || yarn install",
+    "presetup": "is-ci || yarn install",
     "setup": "yarn run presetup && yarn setup-husky && yarn workspaces foreach --all -p run setup",
     "setup-husky": "is-ci || yarn husky install",
     "types-check": "yarn workspaces foreach --all -p run types-check",
