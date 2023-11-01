@@ -1066,13 +1066,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/helper-validator-identifier@npm:^7.22.5":
-  version: 7.22.5
-  resolution: "@babel/helper-validator-identifier@npm:7.22.5"
-  checksum: 12cb7d4535b3f8d109a446f7bef08d20eebe94fd97b534cd415c936ab342e9634edc5c99961af976bd78bcae6e6ec4b2ab8483d0da2ac5926fbe9f7dd9ab28ab
-  languageName: node
-  linkType: hard
-
 "@babel/highlight@npm:^7.22.13":
   version: 7.22.20
   resolution: "@babel/highlight@npm:7.22.20"
@@ -3392,7 +3385,7 @@ __metadata:
     eslint-plugin-sql: "npm:^2.5.0"
     eslint-plugin-storybook: "npm:^0.6.15"
     eslint-plugin-testing-library: "npm:^6.1.0"
-    eslint-plugin-unicorn: "npm:^48.0.1"
+    eslint-plugin-unicorn: "npm:^49.0.0"
     eslint-plugin-yml: "npm:^1.10.0"
     jsonc-eslint-parser: "npm:^2.4.0"
     prettier: "npm:^3.0.3"
@@ -7021,11 +7014,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-unicorn@npm:^48.0.1":
-  version: 48.0.1
-  resolution: "eslint-plugin-unicorn@npm:48.0.1"
+"eslint-plugin-unicorn@npm:^49.0.0":
+  version: 49.0.0
+  resolution: "eslint-plugin-unicorn@npm:49.0.0"
   dependencies:
-    "@babel/helper-validator-identifier": "npm:^7.22.5"
+    "@babel/helper-validator-identifier": "npm:^7.22.20"
     "@eslint-community/eslint-utils": "npm:^4.4.0"
     ci-info: "npm:^3.8.0"
     clean-regexp: "npm:^1.0.0"
@@ -7033,7 +7026,6 @@ __metadata:
     indent-string: "npm:^4.0.0"
     is-builtin-module: "npm:^3.2.1"
     jsesc: "npm:^3.0.2"
-    lodash: "npm:^4.17.21"
     pluralize: "npm:^8.0.0"
     read-pkg-up: "npm:^7.0.1"
     regexp-tree: "npm:^0.1.27"
@@ -7041,8 +7033,8 @@ __metadata:
     semver: "npm:^7.5.4"
     strip-indent: "npm:^3.0.0"
   peerDependencies:
-    eslint: ">=8.44.0"
-  checksum: c7ee2d2c031f74bc84ebd44a59462eaee93387fef4df29e9ec9489b2d7d92564962a35626aacc1c4a136c2f92f605c7749f38654ad51fd7a8c4bcc2aa7439b74
+    eslint: ">=8.52.0"
+  checksum: 7f73f41356cdf720675998c558ab13872d76302dde3a49661df0b5219fd328627e3d7e418aaa3e94cf8764d1ef8b606f7ea01f019eccc0bf0522def8e6769caa
   languageName: node
   linkType: hard
 

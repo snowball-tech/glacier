@@ -100,7 +100,7 @@
     "eslint-plugin-sql": "^2.5.0",
     "eslint-plugin-storybook": "^0.6.15",
     "eslint-plugin-testing-library": "^6.1.0",
-    "eslint-plugin-unicorn": "^48.0.1",
+    "eslint-plugin-unicorn": "^49.0.0",
     "eslint-plugin-yml": "^1.10.0",
     "jsonc-eslint-parser": "^2.4.0",
     "prettier": "^3.0.3"
