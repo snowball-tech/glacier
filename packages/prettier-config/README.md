@@ -1,31 +1,24 @@
-# Snowball Stylelint Config
+# Snowball Prettier Config
 
 <div style="text-align: center">
-  <img src="https://whosydd.gallerycdn.vsassets.io/extensions/whosydd/stylelint-config/1.3.0/1664729602088/Microsoft.VisualStudio.Services.Icons.Default" width="50" />
-  <img src="https://camo.githubusercontent.com/a2ebaaedf9af41416a2717b3a28f405b39535397f4463c5c5119146c84c240f9/68747470733a2f2f706f73746373732e6f72672f6c6f676f2e737667" width="50" />
+  <img src="https://prettier.io/icon.png" width="50" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="50" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="50" />
   <img src="https://repository-images.githubusercontent.com/298623011/59bf7000-ff7b-11ea-8450-92c845df2ea3" width="90" />
-  <img src="https://raw.githubusercontent.com/jsstyles/logo/master/logo.png" width="50" />
-  <img src="https://www.styled-components.com/atom.png" width="50" />
-  <img src="https://raw.githubusercontent.com/emotion-js/emotion/main/emotion.png" width="50" />
-  <img src="https://pbs.twimg.com/profile_images/1298774539606863875/IMwwk2q6_400x400.jpg" width="50" />
-  <img src="https://avatars.githubusercontent.com/u/112610040?s=280&v=4" width="50" />
-  <img src="https://panda-css.com/panda-bubble-tea.svg" width="50" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/tailwindcss-plain.svg" width="50" />
 </div>
 
 ---
 
-![stylelint-config](https://img.shields.io/npm/v/@snowball-tech/stylelint-config)
-![stylelint-config-dependants](https://img.shields.io/librariesio/dependents/npm/@snowball-tech/stylelint-config)
-![stylelint-config-downloads](https://img.shields.io/npm/dt/@snowball-tech/stylelint-config)
-![stylelint-config-score](https://img.shields.io/npms-io/final-score/@snowball-tech/stylelint-config)
+![prettier-config](https://img.shields.io/npm/v/@snowball-tech/prettier-config)
+![prettier-config-dependants](https://img.shields.io/librariesio/dependents/npm/@snowball-tech/prettier-config)
+![prettier-config-downloads](https://img.shields.io/npm/dt/@snowball-tech/prettier-config)
+![prettier-config-score](https://img.shields.io/npms-io/final-score/@snowball-tech/prettier-config)
 
 ---
 
 This package provides a composable and opinionated
-[Stylelint](https://stylelint.io/) configuration based on Snowball engineering
+[Prettier](https://prettier.io/) configuration based on Snowball engineering
 standards.
 
 This configuration supports:
@@ -34,72 +27,55 @@ This configuration supports:
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) files;
 - [TypeScript](https://www.typescriptlang.org/)
 - [JSX/TSX](https://react.dev/);
-- CSS-in-JS (like [JSS](https://cssinjs.org/),
-  [Styled Components](https://styled-components.com/),
-  [Emotion](https://emotion.sh/),
-  [Stitches](https://stitches.dev/),
-  [Vanilla Extract](https://vanilla-extract.style/) or
-  [Panda CSS](https://panda-css.com/)).
+- CSS-in-JS
 - [TailwindCSS](https://tailwindcss.com/)
 
-It uses [PostCSS](https://postcss.org/) _(and in particular the
-[HTML parser](https://github.com/ota-meshi/postcss-html))_ and is based on
-[`stylelint-config-standard`](https://github.com/stylelint/stylelint-config-standard)
-and
-[`stylelint-config-html`](https://github.com/ota-meshi/stylelint-config-html).
-
-Checkout all the `js` files to learn more about the configurations.
+Checkout all the config files to learn more about the configurations.
 
 ## Installation
 
 Using Yarn:
 
 ```bash
-yarn add --dev @snowball-tech/stylelint-config stylelint
+yarn add --dev @snowball-tech/prettier-config prettier
 ```
 
 Or using NPM:
 
 ```bash
-npm install --save-dev @snowball-tech/stylelint-config stylelint
+npm install --save-dev @snowball-tech/prettier-config prettier
 ```
 
 > Note that depending on the configuration you use, you might need to install
-> additional dependencies like `postcss` or `postcss-styled-syntax`
+> additional dependencies like `tailwindcss`.
 
 ## Usage
 
 ### Default configuration
 
-The package offers a [default](./index.js) Stylelint configuration containing
-only the [base rules](./base.js).
+The package offers a [default](./.prettierrc.js) Prettier configuration
+containing only the base rules.
 
-To use this default configuration, simply extend it in you own Stylelint
-configuration using JavaScript configuration file `stylelint.config.js`:
+To use this default configuration, simply re-export it in you own Prettier
+configuration using JavaScript configuration file `.prettierrc.js`:
 
 ```js
-module.exports = {
-  extends: '@snowball-tech/stylelint-config',
-}
+module.exports = require('@snowball-tech/prettier-config/.prettierrc')
 ```
 
 #### Ignored files
 
-Ignored files are defined in the `ignoreFiles` config of the
-[`base` configuration](./base.js).
+Ignored files are defined in the `.prettierignore` file.
 
 ### Complete configuration
 
 You also have the possibility to use the full configuration, including:
 
-- [base rules](./base.js) _(including promise & unicorn)_
-- [CSS-in-JS](./styled.js)
-- [TailwindCSS](./tailwind.js)
+- [base rules](./.prettierrc.js) _(including promise & unicorn)_
+- [TailwindCSS](./prettierrc-tailwind.js)
 
 ```js
-module.exports = {
-  extends: ['@snowball-tech/stylelint-config/full'],
-}
+module.exports = require('@snowball-tech/prettier-config/.prettierrc-tailwind')
 ```
 
 ### Make your own configuration
@@ -107,34 +83,31 @@ module.exports = {
 Finally, you can also compose you own configuration using each set of
 configuration exposed by the config.
 
-To do so, simply extend the configuration you want to use in your own Stylelint
+To do so, simply extend the configuration you want to use in your own Prettier
 and pick whichever you want in the list below:
 
 > It's recommended to **always** include the `base` configuration in the first
 > position.
->
-> Note that the `base` configuration also contains the default `ignoreFiles`.
 
-```json
-{
-  "extends": [
-    "@snowball-tech/eslint-config/base",
-    "@snowball-tech/eslint-config/styled",
-    "@snowball-tech/eslint-config/tailwind"
-  ]
+```js
+const config = require('@snowball-tech/prettier-config/.prettierrc-tailwind')
+
+module.exports = {
+  ...config,
+  plugins: [...(config.plugins || []), 'prettier-plugin-my-awesome-plugin'],
 }
 ```
 
 > ⚠️ **Important notes**: when composing your own configuration, try to keep the
 > configurations files in the order above to ensure the proper behavior of the
-> linter.
+> formatter.
 
 Of course, you can also extend any other configuration coming from any other
 config or plugin and add you own rules and overrides to your configuration.
 
 ## Development
 
-If you want to contribute, update or edit this Stylelint configuration:
+If you want to contribute, update or edit this Prettier configuration:
 
 - First, install the needed dependencies:
 
