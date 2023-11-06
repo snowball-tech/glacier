@@ -1,3 +1,9 @@
+# @snowball-tech/renovate-config [2.1.0](https://github.com/snowball-tech/glacier/compare/@snowball-tech/renovate-config@2.0.15...@snowball-tech/renovate-config@2.1.0) (2023-11-06)
+
+### ✨ Features
+
+- add tailwind support in ESLint, StyleLint and Prettier ([282dfce](https://github.com/snowball-tech/glacier/commit/282dfce67f67c81bee8c774f5281b76a87758613))
+
 ## @snowball-tech/renovate-config [2.0.15](https://github.com/snowball-tech/glacier/compare/@snowball-tech/renovate-config@2.0.14...@snowball-tech/renovate-config@2.0.15) (2023-10-25)
 
 ### 🏗 Chores
