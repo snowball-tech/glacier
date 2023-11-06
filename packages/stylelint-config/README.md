@@ -11,7 +11,8 @@
   <img src="https://raw.githubusercontent.com/emotion-js/emotion/main/emotion.png" width="50" />
   <img src="https://pbs.twimg.com/profile_images/1298774539606863875/IMwwk2q6_400x400.jpg" width="50" />
   <img src="https://avatars.githubusercontent.com/u/112610040?s=280&v=4" width="50" />
-  <img src="https://pbs.twimg.com/card_img/1669896521263857664/zKKV8qRP?format=jpg&name=900x900" width="50" />
+  <img src="https://panda-css.com/panda-bubble-tea.svg" width="50" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/tailwindcss-plain.svg" width="50" />
 </div>
 
 ---
@@ -24,7 +25,8 @@
 ---
 
 This package provides a composable and opinionated
-[Stylelint](https://stylelint.io/) configuration based on Snowball engineering standards.
+[Stylelint](https://stylelint.io/) configuration based on Snowball engineering
+standards.
 
 This configuration supports:
 
@@ -38,6 +40,7 @@ This configuration supports:
   [Stitches](https://stitches.dev/),
   [Vanilla Extract](https://vanilla-extract.style/) or
   [Panda CSS](https://panda-css.com/)).
+- [TailwindCSS](https://tailwindcss.com/)
 
 It uses [PostCSS](https://postcss.org/) _(and in particular the
 [HTML parser](https://github.com/ota-meshi/postcss-html))_ and is based on
@@ -62,7 +65,7 @@ npm install --save-dev @snowball-tech/stylelint-config stylelint
 ```
 
 > Note that depending on the configuration you use, you might need to install
-> additionals dependency like `postcss` or `postcss-styled-syntax`
+> additional dependencies like `postcss` or `postcss-styled-syntax`
 
 ## Usage
 
@@ -91,6 +94,7 @@ You also have the possibility to use the full configuration, including:
 
 - [base rules](./base.js) _(including promise & unicorn)_
 - [CSS-in-JS](./styled.js)
+- [TailwindCSS](./tailwind.js)
 
 ```js
 module.exports = {
@@ -115,7 +119,8 @@ and pick whichever you want in the list below:
 {
   "extends": [
     "@snowball-tech/eslint-config/base",
-    "@snowball-tech/eslint-config/styled"
+    "@snowball-tech/eslint-config/styled",
+    "@snowball-tech/eslint-config/tailwind"
   ]
 }
 ```
@@ -156,8 +161,8 @@ npm install
 
 ### Useful Commands
 
-- `yarn run format-fix` to format the code according to our formatting guidelines
-  (using _Prettier_);
+- `yarn run format-fix` to format the code according to our formatting
+  guidelines (using _Prettier_);
 - `yarn run lint-fix`: to check that the code matches our coding guidelines and
   automatically fix what can be fixed _(using ESLint)_;
 - `yarn run test`: run all the unit tests;
@@ -185,8 +190,8 @@ basis.
 > [the list of Pull Requests](https://github.com/snowball-tech/glacier/pulls?q=is%3Apr+is%3Aopen+sort%3Aupdated-desc+label%3Adev-deps%2Cdeps),
 > for example every morning at the beginning of your day.
 
-Also, see the [dedicated `TOOLING.md` documentation](../../docs/TOOLING.md) for more
-information.
+Also, see the [dedicated `TOOLING.md` documentation](../../docs/TOOLING.md) for
+more information.
 
 ## Tooling
 

@@ -8,6 +8,7 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="50" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" width="50" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg" width="50" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/tailwindcss-plain.svg" width="50" />
   <img src="https://d3uyj2gj5wa63n.cloudfront.net/wp-content/uploads/2019/08/011fc620-4cb2-11e9-a51a-fdbb10b4cabb-e1567090000539.png" width="50" />
   <img src="https://avatars.githubusercontent.com/u/37453691?s=280&v=4" width="50" />
   <img src="https://testing-library.com/img/octopus-128x128.png" width="50" />
@@ -87,9 +88,11 @@ This configuration supports:
   [`eslint-plugin-lodash`](https://github.com/wix-incubator/eslint-plugin-lodash)
   and
   [`eslint-plugin-lodash-fp`](https://github.com/jfmengels/eslint-plugin-lodash-fp)
-- Code sorting using the
+- Code sorting using
   [`eslint-plugin-perfectionist`](https://github.com/azat-io/eslint-plugin-perfectionist)
   _([learn more](https://eslint-plugin-perfectionist.azat.io))_
+- TailwindCSS linting using
+  [`eslint-plugin-tailwindcss`](https://github.com/francoismassart/eslint-plugin-tailwindcss)
 - [Prettier](https://prettier.io/) using
   [`eslint-plugin-prettier`](https://github.com/prettier/eslint-plugin-prettier)
   and
@@ -182,6 +185,7 @@ You also have the possibility to use the full configuration, including:
 - [Lodash](./lodash.js)
 - [MDX and Storybook](./storybook.js)
 - [Perfectionist](./perfectionist.js)
+- [TailwindCSS](./tailwind.js)
 - [Prettier](./prettier.js)
 
 ```js
@@ -225,6 +229,7 @@ pick whichever you want in the list below:
     "@snowball-tech/eslint-config/lodash",
     "@snowball-tech/eslint-config/storybook",
     "@snowball-tech/eslint-config/perfectionist",
+    "@snowball-tech/eslint-config/tailwind",
     "@snowball-tech/eslint-config/prettier"
   ]
 }

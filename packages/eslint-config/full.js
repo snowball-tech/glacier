@@ -19,6 +19,7 @@ module.exports = {
     './lodash',
     './storybook',
     './perfectionist',
+    './tailwind',
     './prettier',
   ].map((fileName) => require.resolve(fileName)),
 }
