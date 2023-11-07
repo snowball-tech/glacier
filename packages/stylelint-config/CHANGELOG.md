@@ -1,3 +1,9 @@
+## @snowball-tech/stylelint-config [2.2.1](https://github.com/snowball-tech/glacier/compare/@snowball-tech/stylelint-config@2.2.0...@snowball-tech/stylelint-config@2.2.1) (2023-11-07)
+
+### 🐛 Bug Fixes
+
+- **configs:** add missing files in the package ([256ad79](https://github.com/snowball-tech/glacier/commit/256ad79330f7a49147f2644665458c4d01458ab5))
+
 # @snowball-tech/stylelint-config [2.2.0](https://github.com/snowball-tech/glacier/compare/@snowball-tech/stylelint-config@2.1.12...@snowball-tech/stylelint-config@2.2.0) (2023-11-06)
 
 ### ✨ Features
