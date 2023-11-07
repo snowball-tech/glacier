@@ -1,3 +1,9 @@
+## @snowball-tech/eslint-config [5.3.1](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@5.3.0...@snowball-tech/eslint-config@5.3.1) (2023-11-07)
+
+### 🐛 Bug Fixes
+
+- **configs:** add missing files in the package ([256ad79](https://github.com/snowball-tech/glacier/commit/256ad79330f7a49147f2644665458c4d01458ab5))
+
 # @snowball-tech/eslint-config [5.3.0](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@5.2.13...@snowball-tech/eslint-config@5.3.0) (2023-11-06)
 
 ### ✨ Features
