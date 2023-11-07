@@ -52,6 +52,7 @@
     "sql.js",
     "storybook.js",
     "testing-library.js",
+    "tailwind.js",
     "typescript.js",
     "yml.js"
   ],

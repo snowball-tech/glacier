@@ -32,7 +32,8 @@
   "files": [
     "base.js",
     "full.js",
-    "styled.js"
+    "styled.js",
+    "tailwind.js"
   ],
   "publishConfig": {
     "access": "public",

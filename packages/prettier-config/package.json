@@ -25,7 +25,8 @@
   },
   "main": ".prettierrc.js",
   "files": [
-    ".prettierignore"
+    ".prettierignore",
+    ".prettierrc-tailwind.js"
   ],
   "publishConfig": {
     "access": "public",
