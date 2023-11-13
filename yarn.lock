@@ -1328,30 +1328,30 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@monorepo-utils/package-utils@npm:^2.10.2":
-  version: 2.10.2
-  resolution: "@monorepo-utils/package-utils@npm:2.10.2"
+"@monorepo-utils/package-utils@npm:^2.10.4":
+  version: 2.10.4
+  resolution: "@monorepo-utils/package-utils@npm:2.10.4"
   dependencies:
     globby: "npm:^11.0.1"
     load-json-file: "npm:^6.2.0"
     upath: "npm:^2.0.1"
     yaml: "npm:^2.1.3"
-  checksum: 5d860ef3af589a60b2a6cf18fa56060e8178b4d52e73ebaba8bddf14d0d9d4d483aaee6187d9b1a325f87e894ad754c7322ddb074952056db6cdad88e7b7ef42
+  checksum: f6139d31576be5aa31ad4d7d7f2356c0ea86243e70a32903aa47ea7d3cbe74dc9ef48c252f187de6c02e6b6b731fe5bc1b390a50c68026133a759778d10206d8
   languageName: node
   linkType: hard
 
 "@monorepo-utils/workspaces-to-typescript-project-references@npm:^2.10.2":
-  version: 2.10.2
-  resolution: "@monorepo-utils/workspaces-to-typescript-project-references@npm:2.10.2"
+  version: 2.10.4
+  resolution: "@monorepo-utils/workspaces-to-typescript-project-references@npm:2.10.4"
   dependencies:
-    "@monorepo-utils/package-utils": "npm:^2.10.2"
+    "@monorepo-utils/package-utils": "npm:^2.10.4"
     comment-json: "npm:^3.0.3"
     meow: "npm:^7.1.1"
     semver-match: "npm:0.1.1"
     upath: "npm:^2.0.1"
   bin:
     workspaces-to-typescript-project-references: bin/cmd.js
-  checksum: bdcddf7fc0607f7194033c4d5391436ddf8a0e60493716cd8a7d82211dcbc5850cfa617d688bc85e78ec88d9de3377880e142ff8d0a9142c9a24f309feb7041a
+  checksum: 79e5d7399062053e84e0998d3cd215ff5b9c277fa90bb08549675a9bdad9c60f9910cd5d710d94a71515237fd1e65b3033586780bca6d2210fc1f047d2728dee
   languageName: node
   linkType: hard
 
