@@ -19,10 +19,10 @@
     "directory": "packages/eslint-config"
   },
   "bugs": "https://github.com/snowball-tech/glacier/issues",
-  "packageManager": "yarn@4.0.0",
+  "packageManager": "yarn@4.0.2",
   "engines": {
     "yarn": "^4.0.0",
-    "node": "^18.0.0"
+    "node": "18.x"
   },
   "main": "default.json5",
   "files": [],
@@ -36,6 +36,6 @@
     "validate-config": "renovate-config-validator default.json5"
   },
   "devDependencies": {
-    "renovate": "^37.60.5"
+    "renovate": "^37.83.0"
   }
 }
