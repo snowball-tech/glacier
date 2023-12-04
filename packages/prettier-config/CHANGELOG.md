@@ -1,3 +1,9 @@
+## @snowball-tech/prettier-config [1.4.3](https://github.com/snowball-tech/glacier/compare/@snowball-tech/prettier-config@1.4.2...@snowball-tech/prettier-config@1.4.3) (2023-12-04)
+
+### 📦 Dependencies
+
+- update deps and Yarn ([bbe511e](https://github.com/snowball-tech/glacier/commit/bbe511eb3587c739e8a51ad2e43c4f066db9d503))
+
 ## @snowball-tech/prettier-config [1.4.2](https://github.com/snowball-tech/glacier/compare/@snowball-tech/prettier-config@1.4.1...@snowball-tech/prettier-config@1.4.2) (2023-11-17)
 
 ### 📦 Dependencies
