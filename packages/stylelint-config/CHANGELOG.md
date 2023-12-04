@@ -1,3 +1,9 @@
+## @snowball-tech/stylelint-config [2.2.2](https://github.com/snowball-tech/glacier/compare/@snowball-tech/stylelint-config@2.2.1...@snowball-tech/stylelint-config@2.2.2) (2023-12-04)
+
+### 📦 Dependencies
+
+- update deps and Yarn ([bbe511e](https://github.com/snowball-tech/glacier/commit/bbe511eb3587c739e8a51ad2e43c4f066db9d503))
+
 ## @snowball-tech/stylelint-config [2.2.1](https://github.com/snowball-tech/glacier/compare/@snowball-tech/stylelint-config@2.2.0...@snowball-tech/stylelint-config@2.2.1) (2023-11-07)
 
 ### 🐛 Bug Fixes
