@@ -1096,19 +1096,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@breejs/later@npm:4.1.0":
-  version: 4.1.0
-  resolution: "@breejs/later@npm:4.1.0"
-  checksum: 4652a66952a9d2fc8623f50f94b34aed9607d0ddd222442a6cac639c30024c9835764e330bfe821ba7bdefd930ec7427f1e95e4026e24fb6e3f8169f0904d2c4
+"@breejs/later@npm:4.2.0":
+  version: 4.2.0
+  resolution: "@breejs/later@npm:4.2.0"
+  checksum: ddead3d5160c2eb9e98d059e87183a6cde565dd4a4a9c281a603b0fc2d7d9f99f6047e594b9e4443291b1a2ec84633cb7b69f3cda9794cb6de28fb704f26396e
   languageName: node
   linkType: hard
 
-"@cdktf/hcl2json@npm:0.19.1":
-  version: 0.19.1
-  resolution: "@cdktf/hcl2json@npm:0.19.1"
+"@cdktf/hcl2json@npm:0.19.2":
+  version: 0.19.2
+  resolution: "@cdktf/hcl2json@npm:0.19.2"
   dependencies:
     fs-extra: "npm:^11.1.1"
-  checksum: 886dfcc52f6d780abe3117391c9a59e927f8c5a4b096d861b244aacc437f0bfad42980cdd8c5ee82c1930b8329dff21fa647c80c3759df078cbd6dfd56ffd2bf
+  checksum: 4db59610d9bd0937f916d0c090be9d1b64cbc60de99ac958a9ffae1eacf05754e7ebe90099066567ee345124370c081fdade2c37764fef0445529f79a6f80f8b
   languageName: node
   linkType: hard
 
@@ -2317,18 +2317,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@renovatebot/osv-offline@npm:1.3.9":
-  version: 1.3.9
-  resolution: "@renovatebot/osv-offline@npm:1.3.9"
+"@renovatebot/osv-offline@npm:1.3.10":
+  version: 1.3.10
+  resolution: "@renovatebot/osv-offline@npm:1.3.10"
   dependencies:
     "@octokit/rest": "npm:^20.0.2"
     "@renovatebot/osv-offline-db": "npm:1.4.0"
     adm-zip: "npm:~0.5.10"
-    fs-extra: "npm:^11.1.1"
+    fs-extra: "npm:^11.2.0"
     got: "npm:^11.8.6"
     luxon: "npm:^3.4.4"
     node-fetch: "npm:^2.7.0"
-  checksum: e844f737744a543fc308744ea070908b103c3203d6047b22eff418c696b04800d6cf136cf73e98edbc5d24bd8ab3515a78466b8c1922fb2d3e28d3ba1b7343af
+  checksum: d30d0120ebe47371e8ad71d8054caf0fe8ba93f4c06cf3b5515578cff4e0b2749b452457f7d55d14e6cdbf598ff63758571f65e91b2501be712b6a9dc5a8884c
   languageName: node
   linkType: hard
 
@@ -4748,23 +4748,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cacache@npm:18.0.0":
-  version: 18.0.0
-  resolution: "cacache@npm:18.0.0"
+"cacache@npm:18.0.1, cacache@npm:^18.0.0":
+  version: 18.0.1
+  resolution: "cacache@npm:18.0.1"
   dependencies:
     "@npmcli/fs": "npm:^3.1.0"
     fs-minipass: "npm:^3.0.0"
     glob: "npm:^10.2.2"
     lru-cache: "npm:^10.0.1"
     minipass: "npm:^7.0.3"
-    minipass-collect: "npm:^1.0.2"
+    minipass-collect: "npm:^2.0.1"
     minipass-flush: "npm:^1.0.5"
     minipass-pipeline: "npm:^1.2.4"
     p-map: "npm:^4.0.0"
     ssri: "npm:^10.0.0"
     tar: "npm:^6.1.11"
     unique-filename: "npm:^3.0.0"
-  checksum: b71fefe97b9799a863dc48ac79da2bd57a724ff0922fddd3aef4f3b70395ba00d1ef9547a0594d3d6d3cd57aeaeaf4d938c54f89695053eb2198cf8758b47511
+  checksum: aecafd368fbfb2fc0cda1f2f831fe5a1d8161d2121317c92ac089bcd985085e8a588e810b4471e69946f91c6d2661849400e963231563c519aa1e3dac2cf6187
   languageName: node
   linkType: hard
 
@@ -4811,26 +4811,6 @@ __metadata:
     tar: "npm:^6.1.11"
     unique-filename: "npm:^3.0.0"
   checksum: 6e26c788bc6a18ff42f4d4f97db30d5c60a5dfac8e7c10a03b0307a92cf1b647570547cf3cd96463976c051eb9c7258629863f156e224c82018862c1a8ad0e70
-  languageName: node
-  linkType: hard
-
-"cacache@npm:^18.0.0":
-  version: 18.0.1
-  resolution: "cacache@npm:18.0.1"
-  dependencies:
-    "@npmcli/fs": "npm:^3.1.0"
-    fs-minipass: "npm:^3.0.0"
-    glob: "npm:^10.2.2"
-    lru-cache: "npm:^10.0.1"
-    minipass: "npm:^7.0.3"
-    minipass-collect: "npm:^2.0.1"
-    minipass-flush: "npm:^1.0.5"
-    minipass-pipeline: "npm:^1.2.4"
-    p-map: "npm:^4.0.0"
-    ssri: "npm:^10.0.0"
-    tar: "npm:^6.1.11"
-    unique-filename: "npm:^3.0.0"
-  checksum: aecafd368fbfb2fc0cda1f2f831fe5a1d8161d2121317c92ac089bcd985085e8a588e810b4471e69946f91c6d2661849400e963231563c519aa1e3dac2cf6187
   languageName: node
   linkType: hard
 
@@ -7372,18 +7352,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fs-extra@npm:11.1.1":
-  version: 11.1.1
-  resolution: "fs-extra@npm:11.1.1"
-  dependencies:
-    graceful-fs: "npm:^4.2.0"
-    jsonfile: "npm:^6.0.1"
-    universalify: "npm:^2.0.0"
-  checksum: c4e9fabf9762a70d1403316b7faa899f3d3303c8afa765b891c2210fdeba368461e04ae1203920b64ef6a7d066a39ab8cef2160b5ce8d1011bb4368688cd9bb7
-  languageName: node
-  linkType: hard
-
-"fs-extra@npm:^11.0.0, fs-extra@npm:^11.1.1":
+"fs-extra@npm:11.2.0, fs-extra@npm:^11.0.0, fs-extra@npm:^11.1.1, fs-extra@npm:^11.2.0":
   version: 11.2.0
   resolution: "fs-extra@npm:11.2.0"
   dependencies:
@@ -7477,7 +7446,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gaxios@npm:^6.0.0":
+"gaxios@npm:^6.0.0, gaxios@npm:^6.1.1":
   version: 6.1.1
   resolution: "gaxios@npm:6.1.1"
   dependencies:
@@ -7489,7 +7458,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gcp-metadata@npm:^6.0.0":
+"gcp-metadata@npm:^6.1.0":
   version: 6.1.0
   resolution: "gcp-metadata@npm:6.1.0"
   dependencies:
@@ -7848,17 +7817,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"google-auth-library@npm:9.2.0":
-  version: 9.2.0
-  resolution: "google-auth-library@npm:9.2.0"
+"google-auth-library@npm:9.4.1":
+  version: 9.4.1
+  resolution: "google-auth-library@npm:9.4.1"
   dependencies:
     base64-js: "npm:^1.3.0"
     ecdsa-sig-formatter: "npm:^1.0.11"
-    gaxios: "npm:^6.0.0"
-    gcp-metadata: "npm:^6.0.0"
+    gaxios: "npm:^6.1.1"
+    gcp-metadata: "npm:^6.1.0"
     gtoken: "npm:^7.0.0"
     jws: "npm:^4.0.0"
-  checksum: b168bbbf8b3e4c122cb315057152ca695a1a03414f7ff268a794f423759197758603211510c026a69566f6c1b49d4f004bfb2ebe69106dc1a68b763a43b59b00
+  checksum: 3fb1b26bec40568edfb9deeac2fdbf4d5d539ea6ed79895f411e508d6ef173f772648bd7ad4cab65a250df60660909e22f3f6863162de794ee065efb9974f723
   languageName: node
   linkType: hard
 
@@ -13122,8 +13091,8 @@ __metadata:
   linkType: hard
 
 "renovate@npm:^37.83.0":
-  version: 37.83.0
-  resolution: "renovate@npm:37.83.0"
+  version: 37.89.4
+  resolution: "renovate@npm:37.89.4"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.363.0"
     "@aws-sdk/client-ec2": "npm:3.363.0"
@@ -13131,8 +13100,8 @@ __metadata:
     "@aws-sdk/client-rds": "npm:3.363.0"
     "@aws-sdk/client-s3": "npm:3.363.0"
     "@aws-sdk/credential-providers": "npm:3.363.0"
-    "@breejs/later": "npm:4.1.0"
-    "@cdktf/hcl2json": "npm:0.19.1"
+    "@breejs/later": "npm:4.2.0"
+    "@cdktf/hcl2json": "npm:0.19.2"
     "@opentelemetry/api": "npm:1.7.0"
     "@opentelemetry/context-async-hooks": "npm:1.18.1"
     "@opentelemetry/exporter-trace-otlp-http": "npm:0.45.1"
@@ -13144,7 +13113,7 @@ __metadata:
     "@opentelemetry/sdk-trace-node": "npm:1.18.1"
     "@opentelemetry/semantic-conventions": "npm:1.18.1"
     "@qnighy/marshal": "npm:0.1.3"
-    "@renovatebot/osv-offline": "npm:1.3.9"
+    "@renovatebot/osv-offline": "npm:1.3.10"
     "@renovatebot/pep440": "npm:3.0.12"
     "@renovatebot/ruby-semver": "npm:3.0.19"
     "@sindresorhus/is": "npm:4.6.0"
@@ -13158,7 +13127,7 @@ __metadata:
     aws4: "npm:1.12.0"
     azure-devops-node-api: "npm:12.1.0"
     bunyan: "npm:1.8.15"
-    cacache: "npm:18.0.0"
+    cacache: "npm:18.0.1"
     cacheable-lookup: "npm:5.0.4"
     chalk: "npm:4.1.2"
     changelog-filename-regex: "npm:2.0.1"
@@ -13177,13 +13146,13 @@ __metadata:
     extract-zip: "npm:2.0.1"
     find-packages: "npm:10.0.4"
     find-up: "npm:5.0.0"
-    fs-extra: "npm:11.1.1"
+    fs-extra: "npm:11.2.0"
     git-url-parse: "npm:13.1.1"
     github-url-from-git: "npm:1.5.0"
     glob: "npm:10.3.10"
     global-agent: "npm:3.0.0"
     good-enough-parser: "npm:1.1.23"
-    google-auth-library: "npm:9.2.0"
+    google-auth-library: "npm:9.4.1"
     got: "npm:11.8.6"
     graph-data-structure: "npm:3.3.0"
     handlebars: "npm:4.7.8"
@@ -13238,7 +13207,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 78aad245fac3d537bae277ae117b0d7cf00132836e8e1c91e7e1f8cf357fb2f841771d221f0854cd5098e823e419dde508d84996dbe7ca49631c5b824c9d0c93
+  checksum: 0dad3145d558ede3eadee6396ea0b84ee264bea3a9ed15f465e322325ab410b77cff8c3bb5e186ecccfbb99805f20526e35580692e1ba5f6df00bdbfb2e36038
   languageName: node
   linkType: hard
 
