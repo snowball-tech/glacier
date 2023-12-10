@@ -2517,8 +2517,8 @@ __metadata:
   linkType: hard
 
 "@semantic-release/npm@npm:^11.0.0, @semantic-release/npm@npm:^11.0.1":
-  version: 11.0.1
-  resolution: "@semantic-release/npm@npm:11.0.1"
+  version: 11.0.2
+  resolution: "@semantic-release/npm@npm:11.0.2"
   dependencies:
     "@semantic-release/error": "npm:^4.0.0"
     aggregate-error: "npm:^5.0.0"
@@ -2535,7 +2535,7 @@ __metadata:
     tempy: "npm:^3.0.0"
   peerDependencies:
     semantic-release: ">=20.1.0"
-  checksum: 96e9ada553e3df1096aacb7d9d302fdbb9e25c19d0ef9b68a421221127215a7c04dd7d4b6928a66713fc16d0aa31577eacd8d3d5a370cf2aeafdb19ee2f02cfd
+  checksum: 7b1f2f62665a4bd339defba9fa4ea4834f54189fead4ddd436ada024a3923ae56c52db0dbdc88ca99e1891e99c9cdb183e1ce1cbd0a1ca928cc6252f80607bac
   languageName: node
   linkType: hard
 
