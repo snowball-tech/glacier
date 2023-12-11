@@ -3243,7 +3243,7 @@ __metadata:
     postcss-styled-syntax: "npm:^0.5.0"
     stylelint: "npm:^15.11.0"
     stylelint-config-html: "npm:^1.1.0"
-    stylelint-config-standard: "npm:^34.0.0"
+    stylelint-config-standard: "npm:^35.0.0"
   peerDependencies:
     stylelint: ^15.0.0
   languageName: unknown
@@ -14383,23 +14383,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"stylelint-config-recommended@npm:^13.0.0":
-  version: 13.0.0
-  resolution: "stylelint-config-recommended@npm:13.0.0"
+"stylelint-config-recommended@npm:^14.0.0":
+  version: 14.0.0
+  resolution: "stylelint-config-recommended@npm:14.0.0"
   peerDependencies:
-    stylelint: ^15.10.0
-  checksum: a56eb6d1a7c7f3a7a172b54bc34218859ba22a5a06816fb4d0964f66cb83cf372062f2c97830e994ad68243548e15fc49abf28887c3261ab1b471b3aa69f8e82
+    stylelint: ^16.0.0
+  checksum: 36511115b06d9f51aa0edc05f6064a7aae98cc990da14dd03629951f63a029d9e66a4d5b1ca678cce699e24413a62c2cd608cc07413ca5026f9680ddb8993858
   languageName: node
   linkType: hard
 
-"stylelint-config-standard@npm:^34.0.0":
-  version: 34.0.0
-  resolution: "stylelint-config-standard@npm:34.0.0"
+"stylelint-config-standard@npm:^35.0.0":
+  version: 35.0.0
+  resolution: "stylelint-config-standard@npm:35.0.0"
   dependencies:
-    stylelint-config-recommended: "npm:^13.0.0"
+    stylelint-config-recommended: "npm:^14.0.0"
   peerDependencies:
-    stylelint: ^15.10.0
-  checksum: 536249800c04b48a9c354067765f042713982e8222be17bb897a27d26546e50adfb87e6f1e4541807d720de3554345da99ab470e13e8d7ab0ab326c73ae3df61
+    stylelint: ^16.0.0
+  checksum: 527420c64615cb9a403573d0a7b051b4fac4c0eb17b634973fe31a6953217ea4a768283f9cad34e95143f0a3b98ec51c7e379c3199996976ef86696c3a9671f2
   languageName: node
   linkType: hard
 
