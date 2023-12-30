@@ -3240,7 +3240,7 @@ __metadata:
   dependencies:
     postcss: "npm:^8.4.32"
     postcss-html: "npm:^1.5.0"
-    postcss-styled-syntax: "npm:^0.5.0"
+    postcss-styled-syntax: "npm:^0.6.0"
     stylelint: "npm:^15.11.0"
     stylelint-config-html: "npm:^1.1.0"
     stylelint-config-standard: "npm:^34.0.0"
@@ -3802,7 +3802,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/typescript-estree@npm:5.62.0, @typescript-eslint/typescript-estree@npm:^5.62.0":
+"@typescript-eslint/typescript-estree@npm:5.62.0":
   version: 5.62.0
   resolution: "@typescript-eslint/typescript-estree@npm:5.62.0"
   dependencies:
@@ -6975,13 +6975,6 @@ __metadata:
     "@types/estree-jsx": "npm:^1.0.0"
     "@types/unist": "npm:^2.0.0"
   checksum: f86b923312ca69620718d3429eabf9a3e03f7a3521c87e271f3b4152a906370dea56b58970bc574650ec7163ede1357fe27ee12a32a62a61561e33c249395d65
-  languageName: node
-  linkType: hard
-
-"estree-walker@npm:^2.0.2":
-  version: 2.0.2
-  resolution: "estree-walker@npm:2.0.2"
-  checksum: b02109c5d46bc2ed47de4990eef770f7457b1159a229f0999a09224d2b85ffeed2d7679cffcff90aeb4448e94b0168feb5265b209cdec29aad50a3d6e93d21e2
   languageName: node
   linkType: hard
 
@@ -12417,16 +12410,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss-styled-syntax@npm:^0.5.0":
-  version: 0.5.0
-  resolution: "postcss-styled-syntax@npm:0.5.0"
+"postcss-styled-syntax@npm:^0.6.0":
+  version: 0.6.1
+  resolution: "postcss-styled-syntax@npm:0.6.1"
   dependencies:
-    "@typescript-eslint/typescript-estree": "npm:^5.62.0"
-    estree-walker: "npm:^2.0.2"
-    typescript: "npm:~5.1.6"
+    typescript: "npm:^5.3.3"
   peerDependencies:
     postcss: ^8.4.21
-  checksum: 5a8c0decad70dc9b599a9f5a92fb45fe6a3ee7fe1bd734c06df54ab3e9996c622be86220f0f57609b6283f89617a60b186a36488a0d078df454ae3ccb0a0508c
+  checksum: cb3e837aff172d06d9037c7cf7294586f3d4683ac10b0dff103c55f8bb15d6f522cc6cbe944c5993d5f1cd2879677d5c5c2a8bbdcb7295715f700cc382a5c69f
   languageName: node
   linkType: hard
 
@@ -15041,13 +15032,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:~5.1.6":
-  version: 5.1.6
-  resolution: "typescript@npm:5.1.6"
+"typescript@npm:^5.3.3":
+  version: 5.3.3
+  resolution: "typescript@npm:5.3.3"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: f347cde665cf43dc4c1c7d9821c7d9bbec3c3914f4bdd82ee490e9fb9f6d99036ed8666463b6a192dd005eeef333c5087d5931bdd51ec853436ff9a670a7417e
+  checksum: 6e4e6a14a50c222b3d14d4ea2f729e79f972fa536ac1522b91202a9a65af3605c2928c4a790a4a50aa13694d461c479ba92cedaeb1e7b190aadaa4e4b96b8e18
   languageName: node
   linkType: hard
 
@@ -15061,13 +15052,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@npm%3A~5.1.6#optional!builtin<compat/typescript>":
-  version: 5.1.6
-  resolution: "typescript@patch:typescript@npm%3A5.1.6#optional!builtin<compat/typescript>::version=5.1.6&hash=5da071"
+"typescript@patch:typescript@npm%3A^5.3.3#optional!builtin<compat/typescript>":
+  version: 5.3.3
+  resolution: "typescript@patch:typescript@npm%3A5.3.3#optional!builtin<compat/typescript>::version=5.3.3&hash=e012d7"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: f5481fa3ba0eee8970f46708d13c05650a865ad093b586fc9573f425c64c57ca97e3308e110bb528deb3ccebe83f6fd7b5a8ac90018038da96326a9ccdf8e77c
+  checksum: c93786fcc9a70718ba1e3819bab56064ead5817004d1b8186f8ca66165f3a2d0100fee91fa64c840dcd45f994ca5d615d8e1f566d39a7470fc1e014dbb4cf15d
   languageName: node
   linkType: hard
 
