@@ -12380,14 +12380,14 @@ __metadata:
   linkType: hard
 
 "postcss-html@npm:^1.5.0":
-  version: 1.5.0
-  resolution: "postcss-html@npm:1.5.0"
+  version: 1.6.0
+  resolution: "postcss-html@npm:1.6.0"
   dependencies:
     htmlparser2: "npm:^8.0.0"
     js-tokens: "npm:^8.0.0"
     postcss: "npm:^8.4.0"
     postcss-safe-parser: "npm:^6.0.0"
-  checksum: 639d99c90e7fe6b6dd5b2dd67b9958fdd86e7b9b05f2779bbb7168dfaf5790a149269cce7a899f3a44e60b94a6fefd2887e18175496d512144f33531b87689c2
+  checksum: e7df3da02c3af15c65f63d8c4f985139b8ea0d59cc830020dc976802cff7f6621d7784d55d368f99607d73ad32fcf6ca6e327facba20e69dd87dfce24d842ff9
   languageName: node
   linkType: hard
 
