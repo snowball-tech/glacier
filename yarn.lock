@@ -6327,12 +6327,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-compat-utils@npm:^0.1.0, eslint-compat-utils@npm:^0.1.2":
+"eslint-compat-utils@npm:^0.1.2":
   version: 0.1.2
   resolution: "eslint-compat-utils@npm:0.1.2"
   peerDependencies:
     eslint: ">=6.0.0"
   checksum: 8c273889485ab863f2b6089c36f042dd2d9bf65d219fa256c1991f9466ea8261f3ab753a017a6d8e93bec84abd568fe3e10216f3fda5b41d05e3dce3b2a5e514
+  languageName: node
+  linkType: hard
+
+"eslint-compat-utils@npm:^0.4.0":
+  version: 0.4.1
+  resolution: "eslint-compat-utils@npm:0.4.1"
+  dependencies:
+    semver: "npm:^7.5.4"
+  peerDependencies:
+    eslint: ">=6.0.0"
+  checksum: 62727af92603b000ecfc533cb5aaaf93ab82865fcbbcf46ee0ab3af77b3a0bb26458dd9eae862ca9c8d9d431531c45f572ec23b9f75753d34a8674b2d7c65791
   languageName: node
   linkType: hard
 
@@ -6812,17 +6823,17 @@ __metadata:
   linkType: hard
 
 "eslint-plugin-yml@npm:^1.10.0":
-  version: 1.10.0
-  resolution: "eslint-plugin-yml@npm:1.10.0"
+  version: 1.12.2
+  resolution: "eslint-plugin-yml@npm:1.12.2"
   dependencies:
     debug: "npm:^4.3.2"
-    eslint-compat-utils: "npm:^0.1.0"
+    eslint-compat-utils: "npm:^0.4.0"
     lodash: "npm:^4.17.21"
     natural-compare: "npm:^1.4.0"
     yaml-eslint-parser: "npm:^1.2.1"
   peerDependencies:
     eslint: ">=6.0.0"
-  checksum: 4760e11290666056e3fe8f0c9dfc9bc15eed766169826b72cb8ad83469793ed65c3387313a500355d038e8be87487adc0dba2bc52aa8659aacfd23bd856f306b
+  checksum: 0756d26b1eeddf8e3d6a19d7bab7ee9c00a65c559a539f56a12e6e811dda6b374045e434e4f200b8b6c509785bf2395c226dec93ee00be61e879a778eb3f7a3b
   languageName: node
   linkType: hard
 
