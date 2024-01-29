@@ -48,7 +48,7 @@
     "lint-fix": "yarn run -T eslint --cache --fix ."
   },
   "peerDependencies": {
-    "semantic-release": "^21.0.0 || ^22.0.0"
+    "semantic-release": "^23.0.0"
   },
   "dependencies": {
     "@semantic-release/changelog": "^6.0.3",
