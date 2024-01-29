@@ -14,7 +14,7 @@
   "homepage": "https://github.com/snowball-tech/glacier/tree/main/packages/prettier-config",
   "repository": {
     "type": "git",
-    "url": "https://github.com/snowball-tech/glacier.git",
+    "url": "git+https://github.com/snowball-tech/glacier.git",
     "directory": "packages/prettier-config"
   },
   "bugs": "https://github.com/snowball-tech/glacier/issues",
