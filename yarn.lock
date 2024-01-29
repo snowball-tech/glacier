@@ -3313,7 +3313,7 @@ __metadata:
     lodash: "npm:^4.17.21"
     semantic-release: "npm:^23.0.0"
   peerDependencies:
-    semantic-release: ^21.0.0 || ^22.0.0
+    semantic-release: ^21.0.0 || ^22.0.0 || ^23.0.0
   languageName: unknown
   linkType: soft
 
