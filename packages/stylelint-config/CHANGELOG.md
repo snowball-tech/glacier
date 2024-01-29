@@ -1,3 +1,9 @@
+## @snowball-tech/stylelint-config [2.2.5](https://github.com/snowball-tech/glacier/compare/@snowball-tech/stylelint-config@2.2.4...@snowball-tech/stylelint-config@2.2.5) (2024-01-29)
+
+### 🏗 Chores
+
+- normalize repository.urls ([d5c0c7b](https://github.com/snowball-tech/glacier/commit/d5c0c7b8abb485cacb17ea9ee5ff4a07d2fe7dca))
+
 ## @snowball-tech/stylelint-config [2.2.4](https://github.com/snowball-tech/glacier/compare/@snowball-tech/stylelint-config@2.2.3...@snowball-tech/stylelint-config@2.2.4) (2024-01-29)
 
 ### 📦 Dependencies
