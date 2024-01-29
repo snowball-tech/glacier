@@ -25,7 +25,7 @@
   "homepage": "https://github.com/snowball-tech/glacier",
   "repository": {
     "type": "git",
-    "url": "https://github.com/snowball-tech/glacier.git"
+    "url": "git+https://github.com/snowball-tech/glacier.git"
   },
   "bugs": "https://github.com/snowball-tech/glacier/issues",
   "packageManager": "yarn@4.0.2",
