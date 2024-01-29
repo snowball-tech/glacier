@@ -1,3 +1,9 @@
+## @snowball-tech/renovate-config [2.1.4](https://github.com/snowball-tech/glacier/compare/@snowball-tech/renovate-config@2.1.3...@snowball-tech/renovate-config@2.1.4) (2024-01-29)
+
+### 🏗 Chores
+
+- normalize repository.urls ([d5c0c7b](https://github.com/snowball-tech/glacier/commit/d5c0c7b8abb485cacb17ea9ee5ff4a07d2fe7dca))
+
 ## @snowball-tech/renovate-config [2.1.3](https://github.com/snowball-tech/glacier/compare/@snowball-tech/renovate-config@2.1.2...@snowball-tech/renovate-config@2.1.3) (2024-01-29)
 
 ### 📦 Dependencies
