@@ -46,7 +46,7 @@
     "lint-fix": "yarn run -T eslint --cache --fix ."
   },
   "peerDependencies": {
-    "stylelint": "^15.0.0"
+    "stylelint": "^15.0.0 || ^16.0.0"
   },
   "dependencies": {
     "postcss": "^8.4.33",
