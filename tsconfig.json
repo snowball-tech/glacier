@@ -27,7 +27,7 @@
     "sourceMap": true,
     "strict": true,
     "target": "ES6",
-    "useDefineForClassFields": true
+    "useDefineForClassFields": true,
   },
   "include": [],
   "exclude": [
@@ -35,8 +35,8 @@
     "**/.yarn/releases/**/*",
     "**/build",
     "**/dist",
-    "**/out"
+    "**/out",
   ],
   "files": [],
-  "references": []
+  "references": [],
 }
