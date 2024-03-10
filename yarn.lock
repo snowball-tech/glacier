@@ -5909,8 +5909,8 @@ __metadata:
   linkType: hard
 
 "dotenv-cli@npm:^7.3.0":
-  version: 7.3.0
-  resolution: "dotenv-cli@npm:7.3.0"
+  version: 7.4.1
+  resolution: "dotenv-cli@npm:7.4.1"
   dependencies:
     cross-spawn: "npm:^7.0.3"
     dotenv: "npm:^16.3.0"
@@ -5918,7 +5918,7 @@ __metadata:
     minimist: "npm:^1.2.6"
   bin:
     dotenv: cli.js
-  checksum: bc48e9872ed451aa7633cfde0079f5e4b40837d49dca4eab947682c80f524bd1e63ec31ff69b7cf955ff969185a05a343dd5d754dd5569e4ae31f8e9a790ab1b
+  checksum: 213ed2a446db0aed329fb8792107dd3bacab409eb4904137f57f6e428e0de7abfce2e1cbf34b311ce8b36090931a316e943cf193975a2eb8e855ad7db3df8cf5
   languageName: node
   linkType: hard
 
