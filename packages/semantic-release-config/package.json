@@ -26,7 +26,7 @@
     "directory": "packages/eslint-config"
   },
   "bugs": "https://github.com/snowball-tech/glacier/issues",
-  "packageManager": "yarn@4.0.2",
+  "packageManager": "yarn@4.1.1",
   "engines": {
     "yarn": "^4.0.0",
     "node": "18.x"
@@ -42,26 +42,27 @@
     "registry": "https://registry.npmjs.org"
   },
   "scripts": {
+    "check-deps": "yarn run -T depcheck --ignores='@semantic-release/*'",
     "format": "yarn run -T prettier --cache --check .",
     "format-fix": "yarn run -T prettier --cache --write .",
     "lint": "yarn run -T eslint --cache .",
-    "lint-fix": "yarn run -T eslint --cache --fix ."
+    "lint-fix": "yarn run -T eslint --cache --fix .",
+    "quality": "yarn run lint & yarn run format",
+    "quality-fix": "yarn run lint-fix && yarn run format-fix",
+    "update-deps": "yarn run -T update-deps"
   },
   "peerDependencies": {
     "semantic-release": "^23.0.0"
   },
   "dependencies": {
     "@semantic-release/changelog": "^6.0.3",
-    "@semantic-release/commit-analyzer": "^11.1.0",
+    "@semantic-release/commit-analyzer": "^12.0.0",
     "@semantic-release/exec": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
-    "@semantic-release/github": "^9.2.6",
-    "@semantic-release/npm": "^11.0.2",
+    "@semantic-release/github": "^10.0.2",
+    "@semantic-release/npm": "^12.0.0",
     "@semantic-release/release-notes-generator": "^12.1.0",
     "lodash": "^4.17.21",
-    "semantic-release": "^23.0.0"
-  },
-  "devDependencies": {
-    "@types/lodash": "^4.14.202"
+    "semantic-release": "^23.0.5"
   }
 }

@@ -23,7 +23,7 @@
     "directory": "packages/stylelint-config"
   },
   "bugs": "https://github.com/snowball-tech/glacier/issues",
-  "packageManager": "yarn@4.0.2",
+  "packageManager": "yarn@4.1.1",
   "engines": {
     "yarn": "^4.0.0",
     "node": "18.x"
@@ -40,19 +40,23 @@
     "registry": "https://registry.npmjs.org"
   },
   "scripts": {
+    "check-deps": "yarn run -T depcheck --ignores='postcss,postcss-*,stylelint,stylelint-*'",
     "format": "yarn run -T prettier --cache --check .",
     "format-fix": "yarn run -T prettier --cache --write .",
     "lint": "yarn run -T eslint --cache .",
-    "lint-fix": "yarn run -T eslint --cache --fix ."
+    "lint-fix": "yarn run -T eslint --cache --fix .",
+    "quality": "yarn run lint & yarn run format",
+    "quality-fix": "yarn run lint-fix && yarn run format-fix",
+    "update-deps": "yarn run -T update-deps"
   },
   "peerDependencies": {
     "stylelint": "^16.0.0"
   },
   "dependencies": {
-    "postcss": "^8.4.33",
+    "postcss": "^8.4.38",
     "postcss-html": "^1.6.0",
     "postcss-styled-syntax": "^0.6.4",
-    "stylelint": "^16.2.0",
+    "stylelint": "^16.2.1",
     "stylelint-config-html": "^1.1.0",
     "stylelint-config-standard": "^36.0.0"
   }

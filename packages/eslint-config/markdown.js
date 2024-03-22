@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['plugin:markdown/recommended'],
+  extends: ['plugin:markdown/recommended-legacy'],
 
   overrides: [
     {

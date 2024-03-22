@@ -89,7 +89,6 @@ yarn run -T < dependency-name > [...parameters]
 
 The dependencies that are available at the root level are:
 
-- `ts-node`: to run TypeScript code directly
 - `multi-semantic-release` and `semantic-release`: to release multiple packages
 - `is-ci`: to check if you are in a CI environment
 - `eslint`: to lint your code

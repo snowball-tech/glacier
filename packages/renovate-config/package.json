@@ -19,7 +19,7 @@
     "directory": "packages/eslint-config"
   },
   "bugs": "https://github.com/snowball-tech/glacier/issues",
-  "packageManager": "yarn@4.0.2",
+  "packageManager": "yarn@4.1.1",
   "engines": {
     "yarn": "^4.0.0",
     "node": "18.x"
@@ -31,11 +31,15 @@
     "registry": "https://registry.npmjs.org"
   },
   "scripts": {
+    "check-deps": "yarn run -T depcheck --ignores=''",
     "format": "yarn run -T prettier --cache --check .",
     "format-fix": "yarn run -T prettier --cache --write .",
+    "quality": "yarn run format",
+    "quality-fix": "yarn run format-fix",
+    "update-deps": "yarn run -T update-deps",
     "validate-config": "renovate-config-validator default.json5"
   },
   "devDependencies": {
-    "renovate": "^37.154.0"
+    "renovate": "^37.265.0"
   }
 }
