@@ -2682,7 +2682,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@semantic-release/github@npm:^10.0.2":
+"@semantic-release/github@npm:^10.0.0":
   version: 10.0.2
   resolution: "@semantic-release/github@npm:10.0.2"
   dependencies:
@@ -2757,7 +2757,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@semantic-release/npm@npm:^11.0.0":
+"@semantic-release/npm@npm:^11.0.0, @semantic-release/npm@npm:^11.0.3":
   version: 11.0.3
   resolution: "@semantic-release/npm@npm:11.0.3"
   dependencies:
@@ -2777,29 +2777,6 @@ __metadata:
   peerDependencies:
     semantic-release: ">=20.1.0"
   checksum: 10/d34c7a15a3c5ccf309b57c4a617fc9c0b687b5de3cd19c7014e7e92c6db0594e068f274651ecb425c0a85a5e1fc2d56d5ed1deea1774d75c975bb66d32e7cab2
-  languageName: node
-  linkType: hard
-
-"@semantic-release/npm@npm:^12.0.0":
-  version: 12.0.0
-  resolution: "@semantic-release/npm@npm:12.0.0"
-  dependencies:
-    "@semantic-release/error": "npm:^4.0.0"
-    aggregate-error: "npm:^5.0.0"
-    execa: "npm:^8.0.0"
-    fs-extra: "npm:^11.0.0"
-    lodash-es: "npm:^4.17.21"
-    nerf-dart: "npm:^1.0.0"
-    normalize-url: "npm:^8.0.0"
-    npm: "npm:^10.5.0"
-    rc: "npm:^1.2.8"
-    read-pkg: "npm:^9.0.0"
-    registry-auth-token: "npm:^5.0.0"
-    semver: "npm:^7.1.2"
-    tempy: "npm:^3.0.0"
-  peerDependencies:
-    semantic-release: ">=20.1.0"
-  checksum: 10/c52b5c6adcefd6bbaf8dee76d097441ccfb5b0d863ca5c1cd0028c720daed3c3cb74e7f316f32febd7516cb5520c694f389ec2af7a7eac76dac5173fffda75fb
   languageName: node
   linkType: hard
 
@@ -3512,8 +3489,8 @@ __metadata:
     "@semantic-release/commit-analyzer": "npm:^11.1.0"
     "@semantic-release/exec": "npm:^6.0.3"
     "@semantic-release/git": "npm:^10.0.1"
-    "@semantic-release/github": "npm:^10.0.2"
-    "@semantic-release/npm": "npm:^12.0.0"
+    "@semantic-release/github": "npm:^10.0.0"
+    "@semantic-release/npm": "npm:^11.0.3"
     "@semantic-release/release-notes-generator": "npm:^12.1.0"
     lodash: "npm:^4.17.21"
     semantic-release: "npm:^22.0.12"
