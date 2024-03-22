@@ -18,7 +18,7 @@
     "directory": "packages/prettier-config"
   },
   "bugs": "https://github.com/snowball-tech/glacier/issues",
-  "packageManager": "yarn@4.0.2",
+  "packageManager": "yarn@4.1.1",
   "engines": {
     "yarn": "^4.0.0",
     "node": "18.x"
@@ -33,13 +33,17 @@
     "registry": "https://registry.npmjs.org"
   },
   "scripts": {
+    "check-deps": "yarn run -T depcheck --ignores='prettier-plugin-*'",
     "format": "yarn run -T prettier --cache --check .",
-    "format-fix": "yarn run -T prettier --cache --write ."
+    "format-fix": "yarn run -T prettier --cache --write .",
+    "quality": "yarn run format",
+    "quality-fix": "yarn run format-fix",
+    "update-deps": "yarn run -T update-deps"
   },
   "dependencies": {
-    "prettier": "^3.2.4",
+    "prettier": "^3.2.5",
     "prettier-plugin-organize-attributes": "^1.0.0",
     "prettier-plugin-sh": "^0.14.0",
-    "prettier-plugin-tailwindcss": "^0.5.11"
+    "prettier-plugin-tailwindcss": "^0.5.12"
   }
 }

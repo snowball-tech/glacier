@@ -28,7 +28,7 @@
     "directory": "packages/eslint-config"
   },
   "bugs": "https://github.com/snowball-tech/glacier/issues",
-  "packageManager": "yarn@4.0.2",
+  "packageManager": "yarn@4.1.1",
   "engines": {
     "yarn": "^4.0.0",
     "node": "18.x"
@@ -61,54 +61,57 @@
     "registry": "https://registry.npmjs.org"
   },
   "scripts": {
+    "check-deps": "yarn run -T depcheck --ignores='@next/eslint-plugin-next,@typescript-eslint/*,eslint-config-airbnb,eslint-import-resolver-typescript,eslint-plugin-*',tailwindcss",
     "find-rules": "eslint-find-rules",
     "format": "yarn run -T prettier --cache --check .",
     "format-fix": "yarn run -T prettier --cache --write .",
     "lint": "yarn run -T eslint --cache .",
-    "lint-fix": "yarn run -T eslint --cache --fix ."
+    "lint-fix": "yarn run -T eslint --cache --fix .",
+    "quality": "yarn run lint & yarn run format",
+    "quality-fix": "yarn run lint-fix && yarn run format-fix",
+    "update-deps": "yarn run -T update-deps"
   },
   "peerDependencies": {
     "eslint": "^8.0.0"
   },
   "dependencies": {
-    "@next/eslint-plugin-next": "^14.1.0",
-    "@rushstack/eslint-patch": "^1.7.2",
-    "@testing-library/dom": "^9.3.4",
-    "@typescript-eslint/eslint-plugin": "~6.19.1",
-    "@typescript-eslint/parser": "~6.19.1",
-    "eslint": "^8.56.0",
+    "@next/eslint-plugin-next": "^14.1.4",
+    "@rushstack/eslint-patch": "^1.8.0",
+    "@typescript-eslint/eslint-plugin": "~7.3.1",
+    "@typescript-eslint/parser": "~7.3.1",
+    "eslint": "^8.57.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-import-resolver-typescript": "^3.6.1",
-    "eslint-plugin-html": "^7.1.0",
+    "eslint-plugin-html": "^8.0.0",
     "eslint-plugin-import": "^2.29.1",
-    "eslint-plugin-jest": "^27.6.3",
-    "eslint-plugin-jest-dom": "^5.1.0",
-    "eslint-plugin-jsonc": "^2.13.0",
+    "eslint-plugin-jest": "^27.9.0",
+    "eslint-plugin-jest-dom": "^5.2.0",
+    "eslint-plugin-jsonc": "^2.14.1",
     "eslint-plugin-jsx-a11y": "^6.8.0",
     "eslint-plugin-lodash": "^7.4.0",
     "eslint-plugin-lodash-fp": "^2.2.0-a1",
-    "eslint-plugin-markdown": "^3.0.1",
+    "eslint-plugin-markdown": "^4.0.1",
     "eslint-plugin-mdx": "^3.1.5",
     "eslint-plugin-no-secrets": "^0.8.9",
-    "eslint-plugin-perfectionist": "^2.5.0",
+    "eslint-plugin-perfectionist": "^2.7.0",
     "eslint-plugin-prettier": "^5.1.3",
     "eslint-plugin-promise": "~6.1.1",
-    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react": "^7.34.1",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-sort-keys": "^2.3.5",
     "eslint-plugin-sql": "^2.5.0",
-    "eslint-plugin-storybook": "^0.6.15",
-    "eslint-plugin-tailwindcss": "^3.14.1",
+    "eslint-plugin-storybook": "^0.8.0",
+    "eslint-plugin-tailwindcss": "^3.15.1",
     "eslint-plugin-testing-library": "^6.2.0",
-    "eslint-plugin-unicorn": "^50.0.1",
-    "eslint-plugin-yml": "^1.12.2",
+    "eslint-plugin-unicorn": "^51.0.1",
+    "eslint-plugin-yml": "^1.13.2",
     "jsonc-eslint-parser": "^2.4.0",
-    "prettier": "^3.2.4"
+    "prettier": "^3.2.5"
   },
   "devDependencies": {
-    "@types/prettier": "^3.0.0",
-    "eslint-find-rules": "^4.1.0"
+    "eslint-find-rules": "^4.1.0",
+    "tailwindcss": "^3.4.1"
   }
 }

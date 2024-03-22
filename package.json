@@ -28,7 +28,7 @@
     "url": "git+https://github.com/snowball-tech/glacier.git"
   },
   "bugs": "https://github.com/snowball-tech/glacier/issues",
-  "packageManager": "yarn@4.0.2",
+  "packageManager": "yarn@4.1.1",
   "engines": {
     "yarn": "^4.0.0",
     "node": "18.x"
@@ -44,6 +44,7 @@
   },
   "scripts": {
     "build": "NODE_ENV=production yarn workspaces foreach --all --topological-dev run build",
+    "check-deps": "yarn depcheck --ignores='@snowball-tech/semantic-release-config,lint-staged,semantic-release' & yarn workspaces foreach --all -p run check-deps",
     "format": "yarn run -T format-root & yarn workspaces foreach --all -p run format",
     "format-fix": "yarn run -T format-root-fix & yarn workspaces foreach --all -p run format-fix",
     "format-root": "prettier --cache --check \"./!(apps|packages)\"",
@@ -54,11 +55,13 @@
     "lint-root-fix": "eslint --cache --fix \"./!(apps|packages)\"",
     "publish-all": "multi-semantic-release",
     "publish-all-local": "CI=true yarn publish-all",
-    "quality": "yarn run format && yarn run lint && yarn run types-check",
+    "quality": "yarn run lint & yarn run format & yarn run types-check",
+    "quality-fix": "yarn run lint-fix && yarn run format-fix && yarn run types-check",
     "presetup": "is-ci || yarn install",
     "setup": "yarn run presetup && yarn setup-husky && yarn workspaces foreach --all -p run setup",
     "setup-husky": "is-ci || yarn husky install",
     "types-check": "yarn workspaces foreach --all -p run types-check",
+    "update-deps": "yarn upgrade-interactive",
     "update-references": "workspaces-to-typescript-project-references --includesRoot"
   },
   "devDependencies": {
@@ -67,19 +70,13 @@
     "@snowball-tech/eslint-config": "workspace:^",
     "@snowball-tech/prettier-config": "workspace:^",
     "@snowball-tech/semantic-release-config": "workspace:^",
-    "@types/eslint": "^8.56.2",
-    "@types/is-ci": "^3.0.4",
-    "@types/node": "^20.11.10",
-    "@types/prettier": "^3.0.0",
-    "dotenv-cli": "^7.3.0",
-    "eslint": "^8.56.0",
-    "husky": "^9.0.6",
+    "depcheck": "^1.4.7",
+    "eslint": "^8.57.0",
+    "husky": "^9.0.11",
     "is-ci": "^3.0.1",
-    "lint-staged": "^15.2.0",
-    "prettier": "^3.2.4",
-    "semantic-release": "^23.0.0",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.3.3"
+    "lint-staged": "^15.2.2",
+    "prettier": "^3.2.5",
+    "semantic-release": "^23.0.5"
   },
   "dependencies": {
     "@yarnpkg/types": "^4.0.0"
