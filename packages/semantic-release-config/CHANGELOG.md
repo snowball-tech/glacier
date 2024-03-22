@@ -1,3 +1,10 @@
+## @snowball-tech/semantic-release-config [2.1.7](https://github.com/snowball-tech/glacier/compare/@snowball-tech/semantic-release-config@2.1.6...@snowball-tech/semantic-release-config@2.1.7) (2024-03-22)
+
+### 📦 Dependencies
+
+- fix lockfile ([0f445ea](https://github.com/snowball-tech/glacier/commit/0f445eafd320ad095ff4c2af403c003026b46bec))
+- revert semantic release upgrade ([6d01dc3](https://github.com/snowball-tech/glacier/commit/6d01dc397e4b9e341a50860d261ea568af06ff1b))
+
 ## @snowball-tech/semantic-release-config [2.1.6](https://github.com/snowball-tech/glacier/compare/@snowball-tech/semantic-release-config@2.1.5...@snowball-tech/semantic-release-config@2.1.6) (2024-03-22)
 
 ### 📦 Dependencies
