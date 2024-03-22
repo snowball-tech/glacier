@@ -52,7 +52,7 @@
     "update-deps": "yarn run -T update-deps"
   },
   "peerDependencies": {
-    "semantic-release": "^23.0.0"
+    "semantic-release": "^22.0.0"
   },
   "dependencies": {
     "@semantic-release/changelog": "^6.0.3",
