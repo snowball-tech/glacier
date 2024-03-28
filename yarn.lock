@@ -1214,12 +1214,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@cdktf/hcl2json@npm:0.20.4":
-  version: 0.20.4
-  resolution: "@cdktf/hcl2json@npm:0.20.4"
+"@cdktf/hcl2json@npm:0.20.5":
+  version: 0.20.5
+  resolution: "@cdktf/hcl2json@npm:0.20.5"
   dependencies:
     fs-extra: "npm:11.2.0"
-  checksum: 10/1f60624d351471363cc77c186d25fecffba53152a783de561f0ecfeab549e5924f01ed4d0d5d1f8bf51439b9a001093da4d4637086d8f9ec7e8b717f517146b0
+  checksum: 10/5c2320c5469428233766ebdf30aa43ba2b14789dd4a30d24fa8b45a4e0f00bea948703c44dabb10d9433d3a6f2aec5e6599a954233ef9a8bf73867bc71ab6691
   languageName: node
   linkType: hard
 
@@ -13665,8 +13665,8 @@ __metadata:
   linkType: hard
 
 "renovate@npm:^37.265.0":
-  version: 37.265.0
-  resolution: "renovate@npm:37.265.0"
+  version: 37.273.0
+  resolution: "renovate@npm:37.273.0"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.363.0"
     "@aws-sdk/client-ec2": "npm:3.363.0"
@@ -13675,7 +13675,7 @@ __metadata:
     "@aws-sdk/client-s3": "npm:3.363.0"
     "@aws-sdk/credential-providers": "npm:3.363.0"
     "@breejs/later": "npm:4.2.0"
-    "@cdktf/hcl2json": "npm:0.20.4"
+    "@cdktf/hcl2json": "npm:0.20.5"
     "@opentelemetry/api": "npm:1.8.0"
     "@opentelemetry/context-async-hooks": "npm:1.22.0"
     "@opentelemetry/exporter-trace-otlp-http": "npm:0.49.1"
@@ -13765,7 +13765,7 @@ __metadata:
     semver-stable: "npm:3.0.0"
     semver-utils: "npm:1.1.4"
     shlex: "npm:2.1.2"
-    simple-git: "npm:3.22.0"
+    simple-git: "npm:3.23.0"
     slugify: "npm:1.6.6"
     source-map-support: "npm:0.5.21"
     toml-eslint-parser: "npm:0.9.3"
@@ -13783,7 +13783,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10/811169c489d52157b57cbc9ead9432e41f6c7e85892694f422c100899b6c78caf7759297bce3d6fbd1e916a081d506c764e518426a5d8282eea22b65253f1f72
+  checksum: 10/3cd09e6820f8a7ad90b6e0c5d6199a7a4c31eb61f1d74bb17fda8b50f82427dc08fb5b227bb5d196098d5beddfa5f28bc5a7f8986b7a45d0a1e94e71ec73afae
   languageName: node
   linkType: hard
 
@@ -14419,14 +14419,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"simple-git@npm:3.22.0":
-  version: 3.22.0
-  resolution: "simple-git@npm:3.22.0"
+"simple-git@npm:3.23.0":
+  version: 3.23.0
+  resolution: "simple-git@npm:3.23.0"
   dependencies:
     "@kwsites/file-exists": "npm:^1.1.1"
     "@kwsites/promise-deferred": "npm:^1.1.1"
     debug: "npm:^4.3.4"
-  checksum: 10/309e7f0b73550f99949c0c6cfd4b4799ec0452fc4835dc440f89ec9351fe553c979c4e2bf7a772308e608697d3a27512281fbc64df0328a73607641f389b0aaf
+  checksum: 10/08ddfcbc310bfeaba066ef7b0d178967d9984aa1bc5e29f0360d166b0ccf820a3e5bb67d02036fca40fde6cdfc998f2b5fb2db9a8bbbad29b4feb4c1391f39e0
   languageName: node
   linkType: hard
 
