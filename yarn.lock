@@ -6807,11 +6807,11 @@ __metadata:
   linkType: hard
 
 "eslint-plugin-html@npm:^8.0.0":
-  version: 8.0.0
-  resolution: "eslint-plugin-html@npm:8.0.0"
+  version: 8.1.0
+  resolution: "eslint-plugin-html@npm:8.1.0"
   dependencies:
     htmlparser2: "npm:^9.1.0"
-  checksum: 10/2c613ebb6506fcb42ad4f057223696c2e73cc737501794d7550f82de75e719b0d577b3daae092947cccd3dcfb0c74d0a8d22abd760b579a4e832f37f732c1c58
+  checksum: 10/c77b54d87ee6ee234f8840c3da2114ebce97706220d47458bd3a16e50cafaea9252adb9fbf01417585b0be99d88c929596e8596a89449a4cd7539edd261dbf4d
   languageName: node
   linkType: hard
 
