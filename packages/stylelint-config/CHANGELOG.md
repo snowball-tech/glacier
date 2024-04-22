@@ -1,3 +1,9 @@
+## @snowball-tech/stylelint-config [2.2.7](https://github.com/snowball-tech/glacier/compare/@snowball-tech/stylelint-config@2.2.6...@snowball-tech/stylelint-config@2.2.7) (2024-04-22)
+
+### 📦 Dependencies
+
+- switch to Node 20 ([e1ac03a](https://github.com/snowball-tech/glacier/commit/e1ac03ad27001c17512a0835afcd755d1127abb8))
+
 ## @snowball-tech/stylelint-config [2.2.6](https://github.com/snowball-tech/glacier/compare/@snowball-tech/stylelint-config@2.2.5...@snowball-tech/stylelint-config@2.2.6) (2024-03-22)
 
 ### 📦 Dependencies
