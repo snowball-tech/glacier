@@ -2,7 +2,7 @@
 // and https://github.com/favoloso/conventional-changelog-emoji
 
 const types = require('./types')
-const writerOpts = require('./writer-opts')
+const writerOptions = require('./writer-opts')
 
 module.exports = {
   branches: ['main'],
@@ -22,7 +22,7 @@ module.exports = {
           ],
         },
         releaseRules: Object.entries(types)
-          .map(([typeName, type]) => {
+          .flatMap(([typeName, type]) => {
             const releaseRules = [
               { release: type.release || 'patch', type: typeName },
             ]
@@ -38,14 +38,13 @@ module.exports = {
 
             return releaseRules
           })
-          .flat()
           .filter(Boolean),
       },
     ],
     [
       '@semantic-release/release-notes-generator',
       {
-        writerOpts,
+        writerOpts: writerOptions,
       },
     ],
     '@semantic-release/changelog',
