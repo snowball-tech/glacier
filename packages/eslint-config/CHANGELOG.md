@@ -1,3 +1,9 @@
+## @snowball-tech/eslint-config [5.4.1](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@5.4.0...@snowball-tech/eslint-config@5.4.1) (2024-04-22)
+
+### 🐛 Bug Fixes
+
+- **eslint:** remove an useless override ([5e51f1c](https://github.com/snowball-tech/glacier/commit/5e51f1cdfb5255434aff0ba6e842cdcbbdd953c5))
+
 # @snowball-tech/eslint-config [5.4.0](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@5.3.7...@snowball-tech/eslint-config@5.4.0) (2024-04-22)
 
 ### ✨ Features
