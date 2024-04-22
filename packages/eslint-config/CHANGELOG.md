@@ -1,3 +1,9 @@
+# @snowball-tech/eslint-config [5.4.0](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@5.3.7...@snowball-tech/eslint-config@5.4.0) (2024-04-22)
+
+### ✨ Features
+
+- **eslint:** ignore some abbreviations replacements in unicorn ([2ccac45](https://github.com/snowball-tech/glacier/commit/2ccac456fb293bd24e2fe793cc21989af9cd1564))
+
 ## @snowball-tech/eslint-config [5.3.7](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@5.3.6...@snowball-tech/eslint-config@5.3.7) (2024-04-22)
 
 ### 🎨 Code Style and Formatting
