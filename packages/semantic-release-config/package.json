@@ -1,6 +1,6 @@
 {
   "name": "@snowball-tech/semantic-release-config",
-  "version": "2.1.7",
+  "version": "2.1.8",
   "description": "Semantic-Release configuration by Snowball supporting Yarn 3 mono-repositories",
   "author": "Snowball Engineering Team <engineering@snowball.xyz> (https://github.com/orgs/snowball-tech)",
   "contributors": [

@@ -1,3 +1,13 @@
+## @snowball-tech/semantic-release-config [2.1.8](https://github.com/snowball-tech/glacier/compare/@snowball-tech/semantic-release-config@2.1.7...@snowball-tech/semantic-release-config@2.1.8) (2024-04-22)
+
+### 🎨 Code Style and Formatting
+
+- fix linter error ([5cfee5a](https://github.com/snowball-tech/glacier/commit/5cfee5a6b794be5d8637331b591e098003c12b6b))
+
+### 📦 Dependencies
+
+- switch to Node 20 ([e1ac03a](https://github.com/snowball-tech/glacier/commit/e1ac03ad27001c17512a0835afcd755d1127abb8))
+
 ## @snowball-tech/semantic-release-config [2.1.7](https://github.com/snowball-tech/glacier/compare/@snowball-tech/semantic-release-config@2.1.6...@snowball-tech/semantic-release-config@2.1.7) (2024-03-22)
 
 ### 📦 Dependencies
