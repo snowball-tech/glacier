@@ -1,3 +1,9 @@
+## @snowball-tech/renovate-config [2.1.6](https://github.com/snowball-tech/glacier/compare/@snowball-tech/renovate-config@2.1.5...@snowball-tech/renovate-config@2.1.6) (2024-04-22)
+
+### 📦 Dependencies
+
+- switch to Node 20 ([e1ac03a](https://github.com/snowball-tech/glacier/commit/e1ac03ad27001c17512a0835afcd755d1127abb8))
+
 ## @snowball-tech/renovate-config [2.1.5](https://github.com/snowball-tech/glacier/compare/@snowball-tech/renovate-config@2.1.4...@snowball-tech/renovate-config@2.1.5) (2024-03-22)
 
 ### 📦 Dependencies
