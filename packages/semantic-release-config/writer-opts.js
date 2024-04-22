@@ -1,3 +1,4 @@
+/* eslint-disable unicorn/prevent-abbreviations */
 /* eslint-disable no-param-reassign */
 
 const isEmpty = require('lodash/fp/isEmpty')
@@ -43,7 +44,7 @@ function getTitle(type) {
     title: 'Unknown changes',
   }
 
-  return `${!isEmpty(emoji) ? `${emoji} ` : ''}${title}`
+  return `${isEmpty(emoji) ? '' : `${emoji} `}${title}`
 }
 
 const commitGroupOrder = ORDER.map((type) => {
@@ -95,7 +96,7 @@ module.exports = {
       if (!isEmpty(url)) {
         url += '/issues/'
         // Issue URLs.
-        commit.subject = commit.subject.replace(/#(\d+)/g, (_, issue) => {
+        commit.subject = commit.subject.replaceAll(/#(\d+)/g, (_, issue) => {
           references.push(issue)
 
           return `[#${issue}](${url}${issue})`
@@ -104,8 +105,8 @@ module.exports = {
 
       if (!isEmpty(context.host)) {
         // User URLs.
-        commit.subject = commit.subject.replace(
-          /\B@([a-z0-9](?:-?[a-z0-9]){0,38})/g,
+        commit.subject = commit.subject.replaceAll(
+          /\B@([\da-z](?:-?[\da-z]){0,38})/g,
           `[@$1](${context.host}/$1)`,
         )
       }

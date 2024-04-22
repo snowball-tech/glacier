@@ -46,16 +46,6 @@ module.exports = {
     'LICENSE',
   ],
 
-  overrides: [
-    {
-      files: ['**/.eslintrc.js'],
-
-      rules: {
-        'unicorn/prefer-module': 'off',
-      },
-    },
-  ],
-
   parserOptions: {
     ecmaFeatures: {
       impliedStrict: true,
@@ -153,5 +143,10 @@ module.exports = {
     'sort-keys': 'off',
     // And enable the fixable one instead.
     'sort-keys/sort-keys-fix': 'error',
+
+    'unicorn/filename-case': 'off',
+    'unicorn/no-array-for-each': 'off',
+    'unicorn/no-null': 'off',
+    'unicorn/prefer-module': 'off',
   },
 }
