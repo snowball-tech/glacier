@@ -46,28 +46,6 @@ module.exports = {
     'LICENSE',
   ],
 
-  overrides: [
-    {
-      files: ['**/*.jsx', '**/*.tsx'],
-
-      rules: {
-        'unicorn/prevent-abbreviations': [
-          'error',
-          {
-            replacements: {
-              ref: {
-                reference: false,
-              },
-              refs: {
-                references: false,
-              },
-            },
-          },
-        ],
-      },
-    },
-  ],
-
   parserOptions: {
     ecmaFeatures: {
       impliedStrict: true,
