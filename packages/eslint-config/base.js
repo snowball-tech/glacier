@@ -147,13 +147,37 @@ module.exports = {
     'unicorn/filename-case': 'off',
     'unicorn/no-array-for-each': 'off',
     'unicorn/no-null': 'off',
+    'unicorn/no-useless-undefined': 'off',
     'unicorn/prefer-module': 'off',
     'unicorn/prevent-abbreviations': [
       'error',
       {
+        ignore: ['e2e', /^ignore/i],
         replacements: {
+          dev: {
+            development: false,
+          },
           dist: {
             distribution: false,
+          },
+          doc: {
+            document: false,
+          },
+          docs: {
+            documentation: false,
+            documents: false,
+          },
+          env: {
+            environment: false,
+          },
+          param: {
+            parameter: false,
+          },
+          params: {
+            parameters: false,
+          },
+          prod: {
+            production: false,
           },
           props: {
             properties: false,
