@@ -6,7 +6,7 @@ module.exports = {
       files: ['.github/workflows/*.yml', '.github/workflows/*.yaml'],
 
       rules: {
-        'yml/no-empty': 'off',
+        'yml/no-empty-mapping-value': 'off',
       },
     },
   ],
