@@ -15,5 +15,6 @@ module.exports = {
 
   rules: {
     'lodash/prefer-lodash-method': 'off',
+    'lodash/prefer-noop': 'off',
   },
 }

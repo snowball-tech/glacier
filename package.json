@@ -31,7 +31,7 @@
   "packageManager": "yarn@4.1.1",
   "engines": {
     "yarn": "^4.0.0",
-    "node": "18.x"
+    "node": ">=18 <=20"
   },
   "workspaces": [
     "packages/*"
@@ -76,7 +76,7 @@
     "is-ci": "^3.0.1",
     "lint-staged": "^15.2.2",
     "prettier": "^3.2.5",
-    "semantic-release": "^22.0.12"
+    "semantic-release": "^23.0.8"
   },
   "dependencies": {
     "@yarnpkg/types": "^4.0.0"
