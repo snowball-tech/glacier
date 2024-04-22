@@ -1,11 +1,19 @@
 module.exports = {
   env: {
     browser: true,
+    es2017: true,
+    es2021: true,
     es2022: true,
+    es2024: true,
     node: true,
   },
 
-  extends: ['eslint:recommended', 'plugin:promise/recommended', 'airbnb-base'],
+  extends: [
+    'eslint:recommended',
+    'plugin:unicorn/recommended',
+    'plugin:promise/recommended',
+    'airbnb-base',
+  ],
   ignorePatterns: [
     '*.css',
     '*.scss',
@@ -56,7 +64,7 @@ module.exports = {
     sourceType: 'module',
   },
 
-  plugins: ['promise', 'sort-keys'],
+  plugins: ['unicorn', 'promise', 'sort-keys'],
 
   rules: {
     'class-methods-use-this': 'error',
@@ -99,6 +107,24 @@ module.exports = {
         // Allow setting the current value of a MutableRefObject.
         ignorePropertyModificationsForRegex: ['.*Ref$'],
         props: true,
+      },
+    ],
+    'no-restricted-syntax': [
+      'error',
+      {
+        message:
+          'for..in loops iterate over the entire prototype chain, which is virtually never what you want. Use Object.{keys,values,entries}, and iterate over the resulting array.',
+        selector: 'ForInStatement',
+      },
+      {
+        message:
+          'Labels are a form of GOTO; using them makes code confusing and hard to maintain and understand.',
+        selector: 'LabeledStatement',
+      },
+      {
+        message:
+          '`with` is disallowed in strict mode because it makes code impossible to predict and optimize.',
+        selector: 'WithStatement',
       },
     ],
     'no-void': ['error', { allowAsStatement: true }],
