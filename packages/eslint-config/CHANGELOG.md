@@ -1,3 +1,9 @@
+## @snowball-tech/eslint-config [5.4.2](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@5.4.1...@snowball-tech/eslint-config@5.4.2) (2024-04-22)
+
+### 🐛 Bug Fixes
+
+- **eslint:** fix prevent abbrev rule ([fc83853](https://github.com/snowball-tech/glacier/commit/fc838531a6aa5fe6a6b1e600f83bd381c498b120))
+
 ## @snowball-tech/eslint-config [5.4.1](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@5.4.0...@snowball-tech/eslint-config@5.4.1) (2024-04-22)
 
 ### 🐛 Bug Fixes
