@@ -7021,11 +7021,11 @@ __metadata:
   linkType: hard
 
 "eslint-plugin-html@npm:^8.1.0":
-  version: 8.1.0
-  resolution: "eslint-plugin-html@npm:8.1.0"
+  version: 8.1.1
+  resolution: "eslint-plugin-html@npm:8.1.1"
   dependencies:
     htmlparser2: "npm:^9.1.0"
-  checksum: 10/c77b54d87ee6ee234f8840c3da2114ebce97706220d47458bd3a16e50cafaea9252adb9fbf01417585b0be99d88c929596e8596a89449a4cd7539edd261dbf4d
+  checksum: 10/dcf60df73c4fd5e5536d6a6293ee42069450c10e5a6ba3326d20bc62de273f4021c75e6839cc3a2e3c94a3b62f45c12662c027784ac2aef46fd692839acba80a
   languageName: node
   linkType: hard
 
