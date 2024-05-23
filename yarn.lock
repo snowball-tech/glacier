@@ -3487,7 +3487,7 @@ __metadata:
     eslint-plugin-lodash-fp: "npm:^2.2.0-a1"
     eslint-plugin-markdown: "npm:^4.0.1"
     eslint-plugin-mdx: "npm:^3.1.5"
-    eslint-plugin-no-secrets: "npm:^0.9.1"
+    eslint-plugin-no-secrets: "npm:^1.0.0"
     eslint-plugin-perfectionist: "npm:^2.9.0"
     eslint-plugin-prettier: "npm:^5.1.3"
     eslint-plugin-promise: "npm:~6.1.1"
@@ -7199,12 +7199,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-no-secrets@npm:^0.9.1":
-  version: 0.9.1
-  resolution: "eslint-plugin-no-secrets@npm:0.9.1"
+"eslint-plugin-no-secrets@npm:^1.0.0":
+  version: 1.0.2
+  resolution: "eslint-plugin-no-secrets@npm:1.0.2"
   peerDependencies:
     eslint: ">=3.0.0"
-  checksum: 10/5d47aa7ce23a7d4137d206de9b01082a92390f2fff2468f1279b0ec977dae44ba750bc9cba2e499a603ca9a4e987121752645ddf7af37fa1425a36123509a735
+  checksum: 10/21826bb2eadeb066c6704503f09a77180a47e3a1feff6aaf6764f5199bb2b32fc47c748273e8804601a6b887b4433563e7e21e0b557501113dfb6ad36744e622
   languageName: node
   linkType: hard
 
