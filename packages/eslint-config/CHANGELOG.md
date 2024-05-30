@@ -1,3 +1,13 @@
+## @snowball-tech/eslint-config [5.4.3](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@5.4.2...@snowball-tech/eslint-config@5.4.3) (2024-05-30)
+
+### 🐛 Bug Fixes
+
+- **eslint-config:** allow nested ternary in react applications ([5a1cb4a](https://github.com/snowball-tech/glacier/commit/5a1cb4a452e53fb145143a8db10282fa55d2e3ef))
+
+### 📦 Dependencies
+
+- upgrade dependencies ([517c6c4](https://github.com/snowball-tech/glacier/commit/517c6c4a12406b10cea327f66f893753ec124076))
+
 ## @snowball-tech/eslint-config [5.4.2](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@5.4.1...@snowball-tech/eslint-config@5.4.2) (2024-04-22)
 
 ### 🐛 Bug Fixes
