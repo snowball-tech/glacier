@@ -28,7 +28,7 @@
     "url": "git+https://github.com/snowball-tech/glacier.git"
   },
   "bugs": "https://github.com/snowball-tech/glacier/issues",
-  "packageManager": "yarn@4.1.1",
+  "packageManager": "yarn@4.2.2",
   "engines": {
     "yarn": "^4.0.0",
     "node": ">=18 <=20"
@@ -74,9 +74,9 @@
     "eslint": "^8.57.0",
     "husky": "^9.0.11",
     "is-ci": "^3.0.1",
-    "lint-staged": "^15.2.2",
+    "lint-staged": "^15.2.5",
     "prettier": "^3.2.5",
-    "semantic-release": "^23.0.8"
+    "semantic-release": "^23.1.1"
   },
   "dependencies": {
     "@yarnpkg/types": "^4.0.0"
