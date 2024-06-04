@@ -1,3 +1,9 @@
+## @snowball-tech/semantic-release-config [2.1.10](https://github.com/snowball-tech/glacier/compare/@snowball-tech/semantic-release-config@2.1.9...@snowball-tech/semantic-release-config@2.1.10) (2024-06-04)
+
+- **semantic-release-config:** fix an issue with changelog writer ([05885ec](https://github.com/snowball-tech/glacier/commit/05885ecf0ab5c0eddf50d315ad331cc658db9173))
+- **semantic-release-config:** remove changelog transform ([629eee9](https://github.com/snowball-tech/glacier/commit/629eee9a913ff4c56c8e5734cf9a147eb0a191f1))
+- **semantic-release-config:** use immutable format for conventional changelog transform function ([6002d77](https://github.com/snowball-tech/glacier/commit/6002d77add206b50622e3176608e5d22f7cd5b2d))
+
 ## @snowball-tech/semantic-release-config [2.1.9](https://github.com/snowball-tech/glacier/compare/@snowball-tech/semantic-release-config@2.1.8...@snowball-tech/semantic-release-config@2.1.9) (2024-05-30)
 
 ### 📦 Dependencies
