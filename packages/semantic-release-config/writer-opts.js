@@ -63,32 +63,37 @@ module.exports = {
   groupBy: 'groupType',
   noteGroupsSort: 'title',
   transform: (commit, context) => {
-    if (!isEmpty(commit.notes)) {
-      commit.notes.forEach((note) => {
+    const newCommit = {
+      ...commit,
+      notes: [...commit.notes],
+    }
+
+    if (!isEmpty(newCommit.notes)) {
+      newCommit.notes.forEach((note) => {
         note.title = 'Breaking changes'
       })
     }
 
-    const { changelog = false } = expandedTypes[commit.type] || {
+    const { changelog = false } = expandedTypes[newCommit.type] || {
       changelog: true,
     }
-    if (changelog || (commit.notes && commit.notes.length > 0)) {
-      commit.groupType = getTitle(commit.type)
+    if (changelog || (newCommit.notes && newCommit.notes.length > 0)) {
+      newCommit.groupType = getTitle(commit.type)
     } else {
       return null
     }
 
-    if (commit.scope === '*') {
-      commit.scope = ''
+    if (newCommit.scope === '*') {
+      newCommit.scope = ''
     }
 
-    if (isString(commit.hash) && !isEmpty(commit.hash)) {
-      commit.shortHash = commit.hash.slice(0, COMMIT_HASH_LENGTH)
+    if (isString(newCommit.hash) && !isEmpty(newCommit.hash)) {
+      newCommit.shortHash = newCommit.hash.slice(0, COMMIT_HASH_LENGTH)
     }
 
     const references = []
 
-    if (isString(commit.subject) && !isEmpty(commit.subject)) {
+    if (isString(newCommit.subject) && !isEmpty(newCommit.subject)) {
       let url = context.repository
         ? `${context.host}/${context.owner}/${context.repository}`
         : context.repoUrl
@@ -96,25 +101,28 @@ module.exports = {
       if (!isEmpty(url)) {
         url += '/issues/'
         // Issue URLs.
-        commit.subject = commit.subject.replaceAll(/#(\d+)/g, (_, issue) => {
-          references.push(issue)
+        newCommit.subject = newCommit.subject.replaceAll(
+          /#(\d+)/g,
+          (_, issue) => {
+            references.push(issue)
 
-          return `[#${issue}](${url}${issue})`
-        })
+            return `[#${issue}](${url}${issue})`
+          },
+        )
       }
 
       if (!isEmpty(context.host)) {
         // User URLs.
-        commit.subject = commit.subject.replaceAll(
+        newCommit.subject = newCommit.subject.replaceAll(
           /\B@([\da-z](?:-?[\da-z]){0,38})/g,
           `[@$1](${context.host}/$1)`,
         )
       }
     }
 
-    if (!isEmpty(commit.references)) {
+    if (!isEmpty(newCommit.references)) {
       // Remove references that already appear in the subject
-      commit.references = commit.references.filter((reference) => {
+      newCommit.references = newCommit.references.filter((reference) => {
         if (!references.includes(reference.issue)) {
           return true
         }
@@ -123,6 +131,6 @@ module.exports = {
       })
     }
 
-    return commit
+    return newCommit
   },
 }
