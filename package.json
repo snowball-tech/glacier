@@ -75,8 +75,8 @@
     "husky": "^9.0.11",
     "is-ci": "^3.0.1",
     "lint-staged": "^15.2.5",
-    "prettier": "^3.2.5",
-    "semantic-release": "^23.1.1"
+    "prettier": "^3.3.0",
+    "semantic-release": "^24.0.0"
   },
   "dependencies": {
     "@yarnpkg/types": "^4.0.0"
