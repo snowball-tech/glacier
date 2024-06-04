@@ -1,6 +1,6 @@
 {
   "name": "@snowball-tech/renovate-config",
-  "version": "2.1.7",
+  "version": "2.1.8",
   "description": "Renovate base configuration by Snowball",
   "author": "Snowball Engineering Team <engineering@snowball.xyz> (https://github.com/orgs/snowball-tech)",
   "contributors": [
