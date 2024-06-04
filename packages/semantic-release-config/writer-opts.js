@@ -80,7 +80,7 @@ module.exports = {
     if (changelog || (newCommit.notes && newCommit.notes.length > 0)) {
       newCommit.groupType = getTitle(commit.type)
     } else {
-      return null
+      return commit
     }
 
     if (newCommit.scope === '*') {
