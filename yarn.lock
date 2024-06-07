@@ -13952,14 +13952,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"re2@npm:1.21.0":
-  version: 1.21.0
-  resolution: "re2@npm:1.21.0"
+"re2@npm:1.20.12":
+  version: 1.20.12
+  resolution: "re2@npm:1.20.12"
   dependencies:
     install-artifact-from-github: "npm:^1.3.5"
     nan: "npm:^2.19.0"
     node-gyp: "npm:^10.1.0"
-  checksum: 10/fb3792b74b1812f663767a1c20260ca81ee12920252768754785afb53ef59699f8d06263a80b6645375008f5159b74fd333ad2a7c9567efcc2436b3bbf881da9
+  checksum: 10/ed176816f59077170c1e19a5b53ae7c68de6421348eefc3cefdaeac8fadd1683c8c3948ebf12556eda3ca64da9426224d5264400dc13bcd25c67b420d6f8c063
   languageName: node
   linkType: hard
 
@@ -14334,8 +14334,8 @@ __metadata:
   linkType: hard
 
 "renovate@npm:^37.388.1":
-  version: 37.388.1
-  resolution: "renovate@npm:37.388.1"
+  version: 37.398.1
+  resolution: "renovate@npm:37.398.1"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.588.0"
     "@aws-sdk/client-ec2": "npm:3.588.0"
@@ -14425,7 +14425,7 @@ __metadata:
     p-throttle: "npm:4.1.1"
     parse-link-header: "npm:2.0.0"
     prettier: "npm:3.2.5"
-    re2: "npm:1.21.0"
+    re2: "npm:1.20.12"
     redis: "npm:4.6.14"
     remark: "npm:13.0.0"
     remark-github: "npm:10.1.0"
@@ -14456,7 +14456,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10/374e40bd787943e1cd3abd6901c5d5344354f8cb2e9c3588deaf584a5cdc3b58cdb93c0582654c80b90f5cb8642e4207b38710a08acbcc7787320c183d5d20ed
+  checksum: 10/5fbd21669a5ec304ce80843607cff9f8e7e2fef653f4171499e35face268d23deb39805c7a78ef2e7c038879ed1563428f018578240ef800e52a5a0246c34e84
   languageName: node
   linkType: hard
 
