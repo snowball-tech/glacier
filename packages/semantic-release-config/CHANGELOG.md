@@ -1,3 +1,5 @@
+## @snowball-tech/semantic-release-config [2.1.11](https://github.com/snowball-tech/glacier/compare/@snowball-tech/semantic-release-config@2.1.10...@snowball-tech/semantic-release-config@2.1.11) (2024-06-12)
+
 ## @snowball-tech/semantic-release-config [2.1.10](https://github.com/snowball-tech/glacier/compare/@snowball-tech/semantic-release-config@2.1.9...@snowball-tech/semantic-release-config@2.1.10) (2024-06-04)
 
 - **semantic-release-config:** fix an issue with changelog writer ([05885ec](https://github.com/snowball-tech/glacier/commit/05885ecf0ab5c0eddf50d315ad331cc658db9173))
