@@ -10,8 +10,8 @@
     "forceConsistentCasingInFileNames": true,
     "incremental": true,
     "jsx": "react-jsx",
-    "module": "CommonJS",
-    "moduleResolution": "node",
+    "module": "NodeNext",
+    "moduleResolution": "nodenext",
     "noEmit": false,
     "noErrorTruncation": true,
     "noImplicitOverride": true,
@@ -27,7 +27,7 @@
     "sourceMap": true,
     "strict": true,
     "target": "ES6",
-    "useDefineForClassFields": true,
+    "useDefineForClassFields": true
   },
   "include": [],
   "exclude": [
@@ -35,8 +35,7 @@
     "**/.yarn/releases/**/*",
     "**/build",
     "**/dist",
-    "**/out",
+    "**/out"
   ],
-  "files": [],
-  "references": [],
+  "references": []
 }
