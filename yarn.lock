@@ -7292,13 +7292,13 @@ __metadata:
   linkType: hard
 
 "eslint-plugin-markdown@npm:^5.0.0":
-  version: 5.0.0
-  resolution: "eslint-plugin-markdown@npm:5.0.0"
+  version: 5.1.0
+  resolution: "eslint-plugin-markdown@npm:5.1.0"
   dependencies:
     mdast-util-from-markdown: "npm:^0.8.5"
   peerDependencies:
     eslint: ">=8"
-  checksum: 10/64878dc4309d057b8e7fd1641b6d3de8bbc97dfbbe8ee132c536b6c4ef56735a2f351e963659ad14c4dd02edcad1277f7aba8bfd4e9fe939fe317313acb96a82
+  checksum: 10/5b8d2ca750156480a6fdb13f9065051e56d85875a8710b65e64b0ff0bf1c687870d566bfd8f02555101d09a5be7397bdfeee05d915150b014b9b38ece2cdf466
   languageName: node
   linkType: hard
 
