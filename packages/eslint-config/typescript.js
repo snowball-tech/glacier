@@ -67,7 +67,7 @@ module.exports = {
             checksVoidReturn: false,
           },
         ],
-        '@typescript-eslint/no-non-null-assertion': 'error',
+        '@typescript-eslint/no-non-null-assertion': 'off',
         '@typescript-eslint/no-unused-vars': 'error',
 
         // We need to use the specific TS `no-shadow` rule to avoid false
