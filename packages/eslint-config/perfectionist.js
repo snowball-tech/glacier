@@ -17,7 +17,7 @@ module.exports = {
     'perfectionist/sort-enums': [
       'error',
       {
-        partitionByComment: 'Group*',
+        partitionByComment: true,
         type: 'natural',
       },
     ],
