@@ -1,3 +1,7 @@
+## @snowball-tech/eslint-config [5.4.9](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@5.4.8...@snowball-tech/eslint-config@5.4.9) (2024-08-19)
+
+- **eslint:** fix sorting of types and libs with perfectionist ([565c0e8](https://github.com/snowball-tech/glacier/commit/565c0e890147db4d5b3041564cd96379f56bd1f1))
+
 ## @snowball-tech/eslint-config [5.4.8](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@5.4.7...@snowball-tech/eslint-config@5.4.8) (2024-08-19)
 
 - **eslint:** update the sort enum perfectionist rule ([8f7c59e](https://github.com/snowball-tech/glacier/commit/8f7c59e6ba9a6c139312d271d649e07b36563ab5))
