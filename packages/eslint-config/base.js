@@ -189,6 +189,9 @@ module.exports = {
           prod: {
             production: false,
           },
+          prop: {
+            property: false,
+          },
           props: {
             properties: false,
           },
