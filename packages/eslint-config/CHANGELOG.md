@@ -1,3 +1,8 @@
+## @snowball-tech/eslint-config [5.4.7](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@5.4.6...@snowball-tech/eslint-config@5.4.7) (2024-08-19)
+
+- **eslint:** tweak perfectionnist config ([9d58234](https://github.com/snowball-tech/glacier/commit/9d58234a52b6ea77a5c9d378eecc42b8792b1ea3))
+- **eslint:** update some config ([64ffd5c](https://github.com/snowball-tech/glacier/commit/64ffd5cc10abc1e3642871e3abe8bcac9ba988db))
+
 ## @snowball-tech/eslint-config [5.4.6](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@5.4.5...@snowball-tech/eslint-config@5.4.6) (2024-08-19)
 
 ## @snowball-tech/eslint-config [5.4.5](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@5.4.4...@snowball-tech/eslint-config@5.4.5) (2024-06-12)
