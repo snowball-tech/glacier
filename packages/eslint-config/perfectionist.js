@@ -30,7 +30,7 @@ module.exports = {
             react: ['react', 'react-*'],
           },
           value: {
-            lodash: 'lodash',
+            lodash: ['lodash', 'lodash/*', 'lodash/fp', 'lodash/fp/*'],
             react: ['react', 'react-*'],
           },
         },
