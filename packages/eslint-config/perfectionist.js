@@ -13,26 +13,56 @@ module.exports = {
     // perfectionist ones.
     'import/order': 'off',
     'import/sort-imports': 'off',
+
+    'perfectionist/sort-enums': [
+      'error',
+      {
+        partitionByComment: 'Group*',
+        type: 'natural',
+      },
+    ],
+
     'perfectionist/sort-imports': [
       'error',
       {
+        customGroups: {
+          type: {
+            react: ['react', 'react-*'],
+          },
+          value: {
+            lodash: 'lodash',
+            react: ['react', 'react-*'],
+          },
+        },
         groups: [
-          ['builtin-type', 'builtin'],
-          ['type', 'external'],
-          ['internal-type', 'internal'],
-          [
-            'parent-type',
-            'parent',
-            'sibling-type',
-            'sibling',
-            'index-type',
-            'index',
-          ],
-          ['side-effect', 'object', 'styles'],
+          'builtin-type',
+          'builtin',
+          'external-type',
+          'external',
+          'react',
+          'lodash',
+          'internal-type',
+          'internal',
+          ['parent-type', 'sibling-type', 'index-type'],
+          ['parent', 'sibling', 'index'],
+          ['side-effect', 'side-effect-style', 'object', 'style'],
           'unknown',
         ],
         internalPattern: ['~/**', '@/**'],
         newlinesBetween: 'always',
+        type: 'natural',
+      },
+    ],
+
+    'perfectionist/sort-interfaces': [
+      'error',
+      {
+        customGroups: {
+          callback: 'on*',
+        },
+        groupKind: 'required-first',
+        groups: [['multiline', 'unknown'], 'callback'],
+        partitionByNewLine: true,
         type: 'natural',
       },
     ],
@@ -49,10 +79,40 @@ module.exports = {
       },
     ],
 
+    'perfectionist/sort-named-exports': [
+      'error',
+      {
+        groupKind: 'types-first',
+        type: 'natural',
+      },
+    ],
+
+    'perfectionist/sort-named-imports': [
+      'error',
+      {
+        groupKind: 'types-first',
+        type: 'natural',
+      },
+    ],
+
+    'perfectionist/sort-object-types': [
+      'error',
+      {
+        customGroups: {
+          callback: 'on*',
+        },
+        groupKind: 'required-first',
+        groups: [['multiline', 'unknown'], 'callback'],
+        partitionByNewLine: true,
+        type: 'natural',
+      },
+    ],
+
     'perfectionist/sort-objects': [
       'error',
       {
-        partitionByComment: true,
+        partitionByComment: 'Group*',
+        partitionByNewLine: true,
         type: 'natural',
       },
     ],
@@ -67,6 +127,8 @@ module.exports = {
     // Disable the JSX sorting rules from the React plugin to use the
     // perfectionist one.
     'react/jsx-sort-props': 'off',
+    // Make sure the default sort imports rule is disabled.
+    'sort-imports': 'off',
 
     // Make sure the default sort keys rule is disabled.
     'sort-keys': 'off',
