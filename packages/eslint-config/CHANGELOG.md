@@ -1,3 +1,7 @@
+## @snowball-tech/eslint-config [5.4.10](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@5.4.9...@snowball-tech/eslint-config@5.4.10) (2024-08-19)
+
+- **eslint:** allow more abbreviations ([453460b](https://github.com/snowball-tech/glacier/commit/453460bfa413a5b1f9687ceea3007b35240edb7f))
+
 ## @snowball-tech/eslint-config [5.4.9](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@5.4.8...@snowball-tech/eslint-config@5.4.9) (2024-08-19)
 
 - **eslint:** fix sorting of types and libs with perfectionist ([565c0e8](https://github.com/snowball-tech/glacier/commit/565c0e890147db4d5b3041564cd96379f56bd1f1))
