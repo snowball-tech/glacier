@@ -153,7 +153,7 @@ module.exports = {
       'error',
       {
         // eslint-disable-next-line unicorn/prefer-string-raw
-        ignore: ['\\.e2e$', /^ignore/i],
+        ignore: ['e2e', /^ignore/i],
         replacements: {
           acc: {
             accumulator: false,
