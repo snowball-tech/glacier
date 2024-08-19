@@ -1,3 +1,7 @@
+## @snowball-tech/eslint-config [5.4.11](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@5.4.10...@snowball-tech/eslint-config@5.4.11) (2024-08-19)
+
+- **eslint:** fix ignoring e2e abbreviation ([7b94255](https://github.com/snowball-tech/glacier/commit/7b94255c5397a90ccb3676a14fa81074fce3999d))
+
 ## @snowball-tech/eslint-config [5.4.10](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@5.4.9...@snowball-tech/eslint-config@5.4.10) (2024-08-19)
 
 - **eslint:** allow more abbreviations ([453460b](https://github.com/snowball-tech/glacier/commit/453460bfa413a5b1f9687ceea3007b35240edb7f))
