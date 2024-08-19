@@ -152,8 +152,18 @@ module.exports = {
     'unicorn/prevent-abbreviations': [
       'error',
       {
-        ignore: ['e2e', /^ignore/i],
+        // eslint-disable-next-line unicorn/prefer-string-raw
+        ignore: ['\\.e2e$', /^ignore/i],
         replacements: {
+          acc: {
+            accumulator: false,
+          },
+          arg: {
+            argument: false,
+          },
+          args: {
+            arguments: false,
+          },
           dev: {
             development: false,
           },
