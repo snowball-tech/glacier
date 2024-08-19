@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['plugin:perfectionist/recommended-natural'],
+  extends: ['plugin:perfectionist/recommended-natural-legacy'],
 
   plugins: ['perfectionist'],
 
@@ -31,8 +31,8 @@ module.exports = {
           ['side-effect', 'object', 'styles'],
           'unknown',
         ],
-        'internal-pattern': ['~/**', '@/**'],
-        'newlines-between': 'always',
+        internalPattern: ['~/**', '@/**'],
+        newlinesBetween: 'always',
         type: 'natural',
       },
     ],
@@ -40,7 +40,7 @@ module.exports = {
     'perfectionist/sort-jsx-props': [
       'error',
       {
-        'custom-groups': {
+        customGroups: {
           callback: 'on*',
           system: ['children', 'id', 'key', 'ref'],
         },
@@ -52,7 +52,7 @@ module.exports = {
     'perfectionist/sort-objects': [
       'error',
       {
-        'partition-by-comment': true,
+        partitionByComment: true,
         type: 'natural',
       },
     ],
@@ -60,7 +60,6 @@ module.exports = {
     'perfectionist/sort-union-types': [
       'error',
       {
-        'nullable-last': true,
         type: 'natural',
       },
     ],

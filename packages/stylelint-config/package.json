@@ -23,7 +23,7 @@
     "directory": "packages/stylelint-config"
   },
   "bugs": "https://github.com/snowball-tech/glacier/issues",
-  "packageManager": "yarn@4.2.2",
+  "packageManager": "yarn@4.4.0",
   "engines": {
     "yarn": "^4.0.0",
     "node": ">=18 <=20"
@@ -53,11 +53,11 @@
     "stylelint": "^16.0.0"
   },
   "dependencies": {
-    "postcss": "^8.4.38",
+    "postcss": "^8.4.41",
     "postcss-html": "^1.7.0",
     "postcss-styled-syntax": "^0.6.4",
-    "stylelint": "^16.6.1",
+    "stylelint": "^16.8.2",
     "stylelint-config-html": "^1.1.0",
-    "stylelint-config-standard": "^36.0.0"
+    "stylelint-config-standard": "^36.0.1"
   }
 }
