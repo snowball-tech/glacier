@@ -4,6 +4,8 @@ module.exports = {
     'plugin:@next/next/core-web-vitals',
   ],
 
+  ignorePatterns: ['!src/app/.well-known'],
+
   rules: {
     'import/no-anonymous-default-export': 'warn',
 
