@@ -33,6 +33,7 @@ module.exports = {
     '!.github',
     '!.storybook',
     '!.vscode',
+    '**/translations/*.json',
     '.pnp.*',
     '*.lock',
     '*.tsbuildinfo',

@@ -17,6 +17,10 @@
 !.vscode
 LICENSE
 
+!**/src/app/.well-known
+
+**/translations/*.json
+
 .pnp.*
 *.lock
 *.tsbuildinfo
@@ -27,6 +31,8 @@ vite.config.ts.timestamp*
 **/build
 
 **/coverage
+**/reports
+**/results
 
 **/storybook-static
 **/styled-system
