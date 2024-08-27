@@ -1,3 +1,7 @@
+# @snowball-tech/prettier-config [1.5.0](https://github.com/snowball-tech/glacier/compare/@snowball-tech/prettier-config@1.4.11...@snowball-tech/prettier-config@1.5.0) (2024-08-27)
+
+- **eslint:** unignore some usefull next files ([f7bc989](https://github.com/snowball-tech/glacier/commit/f7bc98987ad297183879faf1e1bad61c48554c8b))
+
 ## @snowball-tech/prettier-config [1.4.11](https://github.com/snowball-tech/glacier/compare/@snowball-tech/prettier-config@1.4.10...@snowball-tech/prettier-config@1.4.11) (2024-08-19)
 
 ## @snowball-tech/prettier-config [1.4.10](https://github.com/snowball-tech/glacier/compare/@snowball-tech/prettier-config@1.4.9...@snowball-tech/prettier-config@1.4.10) (2024-06-12)
