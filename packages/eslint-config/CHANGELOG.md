@@ -1,3 +1,7 @@
+# @snowball-tech/eslint-config [5.5.0](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@5.4.11...@snowball-tech/eslint-config@5.5.0) (2024-08-27)
+
+- **eslint:** unignore some usefull next files ([f7bc989](https://github.com/snowball-tech/glacier/commit/f7bc98987ad297183879faf1e1bad61c48554c8b))
+
 ## @snowball-tech/eslint-config [5.4.11](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@5.4.10...@snowball-tech/eslint-config@5.4.11) (2024-08-19)
 
 - **eslint:** fix ignoring e2e abbreviation ([7b94255](https://github.com/snowball-tech/glacier/commit/7b94255c5397a90ccb3676a14fa81074fce3999d))
