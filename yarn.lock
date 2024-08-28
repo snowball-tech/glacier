@@ -1218,7 +1218,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@csstools/css-parser-algorithms@npm:^3.0.0":
+"@csstools/css-parser-algorithms@npm:^3.0.1":
   version: 3.0.1
   resolution: "@csstools/css-parser-algorithms@npm:3.0.1"
   peerDependencies:
@@ -1227,14 +1227,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@csstools/css-tokenizer@npm:^3.0.0":
+"@csstools/css-tokenizer@npm:^3.0.1":
   version: 3.0.1
   resolution: "@csstools/css-tokenizer@npm:3.0.1"
   checksum: 10/81ae01b2d3ec40ed3dc78f8507cbfdfe1dbc4ae3f8c8e29b8bb4414216a8c7a7a936fa0faa3d11a1e49ad72209aec7c05ad8450a4ffc30ba288aa074b4a0e3b3
   languageName: node
   linkType: hard
 
-"@csstools/media-query-list-parser@npm:^3.0.0":
+"@csstools/media-query-list-parser@npm:^3.0.1":
   version: 3.0.1
   resolution: "@csstools/media-query-list-parser@npm:3.0.1"
   peerDependencies:
@@ -1447,12 +1447,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@next/eslint-plugin-next@npm:^14.2.6":
-  version: 14.2.6
-  resolution: "@next/eslint-plugin-next@npm:14.2.6"
+"@next/eslint-plugin-next@npm:^14.2.7":
+  version: 14.2.7
+  resolution: "@next/eslint-plugin-next@npm:14.2.7"
   dependencies:
     glob: "npm:10.3.10"
-  checksum: 10/fafa99d15edaa4365073ab6d5b9b2a45ffca84307a200ce340b87039289d2ceb4dfc6d607e2a5f417b1f7e37500548b03f7cc3d49fcc2ca58e727fabeea61a42
+  checksum: 10/a1ac9844bd3a24aef9b5b2cf69cc538cbfb391202bad44eb01d62413415a4536046d33ad4e2c534a5c18c866a694266875d9d323260e847e5adcf6582650a6f2
   languageName: node
   linkType: hard
 
@@ -3692,7 +3692,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@snowball-tech/eslint-config@workspace:packages/eslint-config"
   dependencies:
-    "@next/eslint-plugin-next": "npm:^14.2.6"
+    "@next/eslint-plugin-next": "npm:^14.2.7"
     "@rushstack/eslint-patch": "npm:^1.10.4"
     "@typescript-eslint/eslint-plugin": "npm:~8.3.0"
     "@typescript-eslint/parser": "npm:~8.3.0"
@@ -3713,7 +3713,7 @@ __metadata:
     eslint-plugin-markdown: "npm:^5.1.0"
     eslint-plugin-mdx: "npm:^3.1.5"
     eslint-plugin-no-secrets: "npm:^1.0.2"
-    eslint-plugin-perfectionist: "npm:^3.2.0"
+    eslint-plugin-perfectionist: "npm:^3.3.0"
     eslint-plugin-prettier: "npm:^5.2.1"
     eslint-plugin-promise: "npm:~7.1.0"
     eslint-plugin-react: "npm:^7.35.0"
@@ -3748,7 +3748,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@snowball-tech/renovate-config@workspace:packages/renovate-config"
   dependencies:
-    renovate: "npm:^38.55.2"
+    renovate: "npm:^38.56.3"
   languageName: unknown
   linkType: soft
 
@@ -3777,7 +3777,7 @@ __metadata:
     postcss: "npm:^8.4.41"
     postcss-html: "npm:^1.7.0"
     postcss-styled-syntax: "npm:^0.6.4"
-    stylelint: "npm:^16.8.2"
+    stylelint: "npm:^16.9.0"
     stylelint-config-html: "npm:^1.1.0"
     stylelint-config-standard: "npm:^36.0.1"
   peerDependencies:
@@ -4264,7 +4264,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/types@npm:8.3.0, @typescript-eslint/types@npm:^8.1.0":
+"@typescript-eslint/types@npm:8.3.0, @typescript-eslint/types@npm:^8.3.0":
   version: 8.3.0
   resolution: "@typescript-eslint/types@npm:8.3.0"
   checksum: 10/0265f6b6999db53ea5246cf2ab69d58d3860616a3ad384efdbe8b6f71334d6fbcf09ddc1eb38956ff537056636bd993d349c7037fcb458359c257be857fedc0a
@@ -4308,7 +4308,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/utils@npm:8.3.0, @typescript-eslint/utils@npm:^6.0.0 || ^7.0.0 || ^8.0.0, @typescript-eslint/utils@npm:^8.1.0":
+"@typescript-eslint/utils@npm:8.3.0, @typescript-eslint/utils@npm:^6.0.0 || ^7.0.0 || ^8.0.0, @typescript-eslint/utils@npm:^8.3.0":
   version: 8.3.0
   resolution: "@typescript-eslint/utils@npm:8.3.0"
   dependencies:
@@ -5143,14 +5143,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"better-sqlite3@npm:11.1.2":
-  version: 11.1.2
-  resolution: "better-sqlite3@npm:11.1.2"
+"better-sqlite3@npm:11.2.1":
+  version: 11.2.1
+  resolution: "better-sqlite3@npm:11.2.1"
   dependencies:
     bindings: "npm:^1.5.0"
     node-gyp: "npm:latest"
     prebuild-install: "npm:^7.1.1"
-  checksum: 10/0427f596149a8dead90d7e80d948a281292dc1bd88dfa7feaea1277e4673c75a724b70bcd460baf92a067118688d656bc4aa94f1fe977767722ad3e282488f03
+  checksum: 10/7416219cd129618bfe6fed18c7ecd233c6a2a4a610e75761ff9a2b2114ca274151c306ad0269df2f61505e3add30df8ffb4d86bb2f3c0d790b83415b6ac3d3d8
   languageName: node
   linkType: hard
 
@@ -7462,12 +7462,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-perfectionist@npm:^3.2.0":
-  version: 3.2.0
-  resolution: "eslint-plugin-perfectionist@npm:3.2.0"
+"eslint-plugin-perfectionist@npm:^3.3.0":
+  version: 3.3.0
+  resolution: "eslint-plugin-perfectionist@npm:3.3.0"
   dependencies:
-    "@typescript-eslint/types": "npm:^8.1.0"
-    "@typescript-eslint/utils": "npm:^8.1.0"
+    "@typescript-eslint/types": "npm:^8.3.0"
+    "@typescript-eslint/utils": "npm:^8.3.0"
     minimatch: "npm:^10.0.1"
     natural-compare-lite: "npm:^1.4.0"
   peerDependencies:
@@ -7485,7 +7485,7 @@ __metadata:
       optional: true
     vue-eslint-parser:
       optional: true
-  checksum: 10/51ad212d6409ae29361e68b4bd015a1eae1d59f135cf994f4097517d3c372199ff765381a12efffb9618e813f8bc0e2b618673e7492be08458bfc3f95a49057e
+  checksum: 10/7609ecbb245ac5f3ffa5dff0cf54d4034906509f8112ee5cc58eda9dea95d5d9b5c91abeba9a0c1e871fabefb0bd86bab3b4d1cadd11b082f94ac9d411b26cc8
   languageName: node
   linkType: hard
 
@@ -8816,9 +8816,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"google-auth-library@npm:9.13.0":
-  version: 9.13.0
-  resolution: "google-auth-library@npm:9.13.0"
+"google-auth-library@npm:9.14.0":
+  version: 9.14.0
+  resolution: "google-auth-library@npm:9.14.0"
   dependencies:
     base64-js: "npm:^1.3.0"
     ecdsa-sig-formatter: "npm:^1.0.11"
@@ -8826,7 +8826,7 @@ __metadata:
     gcp-metadata: "npm:^6.1.0"
     gtoken: "npm:^7.0.0"
     jws: "npm:^4.0.0"
-  checksum: 10/132616d66833ac6b19d69360ac955e595c90261ad2f329c7b433615f4e21f7d831c6498dcd271ef92ea3e051c1bc26eed60a10b37d50de8936c36ae4459d8bc7
+  checksum: 10/5fd9fe7cfeb6aaec39e37326e8c856db7dd612a8a484f8f74bc389a7121da7f00eb6d487b2d904b46e0881afb0c867d7650ae945da63027388f7eb459d06dd56
   languageName: node
   linkType: hard
 
@@ -11861,13 +11861,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"micromatch@npm:^4.0.0, micromatch@npm:^4.0.2, micromatch@npm:^4.0.4, micromatch@npm:^4.0.5, micromatch@npm:^4.0.7, micromatch@npm:~4.0.7":
-  version: 4.0.7
-  resolution: "micromatch@npm:4.0.7"
+"micromatch@npm:^4.0.0, micromatch@npm:^4.0.2, micromatch@npm:^4.0.4, micromatch@npm:^4.0.5, micromatch@npm:^4.0.8, micromatch@npm:~4.0.7":
+  version: 4.0.8
+  resolution: "micromatch@npm:4.0.8"
   dependencies:
     braces: "npm:^3.0.3"
     picomatch: "npm:^2.3.1"
-  checksum: 10/a11ed1cb67dcbbe9a5fc02c4062cf8bb0157d73bf86956003af8dcfdf9b287f9e15ec0f6d6925ff6b8b5b496202335e497b01de4d95ef6cf06411bc5e5c474a0
+  checksum: 10/6bf2a01672e7965eb9941d1f02044fad2bd12486b5553dc1116ff24c09a8723157601dc992e74c911d896175918448762df3b3fd0a6b61037dd1a9766ddfbf58
   languageName: node
   linkType: hard
 
@@ -14513,9 +14513,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:^38.55.2":
-  version: 38.55.2
-  resolution: "renovate@npm:38.55.2"
+"renovate@npm:^38.56.3":
+  version: 38.56.3
+  resolution: "renovate@npm:38.56.3"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.621.0"
     "@aws-sdk/client-ec2": "npm:3.621.0"
@@ -14550,7 +14550,7 @@ __metadata:
     auth-header: "npm:1.0.0"
     aws4: "npm:1.13.1"
     azure-devops-node-api: "npm:14.0.2"
-    better-sqlite3: "npm:11.1.2"
+    better-sqlite3: "npm:11.2.1"
     bunyan: "npm:1.8.15"
     cacache: "npm:18.0.4"
     chalk: "npm:4.1.2"
@@ -14578,7 +14578,7 @@ __metadata:
     glob: "npm:11.0.0"
     global-agent: "npm:3.0.0"
     good-enough-parser: "npm:1.1.23"
-    google-auth-library: "npm:9.13.0"
+    google-auth-library: "npm:9.14.0"
     got: "npm:11.8.6"
     graph-data-structure: "npm:3.5.0"
     handlebars: "npm:4.7.8"
@@ -14637,7 +14637,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10/d7f6bec28da9374ac6771f393b17361bf58aac3f2ced6a8772063a977d4844f2714009a00643768e3e44e327010c4817142fd2c780a5244bc85c211d6371df81
+  checksum: 10/f6be57ab5864ac9e4fc37e433c367b9d963cd7e329c2b27529551b3cf0c8e1dd7f82cf36905b9c47beda66641d978c63c474bbe392f2fcfdacfd9a06462ab0c1
   languageName: node
   linkType: hard
 
@@ -15873,13 +15873,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"stylelint@npm:^16.8.2":
-  version: 16.8.2
-  resolution: "stylelint@npm:16.8.2"
+"stylelint@npm:^16.9.0":
+  version: 16.9.0
+  resolution: "stylelint@npm:16.9.0"
   dependencies:
-    "@csstools/css-parser-algorithms": "npm:^3.0.0"
-    "@csstools/css-tokenizer": "npm:^3.0.0"
-    "@csstools/media-query-list-parser": "npm:^3.0.0"
+    "@csstools/css-parser-algorithms": "npm:^3.0.1"
+    "@csstools/css-tokenizer": "npm:^3.0.1"
+    "@csstools/media-query-list-parser": "npm:^3.0.1"
     "@csstools/selector-specificity": "npm:^4.0.0"
     "@dual-bundle/import-meta-resolve": "npm:^4.1.0"
     balanced-match: "npm:^2.0.0"
@@ -15901,7 +15901,7 @@ __metadata:
     known-css-properties: "npm:^0.34.0"
     mathml-tag-names: "npm:^2.1.3"
     meow: "npm:^13.2.0"
-    micromatch: "npm:^4.0.7"
+    micromatch: "npm:^4.0.8"
     normalize-path: "npm:^3.0.0"
     picocolors: "npm:^1.0.1"
     postcss: "npm:^8.4.41"
@@ -15912,13 +15912,13 @@ __metadata:
     resolve-from: "npm:^5.0.0"
     string-width: "npm:^4.2.3"
     strip-ansi: "npm:^7.1.0"
-    supports-hyperlinks: "npm:^3.0.0"
+    supports-hyperlinks: "npm:^3.1.0"
     svg-tags: "npm:^1.0.0"
     table: "npm:^6.8.2"
     write-file-atomic: "npm:^5.0.1"
   bin:
     stylelint: bin/stylelint.mjs
-  checksum: 10/143103ad0e7c4a10a1d8914c92f1275bdb3b809ca49bd9b0d7206325bdaf36d4c2e8fba30f805b0cb7dfbb2d59cf6090a701918ee998032e43eff7cd1dc8af1c
+  checksum: 10/0a7a697b066af36047fd02c952d59d5b26ac5db7f5772b75481310734c0e722970abb830d60460ea95afb618c51520cc09363dd9b83ae237afb0767b55fb0331
   languageName: node
   linkType: hard
 
@@ -15985,13 +15985,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"supports-hyperlinks@npm:^3.0.0":
-  version: 3.0.0
-  resolution: "supports-hyperlinks@npm:3.0.0"
+"supports-hyperlinks@npm:^3.0.0, supports-hyperlinks@npm:^3.1.0":
+  version: 3.1.0
+  resolution: "supports-hyperlinks@npm:3.1.0"
   dependencies:
     has-flag: "npm:^4.0.0"
     supports-color: "npm:^7.0.0"
-  checksum: 10/911075a412d8bcfbbca413e8963d56ed0975e35ff98d599ef85301aed4221428653145263828b6c58cb4cb6ff24596be83ead3cca221a88a70428af93d5e2a73
+  checksum: 10/e893fb035ecd86e42c5225dc1cd24db56eb950ed77b2e8f59c7aaf2836b8b2ef276ffd11f0df88b0b12184832aa2333f875eefcb74d3c47ed2633b6b41d4be43
   languageName: node
   linkType: hard
 
