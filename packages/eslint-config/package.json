@@ -28,7 +28,7 @@
     "directory": "packages/eslint-config"
   },
   "bugs": "https://github.com/snowball-tech/glacier/issues",
-  "packageManager": "yarn@4.4.0",
+  "packageManager": "yarn@4.4.1",
   "engines": {
     "yarn": "^4.0.0",
     "node": ">=18 <=20"
@@ -75,7 +75,7 @@
     "eslint": "^8.0.0"
   },
   "dependencies": {
-    "@next/eslint-plugin-next": "^14.2.6",
+    "@next/eslint-plugin-next": "^14.2.7",
     "@rushstack/eslint-patch": "^1.10.4",
     "@typescript-eslint/eslint-plugin": "~8.3.0",
     "@typescript-eslint/parser": "~8.3.0",
@@ -95,7 +95,7 @@
     "eslint-plugin-markdown": "^5.1.0",
     "eslint-plugin-mdx": "^3.1.5",
     "eslint-plugin-no-secrets": "^1.0.2",
-    "eslint-plugin-perfectionist": "^3.2.0",
+    "eslint-plugin-perfectionist": "^3.3.0",
     "eslint-plugin-prettier": "^5.2.1",
     "eslint-plugin-promise": "~7.1.0",
     "eslint-plugin-react": "^7.35.0",
