@@ -3722,7 +3722,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@snowball-tech/renovate-config@workspace:packages/renovate-config"
   dependencies:
-    renovate: "npm:^38.56.3"
+    renovate: "npm:^38.57.0"
   languageName: unknown
   linkType: soft
 
@@ -14500,7 +14500,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:^38.56.3":
+"renovate@npm:^38.57.0":
   version: 38.57.0
   resolution: "renovate@npm:38.57.0"
   dependencies:
