@@ -7256,11 +7256,11 @@ __metadata:
   linkType: hard
 
 "eslint-plugin-html@npm:^8.1.1":
-  version: 8.1.1
-  resolution: "eslint-plugin-html@npm:8.1.1"
+  version: 8.1.2
+  resolution: "eslint-plugin-html@npm:8.1.2"
   dependencies:
     htmlparser2: "npm:^9.1.0"
-  checksum: 10/dcf60df73c4fd5e5536d6a6293ee42069450c10e5a6ba3326d20bc62de273f4021c75e6839cc3a2e3c94a3b62f45c12662c027784ac2aef46fd692839acba80a
+  checksum: 10/81bffbbd4c8093288a4d57db99ae52634889967dfd749bac55e00501800782181b0fc4384e39a37a098675f03ecb7719e2bd1763b712f67f68442c86959a153f
   languageName: node
   linkType: hard
 
