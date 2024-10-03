@@ -1,3 +1,5 @@
+## @snowball-tech/semantic-release-config [2.1.16](https://github.com/snowball-tech/glacier/compare/@snowball-tech/semantic-release-config@2.1.15...@snowball-tech/semantic-release-config@2.1.16) (2024-10-03)
+
 ## @snowball-tech/semantic-release-config [2.1.15](https://github.com/snowball-tech/glacier/compare/@snowball-tech/semantic-release-config@2.1.14...@snowball-tech/semantic-release-config@2.1.15) (2024-10-03)
 
 ## @snowball-tech/semantic-release-config [2.1.14](https://github.com/snowball-tech/glacier/compare/@snowball-tech/semantic-release-config@2.1.13...@snowball-tech/semantic-release-config@2.1.14) (2024-08-28)
