@@ -28,7 +28,7 @@
     "url": "git+https://github.com/snowball-tech/glacier.git"
   },
   "bugs": "https://github.com/snowball-tech/glacier/issues",
-  "packageManager": "yarn@4.4.1",
+  "packageManager": "yarn@4.5.0",
   "engines": {
     "yarn": "^4.0.0",
     "node": ">=18 <=20"
@@ -59,7 +59,7 @@
     "quality-fix": "yarn run lint-fix && yarn run format-fix && yarn run types-check",
     "presetup": "is-ci || yarn install",
     "setup": "yarn run presetup && yarn setup-husky && yarn workspaces foreach --all -p run setup",
-    "setup-husky": "is-ci || yarn husky install",
+    "setup-husky": "is-ci || yarn husky",
     "types-check": "yarn workspaces foreach --all -p run types-check",
     "update-deps": "yarn upgrade-interactive",
     "update-references": "workspaces-to-typescript-project-references --includesRoot"
