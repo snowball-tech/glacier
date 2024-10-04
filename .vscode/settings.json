@@ -23,15 +23,20 @@
     "editor.defaultFormatter": "foxundermoon.shell-format"
   },
   "css.validate": false,
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": "explicit",
-    "source.fixAll.markdownlint": "explicit",
-    "source.fixAll.shellcheck": "explicit",
-    "source.fixAll.stylelint": "explicit"
-  },
+  "editor.codeActionsOnSave": [
+    "source.organizeLinkDefinitions",
+    "source.addMissingImports.ts",
+    "source.removeUnusedImports",
+    "source.fixAll.eslint",
+    "source.fixAll.markdownlint",
+    "source.fixAll.shellcheck",
+    "source.fixAll.ts",
+    "source.fixAll.sortJSON",
+    "source.formatDocument"
+  ],
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnPaste": true,
-  "editor.formatOnSave": true,
+  "editor.formatOnSave": false,
   "editor.formatOnType": true,
   "editor.tabSize": 2,
   "eslint.lintTask.enable": true,
