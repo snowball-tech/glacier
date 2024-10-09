@@ -1401,11 +1401,11 @@ __metadata:
   linkType: hard
 
 "@next/eslint-plugin-next@npm:^14.2.14":
-  version: 14.2.14
-  resolution: "@next/eslint-plugin-next@npm:14.2.14"
+  version: 14.2.15
+  resolution: "@next/eslint-plugin-next@npm:14.2.15"
   dependencies:
     glob: "npm:10.3.10"
-  checksum: 10/f944befb199b835e34cddf490c4f402fada6d4de37c47d0bd73ce803dbc974026f2d46ef509781bd3415f0c4ece2a91e5367b1c2cc5667e90c0f19fcd700c409
+  checksum: 10/eb48c5c08c9f4d0f14a0978b39fcb2fa3925a2fcfd368044039a988b389973328fb8493d192b90e0884789a9b42d0d005b91930cb47e2357b746773ae4e12ca6
   languageName: node
   linkType: hard
 
