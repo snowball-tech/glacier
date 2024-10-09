@@ -4996,13 +4996,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"azure-devops-node-api@npm:14.0.2":
-  version: 14.0.2
-  resolution: "azure-devops-node-api@npm:14.0.2"
+"azure-devops-node-api@npm:14.1.0":
+  version: 14.1.0
+  resolution: "azure-devops-node-api@npm:14.1.0"
   dependencies:
     tunnel: "npm:0.0.6"
-    typed-rest-client: "npm:^2.0.1"
-  checksum: 10/9193745571f003d9bf1a36a3230391d04a55c08e3baa1f7d8924a5ba3daf4fc929e0fbd2e034de98f1132bf9104def4b256cfaf2e3856f041e57cfca5351c3a5
+    typed-rest-client: "npm:2.1.0"
+  checksum: 10/e974af8863dba1108e4755891f3209423dd4981d2c73a30c12a33e70e4739af7e875106c296b3c3afed31971d781500c905220d2dc6a98b53d3cd5bddcf826d6
   languageName: node
   linkType: hard
 
@@ -14500,8 +14500,8 @@ __metadata:
   linkType: hard
 
 "renovate@npm:^38.107.0":
-  version: 38.107.0
-  resolution: "renovate@npm:38.107.0"
+  version: 38.114.0
+  resolution: "renovate@npm:38.114.0"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.658.1"
     "@aws-sdk/client-ec2": "npm:3.658.1"
@@ -14535,7 +14535,7 @@ __metadata:
     async-mutex: "npm:0.5.0"
     auth-header: "npm:1.0.0"
     aws4: "npm:1.13.2"
-    azure-devops-node-api: "npm:14.0.2"
+    azure-devops-node-api: "npm:14.1.0"
     better-sqlite3: "npm:11.3.0"
     bunyan: "npm:1.8.15"
     cacache: "npm:18.0.4"
@@ -14623,7 +14623,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10/5b04d85d26a5532c133ca16bdd5250041b33dbbe631ff981e3e2bcc5c3af762f9761e4e41d0ce1b36ed23a780a0320362de9b60ef8d341f05d77d5fa9e1a6977
+  checksum: 10/b373ffedfe1bd05fafb81aa62b44a60e97c8395e84f94ede596b1d7470e3eb03fc288219f916ad5b37b694725474dff6d06db42d588d1c96adfbd96501178d55
   languageName: node
   linkType: hard
 
@@ -16590,16 +16590,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typed-rest-client@npm:^2.0.1":
-  version: 2.0.2
-  resolution: "typed-rest-client@npm:2.0.2"
+"typed-rest-client@npm:2.1.0":
+  version: 2.1.0
+  resolution: "typed-rest-client@npm:2.1.0"
   dependencies:
     des.js: "npm:^1.1.0"
     js-md4: "npm:^0.3.2"
     qs: "npm:^6.10.3"
     tunnel: "npm:0.0.6"
     underscore: "npm:^1.12.1"
-  checksum: 10/0a5724483202ad26f14b36eddb9f9900d11352f04e2fb48b7d3e376cb5dd5d51fd7613a00195534c5ec650cfeae7239c79a1d320e8b99ae11ec63ac8e623cee1
+  checksum: 10/601da14aea1ede39c80067445e3e675ed86fb68d434aa4986767a64dfa14a0d9829ff93042246a134407d2e85f6d0c5fb7b675dc3a9b83425b5c7f3c4c4a8209
   languageName: node
   linkType: hard
 
