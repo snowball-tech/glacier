@@ -4996,13 +4996,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"azure-devops-node-api@npm:14.0.2":
-  version: 14.0.2
-  resolution: "azure-devops-node-api@npm:14.0.2"
+"azure-devops-node-api@npm:14.1.0":
+  version: 14.1.0
+  resolution: "azure-devops-node-api@npm:14.1.0"
   dependencies:
     tunnel: "npm:0.0.6"
-    typed-rest-client: "npm:^2.0.1"
-  checksum: 10/9193745571f003d9bf1a36a3230391d04a55c08e3baa1f7d8924a5ba3daf4fc929e0fbd2e034de98f1132bf9104def4b256cfaf2e3856f041e57cfca5351c3a5
+    typed-rest-client: "npm:2.1.0"
+  checksum: 10/e974af8863dba1108e4755891f3209423dd4981d2c73a30c12a33e70e4739af7e875106c296b3c3afed31971d781500c905220d2dc6a98b53d3cd5bddcf826d6
   languageName: node
   linkType: hard
 
@@ -8795,9 +8795,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"google-auth-library@npm:9.14.1":
-  version: 9.14.1
-  resolution: "google-auth-library@npm:9.14.1"
+"google-auth-library@npm:9.14.2":
+  version: 9.14.2
+  resolution: "google-auth-library@npm:9.14.2"
   dependencies:
     base64-js: "npm:^1.3.0"
     ecdsa-sig-formatter: "npm:^1.0.11"
@@ -8805,7 +8805,7 @@ __metadata:
     gcp-metadata: "npm:^6.1.0"
     gtoken: "npm:^7.0.0"
     jws: "npm:^4.0.0"
-  checksum: 10/528e6bebadbd9e599c5a3149ed8053ff4cc99f2776b2b56087af8ed28f47a6df153a742d4c07074ef6245e6b4de5e9ab20655a040535400b464683ee09bd1001
+  checksum: 10/141c760ec6188bed607daf98406957b84c59fda41ea9893573fbccc4098221a4cf054c90cc95058068bb4ae039ac5d542fa57f057d6d29721e23e2718e5914c3
   languageName: node
   linkType: hard
 
@@ -14500,8 +14500,8 @@ __metadata:
   linkType: hard
 
 "renovate@npm:^38.107.0":
-  version: 38.107.0
-  resolution: "renovate@npm:38.107.0"
+  version: 38.130.0
+  resolution: "renovate@npm:38.130.0"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.658.1"
     "@aws-sdk/client-ec2": "npm:3.658.1"
@@ -14535,7 +14535,7 @@ __metadata:
     async-mutex: "npm:0.5.0"
     auth-header: "npm:1.0.0"
     aws4: "npm:1.13.2"
-    azure-devops-node-api: "npm:14.0.2"
+    azure-devops-node-api: "npm:14.1.0"
     better-sqlite3: "npm:11.3.0"
     bunyan: "npm:1.8.15"
     cacache: "npm:18.0.4"
@@ -14564,7 +14564,7 @@ __metadata:
     glob: "npm:11.0.0"
     global-agent: "npm:3.0.0"
     good-enough-parser: "npm:1.1.23"
-    google-auth-library: "npm:9.14.1"
+    google-auth-library: "npm:9.14.2"
     got: "npm:11.8.6"
     graph-data-structure: "npm:3.5.0"
     handlebars: "npm:4.7.8"
@@ -14605,13 +14605,13 @@ __metadata:
     slugify: "npm:1.6.6"
     source-map-support: "npm:0.5.21"
     toml-eslint-parser: "npm:0.10.0"
-    tslib: "npm:2.7.0"
+    tslib: "npm:2.8.0"
     upath: "npm:2.0.1"
     url-join: "npm:4.0.1"
     validate-npm-package-name: "npm:5.0.1"
     vuln-vects: "npm:1.1.0"
     xmldoc: "npm:1.3.0"
-    yaml: "npm:2.5.1"
+    yaml: "npm:2.6.0"
     zod: "npm:3.23.8"
   dependenciesMeta:
     better-sqlite3:
@@ -14623,7 +14623,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10/5b04d85d26a5532c133ca16bdd5250041b33dbbe631ff981e3e2bcc5c3af762f9761e4e41d0ce1b36ed23a780a0320362de9b60ef8d341f05d77d5fa9e1a6977
+  checksum: 10/12cb51108823dd063cbf157cc3b0881cc4a9736e083904c5a4613350e27b1ecba18b3d49184b5573c860496822fa6de850ab48286fdb701ebc978a9509f6abc7
   languageName: node
   linkType: hard
 
@@ -16382,10 +16382,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tslib@npm:2.7.0, tslib@npm:^2.3.1, tslib@npm:^2.4.0, tslib@npm:^2.6.2":
-  version: 2.7.0
-  resolution: "tslib@npm:2.7.0"
-  checksum: 10/9a5b47ddac65874fa011c20ff76db69f97cf90c78cff5934799ab8894a5342db2d17b4e7613a087046bc1d133d21547ddff87ac558abeec31ffa929c88b7fce6
+"tslib@npm:2.8.0":
+  version: 2.8.0
+  resolution: "tslib@npm:2.8.0"
+  checksum: 10/1bc7c43937477059b4d26f2dbde7e49ef0fb4f38f3014e0603eaea76d6a885742c8b1762af45949145e5e7408a736d20ded949da99dabc8ccba1fc5531d2d927
   languageName: node
   linkType: hard
 
@@ -16393,6 +16393,13 @@ __metadata:
   version: 1.14.1
   resolution: "tslib@npm:1.14.1"
   checksum: 10/7dbf34e6f55c6492637adb81b555af5e3b4f9cc6b998fb440dac82d3b42bdc91560a35a5fb75e20e24a076c651438234da6743d139e4feabf0783f3cdfe1dddb
+  languageName: node
+  linkType: hard
+
+"tslib@npm:^2.3.1, tslib@npm:^2.4.0, tslib@npm:^2.6.2":
+  version: 2.7.0
+  resolution: "tslib@npm:2.7.0"
+  checksum: 10/9a5b47ddac65874fa011c20ff76db69f97cf90c78cff5934799ab8894a5342db2d17b4e7613a087046bc1d133d21547ddff87ac558abeec31ffa929c88b7fce6
   languageName: node
   linkType: hard
 
@@ -16590,16 +16597,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typed-rest-client@npm:^2.0.1":
-  version: 2.0.2
-  resolution: "typed-rest-client@npm:2.0.2"
+"typed-rest-client@npm:2.1.0":
+  version: 2.1.0
+  resolution: "typed-rest-client@npm:2.1.0"
   dependencies:
     des.js: "npm:^1.1.0"
     js-md4: "npm:^0.3.2"
     qs: "npm:^6.10.3"
     tunnel: "npm:0.0.6"
     underscore: "npm:^1.12.1"
-  checksum: 10/0a5724483202ad26f14b36eddb9f9900d11352f04e2fb48b7d3e376cb5dd5d51fd7613a00195534c5ec650cfeae7239c79a1d320e8b99ae11ec63ac8e623cee1
+  checksum: 10/601da14aea1ede39c80067445e3e675ed86fb68d434aa4986767a64dfa14a0d9829ff93042246a134407d2e85f6d0c5fb7b675dc3a9b83425b5c7f3c4c4a8209
   languageName: node
   linkType: hard
 
@@ -17399,12 +17406,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"yaml@npm:2.5.1, yaml@npm:^2.0.0, yaml@npm:^2.1.3, yaml@npm:^2.3.4, yaml@npm:~2.5.0":
-  version: 2.5.1
-  resolution: "yaml@npm:2.5.1"
+"yaml@npm:2.6.0":
+  version: 2.6.0
+  resolution: "yaml@npm:2.6.0"
   bin:
     yaml: bin.mjs
-  checksum: 10/0eecb679db75ea6a989ad97715a9fa5d946972945aa6aa7d2175bca66c213b5564502ccb1cdd04b1bf816ee38b5c43e4e2fda3ff6f5e09da24dabb51ae92c57d
+  checksum: 10/f4369f667c7626c216ea81b5840fe9b530cdae4cff2d84d166ec1239e54bf332dbfac4a71bf60d121f8e85e175364a4e280a520292269b6cf9d074368309adf9
   languageName: node
   linkType: hard
 
@@ -17412,6 +17419,15 @@ __metadata:
   version: 1.10.2
   resolution: "yaml@npm:1.10.2"
   checksum: 10/e088b37b4d4885b70b50c9fa1b7e54bd2e27f5c87205f9deaffd1fb293ab263d9c964feadb9817a7b129a5bf30a06582cb08750f810568ecc14f3cdbabb79cb3
+  languageName: node
+  linkType: hard
+
+"yaml@npm:^2.0.0, yaml@npm:^2.1.3, yaml@npm:^2.3.4, yaml@npm:~2.5.0":
+  version: 2.5.1
+  resolution: "yaml@npm:2.5.1"
+  bin:
+    yaml: bin.mjs
+  checksum: 10/0eecb679db75ea6a989ad97715a9fa5d946972945aa6aa7d2175bca66c213b5564502ccb1cdd04b1bf816ee38b5c43e4e2fda3ff6f5e09da24dabb51ae92c57d
   languageName: node
   linkType: hard
 
