@@ -73,6 +73,7 @@ export default [
       'unicorn/no-array-reduce': 'off',
       'unicorn/no-null': 'off',
       'unicorn/no-useless-undefined': 'off',
+      'unicorn/prefer-global-this': 'off',
       'unicorn/prefer-module': 'off',
       'unicorn/prevent-abbreviations': [
         'error',
