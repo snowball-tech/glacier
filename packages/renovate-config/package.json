@@ -22,7 +22,7 @@
   "license": "MIT",
   "main": "default.json5",
   "name": "@snowball-tech/renovate-config",
-  "packageManager": "yarn@4.5.0",
+  "packageManager": "yarn@4.5.1",
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"

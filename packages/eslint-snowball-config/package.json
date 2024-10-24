@@ -76,7 +76,7 @@
   "license": "MIT",
   "main": "index.js",
   "name": "@snowball-tech/eslint-snowball-config",
-  "packageManager": "yarn@4.5.0",
+  "packageManager": "yarn@4.5.1",
   "peerDependencies": {
     "eslint": "^9.0.0"
   },
