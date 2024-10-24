@@ -1,39 +1,55 @@
 {
-  "name": "@snowball-tech/eslint-config",
-  "version": "5.5.3",
-  "description": "ESLint ruleset by Snowball supporting React & Next.JS, Typescript, Prettier and more, based on Airbnb config",
   "author": "Snowball Engineering Team <engineering@snowball.xyz> (https://github.com/orgs/snowball-tech)",
+  "bugs": "https://github.com/snowball-tech/glacier/issues",
   "contributors": [
     "Clément PRÉVOT <clement@snowball.xyz> (https://github.com/clementprevot)"
   ],
-  "license": "MIT",
-  "keywords": [
-    "snowball",
-    "airbnb",
-    "eslint",
-    "eslint-config",
-    "javascript",
-    "typescript",
-    "react",
-    "nextjs",
-    "prettier",
-    "jest",
-    "testing-library",
-    "lodash"
-  ],
-  "homepage": "https://github.com/snowball-tech/glacier/tree/main/packages/eslint-config",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/snowball-tech/glacier.git",
-    "directory": "packages/eslint-config"
+  "dependencies": {
+    "@next/eslint-plugin-next": "^15.0.1",
+    "@rushstack/eslint-patch": "^1.10.4",
+    "@typescript-eslint/eslint-plugin": "^8.11.0",
+    "@typescript-eslint/parser": "^8.11.0",
+    "eslint": "^8.57.1",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-import-resolver-typescript": "^3.6.3",
+    "eslint-plugin-html": "^8.1.2",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-jest": "^28.8.3",
+    "eslint-plugin-jest-dom": "^5.4.0",
+    "eslint-plugin-jsonc": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.10.1",
+    "eslint-plugin-lodash": "^8.0.0",
+    "eslint-plugin-lodash-fp": "^2.2.0-a1",
+    "eslint-plugin-markdown": "^5.1.0",
+    "eslint-plugin-mdx": "^3.1.5",
+    "eslint-plugin-no-secrets": "^1.0.2",
+    "eslint-plugin-perfectionist": "^3.9.1",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-promise": "^7.1.0",
+    "eslint-plugin-react": "^7.37.2",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-sort-keys": "^2.3.5",
+    "eslint-plugin-sql": "^2.5.0",
+    "eslint-plugin-storybook": "^0.10.1",
+    "eslint-plugin-tailwindcss": "^3.17.5",
+    "eslint-plugin-testing-library": "^6.4.0",
+    "eslint-plugin-unicorn": "^56.0.0",
+    "eslint-plugin-yml": "^1.14.0",
+    "jsonc-eslint-parser": "^2.4.0",
+    "prettier": "^3.3.3"
   },
-  "bugs": "https://github.com/snowball-tech/glacier/issues",
-  "packageManager": "yarn@4.5.0",
+  "description": "ESLint ruleset by Snowball supporting React & Next.JS, Typescript, Prettier and more, based on Airbnb config",
+  "devDependencies": {
+    "eslint-find-rules": "^4.2.0",
+    "tailwindcss": "^3.4.14",
+    "typescript": "^5.6.3"
+  },
   "engines": {
-    "yarn": "^4.0.0",
-    "node": ">=18 <=20"
+    "node": ">=18 <=20",
+    "yarn": "^4.0.0"
   },
-  "main": "index.js",
   "files": [
     "base.js",
     "full.js",
@@ -56,9 +72,36 @@
     "typescript.js",
     "yml.js"
   ],
+  "homepage": "https://github.com/snowball-tech/glacier/tree/main/packages/eslint-config",
+  "keywords": [
+    "snowball",
+    "airbnb",
+    "eslint",
+    "eslint-config",
+    "javascript",
+    "typescript",
+    "react",
+    "nextjs",
+    "prettier",
+    "jest",
+    "testing-library",
+    "lodash"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "@snowball-tech/eslint-config",
+  "packageManager": "yarn@4.5.0",
+  "peerDependencies": {
+    "eslint": "^8.0.0"
+  },
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"
+  },
+  "repository": {
+    "directory": "packages/eslint-config",
+    "type": "git",
+    "url": "git+https://github.com/snowball-tech/glacier.git"
   },
   "scripts": {
     "check-deps": "yarn run -T depcheck --ignores='@next/eslint-plugin-next,@typescript-eslint/*,eslint-config-airbnb,eslint-import-resolver-typescript,eslint-plugin-*',tailwindcss",
@@ -71,47 +114,5 @@
     "quality-fix": "yarn run lint-fix && yarn run format-fix",
     "update-deps": "yarn run -T update-deps"
   },
-  "peerDependencies": {
-    "eslint": "^8.0.0"
-  },
-  "dependencies": {
-    "@next/eslint-plugin-next": "^14.2.14",
-    "@rushstack/eslint-patch": "^1.10.4",
-    "@typescript-eslint/eslint-plugin": "~8.8.0",
-    "@typescript-eslint/parser": "~8.8.0",
-    "eslint": "^8.57.0",
-    "eslint-config-airbnb": "^19.0.4",
-    "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-config-prettier": "^9.1.0",
-    "eslint-import-resolver-typescript": "^3.6.3",
-    "eslint-plugin-html": "^8.1.2",
-    "eslint-plugin-import": "^2.31.0",
-    "eslint-plugin-jest": "^28.8.3",
-    "eslint-plugin-jest-dom": "^5.4.0",
-    "eslint-plugin-jsonc": "^2.16.0",
-    "eslint-plugin-jsx-a11y": "^6.10.0",
-    "eslint-plugin-lodash": "^8.0.0",
-    "eslint-plugin-lodash-fp": "^2.2.0-a1",
-    "eslint-plugin-markdown": "^5.1.0",
-    "eslint-plugin-mdx": "^3.1.5",
-    "eslint-plugin-no-secrets": "^1.0.2",
-    "eslint-plugin-perfectionist": "^3.8.0",
-    "eslint-plugin-prettier": "^5.2.1",
-    "eslint-plugin-promise": "~7.1.0",
-    "eslint-plugin-react": "^7.37.1",
-    "eslint-plugin-react-hooks": "^4.6.2",
-    "eslint-plugin-sort-keys": "^2.3.5",
-    "eslint-plugin-sql": "^2.5.0",
-    "eslint-plugin-storybook": "^0.9.0",
-    "eslint-plugin-tailwindcss": "^3.17.4",
-    "eslint-plugin-testing-library": "^6.3.0",
-    "eslint-plugin-unicorn": "^55.0.0",
-    "eslint-plugin-yml": "^1.14.0",
-    "jsonc-eslint-parser": "^2.4.0",
-    "prettier": "^3.3.3"
-  },
-  "devDependencies": {
-    "eslint-find-rules": "^4.1.0",
-    "tailwindcss": "^3.4.13"
-  }
+  "version": "5.5.3"
 }

@@ -142,7 +142,7 @@ The package offers a [default](./index.js) ESLint configuration containing:
 - [base rules](./base.js) _(including promise & unicorn)_
 - [HTML](./html.js)
 - [JSON/JSONC/JSON5](./json.js)
-- [Markdown](./mardown.js)
+- [Markdown](./markdown.js)
 - [Y(A)ML](./yml.js)
 - [secrets](./secrets.js)
 - [import](./import.js)

@@ -1,36 +1,41 @@
 {
-  "name": "@snowball-tech/prettier-config",
-  "version": "1.5.3",
-  "description": "Prettier config by Snowball",
   "author": "Snowball Engineering Team <engineering@snowball.xyz> (https://github.com/orgs/snowball-tech)",
+  "bugs": "https://github.com/snowball-tech/glacier/issues",
   "contributors": [
     "Clément PRÉVOT <clement@snowball.xyz> (https://github.com/clementprevot)"
   ],
-  "license": "MIT",
-  "keywords": [
-    "snowball",
-    "prettier"
-  ],
-  "homepage": "https://github.com/snowball-tech/glacier/tree/main/packages/prettier-config",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/snowball-tech/glacier.git",
-    "directory": "packages/prettier-config"
+  "dependencies": {
+    "prettier": "^3.3.3",
+    "prettier-plugin-organize-attributes": "^1.0.0",
+    "prettier-plugin-sh": "^0.14.0",
+    "prettier-plugin-tailwindcss": "^0.6.8"
   },
-  "bugs": "https://github.com/snowball-tech/glacier/issues",
-  "packageManager": "yarn@4.5.0",
+  "description": "Prettier config by Snowball",
   "engines": {
-    "yarn": "^4.0.0",
-    "node": ">=18 <=20"
+    "node": ">=18 <=20",
+    "yarn": "^4.0.0"
   },
-  "main": ".prettierrc.js",
   "files": [
     ".prettierignore",
     ".prettierrc-tailwind.js"
   ],
+  "homepage": "https://github.com/snowball-tech/glacier/tree/main/packages/prettier-config",
+  "keywords": [
+    "snowball",
+    "prettier"
+  ],
+  "license": "MIT",
+  "main": ".prettierrc.js",
+  "name": "@snowball-tech/prettier-config",
+  "packageManager": "yarn@4.5.0",
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"
+  },
+  "repository": {
+    "directory": "packages/prettier-config",
+    "type": "git",
+    "url": "git+https://github.com/snowball-tech/glacier.git"
   },
   "scripts": {
     "check-deps": "yarn run -T depcheck --ignores='prettier-plugin-*'",
@@ -40,10 +45,5 @@
     "quality-fix": "yarn run format-fix",
     "update-deps": "yarn run -T update-deps"
   },
-  "dependencies": {
-    "prettier": "^3.3.3",
-    "prettier-plugin-organize-attributes": "^1.0.0",
-    "prettier-plugin-sh": "^0.14.0",
-    "prettier-plugin-tailwindcss": "^0.6.8"
-  }
+  "version": "1.5.3"
 }
