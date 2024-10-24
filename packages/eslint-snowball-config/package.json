@@ -5,19 +5,18 @@
     "Clément PRÉVOT <clement@snowball.xyz> (https://github.com/clementprevot)"
   ],
   "dependencies": {
+    "@eslint/compat": "^1.2.1",
+    "@eslint/eslintrc": "^3.1.0",
+    "@eslint/js": "^9.13.0",
     "@next/eslint-plugin-next": "^15.0.1",
-    "@rushstack/eslint-patch": "^1.10.4",
-    "@typescript-eslint/eslint-plugin": "^8.11.0",
-    "@typescript-eslint/parser": "^8.11.0",
-    "eslint": "^8.57.1",
-    "eslint-config-airbnb": "^19.0.4",
+    "confusing-browser-globals": "^1.0.11",
+    "eslint": "^9.13.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-import-resolver-typescript": "^3.6.3",
     "eslint-plugin-html": "^8.1.2",
     "eslint-plugin-import": "^2.31.0",
     "eslint-plugin-jest": "^28.8.3",
-    "eslint-plugin-jest-dom": "^5.4.0",
     "eslint-plugin-jsonc": "^2.16.0",
     "eslint-plugin-jsx-a11y": "^6.10.1",
     "eslint-plugin-lodash": "^8.0.0",
@@ -30,47 +29,34 @@
     "eslint-plugin-promise": "^7.1.0",
     "eslint-plugin-react": "^7.37.2",
     "eslint-plugin-react-hooks": "^5.0.0",
-    "eslint-plugin-sort-keys": "^2.3.5",
     "eslint-plugin-sql": "^2.5.0",
     "eslint-plugin-storybook": "^0.10.1",
     "eslint-plugin-tailwindcss": "^3.17.5",
     "eslint-plugin-testing-library": "^6.4.0",
     "eslint-plugin-unicorn": "^56.0.0",
     "eslint-plugin-yml": "^1.14.0",
-    "jsonc-eslint-parser": "^2.4.0",
-    "prettier": "^3.3.3"
+    "globals": "^15.11.0",
+    "prettier": "^3.3.3",
+    "read-pkg-up": "^11.0.0",
+    "typescript-eslint": "^8.11.0"
   },
   "description": "ESLint ruleset by Snowball supporting React & Next.JS, Typescript, Prettier and more, based on Airbnb config",
   "devDependencies": {
+    "@types/confusing-browser-globals": "^1.0.3",
+    "@types/eslint-plugin-jsx-a11y": "^6.9.0",
+    "@types/eslint-plugin-tailwindcss": "^3.17.0",
     "eslint-find-rules": "^4.2.0",
     "tailwindcss": "^3.4.14",
     "typescript": "^5.6.3"
   },
   "engines": {
-    "node": ">=18 <=20",
+    "node": ">= 20",
     "yarn": "^4.0.0"
   },
   "files": [
-    "base.js",
-    "full.js",
-    "html.js",
-    "import.js",
-    "jest.js",
-    "json.js",
-    "lodash.js",
-    "markdown.js",
-    "next.js",
-    "patch.js",
-    "perfectionist.js",
-    "prettier.js",
-    "react.js",
-    "secrets.js",
-    "sql.js",
-    "storybook.js",
-    "testing-library.js",
-    "tailwind.js",
-    "typescript.js",
-    "yml.js"
+    "configs",
+    "utils.js",
+    "compat.js"
   ],
   "homepage": "https://github.com/snowball-tech/glacier/tree/main/packages/eslint-config",
   "keywords": [
@@ -89,10 +75,10 @@
   ],
   "license": "MIT",
   "main": "index.js",
-  "name": "@snowball-tech/eslint-config",
+  "name": "@snowball-tech/eslint-snowball-config",
   "packageManager": "yarn@4.5.0",
   "peerDependencies": {
-    "eslint": "^8.0.0"
+    "eslint": "^9.0.0"
   },
   "publishConfig": {
     "access": "public",
@@ -114,5 +100,6 @@
     "quality-fix": "yarn run lint-fix && yarn run format-fix",
     "update-deps": "yarn run -T update-deps"
   },
+  "type": "module",
   "version": "5.5.3"
 }

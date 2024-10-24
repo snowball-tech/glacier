@@ -20,7 +20,6 @@ module.exports = {
 
     // Allow autofocus even if it's not perfectly A11Y, it's so useful for
     // users.
-    // eslint-disable-next-line sort-keys/sort-keys-fix
     'jsx-a11y/no-autofocus': 'off',
 
     'react/jsx-filename-extension': ['error', { extensions: ['.jsx', '.tsx'] }],

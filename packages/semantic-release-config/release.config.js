@@ -60,7 +60,6 @@ module.exports = {
       {
         assets: ['package.json', 'CHANGELOG.md'],
         message:
-          // eslint-disable-next-line no-template-curly-in-string
           'release: new version ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}',
       },
     ],

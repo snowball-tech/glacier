@@ -1,12 +1,29 @@
 {
-  "name": "@snowball-tech/stylelint-config",
-  "version": "2.2.12",
-  "description": "Stylelint ruleset by Snowball supporting JSX, CSS in JS and more.",
   "author": "Snowball Engineering Team <engineering@snowball.xyz> (https://github.com/orgs/snowball-tech)",
+  "bugs": "https://github.com/snowball-tech/glacier/issues",
   "contributors": [
     "Clément PRÉVOT <clement@snowball.xyz> (https://github.com/clementprevot)"
   ],
-  "license": "MIT",
+  "dependencies": {
+    "postcss": "^8.4.47",
+    "postcss-html": "^1.7.0",
+    "postcss-styled-syntax": "^0.6.4",
+    "stylelint": "^16.10.0",
+    "stylelint-config-html": "^1.1.0",
+    "stylelint-config-standard": "^36.0.1"
+  },
+  "description": "Stylelint ruleset by Snowball supporting JSX, CSS in JS and more.",
+  "engines": {
+    "node": ">=18 <=20",
+    "yarn": "^4.0.0"
+  },
+  "files": [
+    "base.js",
+    "full.js",
+    "styled.js",
+    "tailwind.js"
+  ],
+  "homepage": "https://github.com/snowball-tech/glacier/tree/main/packages/stylelint-config",
   "keywords": [
     "snowball",
     "stylelint",
@@ -16,28 +33,21 @@
     "jsx",
     "css-in-js"
   ],
-  "homepage": "https://github.com/snowball-tech/glacier/tree/main/packages/stylelint-config",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/snowball-tech/glacier.git",
-    "directory": "packages/stylelint-config"
-  },
-  "bugs": "https://github.com/snowball-tech/glacier/issues",
-  "packageManager": "yarn@4.5.0",
-  "engines": {
-    "yarn": "^4.0.0",
-    "node": ">=18 <=20"
-  },
+  "license": "MIT",
   "main": "index.js",
-  "files": [
-    "base.js",
-    "full.js",
-    "styled.js",
-    "tailwind.js"
-  ],
+  "name": "@snowball-tech/stylelint-config",
+  "packageManager": "yarn@4.5.0",
+  "peerDependencies": {
+    "stylelint": "^16.0.0"
+  },
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"
+  },
+  "repository": {
+    "directory": "packages/stylelint-config",
+    "type": "git",
+    "url": "git+https://github.com/snowball-tech/glacier.git"
   },
   "scripts": {
     "check-deps": "yarn run -T depcheck --ignores='postcss,postcss-*,stylelint,stylelint-*'",
@@ -49,15 +59,5 @@
     "quality-fix": "yarn run lint-fix && yarn run format-fix",
     "update-deps": "yarn run -T update-deps"
   },
-  "peerDependencies": {
-    "stylelint": "^16.0.0"
-  },
-  "dependencies": {
-    "postcss": "^8.4.47",
-    "postcss-html": "^1.7.0",
-    "postcss-styled-syntax": "^0.6.4",
-    "stylelint": "^16.9.0",
-    "stylelint-config-html": "^1.1.0",
-    "stylelint-config-standard": "^36.0.1"
-  }
+  "version": "2.2.12"
 }

@@ -1,20 +1,25 @@
 {
+  // List of extensions which should be recommended for users of this workspace.
   "recommendations": [
+    "aaron-bond.better-comments",
+    "andyyaldoo.vscode-json",
     "bierner.github-markdown-preview",
     "bierner.markdown-checkbox",
     "bierner.markdown-emoji",
     "bierner.markdown-footnotes",
     "bierner.markdown-preview-github-styles",
     "cardinal90.multi-cursor-case-preserve",
+    "chakrounanas.turbo-console-log",
     "christian-kohler.npm-intellisense",
     "davidanson.vscode-markdownlint",
     "dbaeumer.vscode-eslint",
     "dsznajder.es7-react-js-snippets",
     "eamodio.gitlens",
-    "ecmel.vscode-html-css",
     "esbenp.prettier-vscode",
+    "foxundermoon.shell-format",
     "github.copilot",
     "github.vscode-pull-request-github",
+    "gruntfuggly.todo-tree",
     "leizongmin.node-module-intellisense",
     "mattpocock.ts-error-translator",
     "me-dutour-mathieu.vscode-github-actions",
@@ -23,9 +28,12 @@
     "mrmlnc.vscode-json5",
     "neotan.vscode-auto-restart-typescript-eslint-servers",
     "nhoizey.gremlins",
-    "orta.vscode-jest",
     "ow.vscode-subword-navigation",
     "pustelto.bracketeer",
+    "quicktype.quicktype",
+    "redhat.vscode-yaml",
+    "richie5um2.vscode-sort-json",
+    "rohit-gohri.format-code-action",
     "sleistner.vscode-fileutils",
     "stkb.rewrap",
     "streetsidesoftware.code-spell-checker",
@@ -36,6 +44,9 @@
     "visualstudioexptteam.vscodeintellicode",
     "wmaurer.change-case",
     "yzhang.markdown-all-in-one",
-    "rohit-gohri.format-code-action"
-  ]
+    "zengxingxin.sort-js-object-keys"
+  ],
+
+  // List of extensions recommended by VS Code that should not be recommended for users of this workspace.
+  "unwantedRecommendations": []
 }

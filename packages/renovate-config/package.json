@@ -1,34 +1,36 @@
 {
-  "name": "@snowball-tech/renovate-config",
-  "version": "2.1.15",
-  "description": "Renovate base configuration by Snowball",
   "author": "Snowball Engineering Team <engineering@snowball.xyz> (https://github.com/orgs/snowball-tech)",
+  "bugs": "https://github.com/snowball-tech/glacier/issues",
   "contributors": [
     "Clément PRÉVOT <clement@snowball.xyz> (https://github.com/clementprevot)"
   ],
-  "license": "MIT",
+  "description": "Renovate base configuration by Snowball",
+  "devDependencies": {
+    "renovate": "^38.130.2"
+  },
+  "engines": {
+    "node": ">=18 <=20",
+    "yarn": "^4.0.0"
+  },
+  "files": [],
+  "homepage": "https://github.com/snowball-tech/glacier/tree/main/packages/renovate-config",
   "keywords": [
     "snowball",
     "renovate",
     "dependencies"
   ],
-  "homepage": "https://github.com/snowball-tech/glacier/tree/main/packages/renovate-config",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/snowball-tech/glacier.git",
-    "directory": "packages/eslint-config"
-  },
-  "bugs": "https://github.com/snowball-tech/glacier/issues",
-  "packageManager": "yarn@4.5.0",
-  "engines": {
-    "yarn": "^4.0.0",
-    "node": ">=18 <=20"
-  },
+  "license": "MIT",
   "main": "default.json5",
-  "files": [],
+  "name": "@snowball-tech/renovate-config",
+  "packageManager": "yarn@4.5.0",
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"
+  },
+  "repository": {
+    "directory": "packages/eslint-config",
+    "type": "git",
+    "url": "git+https://github.com/snowball-tech/glacier.git"
   },
   "scripts": {
     "check-deps": "yarn run -T depcheck --ignores=''",
@@ -39,7 +41,5 @@
     "update-deps": "yarn run -T update-deps",
     "validate-config": "renovate-config-validator default.json5"
   },
-  "devDependencies": {
-    "renovate": "^38.107.0"
-  }
+  "version": "2.1.15"
 }

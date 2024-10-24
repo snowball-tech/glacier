@@ -1,5 +1,4 @@
 /* eslint-disable unicorn/prevent-abbreviations */
-/* eslint-disable no-param-reassign */
 
 const isEmpty = require('lodash/fp/isEmpty')
 
