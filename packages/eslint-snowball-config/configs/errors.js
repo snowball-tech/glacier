@@ -50,8 +50,7 @@ export default [
 
       // Disallows expressions where the operation doesn't affect the value
       // https://eslint.org/docs/rules/no-constant-binary-expression
-      // TODO: semver-major, enable
-      'no-constant-binary-expression': 'off',
+      'no-constant-binary-expression': 'error',
 
       // disallow use of constant expressions in conditions
       'no-constant-condition': 'warn',
@@ -96,7 +95,8 @@ export default [
         {
           conditionalAssign: true,
           enforceForArrowConditionals: false,
-          ignoreJSX: 'all', // delegate to eslint-plugin-react
+          // delegate to eslint-plugin-react
+          ignoreJSX: 'all',
           nestedBinaryExpressions: false,
           returnAssign: false,
         },
@@ -131,16 +131,17 @@ export default [
       // https://eslint.org/docs/rules/no-loss-of-precision
       'no-loss-of-precision': 'error',
 
-      // Disallow characters which are made with multiple code points in character class syntax
+      // Disallow characters which are made with multiple code points in
+      // character class syntax
       // https://eslint.org/docs/rules/no-misleading-character-class
       'no-misleading-character-class': 'error',
 
-      // disallow the use of object properties of the global object (Math and JSON) as functions
+      // disallow the use of object properties of the global object (Math and
+      // JSON) as functions
       'no-obj-calls': 'error',
 
       // Disallow new operators with global non-constructor functions
       // https://eslint.org/docs/latest/rules/no-new-native-nonconstructor
-      // TODO: semver-major, enable
       'no-new-native-nonconstructor': 'off',
 
       // Disallow returning values from Promise executor functions
@@ -169,7 +170,8 @@ export default [
       // https://eslint.org/docs/rules/no-unexpected-multiline
       'no-unexpected-multiline': 'error',
 
-      // disallow unreachable statements after a return, throw, continue, or break statement
+      // disallow unreachable statements after a return, throw, continue, or
+      // break statement
       'no-unreachable': 'error',
 
       // Disallow loops with a body that allows only one iteration
@@ -177,7 +179,8 @@ export default [
       'no-unreachable-loop': [
         'error',
         {
-          ignore: [], // WhileStatement, DoWhileStatement, ForStatement, ForInStatement, ForOfStatement
+          // WhileStatement, DoWhileStatement, ForStatement, ForInStatement, ForOfStatement
+          ignore: [],
         },
       ],
 
@@ -189,7 +192,8 @@ export default [
       // https://eslint.org/docs/rules/no-unsafe-negation
       'no-unsafe-negation': 'error',
 
-      // disallow use of optional chaining in contexts where the undefined value is not allowed
+      // disallow use of optional chaining in contexts where the undefined value
+      // is not allowed
       // https://eslint.org/docs/rules/no-unsafe-optional-chaining
       'no-unsafe-optional-chaining': [
         'error',
@@ -198,8 +202,7 @@ export default [
 
       // Disallow Unused Private Class Members
       // https://eslint.org/docs/rules/no-unused-private-class-members
-      // TODO: enable once eslint 7 is dropped (which is semver-major)
-      'no-unused-private-class-members': 'off',
+      'no-unused-private-class-members': 'error',
 
       // Disallow useless backreferences in regular expressions
       // https://eslint.org/docs/rules/no-useless-backreference
@@ -209,7 +212,8 @@ export default [
       // deprecated in favor of no-unsafe-negation
       'no-negated-in-lhs': 'off',
 
-      // Disallow assignments that can lead to race conditions due to usage of await or yield
+      // Disallow assignments that can lead to race conditions due to usage of
+      // await or yield
       // https://eslint.org/docs/rules/require-atomic-updates
       // note: not enabled because it is very buggy
       'require-atomic-updates': 'off',

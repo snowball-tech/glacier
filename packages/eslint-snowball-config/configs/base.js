@@ -3,10 +3,22 @@ import pluginPromise from 'eslint-plugin-promise'
 import eslintPluginUnicorn from 'eslint-plugin-unicorn'
 import globals from 'globals'
 
+import bestPractices from './best-practices.js'
+import errors from './errors.js'
+import es6 from './es6.js'
+import stylistic from './stylistic.js'
+import variables from './variables.js'
+
 export default [
   js.configs.recommended,
   eslintPluginUnicorn.configs['flat/recommended'],
   pluginPromise.configs['flat/recommended'],
+
+  ...bestPractices,
+  ...errors,
+  ...es6,
+  ...stylistic,
+  ...variables,
 
   {
     name: 'base',
