@@ -114,5 +114,5 @@
     "quality-fix": "yarn run lint-fix && yarn run format-fix",
     "update-deps": "yarn run -T update-deps"
   },
-  "version": "5.5.3"
+  "version": "5.6.0"
 }

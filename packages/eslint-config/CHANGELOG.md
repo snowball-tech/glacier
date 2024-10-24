@@ -1,3 +1,7 @@
+# @snowball-tech/eslint-config [5.6.0](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@5.5.3...@snowball-tech/eslint-config@5.6.0) (2024-10-24)
+
+- **eslint:** add new package for ESLint v9 support (with Flat Config) ([9d0e769](https://github.com/snowball-tech/glacier/commit/9d0e7692bf955368830bb1d6003a4b25856277f2))
+
 ## @snowball-tech/eslint-config [5.5.3](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@5.5.2...@snowball-tech/eslint-config@5.5.3) (2024-10-03)
 
 ## @snowball-tech/eslint-config [5.5.2](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-config@5.5.1...@snowball-tech/eslint-config@5.5.2) (2024-10-03)
