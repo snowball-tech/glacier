@@ -1,3 +1,7 @@
+# @snowball-tech/semantic-release-config [2.2.0](https://github.com/snowball-tech/glacier/compare/@snowball-tech/semantic-release-config@2.1.16...@snowball-tech/semantic-release-config@2.2.0) (2024-10-24)
+
+- **eslint:** add new package for ESLint v9 support (with Flat Config) ([9d0e769](https://github.com/snowball-tech/glacier/commit/9d0e7692bf955368830bb1d6003a4b25856277f2))
+
 ## @snowball-tech/semantic-release-config [2.1.16](https://github.com/snowball-tech/glacier/compare/@snowball-tech/semantic-release-config@2.1.15...@snowball-tech/semantic-release-config@2.1.16) (2024-10-03)
 
 ## @snowball-tech/semantic-release-config [2.1.15](https://github.com/snowball-tech/glacier/compare/@snowball-tech/semantic-release-config@2.1.14...@snowball-tech/semantic-release-config@2.1.15) (2024-10-03)
