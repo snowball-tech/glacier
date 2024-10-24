@@ -14,11 +14,9 @@ export function patchConfig(configs, pluginsToPatch) {
   return configs.map((entry) => {
     const { plugins } = entry
 
+    // eslint-disable-next-line no-restricted-syntax
     for (const key in plugins) {
-      if (
-        Object.prototype.hasOwnProperty.call(plugins, key) &&
-        pluginsToPatch.includes(key)
-      ) {
+      if (Object.hasOwn(plugins, key) && pluginsToPatch.includes(key)) {
         plugins[key] = fixupPluginRules(plugins[key])
       }
     }

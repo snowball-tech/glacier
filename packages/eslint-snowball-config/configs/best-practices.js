@@ -34,7 +34,7 @@ export default [
 
       // specify curly brace conventions for all control statements
       // https://eslint.org/docs/rules/curly
-      curly: ['error', 'multi-line'], // multiline
+      curly: ['error', 'multi-line'],
 
       // require default case in switch statements
       // https://eslint.org/docs/rules/default-case
@@ -73,7 +73,6 @@ export default [
 
       // disallow the use of alert, confirm, and prompt
       // https://eslint.org/docs/rules/no-alert
-      // TODO: enable, semver-major
       'no-alert': 'warn',
 
       // disallow use of arguments.caller or arguments.callee
@@ -88,7 +87,8 @@ export default [
       // https://eslint.org/docs/rules/no-constructor-return
       'no-constructor-return': 'error',
 
-      // disallow division operators explicitly at beginning of regular expression
+      // disallow division operators explicitly at beginning of regular
+      // expression
       // https://eslint.org/docs/rules/no-div-regex
       'no-div-regex': 'off',
 
@@ -111,8 +111,7 @@ export default [
 
       // Disallow empty static blocks
       // https://eslint.org/docs/latest/rules/no-empty-static-block
-      // TODO: semver-major, enable
-      'no-empty-static-block': 'off',
+      'no-empty-static-block': 'error',
 
       // disallow comparisons to null without a type-checking operator
       // https://eslint.org/docs/rules/no-eq-null
@@ -138,7 +137,8 @@ export default [
       // https://eslint.org/docs/rules/no-fallthrough
       'no-fallthrough': 'error',
 
-      // disallow the use of leading or trailing decimal points in numeric literals
+      // disallow the use of leading or trailing decimal points in numeric
+      // literals
       // https://eslint.org/docs/rules/no-floating-decimal
       'no-floating-decimal': 'error',
 
@@ -215,7 +215,8 @@ export default [
       // https://eslint.org/docs/rules/no-multi-str
       'no-multi-str': 'error',
 
-      // disallow use of new operator when not part of the assignment or comparison
+      // disallow use of new operator when not part of the assignment or
+      // comparison
       // https://eslint.org/docs/rules/no-new
       'no-new': 'error',
 
@@ -233,8 +234,7 @@ export default [
 
       // Disallow calls to the Object constructor without an argument
       // https://eslint.org/docs/latest/rules/no-object-constructor
-      // TODO: enable, semver-major
-      'no-object-constructor': 'off',
+      'no-object-constructor': 'error',
 
       // disallow use of (old style) octal literals
       // https://eslint.org/docs/rules/no-octal
@@ -252,17 +252,28 @@ export default [
         'error',
         {
           ignorePropertyModificationsFor: [
-            'acc', // for reduce accumulators
-            'accumulator', // for reduce accumulators
-            'e', // for e.returnvalue
-            'ctx', // for Koa routing
-            'context', // for Koa routing
-            'req', // for Express requests
-            'request', // for Express requests
-            'res', // for Express responses
-            'response', // for Express responses
-            '$scope', // for Angular 1 scopes
-            'staticContext', // for ReactRouter context
+            // for reduce accumulators
+            'acc',
+            // for reduce accumulators
+            'accumulator',
+            // for e.returnvalue
+            'e',
+            // for Koa routing
+            'ctx',
+            // for Koa routing
+            'context',
+            // for Express requests
+            'req',
+            // for Express requests
+            'request',
+            // for Express responses
+            'res',
+            // for Express responses
+            'response',
+            // for Angular 1 scopes
+            '$scope',
+            // for ReactRouter context
+            'staticContext',
           ],
           ignorePropertyModificationsForRegex: ['.*Ref$'],
           props: true,
@@ -428,8 +439,7 @@ export default [
 
       // Prefer Object.hasOwn() over Object.prototype.hasOwnProperty.call()
       // https://eslint.org/docs/rules/prefer-object-has-own
-      // TODO: semver-major: enable thus rule, once eslint v8.5.0 is required
-      'prefer-object-has-own': 'off',
+      'prefer-object-has-own': 'error',
 
       // https://eslint.org/docs/rules/prefer-regex-literals
       'prefer-regex-literals': [
@@ -443,7 +453,8 @@ export default [
       // https://eslint.org/docs/rules/radix
       radix: 'error',
 
-      // require `await` in `async function` (note: this is a horrible rule that should never be used)
+      // require `await` in `async function` (note: this is a horrible rule that
+      // should never be used)
       // https://eslint.org/docs/rules/require-await
       'require-await': 'off',
 

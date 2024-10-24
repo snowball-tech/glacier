@@ -5,13 +5,11 @@ export default [
     rules: {
       // enforce line breaks after opening and before closing array brackets
       // https://eslint.org/docs/rules/array-bracket-newline
-      // TODO: enable? semver-major
-      'array-bracket-newline': ['off', 'consistent'], // object option alternative: { multiline: true, minItems: 3 }
+      'array-bracket-newline': ['error', 'consistent'],
 
       // enforce line breaks between array elements
       // https://eslint.org/docs/rules/array-element-newline
-      // TODO: enable? semver-major
-      'array-element-newline': ['off', { minItems: 3, multiline: true }],
+      'array-element-newline': ['error', { minItems: 3, multiline: true }],
 
       // enforce spacing inside array brackets
       'array-bracket-spacing': ['error', 'never'],
@@ -115,8 +113,14 @@ export default [
 
       // enforces use of function declarations or expressions
       // https://eslint.org/docs/rules/func-style
-      // TODO: enable
-      'func-style': ['off', 'expression'],
+      'func-style': [
+        'warn',
+        'declaration',
+        {
+          allowArrowFunctions: true,
+          overrides: { namedExports: 'ignore' },
+        },
+      ],
 
       // require line breaks inside function parentheses if there are line breaks between parameters
       // https://eslint.org/docs/rules/function-paren-newline
@@ -244,9 +248,8 @@ export default [
 
       // Require or disallow logical assignment logical operator shorthand
       // https://eslint.org/docs/latest/rules/logical-assignment-operators
-      // TODO, semver-major: enable
       'logical-assignment-operators': [
-        'off',
+        'error',
         'always',
         {
           enforceForIfStatements: true,
@@ -313,8 +316,7 @@ export default [
 
       // require multiline ternary
       // https://eslint.org/docs/rules/multiline-ternary
-      // TODO: enable?
-      'multiline-ternary': ['off', 'never'],
+      'multiline-ternary': ['off', 'always'],
 
       // require a capital letter for constructors
       'new-cap': [
@@ -456,7 +458,7 @@ export default [
       'no-underscore-dangle': [
         'error',
         {
-          allow: [],
+          allow: ['__filename', '__dirname'],
           allowAfterSuper: false,
           allowAfterThis: false,
           enforceInMethodNames: true,
@@ -631,11 +633,13 @@ export default [
           block: {
             balanced: true,
             exceptions: ['-', '+'],
-            markers: ['=', '!', ':', '::'], // space here to support sprockets directives and flow comment types
+            // space here to support sprockets directives and flow comment types
+            markers: ['=', '!', ':', '::'],
           },
           line: {
             exceptions: ['-', '+'],
-            markers: ['=', '!', '/'], // space here to support sprockets directives, slash for TS /// comments
+            // space here to support sprockets directives, slash for TS /// comments
+            markers: ['=', '!', '/'],
           },
         },
       ],

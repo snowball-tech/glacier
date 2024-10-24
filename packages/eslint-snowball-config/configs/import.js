@@ -64,28 +64,50 @@ export default [
         'off',
         {
           devDependencies: [
-            'test/**', // tape, common npm pattern
-            'tests/**', // also common npm pattern
-            'spec/**', // mocha, rspec-like pattern
-            '**/__tests__/**', // jest pattern
-            '**/__mocks__/**', // jest pattern
-            'test.{js,jsx}', // repos with a single test file
-            'test-*.{js,jsx}', // repos with multiple top-level test files
-            '**/*{.,_}{test,spec}.{js,jsx}', // tests where the extension or filename suffix denotes that it is a test
-            '**/jest.config.js', // jest config
-            '**/jest.setup.js', // jest setup
-            '**/vue.config.js', // vue-cli config
-            '**/webpack.config.js', // webpack config
-            '**/webpack.config.*.js', // webpack config
-            '**/rollup.config.js', // rollup config
-            '**/rollup.config.*.js', // rollup config
-            '**/gulpfile.js', // gulp config
-            '**/gulpfile.*.js', // gulp config
-            '**/Gruntfile{,.js}', // grunt config
-            '**/protractor.conf.js', // protractor config
-            '**/protractor.conf.*.js', // protractor config
-            '**/karma.conf.js', // karma config
-            '**/.eslintrc.js', // eslint config
+            // tape, common npm pattern
+            'test/**',
+            // also common npm pattern
+            'tests/**',
+            // mocha, rspec-like pattern
+            'spec/**',
+            // jest pattern
+            '**/__tests__/**',
+            // jest pattern
+            '**/__mocks__/**',
+            // repos with a single test file
+            'test.{js,jsx}',
+            // repos with multiple top-level test files
+            'test-*.{js,jsx}',
+            // tests where the extension or filename suffix denotes that it is a test
+            '**/*{.,_}{test,spec}.{js,jsx}',
+            // jest config
+            '**/jest.config.js',
+            // jest setup
+            '**/jest.setup.js',
+            // vue-cli config
+            '**/vue.config.js',
+            // webpack config
+            '**/webpack.config.js',
+            // webpack config
+            '**/webpack.config.*.js',
+            // rollup config
+            '**/rollup.config.js',
+            // rollup config
+            '**/rollup.config.*.js',
+            // gulp config
+            '**/gulpfile.js',
+            // gulp config
+            '**/gulpfile.*.js',
+            // grunt config
+            '**/Gruntfile{,.js}',
+            // protractor config
+            '**/protractor.conf.js',
+            // protractor config
+            '**/protractor.conf.*.js',
+            // karma config
+            '**/karma.conf.js',
+            // eslint config
+            '**/.eslintrc.js',
           ],
           optionalDependencies: false,
         },
@@ -107,7 +129,6 @@ export default [
 
       // No Node.js builtin modules
       // https://github.com/import-js/eslint-plugin-import/blob/master/docs/rules/no-nodejs-modules.md
-      // TODO: enable?
       'import/no-nodejs-modules': 'off',
 
       // Style guide:
@@ -126,7 +147,6 @@ export default [
       'import/no-duplicates': 'error',
 
       // disallow namespace imports
-      // TODO: enable?
       // https://github.com/import-js/eslint-plugin-import/blob/master/docs/rules/no-namespace.md
       'import/no-namespace': 'off',
 

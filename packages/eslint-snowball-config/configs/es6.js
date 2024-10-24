@@ -5,7 +5,6 @@ export default [
     rules: {
       // enforces no braces where they can be omitted
       // https://eslint.org/docs/rules/arrow-body-style
-      // TODO: enable requireReturnForObjectLiteral?
       'arrow-body-style': [
         'error',
         'as-needed',
@@ -64,8 +63,11 @@ export default [
         'error',
         {
           restrictedNamedExports: [
-            'default', // use `export default` to provide a default export
-            'then', // this will cause tons of confusion when your module is dynamically `import()`ed, and will break in most node ESM versions
+            // use `export default` to provide a default export
+            'default',
+            // this will cause tons of confusion when your module is dynamically
+            // `import()`ed, and will break in most node ESM versions
+            'then',
           ],
         },
       ],
@@ -92,7 +94,8 @@ export default [
       // https://eslint.org/docs/rules/no-useless-constructor
       'no-useless-constructor': 'error',
 
-      // disallow renaming import, export, and destructured assignments to the same name
+      // disallow renaming import, export, and destructured assignments to the
+      // same name
       // https://eslint.org/docs/rules/no-useless-rename
       'no-useless-rename': [
         'error',
@@ -126,7 +129,8 @@ export default [
         },
       ],
 
-      // suggest using of const declaration for variables that are never modified after declared
+      // suggest using of const declaration for variables that are never
+      // modified after declared
       'prefer-const': [
         'error',
         {
@@ -143,8 +147,8 @@ export default [
         {
           // Prevent assignment expressions to be considered as wrong
           // implementations.
-          // For example, instead of writting `[this.item] = array`, we'll have to
-          // keep `this.item = array[O]`.
+          // For example, instead of writting `[this.item] = array`, we'll have
+          // to keep `this.item = array[O]`.
           AssignmentExpression: {
             array: false,
             object: false,
