@@ -36,7 +36,7 @@
   "license": "MIT",
   "main": "index.js",
   "name": "@snowball-tech/stylelint-config",
-  "packageManager": "yarn@4.5.0",
+  "packageManager": "yarn@4.5.1",
   "peerDependencies": {
     "stylelint": "^16.0.0"
   },

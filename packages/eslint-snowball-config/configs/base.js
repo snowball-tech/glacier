@@ -31,6 +31,7 @@ export default [
       '!.storybook',
       '!.vscode',
       '**/translations/*.json',
+      '.yarn/**/*',
       '.pnp.*',
       '*.lock',
       '*.tsbuildinfo',
