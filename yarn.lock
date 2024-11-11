@@ -7533,6 +7533,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"eslint-compat-utils@npm:^0.6.0":
+  version: 0.6.0
+  resolution: "eslint-compat-utils@npm:0.6.0"
+  dependencies:
+    semver: "npm:^7.5.4"
+  peerDependencies:
+    eslint: ">=6.0.0"
+  checksum: 10/726534ad9a873485790e190999136ac80d4ccf363345242c3669cc49fd08f2cfa7b03477e81d292419067152d898db20f4f198acfe2e7ff1fff9bbc97effb441
+  languageName: node
+  linkType: hard
+
 "eslint-config-airbnb-base@npm:^15.0.0":
   version: 15.0.0
   resolution: "eslint-config-airbnb-base@npm:15.0.0"
@@ -7627,6 +7638,21 @@ __metadata:
     eslint-plugin-import-x:
       optional: true
   checksum: 10/5f9956dbbd0becc3d6c6cb945dad0e5e6f529cfd0f488d5688f3c59840cd7f4a44ab6aee0f54b5c4188134dab9a01cb63c1201767bde7fc330b7c1a14747f8ac
+  languageName: node
+  linkType: hard
+
+"eslint-json-compat-utils@npm:^0.2.1":
+  version: 0.2.1
+  resolution: "eslint-json-compat-utils@npm:0.2.1"
+  dependencies:
+    esquery: "npm:^1.6.0"
+  peerDependencies:
+    eslint: "*"
+    jsonc-eslint-parser: ^2.4.0
+  peerDependenciesMeta:
+    "@eslint/json":
+      optional: true
+  checksum: 10/083272c0cdbc6acd9fe9bfe939e0c76493a426400141203d7f0e76344d5874c5a88535c59300045e4c6f95baa5084eff512013f82bcd9e7426404c785e2ea55d
   languageName: node
   linkType: hard
 
@@ -7739,11 +7765,12 @@ __metadata:
   linkType: hard
 
 "eslint-plugin-jsonc@npm:^2.16.0":
-  version: 2.16.0
-  resolution: "eslint-plugin-jsonc@npm:2.16.0"
+  version: 2.18.1
+  resolution: "eslint-plugin-jsonc@npm:2.18.1"
   dependencies:
     "@eslint-community/eslint-utils": "npm:^4.2.0"
-    eslint-compat-utils: "npm:^0.5.0"
+    eslint-compat-utils: "npm:^0.6.0"
+    eslint-json-compat-utils: "npm:^0.2.1"
     espree: "npm:^9.6.1"
     graphemer: "npm:^1.4.0"
     jsonc-eslint-parser: "npm:^2.0.4"
@@ -7751,7 +7778,7 @@ __metadata:
     synckit: "npm:^0.6.0"
   peerDependencies:
     eslint: ">=6.0.0"
-  checksum: 10/bec880a4d6f0cd8ba37ae3a6528477d3161b41ca7b885ed43c34bed95d09b30fd1d277bfa9e487164f5a8aad265f3b075a4b479c20811fe0dd18c25b6835cf56
+  checksum: 10/f44c02ed3bc4a2857de4e1ac02ca604d30aefb278af0ac2ce33154e9e027ea0b0b677770d4df5e548278da40ecaeb40d0516848f86e6f665e4e05cb0ed6fe143
   languageName: node
   linkType: hard
 
