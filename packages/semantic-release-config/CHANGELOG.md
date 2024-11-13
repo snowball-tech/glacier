@@ -1,3 +1,5 @@
+## @snowball-tech/semantic-release-config [2.2.3](https://github.com/snowball-tech/glacier/compare/@snowball-tech/semantic-release-config@2.2.2...@snowball-tech/semantic-release-config@2.2.3) (2024-11-13)
+
 ## @snowball-tech/semantic-release-config [2.2.2](https://github.com/snowball-tech/glacier/compare/@snowball-tech/semantic-release-config@2.2.1...@snowball-tech/semantic-release-config@2.2.2) (2024-10-24)
 
 - **eslint:** fix eslint flat config ([8c4b9db](https://github.com/snowball-tech/glacier/commit/8c4b9db805ccb292ebaebe406ae302e1f38113cc))
