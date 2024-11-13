@@ -1,3 +1,7 @@
+## @snowball-tech/eslint-snowball-config [1.0.4](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-snowball-config@1.0.3...@snowball-tech/eslint-snowball-config@1.0.4) (2024-11-13)
+
+- **eslint:** remove anonymous default export rule in next js ([ee745f0](https://github.com/snowball-tech/glacier/commit/ee745f05f8c589266d274ba55e5164830e3af90f))
+
 ## @snowball-tech/eslint-snowball-config [1.0.3](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-snowball-config@1.0.2...@snowball-tech/eslint-snowball-config@1.0.3) (2024-10-24)
 
 - **eslint:** fix eslint flat config ([8c4b9db](https://github.com/snowball-tech/glacier/commit/8c4b9db805ccb292ebaebe406ae302e1f38113cc))
