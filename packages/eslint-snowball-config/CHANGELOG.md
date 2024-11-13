@@ -1,3 +1,7 @@
+## @snowball-tech/eslint-snowball-config [1.0.5](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-snowball-config@1.0.4...@snowball-tech/eslint-snowball-config@1.0.5) (2024-11-13)
+
+- **eslint:** allow nesting ternary ([669800a](https://github.com/snowball-tech/glacier/commit/669800ac45b01d95be03ff5f85ea2b0559da2e6c))
+
 ## @snowball-tech/eslint-snowball-config [1.0.4](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-snowball-config@1.0.3...@snowball-tech/eslint-snowball-config@1.0.4) (2024-11-13)
 
 - **eslint:** remove anonymous default export rule in next js ([ee745f0](https://github.com/snowball-tech/glacier/commit/ee745f05f8c589266d274ba55e5164830e3af90f))
