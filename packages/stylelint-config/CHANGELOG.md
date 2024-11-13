@@ -1,3 +1,5 @@
+## @snowball-tech/stylelint-config [2.3.2](https://github.com/snowball-tech/glacier/compare/@snowball-tech/stylelint-config@2.3.1...@snowball-tech/stylelint-config@2.3.2) (2024-11-13)
+
 ## @snowball-tech/stylelint-config [2.3.1](https://github.com/snowball-tech/glacier/compare/@snowball-tech/stylelint-config@2.3.0...@snowball-tech/stylelint-config@2.3.1) (2024-10-24)
 
 # @snowball-tech/stylelint-config [2.3.0](https://github.com/snowball-tech/glacier/compare/@snowball-tech/stylelint-config@2.2.12...@snowball-tech/stylelint-config@2.3.0) (2024-10-24)
