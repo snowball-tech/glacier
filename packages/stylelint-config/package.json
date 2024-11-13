@@ -14,7 +14,7 @@
   },
   "description": "Stylelint ruleset by Snowball supporting JSX, CSS in JS and more.",
   "engines": {
-    "node": ">=18 <=20",
+    "node": ">=18 <=22",
     "yarn": "^4.0.0"
   },
   "files": [
