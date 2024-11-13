@@ -7,8 +7,6 @@ module.exports = {
   ignorePatterns: ['!src/app/.well-known'],
 
   rules: {
-    'import/no-anonymous-default-export': 'warn',
-
     'jsx-a11y/alt-text': [
       'warn',
       {
