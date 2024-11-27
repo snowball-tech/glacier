@@ -4336,11 +4336,11 @@ __metadata:
   linkType: hard
 
 "@types/eslint-plugin-jsx-a11y@npm:^6.9.0":
-  version: 6.9.0
-  resolution: "@types/eslint-plugin-jsx-a11y@npm:6.9.0"
+  version: 6.10.0
+  resolution: "@types/eslint-plugin-jsx-a11y@npm:6.10.0"
   dependencies:
     "@types/eslint": "npm:*"
-  checksum: 10/779cfc692f7413942933c46d8b39cb1caa0c6e32ad430f12ab0c69bd49108cf5e80ed7fc8231443f2e0df4a8b57c9e101f538e175ca6b1daa4169df0551466da
+  checksum: 10/a9891ae4989377560944895c1897eb902057837d9c250cbc1005a069eeb7778fb09fa514ac3f8043cc6157cba66ff532844e81a5198b6f2d24cbc8dfcd09e058
   languageName: node
   linkType: hard
 
