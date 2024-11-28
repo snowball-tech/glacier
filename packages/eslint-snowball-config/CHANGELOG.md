@@ -1,3 +1,5 @@
+# @snowball-tech/eslint-snowball-config [2.0.0](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-snowball-config@1.0.5...@snowball-tech/eslint-snowball-config@2.0.0) (2024-11-28)
+
 ## @snowball-tech/eslint-snowball-config [1.0.5](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-snowball-config@1.0.4...@snowball-tech/eslint-snowball-config@1.0.5) (2024-11-13)
 
 - **eslint:** allow nesting ternary ([669800a](https://github.com/snowball-tech/glacier/commit/669800ac45b01d95be03ff5f85ea2b0559da2e6c))
