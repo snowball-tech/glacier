@@ -1,5 +1,5 @@
 ESLint Config:
-  - package/eslint-config/**
+  - package/eslint-snowball-config/**
 
 Prettier Config:
   - package/prettier-config/**
@@ -9,6 +9,3 @@ Renovate Config:
 
 Semantic Release Config:
   - package/semantic-release-config/**
-
-Stylelint Config:
-  - package/stylelint-config/**

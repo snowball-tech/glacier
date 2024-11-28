@@ -2,6 +2,8 @@ export default [
   {
     name: 'best-practices',
 
+    files: ['**/*.{js,mjs,cjs,jsx,ts,mts,tsx}'],
+
     rules: {
       // enforces getter/setter pairs in objects
       // https://eslint.org/docs/rules/accessor-pairs

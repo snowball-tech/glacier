@@ -50,7 +50,7 @@
     "registry": "https://registry.npmjs.org"
   },
   "repository": {
-    "directory": "packages/eslint-config",
+    "directory": "packages/semantic-release-config",
     "type": "git",
     "url": "git+https://github.com/snowball-tech/glacier.git"
   },

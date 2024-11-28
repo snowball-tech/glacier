@@ -7,7 +7,7 @@ const compatConfig = getCompatConfig(
     {
       name: 'next',
 
-      ignores: ['.next/*', '!src/app/.well-known'],
+      ignores: ['**/.next/*', '**/.well-known'],
 
       rules: {
         'jsx-a11y/alt-text': [
@@ -30,6 +30,7 @@ const compatConfig = getCompatConfig(
       },
     },
   ],
+  ['**/*.{js,mjs,cjs,jsx,ts,mts,tsx}'],
 )
 
 export default compatConfig

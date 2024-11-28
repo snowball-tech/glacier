@@ -4,7 +4,7 @@ export default [
   {
     name: 'jest',
 
-    files: ['**/*.test.js', '**/*.test.jsx'],
+    files: ['**/*.test.{js,jsx,ts,tsx}'],
 
     ...jest.configs['flat/recommended'],
     ...jest.configs['flat/style'],

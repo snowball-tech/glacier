@@ -2,6 +2,8 @@ export default [
   {
     name: 'stylistic',
 
+    files: ['**/*.{js,mjs,cjs,jsx,ts,mts,tsx}'],
+
     rules: {
       // enforce line breaks after opening and before closing array brackets
       // https://eslint.org/docs/rules/array-bracket-newline
@@ -459,8 +461,6 @@ export default [
         'error',
         {
           allow: ['__filename', '__dirname'],
-          allowAfterSuper: false,
-          allowAfterThis: false,
           enforceInMethodNames: true,
         },
       ],

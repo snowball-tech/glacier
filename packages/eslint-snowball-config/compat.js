@@ -25,10 +25,13 @@ export function patchConfig(configs, pluginsToPatch) {
   })
 }
 
-export default function getCompatConfig(configs, plugins, extraConfig) {
+export default function getCompatConfig(configs, plugins, extraConfig, files) {
   const compatConfig = configs.flatMap((config) => compat.extends(config))
 
   const patchedConfig = patchConfig([...compatConfig], plugins)
 
-  return [...patchedConfig, ...extraConfig]
+  return [...patchedConfig, ...extraConfig].map((config) => ({
+    ...config,
+    files,
+  }))
 }

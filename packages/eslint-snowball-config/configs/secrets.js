@@ -4,6 +4,8 @@ export default [
   {
     name: 'secrets',
 
+    files: ['**/*.{js,mjs,cjs,jsx,ts,mts,tsx}'],
+
     plugins: {
       'no-secrets': noSecrets,
     },

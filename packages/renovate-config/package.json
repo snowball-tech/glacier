@@ -6,7 +6,7 @@
   ],
   "description": "Renovate base configuration by Snowball",
   "devDependencies": {
-    "renovate": "^39.11.7"
+    "renovate": "^39.36.0"
   },
   "engines": {
     "node": ">=18 <=20",
@@ -28,7 +28,7 @@
     "registry": "https://registry.npmjs.org"
   },
   "repository": {
-    "directory": "packages/eslint-config",
+    "directory": "packages/renovate-config",
     "type": "git",
     "url": "git+https://github.com/snowball-tech/glacier.git"
   },
@@ -36,8 +36,10 @@
     "check-deps": "yarn run -T depcheck --ignores=''",
     "format": "yarn run -T prettier --cache --check .",
     "format-fix": "yarn run -T prettier --cache --write .",
-    "quality": "yarn run format",
-    "quality-fix": "yarn run format-fix",
+    "lint": "yarn run -T eslint --cache .",
+    "lint-fix": "yarn run -T eslint --cache --fix .",
+    "quality": "yarn run lint && yarn run format",
+    "quality-fix": "yarn run lint-fix && yarn run format-fix",
     "update-deps": "yarn run -T update-deps",
     "validate-config": "renovate-config-validator default.json5"
   },

@@ -2,7 +2,13 @@ import * as mdx from 'eslint-plugin-mdx'
 import storybook from 'eslint-plugin-storybook'
 
 export default [
-  ...storybook.configs['flat/recommended'],
+  {
+    name: 'storybook',
+
+    files: ['**/*.{js,mjs,cjs,jsx,ts,mts,tsx}'],
+
+    ...storybook.configs['flat/recommended'],
+  },
 
   {
     name: 'storybook-mdx-base',
@@ -19,7 +25,7 @@ export default [
   {
     name: 'storybook-mdx',
 
-    files: ['*.mdx'],
+    files: ['**/*.mdx'],
 
     rules: {
       'react/jsx-filename-extension': [

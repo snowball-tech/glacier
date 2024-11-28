@@ -44,18 +44,12 @@ function getTitle(type) {
   return `${isEmpty(emoji) ? '' : `${emoji} `}${title}`
 }
 
-const commitGroupOrder = ORDER.map((type) => {
-  return getTitle(type)
-})
+const commitGroupOrder = ORDER.map((type) => getTitle(type))
 
 module.exports = {
-  commitGroupsSort: (commitGroup, otherCommitGroup) => {
-    return (
-      commitGroupOrder.indexOf(commitGroup.title) -
-      commitGroupOrder.indexOf(otherCommitGroup.title)
-    )
-  },
-
+  commitGroupsSort: (commitGroup, otherCommitGroup) =>
+    commitGroupOrder.indexOf(commitGroup.title) -
+    commitGroupOrder.indexOf(otherCommitGroup.title),
   commitsSort: ['scope', 'subject'],
   groupBy: 'groupType',
   noteGroupsSort: 'title',

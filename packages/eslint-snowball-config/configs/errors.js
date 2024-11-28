@@ -2,6 +2,8 @@ export default [
   {
     name: 'errors',
 
+    files: ['**/*.{js,mjs,cjs,jsx,ts,mts,tsx}'],
+
     rules: {
       // Enforce “for” loop update clause moving the counter in the right direction
       // https://eslint.org/docs/rules/for-direction
