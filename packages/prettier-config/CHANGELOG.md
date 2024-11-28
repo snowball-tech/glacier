@@ -1,3 +1,5 @@
+# @snowball-tech/prettier-config [2.0.0](https://github.com/snowball-tech/glacier/compare/@snowball-tech/prettier-config@1.6.1...@snowball-tech/prettier-config@2.0.0) (2024-11-28)
+
 ## @snowball-tech/prettier-config [1.6.1](https://github.com/snowball-tech/glacier/compare/@snowball-tech/prettier-config@1.6.0...@snowball-tech/prettier-config@1.6.1) (2024-10-24)
 
 # @snowball-tech/prettier-config [1.6.0](https://github.com/snowball-tech/glacier/compare/@snowball-tech/prettier-config@1.5.3...@snowball-tech/prettier-config@1.6.0) (2024-10-24)
