@@ -5,10 +5,10 @@
     "Clément PRÉVOT <clement@snowball.xyz> (https://github.com/clementprevot)"
   ],
   "dependencies": {
-    "prettier": "^3.3.3",
+    "prettier": "^3.4.1",
     "prettier-plugin-organize-attributes": "^1.0.0",
     "prettier-plugin-sh": "^0.14.0",
-    "prettier-plugin-tailwindcss": "^0.6.8"
+    "prettier-plugin-tailwindcss": "^0.6.9"
   },
   "description": "Prettier config by Snowball",
   "engines": {
@@ -41,8 +41,10 @@
     "check-deps": "yarn run -T depcheck --ignores='prettier-plugin-*'",
     "format": "yarn run -T prettier --cache --check .",
     "format-fix": "yarn run -T prettier --cache --write .",
-    "quality": "yarn run format",
-    "quality-fix": "yarn run format-fix",
+    "lint": "yarn run -T eslint --cache .",
+    "lint-fix": "yarn run -T eslint --cache --fix .",
+    "quality": "yarn run lint && yarn run format",
+    "quality-fix": "yarn run lint-fix && yarn run format-fix",
     "update-deps": "yarn run -T update-deps"
   },
   "version": "1.6.1"

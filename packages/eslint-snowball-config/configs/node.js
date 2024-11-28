@@ -2,6 +2,8 @@ export default [
   {
     name: 'node',
 
+    files: ['**/*.{js,mjs,cjs,ts,mts}'],
+
     rules: {
       // enforce return after a callback
       'callback-return': 'off',

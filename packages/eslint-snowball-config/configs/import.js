@@ -1,24 +1,14 @@
 import importPlugin from 'eslint-plugin-import'
 
 export default [
-  importPlugin.flatConfigs.recommended,
-
-  {
-    name: 'import-md',
-
-    files: ['*.md/*.js', '*.mdx/*.js'],
-
-    rules: {
-      'import/no-unresolved': 'off',
-    },
-  },
-
   {
     name: 'import',
 
-    rules: {
-      // Static analysis:
+    files: ['**/*.{js,mjs,cjs,jsx,ts,mts,tsx}'],
 
+    ...importPlugin.flatConfigs.recommended,
+
+    rules: {
       // ensure imports point to files/modules that can be resolved
       // https://github.com/import-js/eslint-plugin-import/blob/master/docs/rules/no-unresolved.md
       'import/no-unresolved': [

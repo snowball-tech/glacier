@@ -1,10 +1,14 @@
 import perfectionist from 'eslint-plugin-perfectionist'
 
 export default [
-  perfectionist.configs['recommended-natural'],
-
   {
     name: 'perfectionist',
+
+    files: ['**/*.{js,mjs,cjs,jsx,ts,mts,tsx}'],
+
+    ignores: ['**/*.{md,mdx}'],
+
+    ...perfectionist.configs['recommended-natural'],
 
     rules: {
       // Disable all sorting rules from TypeScript ESLint to use the perfectionist
@@ -17,10 +21,26 @@ export default [
       'import/order': 'off',
       'import/sort-imports': 'off',
 
+      'perfectionist/sort-array-includes': [
+        'error',
+        {
+          partitionByNewLine: true,
+          type: 'natural',
+        },
+      ],
+
       'perfectionist/sort-enums': [
         'error',
         {
-          partitionByComment: true,
+          partitionByNewLine: true,
+          type: 'natural',
+        },
+      ],
+
+      'perfectionist/sort-exports': [
+        'error',
+        {
+          partitionByNewLine: true,
           type: 'natural',
         },
       ],
@@ -53,8 +73,9 @@ export default [
             'side-effect-style',
             'unknown',
           ],
-          internalPattern: ['~/**', '@/**'],
+          internalPattern: ['^~/.*', '^@/.*'],
           newlinesBetween: 'always',
+          partitionByComment: true,
           type: 'natural',
         },
       ],
@@ -72,6 +93,14 @@ export default [
         },
       ],
 
+      'perfectionist/sort-intersection-types': [
+        'error',
+        {
+          partitionByNewLine: true,
+          type: 'natural',
+        },
+      ],
+
       'perfectionist/sort-jsx-props': [
         'error',
         {
@@ -84,10 +113,21 @@ export default [
         },
       ],
 
+      'perfectionist/sort-maps': [
+        'error',
+        {
+          partitionByNewLine: true,
+          type: 'natural',
+        },
+      ],
+
+      'perfectionist/sort-modules': ['off'],
+
       'perfectionist/sort-named-exports': [
         'error',
         {
           groupKind: 'types-first',
+          partitionByNewLine: true,
           type: 'natural',
         },
       ],
@@ -96,6 +136,7 @@ export default [
         'error',
         {
           groupKind: 'types-first',
+          partitionByNewLine: true,
           type: 'natural',
         },
       ],
@@ -122,9 +163,26 @@ export default [
         },
       ],
 
+      'perfectionist/sort-sets': [
+        'error',
+        {
+          partitionByNewLine: true,
+          type: 'natural',
+        },
+      ],
+
       'perfectionist/sort-union-types': [
         'error',
         {
+          partitionByNewLine: true,
+          type: 'natural',
+        },
+      ],
+
+      'perfectionist/sort-variable-declarations': [
+        'error',
+        {
+          partitionByNewLine: true,
           type: 'natural',
         },
       ],

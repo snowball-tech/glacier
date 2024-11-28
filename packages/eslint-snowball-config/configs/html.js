@@ -4,7 +4,7 @@ export default [
   {
     name: 'html',
 
-    files: ['**/*.html', '**/*.html5', '**/*.xhtml', '**/*.htm'],
+    files: ['**/*.{html,html5,xhtml,htm}'],
 
     plugins: { html },
   },

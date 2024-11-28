@@ -4,6 +4,8 @@ export default [
   {
     name: 'variables',
 
+    files: ['**/*.{js,mjs,cjs,jsx,ts,mts,tsx}'],
+
     rules: {
       // enforce or disallow variable initializations at definition
       'init-declarations': 'off',

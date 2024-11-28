@@ -1,3 +1,4 @@
+import babelParser from '@babel/eslint-parser'
 import js from '@eslint/js'
 import pluginPromise from 'eslint-plugin-promise'
 import eslintPluginUnicorn from 'eslint-plugin-unicorn'
@@ -10,9 +11,71 @@ import stylistic from './stylistic.js'
 import variables from './variables.js'
 
 export default [
-  js.configs.recommended,
-  eslintPluginUnicorn.configs['flat/recommended'],
-  pluginPromise.configs['flat/recommended'],
+  {
+    name: 'base',
+
+    files: ['**/*.{js,mjs,cjs,jsx,ts,mts,tsx}'],
+
+    ignores: [
+      '!**/.*.{js,mjs,cjs,jsx,ts,mts,tsx}',
+      '!.github',
+      '!.storybook',
+      '!.vscode',
+      '**/*.min.{js,mjs,cjs,jsx,ts,mts,tsx}',
+      '.yarn/**/*',
+      '.pnp.*',
+      '**/dist/*',
+      '**/build/*',
+      '**/out/*',
+      '**/storybook-static/*',
+      '**/styled-system/*',
+      '**/coverage/*',
+      '**/node_modules/*',
+    ],
+
+    ...js.configs.recommended,
+
+    languageOptions: {
+      ecmaVersion: 'latest',
+
+      globals: {
+        ...globals.browser,
+        ...globals.builtin,
+        ...globals.es2024,
+        ...globals.node,
+      },
+
+      parserOptions: {
+        ecmaFeatures: {
+          impliedStrict: true,
+        },
+      },
+    },
+
+    rules: {
+      strict: ['error', 'never'],
+    },
+  },
+
+  {
+    name: 'babel-parser',
+
+    files: ['**/*.{js,mjs,cjs}'],
+
+    languageOptions: {
+      parser: babelParser,
+
+      parserOptions: {
+        babelOptions: {
+          babelrc: false,
+          configFile: false,
+        },
+        requireConfigFile: false,
+      },
+
+      sourceType: 'module',
+    },
+  },
 
   ...bestPractices,
   ...errors,
@@ -21,65 +84,17 @@ export default [
   ...variables,
 
   {
-    name: 'base',
+    files: ['**/*.{js,mjs,cjs,jsx,ts,mts,tsx}'],
 
-    ignores: [
-      '*.css',
-      '*.scss',
-      '*.sass',
-      '!.*.cjs',
-      '!.*.js',
-      '!.*.json',
-      '!.*.json5',
-      '!.*.jsx',
-      '!.*.md',
-      '!.*.mdx',
-      '!.*.mjs',
-      '!.*.ts',
-      '!.*.tsx',
-      '!.*.yaml',
-      '!.*.yml',
-      '!.github',
-      '!.storybook',
-      '!.vscode',
-      '**/translations/*.json',
-      '.yarn/**/*',
-      '.pnp.*',
-      '*.lock',
-      '*.tsbuildinfo',
-      '**/dist',
-      '**/build',
-      '**/out',
-      '**/storybook-static',
-      '**/styled-system',
-      '**/coverage',
-      '**/node_modules',
-      'LICENSE',
-    ],
+    ...pluginPromise.configs['flat/recommended'],
   },
 
   {
-    languageOptions: {
-      ecmaVersion: 'latest',
-      globals: {
-        ...globals.browser,
-        ...globals.builtin,
-        ...globals.es2024,
-        ...globals.node,
-      },
-      parserOptions: {
-        ecmaFeatures: {
-          impliedStrict: true,
-        },
-      },
-      sourceType: 'module',
-    },
-  },
+    files: ['**/*.{js,mjs,cjs,jsx,ts,mts,tsx}'],
 
-  {
+    ...eslintPluginUnicorn.configs['flat/recommended'],
+
     rules: {
-      strict: ['error', 'never'],
-
       'unicorn/filename-case': 'off',
       'unicorn/no-array-for-each': 'off',
       'unicorn/no-array-reduce': 'off',

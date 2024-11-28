@@ -1,27 +1,49 @@
-import eslintPluginJsonc from 'eslint-plugin-jsonc'
+import json from '@eslint/json'
 
 export default [
-  ...eslintPluginJsonc.configs['flat/base'],
-
   {
     name: 'json',
 
-    files: ['*.json'],
+    files: ['**/*.json', '**/.*.json'],
 
-    ...eslintPluginJsonc.configs['flat/recommended-with-json'][2],
+    ignores: ['package-lock.json'],
+
+    language: 'json/json',
+
+    ...json.configs.recommended,
   },
-  {
-    name: 'jsonc',
 
-    files: ['*.jsonc'],
-
-    ...eslintPluginJsonc.configs['flat/recommended-with-jsonc'][2],
-  },
   {
     name: 'json5',
 
-    files: ['*.json5'],
+    files: ['**/*.json5', '**/.*.json5'],
 
-    ...eslintPluginJsonc.configs['flat/recommended-with-json5'][2],
+    language: 'json/json5',
+
+    ...json.configs.recommended,
+  },
+
+  {
+    name: 'json5',
+
+    files: ['**/*.jsonc', '**/.*.jsonc'],
+
+    language: 'json/jsonc',
+
+    ...json.configs.recommended,
+  },
+
+  {
+    name: 'json-with-trailing-commas',
+
+    files: ['**/tsconfig.json', '**/.vscode/**/*.json'],
+
+    language: 'json/jsonc',
+
+    languageOptions: {
+      allowTrailingCommas: true,
+    },
+
+    ...json.configs.recommended,
   },
 ]

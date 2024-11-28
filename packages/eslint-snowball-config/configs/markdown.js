@@ -1,12 +1,28 @@
-import markdown from 'eslint-plugin-markdown'
+import markdown from '@eslint/markdown'
 
 export default [
-  ...markdown.configs.recommended,
+  {
+    ...markdown.configs.recommended[0],
+
+    ignores: ['**/CHANGELOG.md'],
+  },
 
   {
     name: 'markdown',
 
-    files: ['*.md/*.js', '*.mdx/*.js'],
+    files: ['**/*.{md,mdx}'],
+
+    plugins: {
+      markdown,
+    },
+
+    language: 'markdown/gfm',
+  },
+
+  {
+    name: 'markdown-fenced-blocks',
+
+    files: ['**/*.md/*.js', '**/*.mdx/*.js', '**/.*.md/*.ts', '**/.*.mdx/*.ts'],
 
     rules: {
       'import/no-unresolved': 'off',

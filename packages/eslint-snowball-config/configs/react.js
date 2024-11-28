@@ -1,5 +1,6 @@
 import importPlugin from 'eslint-plugin-import'
 import eslintPluginJsxA11y from 'eslint-plugin-jsx-a11y'
+
 import eslintPluginReact from 'eslint-plugin-react'
 
 import getCompatConfig from '../compat.js'
@@ -8,12 +9,12 @@ const compatConfig = getCompatConfig(
   ['plugin:react-hooks/recommended'],
   ['react-hooks'],
   [
-    eslintPluginReact.configs.flat.recommended,
-    eslintPluginJsxA11y.flatConfigs.recommended,
-    importPlugin.flatConfigs.react,
-
     {
       name: 'react',
+
+      ...eslintPluginReact.configs.flat.recommended,
+      ...eslintPluginJsxA11y.flatConfigs.recommended,
+      ...importPlugin.flatConfigs.react,
 
       rules: {
         'class-methods-use-this': 'off',
@@ -41,6 +42,7 @@ const compatConfig = getCompatConfig(
       },
     },
   ],
+  ['**/*.{js,mjs,cjs,jsx,ts,mts,tsx}'],
 )
 
 export default compatConfig

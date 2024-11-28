@@ -67,19 +67,18 @@
   "devDependencies": {
     "@monorepo-utils/workspaces-to-typescript-project-references": "^2.10.4",
     "@qiwi/multi-semantic-release": "^7.1.2",
-    "@snowball-tech/eslint-config": "workspace:^",
     "@snowball-tech/eslint-snowball-config": "workspace:^",
     "@snowball-tech/prettier-config": "workspace:^",
     "@snowball-tech/semantic-release-config": "workspace:^",
     "depcheck": "^1.4.7",
-    "eslint": "^9.14.0",
-    "husky": "^9.1.6",
+    "husky": "^9.1.7",
     "is-ci": "^3.0.1",
     "lint-staged": "^15.2.10",
-    "prettier": "^3.3.3",
+    "prettier": "^3.4.1",
     "semantic-release": "^24.2.0"
   },
   "dependencies": {
-    "@yarnpkg/types": "^4.0.0"
+    "@yarnpkg/types": "^4.0.0",
+    "eslint": "^9.15.0"
   }
 }

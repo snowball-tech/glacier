@@ -2,6 +2,8 @@ export default [
   {
     name: 'es6',
 
+    files: ['**/*.{js,mjs,cjs,jsx,ts,mts,tsx}'],
+
     rules: {
       // enforces no braces where they can be omitted
       // https://eslint.org/docs/rules/arrow-body-style
