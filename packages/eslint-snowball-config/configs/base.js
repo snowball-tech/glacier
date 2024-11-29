@@ -12,6 +12,25 @@ import variables from './variables.js'
 
 export default [
   {
+    ignores: [
+      '!**/.*.{js,mjs,cjs,jsx,ts,mts,tsx}',
+      '!**/.github',
+      '!**/.storybook',
+      '!**/.vscode',
+      '**/*.min.{js,mjs,cjs,jsx,ts,mts,tsx}',
+      '**/.yarn/*',
+      '**/*.pnp.*',
+      '**/dist/*',
+      '**/build/*',
+      '**/out/*',
+      '**/storybook-static/*',
+      '**/styled-system/*',
+      '**/coverage/*',
+      '**/node_modules/*',
+    ],
+  },
+
+  {
     name: 'eslint-js-recommended',
 
     files: ['**/*.{js,mjs,cjs,jsx,ts,mts,tsx}'],
@@ -23,23 +42,6 @@ export default [
     name: 'base-config',
 
     files: ['**/*.{js,mjs,cjs,jsx,ts,mts,tsx}'],
-
-    ignores: [
-      '!**/.*.{js,mjs,cjs,jsx,ts,mts,tsx}',
-      '!.github',
-      '!.storybook',
-      '!.vscode',
-      '**/*.min.{js,mjs,cjs,jsx,ts,mts,tsx}',
-      '.yarn/**/*',
-      '.pnp.*',
-      '**/dist/*',
-      '**/build/*',
-      '**/out/*',
-      '**/storybook-static/*',
-      '**/styled-system/*',
-      '**/coverage/*',
-      '**/node_modules/*',
-    ],
 
     languageOptions: {
       ecmaVersion: 'latest',
