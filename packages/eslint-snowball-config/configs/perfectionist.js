@@ -53,11 +53,11 @@ export default [
         {
           customGroups: {
             type: {
-              react: ['react', 'react-*'],
+              react: ['react', '^react-.*'],
             },
             value: {
-              lodash: ['lodash', 'lodash/*', 'lodash/fp', 'lodash/fp/*'],
-              react: ['react', 'react-*'],
+              lodash: ['lodash', '^lodash/.*', 'lodash/fp', '^lodash/fp/.*'],
+              react: ['react', '^react-.*'],
             },
           },
           groups: [
@@ -87,7 +87,7 @@ export default [
         'error',
         {
           customGroups: {
-            callback: 'on*',
+            callback: '^on.*',
           },
           groupKind: 'required-first',
           groups: [['multiline', 'unknown'], 'callback'],
@@ -108,7 +108,7 @@ export default [
         'error',
         {
           customGroups: {
-            callback: 'on*',
+            callback: '^on.*',
             system: ['children', 'id', 'key', 'ref'],
           },
           groups: ['system', ['shorthand', 'multiline', 'unknown'], 'callback'],
@@ -148,7 +148,7 @@ export default [
         'error',
         {
           customGroups: {
-            callback: 'on*',
+            callback: '^on.*',
           },
           groupKind: 'required-first',
           groups: [['multiline', 'unknown'], 'callback'],
@@ -160,7 +160,7 @@ export default [
       'perfectionist/sort-objects': [
         'error',
         {
-          partitionByComment: 'Group*',
+          partitionByComment: '^Group.*',
           partitionByNewLine: true,
           type: 'natural',
         },
