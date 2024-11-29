@@ -1,6 +1,5 @@
 import importPlugin from 'eslint-plugin-import'
 import eslintPluginJsxA11y from 'eslint-plugin-jsx-a11y'
-
 import eslintPluginReact from 'eslint-plugin-react'
 
 import getCompatConfig from '../compat.js'
