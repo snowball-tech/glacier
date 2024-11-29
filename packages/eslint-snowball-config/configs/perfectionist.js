@@ -104,6 +104,20 @@ export default [
       'perfectionist/sort-intersection-types': [
         'error',
         {
+          groups: [
+            'conditional',
+            'function',
+            'object',
+            'tuple',
+            'intersection',
+            'union',
+            'operator',
+            'keyword',
+            'literal',
+            'named',
+            'import',
+            'nullish',
+          ],
           partitionByNewLine: true,
           type: 'natural',
         },
@@ -182,6 +196,20 @@ export default [
       'perfectionist/sort-union-types': [
         'error',
         {
+          groups: [
+            'conditional',
+            'function',
+            'object',
+            'tuple',
+            'intersection',
+            'union',
+            'operator',
+            'keyword',
+            'literal',
+            'named',
+            'import',
+            'nullish',
+          ],
           partitionByNewLine: true,
           type: 'natural',
         },
