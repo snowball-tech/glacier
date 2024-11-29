@@ -1,5 +1,3 @@
-/* eslint-disable import/extensions */
-
 import base from '@snowball-tech/eslint-snowball-config/configs/base.js'
 import html from '@snowball-tech/eslint-snowball-config/configs/html.js'
 import importConfig from '@snowball-tech/eslint-snowball-config/configs/import.js'

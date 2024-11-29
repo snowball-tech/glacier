@@ -13,8 +13,20 @@ const compatConfig = getCompatConfig(
       name: 'react',
 
       ...eslintPluginReact.configs.flat.recommended,
+    },
+
+    {
+      name: 'react-a11y',
       ...eslintPluginJsxA11y.flatConfigs.recommended,
+    },
+
+    {
+      name: 'react-import',
       ...importPlugin.flatConfigs.react,
+    },
+
+    {
+      name: 'react-custom',
 
       rules: {
         'class-methods-use-this': 'off',

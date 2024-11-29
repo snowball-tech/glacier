@@ -1,7 +1,13 @@
 import eslintPluginYml from 'eslint-plugin-yml'
 
 export default [
-  eslintPluginYml.configs['flat/standard'][0],
+  {
+    name: 'yml-base',
+
+    files: ['**/*.{yml,yaml}'],
+
+    ...eslintPluginYml.configs['flat/standard'][0],
+  },
 
   {
     name: 'yml',
@@ -12,7 +18,7 @@ export default [
   },
 
   {
-    name: 'github-workflows',
+    name: 'yml-github-workflows',
 
     files: ['**/.github/workflows/*.{yml,yaml}'],
 

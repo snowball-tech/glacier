@@ -5,7 +5,7 @@ export default [
   ...ymlPlugin.configs['flat/prettier'],
 
   {
-    name: 'prettier',
+    name: 'prettier-custom',
 
     rules: {
       'tailwindcss/classnames-order': 'off',

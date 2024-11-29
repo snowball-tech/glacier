@@ -2,11 +2,17 @@ import testingLibrary from 'eslint-plugin-testing-library'
 
 export default [
   {
-    name: 'testing-library',
-
-    files: ['**/?(*.)+(spec|test)?(s).[jt]s?(x)'],
+    name: 'testing-library-react',
 
     ...testingLibrary.configs['flat/react'],
+
+    files: ['**/?(*.)+(spec|test)?(s).[jt]s?(x)'],
+  },
+
+  {
+    name: 'testing-library-custom',
+
+    files: ['**/?(*.)+(spec|test)?(s).[jt]s?(x)'],
 
     rules: {
       'jest/expect-expect': 'error',
