@@ -1,3 +1,7 @@
+## @snowball-tech/eslint-snowball-config [2.0.1](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-snowball-config@2.0.0...@snowball-tech/eslint-snowball-config@2.0.1) (2024-11-29)
+
+- **eslint-config:** fix all parts of the config ([5d80461](https://github.com/snowball-tech/glacier/commit/5d804619aefb85497354d9bba7178b2fa2294470))
+
 # @snowball-tech/eslint-snowball-config [2.0.0](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-snowball-config@1.0.5...@snowball-tech/eslint-snowball-config@2.0.0) (2024-11-28)
 
 ## @snowball-tech/eslint-snowball-config [1.0.5](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-snowball-config@1.0.4...@snowball-tech/eslint-snowball-config@1.0.5) (2024-11-13)
