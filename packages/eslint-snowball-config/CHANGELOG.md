@@ -1,3 +1,7 @@
+## @snowball-tech/eslint-snowball-config [2.0.5](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-snowball-config@2.0.4...@snowball-tech/eslint-snowball-config@2.0.5) (2024-11-29)
+
+- **eslint:** fix perfectionist type settings ([d37910a](https://github.com/snowball-tech/glacier/commit/d37910abe081ebe663e1e1349d337639c505cb67))
+
 ## @snowball-tech/eslint-snowball-config [2.0.4](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-snowball-config@2.0.3...@snowball-tech/eslint-snowball-config@2.0.4) (2024-11-29)
 
 - **eslint-config:** fix perfectionnist config ([959f699](https://github.com/snowball-tech/glacier/commit/959f699a2ac77b6d1da58283416f891f20bc2cb8))
