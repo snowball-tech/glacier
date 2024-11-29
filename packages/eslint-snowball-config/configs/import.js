@@ -7,6 +7,12 @@ export default [
     files: ['**/*.{js,mjs,cjs,jsx,ts,mts,tsx}'],
 
     ...importPlugin.flatConfigs.recommended,
+  },
+
+  {
+    name: 'import-custom',
+
+    files: ['**/*.{js,mjs,cjs,jsx,ts,mts,tsx}'],
 
     rules: {
       // ensure imports point to files/modules that can be resolved
@@ -345,6 +351,16 @@ export default [
           extensions: ['.mjs', '.js', '.json', 'cjs'],
         },
       },
+    },
+  },
+
+  {
+    name: 'import-eslint-config',
+
+    files: ['**/eslint.config.{js,mjs,cjs}'],
+
+    rules: {
+      'import/extensions': 'off',
     },
   },
 ]

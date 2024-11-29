@@ -6,9 +6,12 @@ export default [
 
     files: ['**/*.{js,mjs,cjs,jsx,ts,mts,tsx}'],
 
-    ignores: ['**/*.{md,mdx}'],
-
     ...perfectionist.configs['recommended-natural'],
+  },
+  {
+    name: 'perfectionist-custom',
+
+    files: ['**/*.{js,mjs,cjs,jsx,ts,mts,tsx}'],
 
     rules: {
       // Disable all sorting rules from TypeScript ESLint to use the perfectionist

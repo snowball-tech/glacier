@@ -12,7 +12,15 @@ import variables from './variables.js'
 
 export default [
   {
-    name: 'base',
+    name: 'eslint-js-recommended',
+
+    files: ['**/*.{js,mjs,cjs,jsx,ts,mts,tsx}'],
+
+    ...js.configs.recommended,
+  },
+
+  {
+    name: 'base-config',
 
     files: ['**/*.{js,mjs,cjs,jsx,ts,mts,tsx}'],
 
@@ -32,8 +40,6 @@ export default [
       '**/coverage/*',
       '**/node_modules/*',
     ],
-
-    ...js.configs.recommended,
 
     languageOptions: {
       ecmaVersion: 'latest',
@@ -66,8 +72,12 @@ export default [
       parser: babelParser,
 
       parserOptions: {
+        allowImportExportEverywhere: true,
         babelOptions: {
           babelrc: false,
+          caller: {
+            supportsTopLevelAwait: true,
+          },
           configFile: false,
         },
         requireConfigFile: false,
@@ -84,12 +94,16 @@ export default [
   ...variables,
 
   {
+    name: 'promise-config',
+
     files: ['**/*.{js,mjs,cjs,jsx,ts,mts,tsx}'],
 
     ...pluginPromise.configs['flat/recommended'],
   },
 
   {
+    name: 'unicorn-config',
+
     files: ['**/*.{js,mjs,cjs,jsx,ts,mts,tsx}'],
 
     ...eslintPluginUnicorn.configs['flat/recommended'],

@@ -5,11 +5,13 @@ const compatConfig = getCompatConfig(
   ['@next/next'],
   [
     {
-      name: 'next',
+      name: 'next-custom',
 
       ignores: ['**/.next/*', '**/.well-known'],
 
       rules: {
+        '@next/next/no-html-link-for-pages': 'off',
+
         'jsx-a11y/alt-text': [
           'warn',
           {
@@ -26,7 +28,6 @@ const compatConfig = getCompatConfig(
         'react/jsx-no-target-blank': 'off',
         'react/no-unknown-property': 'off',
         'react/prop-types': 'off',
-        'react/react-in-jsx-scope': 'off',
       },
     },
   ],

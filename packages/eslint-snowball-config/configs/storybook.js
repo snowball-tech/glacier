@@ -15,15 +15,24 @@ export default [
 
     ...mdx.flat,
 
+    files: ['**/*.mdx'],
+
     processor: mdx.createRemarkProcessor({
       languageMapper: {},
       lintCodeBlocks: true,
     }),
   },
-  mdx.flatCodeBlocks,
 
   {
-    name: 'storybook-mdx',
+    name: 'storybook-mdx-code-blocks',
+
+    ...mdx.flatCodeBlocks,
+
+    files: ['**/*.mdx'],
+  },
+
+  {
+    name: 'storybook-mdx-custom',
 
     files: ['**/*.mdx'],
 

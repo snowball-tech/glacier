@@ -2,13 +2,17 @@ import markdown from '@eslint/markdown'
 
 export default [
   {
+    name: 'markdown',
+
     ...markdown.configs.recommended[0],
+
+    files: ['**/*.{md,mdx}'],
 
     ignores: ['**/CHANGELOG.md'],
   },
 
   {
-    name: 'markdown',
+    name: 'markdown-custom',
 
     files: ['**/*.{md,mdx}'],
 
