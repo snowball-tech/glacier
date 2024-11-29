@@ -53,11 +53,16 @@ export default [
         {
           customGroups: {
             type: {
-              react: ['react', '^react-.*'],
+              react: ['^react$', '^react-.*'],
             },
             value: {
-              lodash: ['lodash', '^lodash/.*', 'lodash/fp', '^lodash/fp/.*'],
-              react: ['react', '^react-.*'],
+              lodash: [
+                '^lodash$',
+                '^lodash/.*',
+                '^lodash/fp$',
+                '^lodash/fp/.*',
+              ],
+              react: ['^react$', '^react-.*'],
             },
           },
           groups: [
@@ -109,7 +114,7 @@ export default [
         {
           customGroups: {
             callback: '^on.*',
-            system: ['children', 'id', 'key', 'ref'],
+            system: ['^children$', '^id$', '^key$', '^ref$'],
           },
           groups: ['system', ['shorthand', 'multiline', 'unknown'], 'callback'],
           type: 'natural',
