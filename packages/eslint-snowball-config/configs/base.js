@@ -13,13 +13,14 @@ import variables from './variables.js'
 export default [
   {
     ignores: [
-      '!**/.*.{js,mjs,cjs,jsx,ts,mts,tsx}',
+      '!./.*.{js,mjs,cjs,jsx,ts,mts,tsx}',
       '!**/.github',
       '!**/.storybook',
       '!**/.vscode',
       '**/*.min.{js,mjs,cjs,jsx,ts,mts,tsx}',
       '**/.yarn/*',
       '**/*.pnp.*',
+      '**/.next/*',
       '**/dist/*',
       '**/build/*',
       '**/out/*',
@@ -27,6 +28,7 @@ export default [
       '**/styled-system/*',
       '**/coverage/*',
       '**/node_modules/*',
+      '**/translations/*.{json,json5,jsonc}',
     ],
   },
 
