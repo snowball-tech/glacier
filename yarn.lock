@@ -4032,7 +4032,7 @@ __metadata:
     eslint-plugin-lodash: "npm:^8.0.0"
     eslint-plugin-lodash-fp: "npm:^2.2.0-a1"
     eslint-plugin-mdx: "npm:^3.1.5"
-    eslint-plugin-no-secrets: "npm:^1.1.2"
+    eslint-plugin-no-secrets: "npm:^2.0.0"
     eslint-plugin-perfectionist: "npm:^4.1.2"
     eslint-plugin-promise: "npm:^7.2.1"
     eslint-plugin-react: "npm:^7.37.2"
@@ -7639,12 +7639,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-no-secrets@npm:^1.1.2":
-  version: 1.1.2
-  resolution: "eslint-plugin-no-secrets@npm:1.1.2"
+"eslint-plugin-no-secrets@npm:^2.0.0":
+  version: 2.1.1
+  resolution: "eslint-plugin-no-secrets@npm:2.1.1"
   peerDependencies:
-    eslint: ">=3.0.0"
-  checksum: 10/84dde83bcdef62c6cb6419d4d4194626448b06267975e06b81a57cced3f712aba1fabbfb72c16dac83c4d8864811cae55039e182cfcd29e6492a84dcac60355b
+    eslint: ">=5"
+  checksum: 10/7f4d693c6cd3d7e0ae5a5d0404e9e38b119741ff59d3b2b6ea5282e397e2a0c950a6b7473fc348b86ae2da291de2f47092d5b23cafc30423dc4998a9cb7b862f
   languageName: node
   linkType: hard
 
