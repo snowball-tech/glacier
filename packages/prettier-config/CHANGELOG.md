@@ -1,3 +1,7 @@
+# @snowball-tech/prettier-config [2.1.0](https://github.com/snowball-tech/glacier/compare/@snowball-tech/prettier-config@2.0.4...@snowball-tech/prettier-config@2.1.0) (2025-01-07)
+
+- **prettier:** add newly ignored file in prettierignore ([036f737](https://github.com/snowball-tech/glacier/commit/036f73797b5eca4046e2f20744f22b359809d342))
+
 ## @snowball-tech/prettier-config [2.0.4](https://github.com/snowball-tech/glacier/compare/@snowball-tech/prettier-config@2.0.3...@snowball-tech/prettier-config@2.0.4) (2025-01-07)
 
 ## @snowball-tech/prettier-config [2.0.3](https://github.com/snowball-tech/glacier/compare/@snowball-tech/prettier-config@2.0.2...@snowball-tech/prettier-config@2.0.3) (2025-01-07)
