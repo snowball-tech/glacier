@@ -12,7 +12,7 @@
   },
   "description": "Prettier config by Snowball",
   "engines": {
-    "node": ">=18 <=20",
+    "node": ">=18 <=22",
     "yarn": "^4.0.0"
   },
   "files": [

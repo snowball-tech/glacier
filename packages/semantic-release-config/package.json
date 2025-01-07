@@ -17,7 +17,7 @@
   },
   "description": "Semantic-Release configuration by Snowball supporting Yarn 3 mono-repositories",
   "engines": {
-    "node": ">=18 <=20",
+    "node": ">=18 <=22",
     "yarn": "^4.0.0"
   },
   "files": [
