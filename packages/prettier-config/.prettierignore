@@ -21,6 +21,8 @@ LICENSE
 
 **/translations/*.json
 
+mise.toml
+
 .pnp.*
 *.lock
 *.tsbuildinfo
