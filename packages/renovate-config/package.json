@@ -43,5 +43,5 @@
     "update-deps": "yarn run -T update-deps",
     "validate-config": "renovate-config-validator default.json5"
   },
-  "version": "3.0.2"
+  "version": "3.0.3"
 }
