@@ -78,7 +78,7 @@
   "license": "MIT",
   "main": "index.js",
   "name": "@snowball-tech/eslint-snowball-config",
-  "packageManager": "yarn@4.5.3",
+  "packageManager": "yarn@4.6.0",
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"
