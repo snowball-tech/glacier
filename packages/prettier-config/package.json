@@ -27,7 +27,7 @@
   "license": "MIT",
   "main": ".prettierrc.js",
   "name": "@snowball-tech/prettier-config",
-  "packageManager": "yarn@4.{}",
+  "packageManager": "yarn@4.6.0",
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"
