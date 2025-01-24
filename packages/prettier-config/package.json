@@ -47,5 +47,5 @@
     "quality-fix": "yarn run lint-fix && yarn run format-fix",
     "update-deps": "yarn run -T update-deps"
   },
-  "version": "2.1.0"
+  "version": "2.1.1"
 }
