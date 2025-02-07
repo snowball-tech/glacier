@@ -7557,11 +7557,11 @@ __metadata:
   linkType: hard
 
 "eslint-plugin-no-secrets@npm:^2.1.1":
-  version: 2.1.1
-  resolution: "eslint-plugin-no-secrets@npm:2.1.1"
+  version: 2.2.1
+  resolution: "eslint-plugin-no-secrets@npm:2.2.1"
   peerDependencies:
     eslint: ">=5"
-  checksum: 10/7f4d693c6cd3d7e0ae5a5d0404e9e38b119741ff59d3b2b6ea5282e397e2a0c950a6b7473fc348b86ae2da291de2f47092d5b23cafc30423dc4998a9cb7b862f
+  checksum: 10/86d14ad0fe78a88b9e6d74654449e83993e6d166e63422a2faff14a2e134a542462c7b0c5fa5a7aca5758a6d0339459b1d26681dcdf6d62d5349b7231cc4bb49
   languageName: node
   linkType: hard
 
