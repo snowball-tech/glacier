@@ -5,16 +5,16 @@
     "Clément PRÉVOT <clement@snowball.xyz> (https://github.com/clementprevot)"
   ],
   "dependencies": {
-    "@babel/core": "^7.26.0",
+    "@babel/core": "^7.26.7",
     "@babel/eslint-parser": "^7.26.5",
-    "@eslint/compat": "^1.2.5",
+    "@eslint/compat": "^1.2.6",
     "@eslint/eslintrc": "^3.2.0",
-    "@eslint/js": "^9.18.0",
+    "@eslint/js": "^9.19.0",
     "@eslint/json": "^0.10.0",
     "@eslint/markdown": "^6.2.2",
     "@next/eslint-plugin-next": "^15.1.6",
     "confusing-browser-globals": "^1.0.11",
-    "eslint": "^9.18.0",
+    "eslint": "^9.19.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-prettier": "^10.0.1",
     "eslint-import-resolver-typescript": "^3.7.0",
@@ -39,7 +39,7 @@
     "globals": "^15.14.0",
     "prettier": "^3.4.2",
     "read-pkg-up": "^11.0.0",
-    "typescript-eslint": "^8.21.0"
+    "typescript-eslint": "^8.23.0"
   },
   "description": "ESLint ruleset by Snowball supporting React & Next.JS, Typescript, Prettier and more, based on Airbnb config",
   "devDependencies": {
