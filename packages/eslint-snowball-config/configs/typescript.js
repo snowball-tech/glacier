@@ -52,7 +52,19 @@ export default [
           },
         ],
         '@typescript-eslint/no-non-null-assertion': 'off',
-        '@typescript-eslint/no-unused-vars': 'error',
+        '@typescript-eslint/no-unused-vars': [
+          'error',
+          {
+            args: 'after-used',
+            argsIgnorePattern: '^_',
+            caughtErrors: 'all',
+            caughtErrorsIgnorePattern: '^_',
+            destructuredArrayIgnorePattern: '^_',
+            ignoreRestSiblings: true,
+            reportUsedIgnorePattern: true,
+            varsIgnorePattern: '^_',
+          },
+        ],
 
         // We need to use the specific TS `no-shadow` rule to avoid false
         // positives.
