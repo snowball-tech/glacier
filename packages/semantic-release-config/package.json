@@ -7,13 +7,13 @@
   "dependencies": {
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/commit-analyzer": "^13.0.1",
-    "@semantic-release/exec": "^6.0.3",
+    "@semantic-release/exec": "^7.0.3",
     "@semantic-release/git": "^10.0.1",
     "@semantic-release/github": "^11.0.1",
     "@semantic-release/npm": "^12.0.1",
     "@semantic-release/release-notes-generator": "^14.0.3",
     "lodash": "^4.17.21",
-    "semantic-release": "^24.2.1"
+    "semantic-release": "^24.2.2"
   },
   "description": "Semantic-Release configuration by Snowball supporting Yarn 3 mono-repositories",
   "engines": {
