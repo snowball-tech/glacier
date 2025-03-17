@@ -104,6 +104,16 @@ export default [
               '.tsx',
             ],
           },
+          typescript: {
+            alwaysTryTypes: true,
+            project: [
+              './tsconfig.json',
+              'apps/*/tsconfig.json',
+              'apps/*/tsconfig.*.json',
+              'packages/*/tsconfig.json',
+              'packages/*/tsconfig.*.json',
+            ],
+          },
         },
       },
     },
