@@ -100,5 +100,5 @@
     "update-deps": "yarn run -T update-deps"
   },
   "type": "module",
-  "version": "2.0.11"
+  "version": "2.0.12"
 }
