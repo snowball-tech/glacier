@@ -171,6 +171,9 @@ export default [
             refs: {
               references: false,
             },
+            utils: {
+              utilities: false,
+            },
           },
         },
       ],
