@@ -1,3 +1,5 @@
+## @snowball-tech/eslint-snowball-config [2.0.14](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-snowball-config@2.0.13...@snowball-tech/eslint-snowball-config@2.0.14) (2025-03-19)
+
 ## @snowball-tech/eslint-snowball-config [2.0.13](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-snowball-config@2.0.12...@snowball-tech/eslint-snowball-config@2.0.13) (2025-03-17)
 
 - **eslint-resolve:** revert a change in configuration ([faec677](https://github.com/snowball-tech/glacier/commit/faec6775bb9b008d1118cfbda8fc388587f17f0b))
