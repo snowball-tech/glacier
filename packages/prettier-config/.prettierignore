@@ -27,6 +27,7 @@ mise.toml
 *.lock
 *.tsbuildinfo
 vite.config.ts.timestamp*
+**/.yalc
 
 **/dist
 **/out
@@ -35,6 +36,7 @@ vite.config.ts.timestamp*
 **/coverage
 **/reports
 **/results
+**/analyze/*.html
 
 **/storybook-static
 **/styled-system
