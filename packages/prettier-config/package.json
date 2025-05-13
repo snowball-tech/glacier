@@ -7,7 +7,7 @@
   "dependencies": {
     "prettier": "^3.5.3",
     "prettier-plugin-organize-attributes": "^1.0.0",
-    "prettier-plugin-sh": "^0.15.0",
+    "prettier-plugin-sh": "^0.17.4",
     "prettier-plugin-tailwindcss": "^0.6.11"
   },
   "description": "Prettier config by Snowball",

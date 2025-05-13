@@ -6,7 +6,7 @@
   ],
   "description": "Renovate base configuration by Snowball",
   "devDependencies": {
-    "renovate": "^39.207.3"
+    "renovate": "^40.11.11"
   },
   "engines": {
     "node": ">=18 <=22",
