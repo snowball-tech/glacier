@@ -1,4 +1,5 @@
 import * as mdx from 'eslint-plugin-mdx'
+// eslint-disable-next-line import/no-unresolved
 import storybook from 'eslint-plugin-storybook'
 
 export default [

@@ -182,7 +182,7 @@ Then make sure you have the latest 4.x.x version installed:
 yarn --version
 ```
 
-This should output a 4.x.x version _(e.g. "4.6.0")_.
+This should output a 4.x.x version _(e.g. "4.10.3")_.
 
 </details>
 
@@ -243,7 +243,7 @@ There are currently **5** packages available in Glacier:
 - **[prettier-config](./packages/prettier-config)**: the base Prettier
   configuration and ignored files. This configuration disables semicolon,
   enforce usage of single quotes and add all trailing commas.  
-  It also offers the [organize attributes](prettier-plugin-organize-attributes)
+  It also offers the [organize attributes](https://github.com/NiklasPor/prettier-plugin-organize-attributes)
   and [Shell script](https://github.com/un-ts/prettier/tree/master/packages/sh)
   plugins out of the box;
 

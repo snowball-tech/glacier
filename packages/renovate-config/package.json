@@ -6,7 +6,7 @@
   ],
   "description": "Renovate base configuration by Snowball",
   "devDependencies": {
-    "renovate": "^40.11.11"
+    "renovate": "^41.165.5"
   },
   "engines": {
     "node": ">=18 <=22",
@@ -22,7 +22,7 @@
   "license": "MIT",
   "main": "default.json5",
   "name": "@snowball-tech/renovate-config",
-  "packageManager": "yarn@4.6.0",
+  "packageManager": "yarn@4.10.3",
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"

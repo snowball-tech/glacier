@@ -9,11 +9,11 @@
     "@semantic-release/commit-analyzer": "^13.0.1",
     "@semantic-release/exec": "^7.1.0",
     "@semantic-release/git": "^10.0.1",
-    "@semantic-release/github": "^11.0.2",
-    "@semantic-release/npm": "^12.0.1",
-    "@semantic-release/release-notes-generator": "^14.0.3",
+    "@semantic-release/github": "^12.0.0",
+    "@semantic-release/npm": "^13.1.1",
+    "@semantic-release/release-notes-generator": "^14.1.0",
     "lodash": "^4.17.21",
-    "semantic-release": "^24.2.3"
+    "semantic-release": "^25.0.1"
   },
   "description": "Semantic-Release configuration by Snowball supporting Yarn 3 mono-repositories",
   "engines": {
@@ -41,7 +41,7 @@
   "license": "MIT",
   "main": "release.config.js",
   "name": "@snowball-tech/semantic-release-config",
-  "packageManager": "yarn@4.6.0",
+  "packageManager": "yarn@4.10.3",
   "peerDependencies": {
     "semantic-release": "^24.0.0"
   },

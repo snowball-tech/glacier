@@ -5,10 +5,10 @@
     "Clément PRÉVOT <clement@snowball.xyz> (https://github.com/clementprevot)"
   ],
   "dependencies": {
-    "prettier": "^3.5.3",
+    "prettier": "^3.6.2",
     "prettier-plugin-organize-attributes": "^1.0.0",
-    "prettier-plugin-sh": "^0.17.4",
-    "prettier-plugin-tailwindcss": "^0.6.11"
+    "prettier-plugin-sh": "^0.18.0",
+    "prettier-plugin-tailwindcss": "^0.7.1"
   },
   "description": "Prettier config by Snowball",
   "engines": {
@@ -27,7 +27,7 @@
   "license": "MIT",
   "main": ".prettierrc.js",
   "name": "@snowball-tech/prettier-config",
-  "packageManager": "yarn@4.6.0",
+  "packageManager": "yarn@4.10.3",
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"

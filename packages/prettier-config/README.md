@@ -1,11 +1,11 @@
 # Snowball Prettier Config
 
 <div style="text-align: center">
-  <img src="https://prettier.io/icon.png" width="50" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="50" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="50" />
-  <img src="https://repository-images.githubusercontent.com/298623011/59bf7000-ff7b-11ea-8450-92c845df2ea3" width="90" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/tailwindcss-plain.svg" width="50" />
+  <img alt="" src="https://prettier.io/icon.png" width="50" />
+  <img alt="" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="50" />
+  <img alt="" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="50" />
+  <img alt="" src="https://repository-images.githubusercontent.com/298623011/59bf7000-ff7b-11ea-8450-92c845df2ea3" width="90" />
+  <img alt="" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/tailwindcss-plain.svg" width="50" />
 </div>
 
 ---
@@ -72,7 +72,7 @@ Ignored files are defined in the `.prettierignore` file.
 You also have the possibility to use the full configuration, including:
 
 - [base rules](./.prettierrc.js) _(including promise & unicorn)_
-- [TailwindCSS](./prettierrc-tailwind.js)
+- [TailwindCSS](./.prettierrc-tailwind.js)
 
 ```js
 module.exports = require('@snowball-tech/prettier-config/.prettierrc-tailwind')

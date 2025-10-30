@@ -13,17 +13,30 @@ on:
 env:
   NODE_ENV: production
 
+permissions:
+  # For checkout.
+  contents: read
+
 jobs:
   release:
     name: Releasing updated packages
     runs-on: ubuntu-latest
     timeout-minutes: 10
+    permissions:
+      # For publishing a GitHub release.
+      contents: write
+      # To be able to comment on released issues.
+      issues: write
+      # To be able to comment on released pull requests.
+      pull-requests: write
+      # To enable use of OIDC for trusted publishing and npm provenance.
+      id-token: write
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           token: ${{ secrets.MACHINE_GITHUB_TOKEN }}
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v6
         with:
           node-version: 22.x
           cache: yarn
@@ -35,7 +48,7 @@ jobs:
         run: yarn run -T build
 
       - name: Waiting for quality to pass
-        uses: lewagon/wait-on-check-action@v1.3.4
+        uses: lewagon/wait-on-check-action@v1
         with:
           ref: ${{ github.ref }}
           check-name: Checking code quality
@@ -45,7 +58,6 @@ jobs:
       - name: Publishing updated public packages to NPM, Git & GitHub
         env:
           GH_TOKEN: ${{ secrets.MACHINE_GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.MACHINE_NPM_TOKEN }}
           GIT_AUTHOR_NAME: '@snowball-tech-bot'
           GIT_AUTHOR_EMAIL: snowball-bot@snowball.xyz
           GIT_COMMITTER_NAME: '@snowball-tech-bot'
