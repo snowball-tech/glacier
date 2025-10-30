@@ -41,6 +41,11 @@ jobs:
           node-version: 22.x
           cache: yarn
           registry-url: 'https://registry.npmjs.org'
+          always-auth: true
+
+      # Ensure npm 11.5.1 or later is installed
+      - name: Update npm
+        run: npm install -g npm@latest
 
       - name: Setting up dependencies & workspaces
         run: yarn install --immutable && yarn run -T setup
