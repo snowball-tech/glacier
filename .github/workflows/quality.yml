@@ -25,8 +25,9 @@ jobs:
 
       - uses: actions/setup-node@v6
         with:
-          cache: yarn
           node-version: 22.x
+          cache: yarn
+          registry-url: 'https://registry.npmjs.org'
 
       - name: Setting up dependencies & workspaces
         run: yarn install --immutable && yarn run -T setup
