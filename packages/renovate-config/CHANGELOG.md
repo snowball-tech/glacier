@@ -1,3 +1,5 @@
+## @snowball-tech/renovate-config [3.0.11](https://github.com/snowball-tech/glacier/compare/@snowball-tech/renovate-config@3.0.10...@snowball-tech/renovate-config@3.0.11) (2025-10-31)
+
 ## @snowball-tech/renovate-config [3.0.10](https://github.com/snowball-tech/glacier/compare/@snowball-tech/renovate-config@3.0.9...@snowball-tech/renovate-config@3.0.10) (2025-10-31)
 
 ## @snowball-tech/renovate-config [3.0.9](https://github.com/snowball-tech/glacier/compare/@snowball-tech/renovate-config@3.0.8...@snowball-tech/renovate-config@3.0.9) (2025-05-13)
