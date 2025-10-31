@@ -1,5 +1,4 @@
-import eslintConfigNext from 'eslint-config-next/dist'
-import nextVitals from 'eslint-config-next/dist/core-web-vitals'
+import nextPlugin from '@next/eslint-plugin-next'
 
 export default [
   {
@@ -31,7 +30,6 @@ export default [
     },
   },
 
-  ...eslintConfigNext,
-
-  ...nextVitals,
+  nextPlugin.configs.recommended,
+  nextPlugin.configs['core-web-vitals'],
 ]
