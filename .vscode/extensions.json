@@ -9,12 +9,11 @@
     "bierner.markdown-footnotes",
     "bierner.markdown-preview-github-styles",
     "cardinal90.multi-cursor-case-preserve",
-    "chakrounanas.turbo-console-log",
     "christian-kohler.npm-intellisense",
     "davidanson.vscode-markdownlint",
     "dbaeumer.vscode-eslint",
-    "dsznajder.es7-react-js-snippets",
     "eamodio.gitlens",
+    "ecmel.vscode-html-css",
     "esbenp.prettier-vscode",
     "foxundermoon.shell-format",
     "github.copilot",
@@ -44,9 +43,10 @@
     "visualstudioexptteam.vscodeintellicode",
     "wmaurer.change-case",
     "yzhang.markdown-all-in-one",
-    "zengxingxin.sort-js-object-keys"
+    "zengxingxin.sort-js-object-keys",
+    "humao.rest-client"
   ],
 
   // List of extensions recommended by VS Code that should not be recommended for users of this workspace.
-  "unwantedRecommendations": []
+  "unwantedRecommendations": ["GitHub.vscode-github-actions"]
 }
