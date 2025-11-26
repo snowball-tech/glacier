@@ -1,3 +1,5 @@
+# @snowball-tech/eslint-snowball-config [2.1.0](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-snowball-config@2.0.19...@snowball-tech/eslint-snowball-config@2.1.0) (2025-11-26)
+
 ## @snowball-tech/eslint-snowball-config [2.0.19](https://github.com/snowball-tech/glacier/compare/@snowball-tech/eslint-snowball-config@2.0.18...@snowball-tech/eslint-snowball-config@2.0.19) (2025-10-31)
 
 - **eslint:** properly fix NextJS ESLint config ([f22f77d](https://github.com/snowball-tech/glacier/commit/f22f77df444c047e5568f4e785683c71bfbabace))
