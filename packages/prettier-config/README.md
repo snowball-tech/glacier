@@ -43,7 +43,7 @@ yarn add --dev @snowball-tech/prettier-config prettier
 Or using NPM:
 
 ```bash
-npm install --save-dev @snowball-tech/prettier-config prettier
+npm install --ignore-scripts --save-dev @snowball-tech/prettier-config prettier
 ```
 
 > Note that depending on the configuration you use, you might need to install
@@ -112,13 +112,13 @@ If you want to contribute, update or edit this Prettier configuration:
 - First, install the needed dependencies:
 
 ```bash
-yarn
+yarn install
 ```
 
 Or (if you use NPM):
 
 ```bash
-npm install
+npm install --ignore-scripts
 ```
 
 - Make the modifications you want
